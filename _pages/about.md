@@ -75,25 +75,25 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
 **Teaching Assistant**
 * **Quantitative Research Methods** (JC6504)
-    * *Level*: Doctoral | *Instructor*: Prof. Yi Mou | *Term*: Fall 2024
+    * *Level*: Doctoral, *Instructor*: Prof. Yi Mou, *Term*: Fall 2024
 * **Human-Machine Communication** (JC8209)
-    * *Level*: Master's | *Instructor*: Prof. Yi Mou | *Term*: Spring 2023, Spring 2025
+    * *Level*: Master's, *Instructor*: Prof. Yi Mou, *Term*: Spring 2023, Spring 2025
 * **Introduction to New Media** (JC3163)
-    * *Level*: Undergraduate | *Instructor*: Prof. Yi Mou | *Term*: Spring 2023, Spring 2024
+    * *Level*: Undergraduate, *Instructor*: Prof. Yi Mou, *Term*: Spring 2023, Spring 2024
 * **Qualitative Research Methods** (JC6012)
-    * *Level*: Master's | *Instructors*: Prof. Fang Wu & Prof. Xueqing Li | *Term*: Fall 2023
+    * *Level*: Master's, *Instructors*: Prof. Fang Wu & Prof. Xueqing Li, *Term*: Fall 2023
 
     ---
   
 **课程助教**
 * **定量研究方法** (JC6504)
-    * *课程层级*: 博士生 | *授课教师*: 牟怡 教授 | *学期*: 2024年秋季
+    * *课程层级*: 博士生, *授课教师*: 牟怡教授, *学期*: 2024年秋季
 * **人机传播** (JC8209)
-    * *课程层级*: 硕士生 | *授课教师*: 牟怡 教授 | *学期*: 2023年春季, 2025年春季
+    * *课程层级*: 硕士生 | *授课教师*: 牟怡教授, *学期*: 2023年春季, 2025年春季
 * **新媒体导论** (JC3163)
-    * *课程层级*: 本科生 | *授课教师*: 牟怡 教授 | *学期*: 2023年春季, 2024年春季
+    * *课程层级*: 本科生, *授课教师*: 牟怡教授 | *学期*: 2023年春季, 2024年春季
 * **质化研究方法** (JC6012)
-    * *课程层级*: 硕士生 | *授课教师*: 吴舫 教授, 李雪晴 教授 | *学期*: 2023年秋季
+    * *课程层级*: 硕士生, *授课教师*: 吴舫教授, 李雪晴教授, *学期*: 2023年秋季
 
 <p>&nbsp;</p>
 
