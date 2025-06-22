@@ -53,6 +53,15 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
+        <img src="{{ '/images/Wakayama.jpeg' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>📍 Wakayama 🇯🇵</h3>
+            <p>12 March, 2025</p>
+        </div>
+    </div>
+
+<div class="gallery-grid">
+    <div class="gallery-card">
         <img src="{{ '/images/Osaka.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Osaka 🇯🇵</h3>
@@ -61,10 +70,26 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
+        <img src="{{ '/images/Uji.jpeg' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>📍 Uji 🇯🇵</h3>
+            <p>9 March, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Kyoto 🇯🇵</h3>
             <p>7 March, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>📍 Kobe 🇯🇵</h3>
+            <p>5 March, 2025</p>
         </div>
     </div>
 
