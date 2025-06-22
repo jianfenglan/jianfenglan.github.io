@@ -12,26 +12,32 @@ redirect_from:
     .page__content p {
         text-align: justify;
     }
-
-    /* 强制拓宽本页面的主内容区域 */
-    .page__inner-wrap {
-        max-width: 1600px !important;
-    }
     
-    /* --- 这是为你定制的全新链接样式 --- 
-    */
+    /* 为主要标题上方增加间距 */
+    .page__content h2 {
+        margin-top: 2.5rem;
+    }
+
+    /* --- 这是为你最终定制的链接样式 --- */
     /* 链接的默认样式 */
     .page__content a {
-      color: #333333; /* 默认使用深灰色，与正文颜色协调 */
-      font-weight: 400; /* 设置为常规粗细，覆盖掉可能的粗体 */
-      text-decoration: none; /* 移除默认的下划线 */
-      border-bottom: 1px dashed #555; /* 添加一个更优雅的灰色点状虚线 */
-      transition: all 0.2s ease-in-out; /* 让颜色和边框变化更平滑 */
+      color: #333333; /* 默认使用深灰色 */
+      font-weight: 400; /* 保持常规粗细 */
+      text-decoration: none; /* 移除所有默认下划线 */
+      border-bottom: none; /* 移除所有边框 */
+      
+      /* 用最简化的背景渐变，模拟出 “2像素的点 + 2像素的空白” 的效果 */
+      background: linear-gradient(to right, #888 50%, transparent 50%) repeat-x bottom;
+      background-size: 4px 1px; /* 你可以增加第一个值（如8px）让点更稀疏 */
+      
+      transition: color 0.2s ease-in-out; /* 只让颜色变化有过渡效果 */
     }
 
     /* 鼠标悬浮在链接上时的样式 */
     .page__content a:hover {
       color: #002FA7; /* 鼠标悬浮时变为克莱因蓝 */
+      background-image: none; /* 在悬浮时，移除背景图片，即移除点状虚线 */
+      text-decoration: none; /* 再次强调不要任何下划线 */
     }
 </style>
 
@@ -46,16 +52,3 @@ I currently serve as an Assistant Editor for the journal *Big Data & Society* (S
 我现为上海交通大学媒体与传播学院的博士候选人（硕博连读），师从[牟怡教授](https://cfmhmc.github.io/yimou.github.io/)，研究方向聚焦于人机交互（HAII）对个体亲密观与死亡观的影响。此前，我于重庆大学新闻学院获得新闻学学士学位，导师为[蒲俊杰教授](https://sj.cqu.edu.cn/info/1138/5612.htm)。
 
 我目前担任英文期刊《大数据与社会》（*Big Data & Society*）（SSCI Q1, IF=5.9）助理编辑。同时，也为《新媒体与社会》（*New Media & Society*）、《大众媒介心理学》（*Psychology of Popular Media*）等SSCI期刊，及国际传播学会（ICA）、美国传播学协会（NCA）、新闻与大众传播教育协会（AEJMC）、国际媒介与传播研究协会（IAMCR）、信息系统国际会议（ICIS）、韩-美传播学协会（KACA）等多个主流学术会议担任同行评议人。此外，我还担任中华传播学会（ACCS）学生委员会主席（2024-2026），以及美国传播学协会“传播与未来”分会的研究生代表（2024-2025）。
-
-<p>&nbsp;</p>
-
-<h2>🔬 Research | 研究</h2>
-In an era where human-computer interaction continually reshapes societal dynamics, understanding the intricate relationship between artificial intelligence (AI) and human social structures is paramount. My academic pursuits are deeply rooted in examining how AI and communication technologies influence and transform our social relationships, societal norms, and underlying philosophies. Built upon the Computers as Social Actors (CASA) paradigm, I proposed the Social Actors as Computer-like (SAAC) hypothesis, trying to explore the reciprocal influence between humans and AI systems, particularly focusing on Intimacy and Death in the digital age, which I would like to frame my research as *_Love, Death and Artificial Intelligence_*.
-
-AI is reshaping social norms and values. People’s fear of death diminishes as digital immortality becomes normalized, and individuals choose to love robots or embrace robotic modes of love. While emerging media continues to change our existence, we still do not know whether the notion that SAAC is ultimately beneficial. However, I firmly believe it is imperative to explore this question thoroughly—before the singularity (or winter?) arrives.
-
----
-
-在人机交互不断重塑社会图景的时代，深刻理解人工智能（AI）与人类社会结构之间的复杂建构关系，已成为一项核心学术议程。我的研究根植于对一个根本问题的考察：人工智能与传播技术正如何影响乃至重塑人类的社会交往、规范体系及其本体论基础。以“计算机作为社会行动者”（CASA）范式为理论基石，我尝试提出“社会行为者计算机化”（SAAC）的假说，旨在阐明人与AI系统之间相互塑造的动态过程，尤其关注数字背景下的亲密关系与死亡这两个核心议题。我将此研究框架界定为：*爱，死亡与人工智能*。
-
-人工智能正在对既有的社会规范与价值体系形成冲击。当“数字永生”从想象变为日常，人类对死亡的焦虑或将得以缓解，转而选择与机器人相爱，或拥抱一种程序化的情感模式。新兴媒介持续重构着我们的存在方式，然而SAAC的提出究竟是否最终裨益于人类社会，仍是一个悬而未决的问题。但我坚信，在奇点（或凛冬？）纪元到来之前，我们必须对这一命题展开系统而深刻的审思。
