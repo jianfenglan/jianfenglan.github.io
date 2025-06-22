@@ -38,7 +38,7 @@ I currently serve as an Assistant Editor for the journal *Big Data & Society* �
 
 我现为上海交通大学媒体与传播学院的博士候选人（硕博连读），师从[**牟怡教授**](https://cfmhmc.github.io/yimou.github.io/)，研究方向聚焦于人机交互（HAII）对个体亲密观与死亡观的影响。此前，我于重庆大学新闻学院获得新闻学学士学位，导师为[**蒲俊杰教授**](https://sj.cqu.edu.cn/info/1138/5612.htm)。
 
-我目前担任英文期刊《大数据与社会（*Big Data & Society*）》（SSCI Q1， IF=5.9）助理编辑。同时，也为《新媒体与社会（*New Media & Society*）》、《大众媒介心理学（*Psychology of Popular Media*）》等SSCI期刊，及以及国际传播学会（ICA）, 美国传播学协会（NCA）, 新闻与大众传播教育协会（AEJMC）, 国际媒介与传播研究协会（IAMCR）, 信息系统国际会议（ICIS）, 韩-美传播学协会（KACA）等多个主流学术会议担任同行评议人。此外，我还担任中华传播学会（ACCS）学生委员会主席（2024-2026），以及美国传播学协会“传播与未来”分会的研究生代表（2024-2025）。
+我目前担任英文期刊《大数据与社会（*Big Data & Society*）》（SSCI Q1， IF=5.9）助理编辑。同时，也为《新媒体与社会（*New Media & Society*）》、《大众媒介心理学（*Psychology of Popular Media*）》等SSCI期刊，及国际传播学会（ICA）, 美国传播学协会（NCA）, 新闻与大众传播教育协会（AEJMC）, 国际媒介与传播研究协会（IAMCR）, 信息系统国际会议（ICIS）, 韩-美传播学协会（KACA）等多个主流学术会议担任同行评议人。此外，我还担任中华传播学会（ACCS）学生委员会主席（2024-2026），以及美国传播学协会“传播与未来”分会的研究生代表（2024-2025）。
 
 <p>&nbsp;</p>
 
