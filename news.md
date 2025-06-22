@@ -3,8 +3,8 @@ title: ""
 permalink: /news/
 author_profile: true
 ---
+
 <style>
- 
     /* 新闻列表容器 */
     .news-list {
         display: grid;
@@ -12,90 +12,77 @@ author_profile: true
         gap: 2.5rem;
         margin: 2rem 0;
     }
-    /* 单个新闻卡片的样式 */
+
+    /* 单个新闻卡片 */
     .news-card {
         display: flex;
-        flex-direction: row; 
-        align-items: center; 
-        gap: 2rem;
+        flex-direction: column;
         background: white;
         border: 1px solid #e9e9e9;
         border-radius: 16px;
-        padding: 1.5rem;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
     }
+
     .news-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 20px rgba(0,0,0,0.12);
     }
-    /* 图片容器样式 */
-    .news-image {
-        flex: 0 0 35%; 
-        width: 35%;
-    }
+
+    /* 图片容器 */
     .news-image img {
         width: 100%;
         height: auto;
-        border-radius: 8px;
         display: block;
+        object-fit: cover;
     }
-    /* 文字内容容器样式 */
-    .news-content {
-        flex: 1;
-    }
-    
+
+    /* 时间地点信息 */
     .news-meta {
-        margin-top: 0.75rem;
         text-align: center;
-        /* --- 改动3: 增大行高，增加日期和地点的间距 --- */
-        line-height: 1.8; 
-    }
-    .news-meta p {
-        margin: 0;
+        padding: 0.75rem 1rem;
+        background-color: #fafafa;
         font-size: 0.85em;
         color: #888;
+        line-height: 1.6;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* 正文内容 */
+    .news-content {
+        padding: 1.5rem;
     }
 
     .news-content h3 {
-        margin: 0 0 0.75rem 0;
-        /* --- 改动1: 标题字号改小 --- */
-        font-size: 1.2em; 
-        line-height: 1.3;
+        margin-top: 0;
+        font-size: 1.3em;
+        color: #333;
     }
+
     .news-content p {
-        margin: 0 0 1em 0;
+        font-size: 0.95em;
         color: #333;
         line-height: 1.7;
         text-align: justify;
-        /* --- 改动2: 正文字号改小 --- */
-        font-size: 0.95em;
-    }
-    .news-content p:last-of-type {
-        margin-bottom: 0;
+        margin-bottom: 1em;
     }
 
-    /* 响应式设计 */
-    @media (max-width: 768px) {
-        .news-card {
-            flex-direction: column;
-            align-items: stretch;
-        }
-        .news-image {
-            width: 100%;
-        }
+    .news-content p:last-of-type {
+        margin-bottom: 0;
     }
 </style>
 
 <div class="news-list">
 
- <div class="news-card">
+    <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2025.jpg' | relative_url }}">
-            <div class="news-meta">
-                <p>📅 June 15, 2025</p>
-                <p>📍 Denver 🇺🇸</p>
-            </div>
+        </div>
+        <div class="news-meta">
+            <p>📅 June 15, 2025</p>
+            <p>📍 Denver 🇺🇸</p>
         </div>
         <div class="news-content">
             <h3>ICA 2025</h3>
@@ -111,10 +98,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
-            <div class="news-meta">
-                <p>📅 November 22, 2024</p>
-                <p>📍 New Orleans 🇺🇸</p>
-            </div>
+        </div>
+        <div class="news-meta">
+            <p>📅 November 22, 2024</p>
+            <p>📍 New Orleans 🇺🇸</p>
         </div>
         <div class="news-content">
             <h3>NCA 2024</h3>
@@ -133,10 +120,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
-            <div class="news-meta">
-                <p>📅 June 23, 2024</p>
-                <p>📍 Gold Coast 🇦🇺</p>
-            </div>
+        </div>
+        <div class="news-meta">
+            <p>📅 June 23, 2024</p>
+            <p>📍 Gold Coast 🇦🇺</p>
         </div>
         <div class="news-content">
             <h3>ICA 2024</h3>
@@ -155,10 +142,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/SICSS.png' | relative_url }}">
-            <div class="news-meta">
-                <p>📅 June 7, 2024</p>
-                <p>📍 NUS, Singapore 🇸🇬</p>
-            </div>
+        </div>
+        <div class="news-meta">
+            <p>📅 June 7, 2024</p>
+            <p>📍 NUS, Singapore 🇸🇬</p>
         </div>
         <div class="news-content">
             <h3>SICSS-Singapore</h3>
@@ -174,10 +161,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2023.png' | relative_url }}">
-            <div class="news-meta">
-                <p>📅 May 25, 2023</p>
-                <p>📍 Toronto 🇨🇦</p>
-            </div>
+        </div>
+        <div class="news-meta">
+            <p>📅 May 25, 2023</p>
+            <p>📍 Toronto 🇨🇦</p>
         </div>
         <div class="news-content">
             <h3>ICA 2023</h3>
@@ -189,6 +176,5 @@ author_profile: true
             </p>
         </div>
     </div>
-
 
 </div>
