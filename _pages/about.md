@@ -36,7 +36,6 @@ redirect_from:
     }
 </style>
 
-<h2>✍🏻 Bio | 个人简介</h2>
 
 I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research interests focus on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University, advised by [**Prof. Junjie Pu**](https://sj.cqu.edu.cn/info/1138/5612.htm).
 
