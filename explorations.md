@@ -95,9 +95,9 @@ author_profile: true
 
 
      <div class="gallery-card">
-        <img src="{{ '/images/Jeju.png' | relative_url }}">
+        <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
         <div class="gallery-caption">
-            <h3>Jeju Island 🇰🇷</h3>
+            <h3>Jeju 🇰🇷</h3>
             <p>23 February, 2025</p>
         </div>
     </div>
