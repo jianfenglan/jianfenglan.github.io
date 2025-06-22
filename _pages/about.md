@@ -57,7 +57,7 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
 <h2>🧑🏻‍🏫 Research & Teaching Experience｜科研与教学经历</h2>
 
-#### _Research Assistant_
+**Research Assistant**
 * **Shanghai Jiao Tong University**
     * *Advisor*: Dr. Yi Mou
 * **University of Zurich** (Remote Collaboration)
@@ -65,7 +65,7 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
  ---
  
-#### _科研助理_
+**科研助理**
 * **上海交通大学**
     * *合作导师*: 牟怡博士
 * **苏黎世大学** (远程协作)
@@ -73,7 +73,7 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
 <p>&nbsp;</p>
 
-#### _Teaching Assistant_
+**Teaching Assistant**
 * **Quantitative Research Methods** (JC6504)
     * *Level*: Doctoral | *Instructor*: Prof. Yi Mou | *Term*: Fall 2024
 * **Human-Machine Communication** (JC8209)
@@ -85,7 +85,7 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
     ---
   
-#### _课程助教_
+**课程助教**
 * **定量研究方法** (JC6504)
     * *课程层级*: 博士生 | *授课教师*: 牟怡 教授 | *学期*: 2024年秋季
 * **人机传播** (JC8209)
@@ -104,6 +104,7 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 * **Advanced Individual in Academic & Technological Innovation**, Chongqing University (（2019)
 * **Outstanding Student**, Chongqing University (2019)
 * **Comprehensive Outstanding Student Scholarship**, Chongqing University (2018-2020)
+
 ---
 
 * **国家奖学金** (Top 0.2%)(博士生阶段, 2024; 本科生阶段, 2018)
