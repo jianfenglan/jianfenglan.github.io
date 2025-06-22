@@ -111,7 +111,7 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Sydney.png' | relative_url }}">
+        <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sydney 🇦🇺</h3>
             <p>29 June, 2024</p>
