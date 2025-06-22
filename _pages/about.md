@@ -25,14 +25,13 @@ redirect_from:
       color: #333333; /* 默认使用深灰色，与正文颜色协调 */
       font-weight: 400; /* 设置为常规粗细，覆盖掉可能的粗体 */
       text-decoration: none; /* 移除默认的下划线 */
-      border-bottom: 1px dotted #555; /* 添加一个更优雅的灰色点状虚线 */
+      border-bottom: 1px dashed #555; /* 添加一个更优雅的灰色点状虚线 */
       transition: all 0.2s ease-in-out; /* 让颜色和边框变化更平滑 */
     }
 
     /* 鼠标悬浮在链接上时的样式 */
     .page__content a:hover {
       color: #002FA7; /* 鼠标悬浮时变为克莱因蓝 */
-      border-bottom: 1px solid #002FA7; /* 虚线边框变为蓝色实线 */
     }
 </style>
 
@@ -60,75 +59,3 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 在人机交互不断重塑社会图景的时代，深刻理解人工智能（AI）与人类社会结构之间的复杂建构关系，已成为一项核心学术议程。我的研究根植于对一个根本问题的考察：人工智能与传播技术正如何影响乃至重塑人类的社会交往、规范体系及其本体论基础。以“计算机作为社会行动者”（CASA）范式为理论基石，我尝试提出“社会行为者计算机化”（SAAC）的假说，旨在阐明人与AI系统之间相互塑造的动态过程，尤其关注数字背景下的亲密关系与死亡这两个核心议题。我将此研究框架界定为：*爱，死亡与人工智能*。
 
 人工智能正在对既有的社会规范与价值体系形成冲击。当“数字永生”从想象变为日常，人类对死亡的焦虑或将得以缓解，转而选择与机器人相爱，或拥抱一种程序化的情感模式。新兴媒介持续重构着我们的存在方式，然而SAAC的提出究竟是否最终裨益于人类社会，仍是一个悬而未决的问题。但我坚信，在奇点（或凛冬？）纪元到来之前，我们必须对这一命题展开系统而深刻的审思。
-
-<p>&nbsp;</p>
-
-<h2>🧑🏻‍🏫 R.A. & T.A. | 助研&助教</h2>
-
-<h3>Research Assistant</h3>
-
-**Shanghai Jiao Tong University** , Advisor: Prof. Yi Mou
-<br>**University of Zurich** (Remote Collaboration), Advisor: Prof. Jing Zeng
-
-<h3>Teaching Assistant</h3>
-
-**Quantitative Research Methods** (JC6504)
-    <br>Level: Doctoral
-    <br>Instructor: Prof. Yi Mou
-    <br>Term: Fall 2024
-<br>**Human-Machine Communication** (JC8209)
-    <br>Level: Master's
-    <br>Instructor: Prof. Yi Mou
-    <br>Term: Spring 2023, Spring 2025
-<br>**Introduction to New Media** (JC3163)
-    <br>Level: Undergraduate
-    <br>Instructor: Prof. Yi Mou
-    <br>Term: Spring 2023, Spring 2024
-<br>**Qualitative Research Methods** (JC6012)
-    <br>Level: Master's
-    <br>Instructors: Prof. Fang Wu & Prof. Xueqing Li
-    <br>Term: Fall 2023
-
----
-    
-<h3>科研助理</h3>
-
-**上海交通大学**, 合作导师: 牟怡教授
-<br>**苏黎世大学** (远程协作), 合作导师: 曾靖教授
-
-<h3>课程助教</h3>
-
-**定量研究方法** (JC6504)
-    <br>课程层级: 博士生
-    <br>授课教师: 牟怡教授
-    <br>学期: 2024年秋季
-<br>**人机传播** (JC8209)
-    <br>课程层级: 硕士生
-    <br>授课教师: 牟怡教授
-    <br>学期: 2023年春季、2025年春季
-<br>**新媒体导论** (JC3163)
-    <br>课程层级: 本科生
-    <br>授课教师: 牟怡教授
-    <br>学期: 2023年春季、2024年春季
-<br>**质化研究方法** (JC6012)
-    <br>课程层级: 硕士生
-    <br>授课教师: 吴舫教授、李雪晴教授
-    <br>学期: 2023年秋季
-
-<p>&nbsp;</p>
-
-<h2>🎖️ Honors & Awards｜荣誉奖项</h2>
-
-* **National Scholarship** (Top 0.2%), awarded by the Ministry of Education of China, （2018, Undergraduate; 2024, Doctoral)
-* **Outstanding Graduate Student Scholarship**, Shanghai Jiao Tong University (2021-2022)
-* **Comprehensive Outstanding Student Scholarship**, Chongqing University (2018-2020)
-* **Advanced Individual in Academic & Technological Innovation**, Chongqing University (（2019)
-* **Outstanding Student**, Chongqing University (2019)
-
----
-
-* **国家奖学金** (Top 0.2%)(本科生阶段, 2018; 博士生阶段, 2024)
-* **上海交通大学优秀研究生奖学金** (2021-2022)
-* **重庆大学优秀学生综合奖学金** (2018-2020)
-* **重庆大学科技学术创新先进个人** （2019)
-* **重庆大学优秀学生**（2019)
