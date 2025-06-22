@@ -151,7 +151,7 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Singapore.png' | relative_url }}">
+        <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Singapore 🇸🇬</h3>
             <p>4 June, 2024</p>
@@ -159,15 +159,15 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Busan.png' | relative_url }}">
+        <img src="{{ '/images/Busan.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Busan 🇰🇷</h3>
-            <p>4 April, 2024</p>
+            <p>6 April, 2024</p>
         </div>
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Seoul.png' | relative_url }}">
+        <img src="{{ '/images/Seoul.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Seoul 🇰🇷</h3>
             <p>1 April, 2024</p>
