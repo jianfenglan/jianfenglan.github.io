@@ -63,15 +63,6 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 * **University of Zurich** (Remote Collaboration)
     * *Advisor*: Dr. Jing Zeng
 
- ---
- 
-**科研助理**
-* **上海交通大学**
-    * *合作导师*: 牟怡博士
-* **苏黎世大学** (远程协作)
-    * *合作导师*: 曾靖博士
-
-<p>&nbsp;</p>
 
 **Teaching Assistant**
 * **Quantitative Research Methods** (JC6504)
@@ -85,6 +76,12 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
     ---
   
+**科研助理**
+* **上海交通大学**
+    * *合作导师*: 牟怡博士
+* **苏黎世大学** (远程协作)
+    * *合作导师*: 曾靖博士
+        
 **课程助教**
 * **定量研究方法** (JC6504)
     * *课程层级*: 博士生, *授课教师*: 牟怡教授, *学期*: 2024年秋季
@@ -99,16 +96,16 @@ AI is reshaping social norms and values. People’s fear of death diminishes as 
 
 <h2>🎖️ Honors & Awards｜荣誉奖项</h2>
 
-* **National Scholarship** (Top 0.2%), awarded by the Ministry of Education of China, 2024 (Doctoral) & 2018 (Undergraduate)
+* **National Scholarship** (Top 0.2%), awarded by the Ministry of Education of China, （2018, Undergraduate; 2024, Doctoral)
 * **Outstanding Graduate Student Scholarship**, Shanghai Jiao Tong University (2021-2022)
+* **Comprehensive Outstanding Student Scholarship**, Chongqing University (2018-2020)
 * **Advanced Individual in Academic & Technological Innovation**, Chongqing University (（2019)
 * **Outstanding Student**, Chongqing University (2019)
-* **Comprehensive Outstanding Student Scholarship**, Chongqing University (2018-2020)
 
 ---
 
-* **国家奖学金** (Top 0.2%)(博士生阶段, 2024; 本科生阶段, 2018)
+* **国家奖学金** (Top 0.2%)(本科生阶段, 2018; 博士生阶段, 2024)
 * **上海交通大学优秀研究生奖学金** (2021-2022)
+* **重庆大学优秀学生综合奖学金** (2018-2020)
 * **重庆大学科技学术创新先进个人** （2019)
 * **重庆大学优秀学生**（2019)
-* **重庆大学优秀学生综合奖学金** (2018-2020)
