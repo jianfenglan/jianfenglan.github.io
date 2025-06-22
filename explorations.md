@@ -70,14 +70,6 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Uji.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Uji 🇯🇵</h3>
-            <p>9 March, 2025</p>
-        </div>
-    </div>
-
-     <div class="gallery-card">
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kyoto 🇯🇵</h3>
@@ -111,26 +103,10 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Beijing.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Beijing 🇨🇳</h3>
-            <p>6 January, 2025</p>
-        </div>
-    </div>
-
-     <div class="gallery-card">
-        <img src="{{ '/images/NOLA.png' | relative_url }}">
+        <img src="{{ '/images/NOLA.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans 🇺🇸</h3>
             <p>20 November, 2024</p>
-        </div>
-    </div>
-
-     <div class="gallery-card">
-        <img src="{{ '/images/Huangshan.png' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Huangshan 🇨🇳</h3>
-            <p>23 July, 2024</p>
         </div>
     </div>
 
@@ -199,15 +175,7 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Kashgar.png' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Kashgar 🇨🇳</h3>
-            <p>9 July, 2023</p>
-        </div>
-    </div>
-
-     <div class="gallery-card">
-        <img src="{{ '/images/Niagara.png' | relative_url }}">
+        <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall 🇨🇦</h3>
             <p>28 May, 2023</p>
@@ -215,28 +183,13 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Toronto.png' | relative_url }}">
+        <img src="{{ '/images/Toronto.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Toronto 🇨🇦</h3>
             <p>25 May, 2023</p>
         </div>
     </div>
 
-     <div class="gallery-card">
-        <img src="{{ '/images/Hangzhou.png' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Hangzhou 🇨🇳</h3>
-            <p>23 January, 2023</p>
-        </div>
-    </div>
-
-     <div class="gallery-card">
-        <img src="{{ '/images/Sanya.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Sanya 🇨🇳</h3>
-            <p>9 July, 2022</p>
-        </div>
-    </div>
 
          <div class="gallery-card">
         <img src="{{ '/images/Pattaya.JPG' | relative_url }}">
