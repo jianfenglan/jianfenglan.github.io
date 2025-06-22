@@ -67,11 +67,11 @@ author_profile: true
 <h2>🗞️ Journal Articles｜期刊论文</h2>
 <div class="publication-list">
 
-    <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/10.1177/27523543251334157">**Performing Intimacy: Curating the Self- presentation in Human–AI Relationships**.</a> <em>Emerging Media</em>, Online first.</div></div>
+    <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/10.1177/27523543251334157">Performing Intimacy: Curating the Self- presentation in Human–AI Relationships.</a> <em>Emerging Media</em>, Online first.</div></div>
     
-    <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">**Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach**.</a> <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
+    <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</a> <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
 
-    <div class="publication-card"><div class="publication-content">牟怡, <span class="my-name">蓝剑锋</span>. (2023). <a href="https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT">**机器写作中的性别刻板印象:基于实验研究的实然探讨**.</a> <em>中国网络传播研究</em>, (1)1:236-266.</div></div>
+    <div class="publication-card"><div class="publication-content">牟怡, <span class="my-name">蓝剑锋</span>. (2023). <a href="https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT">机器写作中的性别刻板印象:基于实验研究的实然探讨.</a> <em>中国网络传播研究</em>, (1)1:236-266.</div></div>
 
 </div>
 
