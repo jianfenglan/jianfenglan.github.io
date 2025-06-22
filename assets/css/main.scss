@@ -1,0 +1,61 @@
+---
+---
+
+/* * 首先，我们加载主题自带的所有默认样式。
+ * 注意：根据你之前的文件内容，你的主题似乎是通过一系列 @import 来加载的。
+ * 我们在这里保留这个结构。
+ */
+@import
+    "vendor/breakpoint/breakpoint",
+    "themes",
+    "theme/default",
+    "theme/dark",
+    "include/mixins",
+    "vendor/susy/susy",
+    "layout/reset",
+    "layout/base",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+    "layout/forms",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands",
+    "vendor/magnific-popup/magnific-popup"
+;
+
+
+/*
+ * ===================================================================
+ * 【你的所有自定义修改】
+ * 现在，我们在所有默认样式加载完毕后，再来添加我们自己的覆盖样式。
+ * 这样做更安全，优先级也更高。
+ * ===================================================================
+ */
+
+/* 1. 设置全局字体和字重 */
+body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-weight: 300; /* 细体，兼顾轻盈感和可读性 */
+}
+
+/* 2. 解决侧边栏文字溢出问题 */
+.author__employer,
+.author__location {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* 3. 强制拓宽页面内容区域 */
+.page__inner-wrap {
+    max-width: 1800px !important; /* 你可以根据需要调整这个数值 */
+}
