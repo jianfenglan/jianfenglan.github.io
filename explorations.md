@@ -62,7 +62,7 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="{{ '/images/Osaka.png' | relative_url }}">
+        <img src="{{ '/images/Osaka.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Osaka 🇯🇵</h3>
             <p>10 March, 2025</p>
