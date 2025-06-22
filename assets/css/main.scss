@@ -1,10 +1,39 @@
 ---
 ---
 
-/* * 首先，我们加载主题自带的所有默认样式。
- * 注意：根据你之前的文件内容，你的主题似乎是通过一系列 @import 来加载的。
- * 我们在这里保留这个结构。
- */
+// ===================================================================
+// 【你的自定义修改区】
+// 我们在这里重新定义主题的变量，并添加我们自己的样式规则。
+// ===================================================================
+
+// 1. 修改全局字体为苹方 (优先)
+// 这会告诉主题，在接下来的所有样式中都优先使用苹方字体。
+$sans-serif: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+// 2. 调整整体布局宽度
+// 这会告诉主题，页面的最大宽度是我们定义的新数值。
+$max-width: 1800px; 
+
+// 3. 解决侧边栏文字溢出问题
+.author__employer,
+.author__location {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+// 4. 统一并拓宽所有卡片页面的内容宽度
+.news-list,
+.publication-list,
+.gallery-grid {
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+// ===================================================================
+// 【主题默认导入区】 
+// 现在，主题会带着我们上面的新定义去加载它的所有默认样式。
+// ===================================================================
 @import
     "vendor/breakpoint/breakpoint",
     "themes",
@@ -31,30 +60,3 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
-
-
-/*
- * ===================================================================
- * 【你的所有自定义修改】
- * 现在，我们在所有默认样式加载完毕后，再来添加我们自己的覆盖样式。
- * 这样做更安全，优先级也更高。
- * ===================================================================
- */
-
-/* 1. 设置全局字体和字重 */
-body {
-    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-}
-
-/* 2. 解决侧边栏文字溢出问题 */
-.author__employer,
-.author__location {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-all;
-}
-
-/* 3. 强制拓宽页面内容区域 */
-.page__inner-wrap {
-    max-width: 1800px !important; /* 你可以根据需要调整这个数值 */
-}
