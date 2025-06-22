@@ -111,6 +111,14 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
+        <img src="{{ '/images/Beijing.jpeg' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Beijing 🇨🇳</h3>
+            <p>6 January, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
         <img src="{{ '/images/NOLA.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans 🇺🇸</h3>
@@ -223,7 +231,7 @@ author_profile: true
     </div>
 
      <div class="gallery-card">
-        <img src="{{ '/images/Sanya.png' | relative_url }}">
+        <img src="{{ '/images/Sanya.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sanya 🇨🇳</h3>
             <p>9 July, 2022</p>
