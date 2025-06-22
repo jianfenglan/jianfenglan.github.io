@@ -5,7 +5,10 @@ author_profile: true
 ---
 
 <style>
-
+    /* 强制拓宽本页面的主内容区域 */
+    .page__inner-wrap {
+        max-width: 1600px !important;
+    }
     /* 出版物列表的容器 */
     .publication-list {
         display: grid;
@@ -43,40 +46,34 @@ author_profile: true
     .publication-content {
         flex: 1;
     }
-
-    /* --- 新增：为你名字创建的专属样式 --- */
     .my-name {
       color: #002FA7; /* 克莱因蓝 */
       font-weight: 700;  /* 粗体 */
     }
 
-     /* 链接的默认样式 */
-    .page__content a {
-      color: #333333; /* 默认使用深灰色 */
-      font-weight: 400; /* 保持常规粗细 */
-      text-decoration: none; /* 移除所有默认下划线 */
-      border-bottom: none; /* 移除所有边框 */
-      transition: color 0.2s ease-in-out; /* 只让颜色变化有过渡效果 */
+    /* --- 为出版物卡片内的链接添加专属样式 --- */
+    .publication-content a {
+        color: #333333; /* 默认深灰色 */
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
     }
-
-    /* 鼠标悬浮在链接上时的样式 */
-    .page__content a:hover {
-      color: #002FA7; /* 鼠标悬浮时变为克莱因蓝 */
-      background-image: none; /* 在悬浮时，移除背景图片，即移除点状虚线 */
-      text-decoration: none; /* 再次强调不要任何下划线 */
+    .publication-content a:hover {
+        color: #002FA7; /* 悬浮时变克莱因蓝 */
+        border-bottom-color: #002FA7;
     }
 </style>
 
 <h2>🗞️ Journal Articles｜期刊论文</h2>
 <div class="publication-list">
-   
-     <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). [Performing Intimacy: Curating the Self- presentation in Human–AI Relationships.](https://journals.sagepub.com/doi/10.1177/27523543251334157) <em>Emerging Media</em>, Online first.</div></div>  
-    <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2025). [Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.](https://journals.sagepub.com/doi/abs/10.1177/14614448231212822) <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
-   <div class="publication-card"><div class="publication-content">牟怡, <span class="my-name">蓝剑锋</span>. (2023). [机器写作中的性别刻板印象:基于实验研究的实然探讨.](https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT) <em>中国网络传播研究</em>, (1)1:236-266.</div></div>
-   
+
+    <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/10.1177/27523543251334157">Performing Intimacy: Curating the Self- presentation in Human–AI Relationships.</a> <em>Emerging Media</em>, Online first.</div></div>
+    
+    <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</a> <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
+
+    <div class="publication-card"><div class="publication-content">牟怡, <span class="my-name">蓝剑锋</span>. (2023). <a href="https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT">机器写作中的性别刻板印象:基于实验研究的实然探讨.</a> <em>中国网络传播研究</em>, (1)1:236-266.</div></div>
+
 </div>
 
-<hr />
 
 <h2>🗣️ Conference Papers｜会议论文</h2>
 <div class="publication-list">
