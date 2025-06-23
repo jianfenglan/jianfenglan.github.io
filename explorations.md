@@ -92,7 +92,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card">
-        <img src="{{ '/images/Macau.png' | relative_url }}">
+        <img src="{{ '/images/Macau.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Macau 🇲🇴</h3>
             <p>31 January, 2025</p>
