@@ -20,7 +20,7 @@ repository               : "jianfenglan/jianfenglan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Jeff"
   bio              : "Ph.D. Candidate<br>Shanghai Jiao Tong University"
   pronouns         : # URL 
