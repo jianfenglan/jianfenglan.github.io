@@ -67,8 +67,6 @@ author_profile: true
 }
 </style>
 
-<img src="images/Kobe U.jpeg" alt="Kobe U" style="width: 100%; height: auto;">
-
 <div class="news-list">
 
 <div class="news-card">
