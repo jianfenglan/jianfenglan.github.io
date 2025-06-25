@@ -37,8 +37,9 @@ redirect_from:
 
 </style>
 
-![Nara](images/Nara.jpg)
 
 Hi this is Jeff.
 
 I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research focuses on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
+
+<img src="/images/Nara.jpg" alt="Nara">
