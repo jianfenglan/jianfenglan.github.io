@@ -42,5 +42,3 @@ redirect_from:
 Hi this is Jeff.
 
 I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research focuses on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
-
-I currently serve as an Assistant Editor for the journal *Big Data & Society* (SSCI Q1, IF=5.9). And I hold leadership positions as the Student Committee Chair (2024-2026) of the Association for Chinese Communication Studies (ACCS) and the Graduate Student Representative (2024-2025) for the Communication and the Future Division of the National Communication Association (NCA).
