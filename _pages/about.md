@@ -8,6 +8,14 @@ redirect_from:
 ---
 
 <style>
+    /* 为主要内容区域设置 Flexbox 布局来实现垂直居中 */
+    .page__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 60vh; /* 调整这个值来控制垂直位置 */
+    }
+
     /* 为本页面的正文段落设置两端对齐 */
     .page__content p {
         text-align: justify;
@@ -37,9 +45,8 @@ redirect_from:
 
 </style>
 
-
 Hi this is Jeff.
 
-I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research focuses on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
+I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, and a member of the [**Center for Future Media & Human-Machine Communication**](https://cfmhmc.github.io/), led by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research focuses on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. 
 
-<img src="/images/Nara.jpg" alt="Nara">
+Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
