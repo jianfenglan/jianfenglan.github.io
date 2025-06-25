@@ -45,8 +45,10 @@ redirect_from:
 
 </style>
 
-Hi this is Jeff.
+Hi, this is Jeff.
 
-I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, and a member of the [**Center for Future Media & Human-Machine Communication**](https://cfmhmc.github.io/), led by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research focuses on the impact of human-AI interaction (HAII) on individual perceptions of intimacy and mortality. 
+I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, and a member of the [**Center for Future Media & Human-Machine Communication**](https://cfmhmc.github.io/), led by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). 
+
+My research focuses on human-AI interaction's impact on emerging media users' perception of intimacy and digital immortality. 
 
 Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
