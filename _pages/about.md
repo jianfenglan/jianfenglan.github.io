@@ -35,18 +35,6 @@ redirect_from:
       text-decoration: none; /* 再次强调不要任何下划线 */
     }
 
-    /* 禁用图片点击，避免放大 */
-    .page__content img {
-        pointer-events: none; /* 禁止点击 */
-        width: 100%; /* 图片宽度100% */
-        height: auto; /* 自动调整高度 */
-        transition: transform 0.3s ease; /* 鼠标悬浮时图片变化的过渡效果 */
-    }
-
-    /* 鼠标悬浮时图片略微放大 */
-    .page__content img:hover {
-        transform: scale(1.05); /* 放大5% */
-    }
 </style>
 
 <img src="images/Nara.jpg" alt="Nara" style="width: 100%; height: auto;">
