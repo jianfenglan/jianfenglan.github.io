@@ -64,7 +64,7 @@ author_profile: true
     }
 </style>
 
-<h2>🗞️ Journal Articles｜期刊论文</h2>
+<h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
     <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). <a href="https://journals.sagepub.com/doi/10.1177/27523543251334157">Performing Intimacy: Curating the Self- presentation in Human–AI Relationships.</a> <em>Emerging Media</em>, Online first.</div></div>
     <div class="publication-card"><div class="publication-content">Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). <a href="https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</a> <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
@@ -73,7 +73,7 @@ author_profile: true
 </div>
 
 
-<h2>🗣️ Conference Papers｜会议论文</h2>
+<h2>🗣️ Conference Papers</h2>
 <div class="publication-list">
        <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>   
     <div class="publication-card"><div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices.  <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>    
