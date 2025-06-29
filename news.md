@@ -93,12 +93,17 @@ author_profile: true
     word-wrap: break-word;
 }
 
-#modal-title {
-    margin-bottom: 0.75rem; /* 为弹窗标题下方添加间距 */
+/* 弹窗标题和元信息的样式 */
+#modal-title h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.8em; /* 可以自定义弹窗标题字号 */
 }
 
 #modal-meta {
-    margin-bottom: 1.5rem; /* 为弹窗元信息（日期/地点）下方添加较大间距 */
+    margin-bottom: 1.5rem;
+    font-size: 0.9em;
+    color: #777;
 }
 
 .modal-overlay.show .modal-content {
@@ -172,7 +177,7 @@ author_profile: true
 <div id="news-modal" class="modal-overlay">
   <div class="modal-content">
     <span class="close-button" onclick="closeModal()">&times;</span>
-    <h3 id="modal-title"></h3>
+    <div id="modal-title"></div>
     <div class="meta" id="modal-meta"></div>
     <div id="modal-body"></div>
   </div>
@@ -184,26 +189,46 @@ function openModal(card) {
   const meta = card.getAttribute('data-meta');
   const content = card.getAttribute('data-content');
 
-  document.getElementById('modal-title').innerText = title;
-  document.getElementById('modal-meta').innerText = meta;
+  // 使用 .innerHTML 来正确解析 HTML 标签
+  document.getElementById('modal-title').innerHTML = title;
+  document.getElementById('modal-meta').innerHTML = meta;
   document.getElementById('modal-body').innerHTML = content;
 
   const modal = document.getElementById('news-modal');
-  modal.classList.add('show');
   modal.style.display = 'flex';
+  
+  // 使用 requestAnimationFrame 确保动画流畅
+  requestAnimationFrame(() => {
+    modal.classList.add('show');
+  });
 }
 
 function closeModal() {
   const modal = document.getElementById('news-modal');
   modal.classList.remove('show');
-  setTimeout(() => { modal.style.display = 'none'; }, 200);
+  
+  // 等待 CSS 动画结束后再隐藏元素，防止闪烁
+  setTimeout(() => { 
+      modal.style.display = 'none'; 
+  }, 300); // 这个时间需要和 CSS transition 的时间 (0.3s) 保持一致
 }
 
-// 点击遮罩关闭
+// 点击遮罩层（灰色背景）关闭弹窗
 window.addEventListener('click', function(e) {
   const modal = document.getElementById('news-modal');
   if (e.target === modal) {
     closeModal();
   }
+});
+
+// 按下 Escape 键关闭弹窗
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const modal = document.getElementById('news-modal');
+        // 检查弹窗当前是否为可见状态
+        if (getComputedStyle(modal).display === 'flex') {
+            closeModal();
+        }
+    }
 });
 </script>
