@@ -49,7 +49,7 @@ author_profile: true
         color: #333;
     }
 
-    /* --- 以下是新增的弹窗样式 --- */
+    /* --- 以下是弹窗样式 (与 news 页面保持一致) --- */
     .modal-overlay {
         display: none;
         position: fixed;
@@ -138,127 +138,7 @@ author_profile: true
             <p>7 March, 2025</p>
         </div>
     </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe 🇯🇵" data-meta="5 March, 2025" data-content="<p>Compared to beef, it’s Arima Onsen that truly captivates me and keeps me coming back. 🫧</p>">
-        <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Kobe 🇯🇵</h3>
-            <p>5 March, 2025</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju 🇰🇷" data-meta="23 February, 2025" data-content="<p>The island’s weather is so unpredictable — can you imagine? One moment it’s bright and sunny, and the next, snow is falling heavily. 🏝️☀️❄️</p>">
-        <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Jeju 🇰🇷</h3>
-            <p>23 February, 2025</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Macau 🇲🇴" data-meta="31 January, 2025" data-content="<p>Only the egg tart is worth trying. 😤</p>">
-        <img src="{{ '/images/Macau.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Macau 🇲🇴</h3>
-            <p>31 January, 2025</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="New Orleans 🇺🇸" data-meta="20 November, 2024" data-content="<p>They say the fortune teller in front of St. Louis Cathedral is the most accurate of them all. But with so many stalls lined up, how will I ever find the right one? 🔮</p>">
-        <img src="{{ '/images/NOLA.jpg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>New Orleans 🇺🇸</h3>
-            <p>20 November, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney 🇦🇺" data-meta="29 June, 2024" data-content="<p>Never walk under dense tree cover at night — trust me, you don't want to know why. 🦇</p>">
-        <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Sydney 🇦🇺</h3>
-            <p>29 June, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast 🇦🇺" data-meta="20 June, 2024" data-content="<p>Even in winter, you can lie on the Gold Coast in a T-shirt, bathing the sunshine. Really wish I could have stayed there a little longer. 😩</p>">
-        <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Gold Coast 🇦🇺</h3>
-            <p>20 June, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Brisbane 🇦🇺" data-meta="16 June, 2024" data-content="<p>Is there anywhere in Brisbane that hasn’t been taken over by ibises? 🐦</p>">
-        <img src="{{ '/images/Brisbane.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Brisbane 🇦🇺</h3>
-            <p>16 June, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Singapore 🇸🇬" data-meta="4 June, 2024" data-content="<p>I highly recommend cycling along the East Coast — from gazing out at the Strait of Malacca to reaching Marina Bay, and finally wrapping it up with a delicious lunch in Chinatown. 🚴</p>">
-        <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Singapore 🇸🇬</h3>
-            <p>4 June, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Busan 🇰🇷" data-meta="6 April, 2024" data-content="<p>Standing on the breakwater at Haeundae, I couldn’t help but wonder — if a tsunami🌊 hit, which way would I run? That said, the night view of Busan from the Hwangnyeongsan mountaintop is absolutely worth the climb</p>">
-        <img src="{{ '/images/Busan.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Busan 🇰🇷</h3>
-            <p>6 April, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Seoul 🇰🇷" data-meta="1 April, 2024" data-content="<p>I heard that wearing a hanbok grants free admission to Gyeongbokgung Palace. Unfortunately, I was too shy to try it myself — but thanks to that rule, I got to enjoy a different kind of scenery.</p>">
-        <img src="{{ '/images/Seoul.jpeg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Seoul 🇰🇷</h3>
-            <p>1 April, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Hong Kong 🇭🇰" data-meta="14 February, 2024" data-content="<p>Starting from Central and hiking up to the Peak is a truly pleasant experience. There's a saying that couples who walk along Findlay Road will break up — and it seems eerily accurate.</p>">
-        <img src="{{ '/images/HK.png' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Hong Kong 🇭🇰</h3>
-            <p>14 February, 2024</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Baisha Lake 🇨🇳" data-meta="12 July, 2023" data-content="<p>This place feels almost unreal, like a dream. White yaks tread through the crystal-clear lake water that ripples like ocean waves, while the distant ivory sand is so pure it could easily be mistaken for snow.</p>">
-        <img src="{{ '/images/Baisha.png' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Baisha Lake 🇨🇳</h3>
-            <p>12 July, 2023</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>There are two things I regret: I didn’t take the boat ride for a closer view because I was afraid of getting my clothes wet；I didn’t take the chance to escape to the U.S. (just kidding).🫨</p>">
-        <img src="{{ '/images/Niagara.jpg' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Niagara Fall 🇨🇦</h3>
-            <p>28 May, 2023</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Toronto 🇨🇦" data-meta="25 May, 2023" data-content="<p>Toronto island is an enssitial to visit.🥹 And Haidilao isn't affordable. 🤯</p>">
-        <img src="{{ '/images/Toronto.JPG' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Toronto 🇨🇦</h3>
-            <p>25 May, 2023</p>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Pattaya 🇹🇭" data-meta="23 July, 2017" data-content="<p>Never go to Pattaya with you mom. 🥲</p>">
-        <img src="{{ '/images/Pattaya.JPG' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Pattaya 🇹🇭</h3>
-            <p>23 July, 2017</p>
-        </div>
-    </div>
-
+    
     <div class="gallery-card" onclick="openModal(this)" data-title="Bangkok 🇹🇭" data-meta="21 July, 2017" data-content="<p>Love food here. 🥰</p>">
         <img src="{{ '/images/Bangkok.JPG' | relative_url }}">
         <div class="gallery-caption">
@@ -278,108 +158,56 @@ author_profile: true
   </div>
 </div>
 
+
 <script>
 function openModal(card) {
-  const title = card.getAttribute('data-title');
-  const meta = card.getAttribute('data-meta');
-  const content = card.getAttribute('data-content');
+    const title = card.getAttribute('data-title');
+    const meta = card.getAttribute('data-meta');
+    const content = card.getAttribute('data-content');
 
-  document.getElementById('modal-title').innerHTML = title; // 使用 innerHTML 以便解析 h3 等标签
-  document.getElementById('modal-meta').innerHTML = meta;   // 使用 innerHTML 以便解析 p 等标签
-  document.getElementById('modal-body').innerHTML = content;
+    // 将内容填充到弹窗里
+    document.getElementById('modal-title').innerHTML = title;
+    document.getElementById('modal-meta').innerHTML = meta;
+    document.getElementById('modal-body').innerHTML = content;
 
-  const modal = document.getElementById('gallery-modal');
-  modal.style.display = 'flex';
-  // requestAnimationFrame 确保 display:flex 生效后再添加 show 类以触发动画
-  requestAnimationFrame(() => {
-    modal.classList.add('show');
-  });
+    // 获取ID为 'gallery-modal' 的弹窗元素并显示它
+    const modal = document.getElementById('gallery-modal');
+    modal.style.display = 'flex';
+    
+    // 延迟一小下再添加 'show' 类以触发CSS动画
+    // (这是 news 页面能够成功显示动画的简单做法)
+    setTimeout(() => {
+        modal.classList.add('show');
+    }, 10); 
 }
 
 function closeModal() {
-  const modal = document.getElementById('gallery-modal');
-  modal.classList.remove('show');
-  // 等待动画结束后再隐藏
-  setTimeout(() => { 
-      modal.style.display = 'none'; 
-  }, 300); // 这里的延时应与 CSS 中的 transition 时间一致
+    // 获取ID为 'gallery-modal' 的弹窗元素
+    const modal = document.getElementById('gallery-modal');
+    modal.classList.remove('show');
+    
+    // 等待动画（0.3秒）结束后再彻底隐藏
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 300); // 这个时间应与 CSS transition 时间（0.3s）一致
 }
 
 // 点击遮罩层（灰色背景）关闭弹窗
 window.addEventListener('click', function(e) {
-  const modal = document.getElementById('gallery-modal');
-  if (e.target === modal) {
-    closeModal();
-  }
+    const modal = document.getElementById('gallery-modal');
+    if (e.target === modal) {
+        closeModal();
+    }
 });
 
 // 按下 Escape 键关闭弹窗
 window.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         const modal = document.getElementById('gallery-modal');
+        // 检查弹窗是否正显示
         if (modal.style.display === 'flex') {
             closeModal();
         }
     }
-});
-</script>
-
-<div id="gallery-modal" class="modal-overlay">
-  <div class="modal-content">
-    <span class="close-button" onclick="closeModal()">&times;</span>
-    <h3 id="modal-title"></h3>
-    <div class="meta" id="modal-meta"></div>
-    <div id="modal-body"></div>
-  </div>
-</div>
-
-<script>
-// 打开弹窗的函数
-function openModal(card) {
-  // 从被点击的卡片元素上获取 data-* 属性的值
-  const title = card.getAttribute('data-title');
-  const meta = card.getAttribute('data-meta');
-  const content = card.getAttribute('data-content');
-
-  // 将获取到的内容填充到弹窗对应的元素中
-  document.getElementById('modal-title').innerHTML = title;
-  document.getElementById('modal-meta').innerHTML = meta;
-  document.getElementById('modal-body').innerHTML = content;
-
-  // 获取弹窗元素并显示它
-  const modal = document.getElementById('gallery-modal');
-  modal.style.display = 'flex'; // 将 display 从 none 改为 flex，使其可见
-
-  // 使用 requestAnimationFrame 来确保 display 属性生效后再添加动画类
-  requestAnimationFrame(() => {
-    modal.classList.add('show');
-  });
-}
-
-// 关闭弹窗的函数
-function closeModal() {
-  const modal = document.getElementById('gallery-modal');
-  modal.classList.remove('show'); // 移除动画类，触发关闭动画
-
-  // 等待动画（0.3秒）结束后再彻底隐藏弹窗
-  setTimeout(() => {
-    modal.style.display = 'none';
-  }, 300); // 这个时间需要和 CSS 中的 transition-duration 一致
-}
-
-// 添加事件监听器：点击弹窗外的灰色区域也可以关闭弹窗
-window.addEventListener('click', function(event) {
-  const modal = document.getElementById('gallery-modal');
-  if (event.target === modal) {
-    closeModal();
-  }
-});
-
-// 添加事件监听器：按下 "Escape" 键也可以关闭弹窗
-window.addEventListener('keydown', function(event) {
-  const modal = document.getElementById('gallery-modal');
-  if (event.key === 'Escape' && modal.style.display === 'flex') {
-    closeModal();
-  }
 });
 </script>
