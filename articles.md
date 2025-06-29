@@ -5,12 +5,10 @@ author_profile: true
 ---
 
 <style>
-/* 页面主宽度 */
 .page__inner-wrap {
     max-width: 1600px !important;
 }
 
-/* 出版物列表布局 */
 .publication-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -19,7 +17,6 @@ author_profile: true
     margin-top: 1rem;
 }
 
-/* 每一条出版物卡片样式 */
 .publication-card {
     display: flex;
     align-items: flex-start;
@@ -49,7 +46,6 @@ author_profile: true
     text-align: right;
 }
 
-/* 封面图样式 */
 .publication-thumb {
     width: 100px;
     height: 100px;
@@ -58,7 +54,6 @@ author_profile: true
     flex-shrink: 0;
 }
 
-/* 文字内容区域 */
 .publication-content {
     flex: 1;
 }
@@ -68,20 +63,6 @@ author_profile: true
     font-weight: 700;
 }
 
-/* 链接样式 */
-.publication-content a {
-    color: #333333;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-}
-
-.publication-content a:hover {
-    color: #002FA7;
-    border-bottom-color: #002FA7;
-    text-decoration: none;
-}
-
-/* 模态弹窗样式 */
 .modal-overlay {
     display: none;
     position: fixed;
@@ -119,32 +100,35 @@ author_profile: true
 }
 </style>
 
-<h2>🗞️ Journal Articles</h2>
+<h2>📵 Journal Articles</h2>
 <div class="publication-list">
-
-  <!-- 第一篇：包含封面图 -->
-  <div class="publication-card" data-detail="test">
+  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://journals.sagepub.com/doi/10.1177/27523543251334157">
     <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
     <div class="publication-content">
-      <span class="my-name">Lan, J.</span>, Huang, Y. (2025).
-      <a href="https://journals.sagepub.com/doi/10.1177/27523543251334157" target="_blank">
-        Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.
-      </a> <em>Emerging Media</em>, Online first.
+      <span class="my-name">Lan, J.</span>, Huang, Y. (2025).<br>
+      Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.<br>
+      <em>Emerging Media</em>, Online first.
     </div>
   </div>
-
-  <!-- 你可以继续添加其他文章卡片 -->
-  <!-- 示例（无封面图）：
-  <div class="publication-card" data-detail="即将添加详细内容...">
+  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
+    <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
     <div class="publication-content">
-      <span class="my-name">Lan, J.</span>, Author B. (2024). Title... <em>Journal</em>, volume(issue), pages.
+      Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023).<br>
+      Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.<br>
+      <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
     </div>
   </div>
-  -->
-
+  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT">
+    <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
+    <div class="publication-content">
+            \u牟怡, <span class="my-name">蓝剑锋</span>. (2023).<br>
+      机器写作中的性别制定印记: 基于实验研究的实然探讨.<br>
+      <em>中国网络传播研究</em>, (1)1:236-266.
+    </div>
+  </div>
 </div>
 
-<!-- 模态弹出层 -->
+<!-- Modal -->
 <div id="popup-modal" class="modal-overlay">
   <div class="modal-content">
     <span class="close-button">&times;</span>
