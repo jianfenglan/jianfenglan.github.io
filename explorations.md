@@ -323,3 +323,63 @@ window.addEventListener('keydown', function(e) {
     }
 });
 </script>
+
+<div id="gallery-modal" class="modal-overlay">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal()">&times;</span>
+    <h3 id="modal-title"></h3>
+    <div class="meta" id="modal-meta"></div>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+// 打开弹窗的函数
+function openModal(card) {
+  // 从被点击的卡片元素上获取 data-* 属性的值
+  const title = card.getAttribute('data-title');
+  const meta = card.getAttribute('data-meta');
+  const content = card.getAttribute('data-content');
+
+  // 将获取到的内容填充到弹窗对应的元素中
+  document.getElementById('modal-title').innerHTML = title;
+  document.getElementById('modal-meta').innerHTML = meta;
+  document.getElementById('modal-body').innerHTML = content;
+
+  // 获取弹窗元素并显示它
+  const modal = document.getElementById('gallery-modal');
+  modal.style.display = 'flex'; // 将 display 从 none 改为 flex，使其可见
+
+  // 使用 requestAnimationFrame 来确保 display 属性生效后再添加动画类
+  requestAnimationFrame(() => {
+    modal.classList.add('show');
+  });
+}
+
+// 关闭弹窗的函数
+function closeModal() {
+  const modal = document.getElementById('gallery-modal');
+  modal.classList.remove('show'); // 移除动画类，触发关闭动画
+
+  // 等待动画（0.3秒）结束后再彻底隐藏弹窗
+  setTimeout(() => {
+    modal.style.display = 'none';
+  }, 300); // 这个时间需要和 CSS 中的 transition-duration 一致
+}
+
+// 添加事件监听器：点击弹窗外的灰色区域也可以关闭弹窗
+window.addEventListener('click', function(event) {
+  const modal = document.getElementById('gallery-modal');
+  if (event.target === modal) {
+    closeModal();
+  }
+});
+
+// 添加事件监听器：按下 "Escape" 键也可以关闭弹窗
+window.addEventListener('keydown', function(event) {
+  const modal = document.getElementById('gallery-modal');
+  if (event.key === 'Escape' && modal.style.display === 'flex') {
+    closeModal();
+  }
+});
+</script>
