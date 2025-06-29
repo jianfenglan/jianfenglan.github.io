@@ -61,33 +61,36 @@ author_profile: true
 }
 
 .modal-overlay {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(6px);
-    justify-content: center;
-    align-items: center; /* <--- 增加此行 */
-    padding: 6rem 1rem;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    justify-content: center;
+    /* align-items: center; -- 此处移除，用padding代替 */
+    /* --- 新增的代码从这里开始 --- */
+    padding: 6rem 1rem; /* 为弹窗容器增加上下6rem、左右1rem的内边距，确保不被遮挡 */
+    /* --- 新增的代码到这里结束 --- */
 }
 
 .modal-content {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-    max-width: 600px;
-    width: 90%;
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
-    position: relative;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    max-height: calc(100vh - 12rem); /* <--- 修改此行 */
-    overflow-y: auto;
-    /* margin: auto 0; <--- 删除或注释掉此行 */
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    max-width: 600px;
+    width: 90%;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-height: 90vh; 
+    overflow-y: auto;
+    /* --- 新增的代码 --- */
+    margin: auto 0; /* 在垂直方向上自动外边距，实现居中效果 */
 }
 
 .modal-overlay.show .modal-content {
@@ -102,41 +105,21 @@ author_profile: true
     cursor: pointer;
     color: #666;
 }
-
-/* --- 新增的按钮样式 --- */
-.read-more-btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: white !important; /* !important 强制覆盖默认链接颜色 */
-    padding: 10px 15px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 1rem;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.read-more-btn:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
-    color: white !important;
-}
-
 </style>
 
 <h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
-  <div class="publication-card" data-detail="Ever wondered what happens when private chats with an AI go public? 🤔 <br><br> We examined how users of the chatbot Replika perform their 「intimate」 relationships on social media. Turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. <br><br> We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience. <br><br> Key questions: <br> 👏🏻 When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='{{ '/images/EMM_F1.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
+  <div class="publication-card" data-detail="Ever wondered what happens when private chats with an AI go public? 🤔 This paper dives into how users of the chatbot Replika perform their 'intimate' relationships on social media. <br><br> It turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience! 🎭 <br><br> Some key questions we explored: <br> ❤️ When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='{{ '/images/paper/EMM_F1.png' | relative_url }}' alt='A diagram showing the social presentation mechanisms of human-AI intimacy' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br> What do you think? Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
     <div class="publication-content">
       <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>Emerging Media</em>, Online first.
     </div>
   </div>
-  <div class="publication-card" data-detail="When a virtual idol 「hibernate」, do we say 「Goodbye」 forever, or just 「Good night」 for now? 👋😴 <br><br> We adopted data-mining to compare how young audiences react to the 「death」 of virtual uploader (VUP), human uploader (HUP), and real-world celebrity. The results are surprising! 🤯 <br><br> Mourning for VUPs is very different from for human celebrities. More interestingly, we found that human uploaders who don't show their faces are mourned more like VUPs, while those who do are mourned like real people. <br><br> This leads to some big questions about our digital lives: <br> 🤔 Are we starting to treat humans more like machines based on how 「real」 they appear online? <br> 🤖 As virtual beings become more human, are humans online becoming less so? <br><br> Our theoretical hypothesis for this is: <br> <img src='{{ '/images/VUP.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br> It's a fascinating look at how technology is changing our concepts of life, death, and even humanity itself. <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
+  <div class="publication-card" data-detail="test <br>Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
     <div class="publication-content">
       Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
     </div>
   </div>
-  <div class="publication-card" data-detail="Does it matter if an AI writer is a 'he,' a 'she,' or an 'it'? 🤖<br><br> This study dives into the world of machine-written news to see if we apply real-world gender stereotypes to our silicon authors. Based on the Computers Are Social Actors (CASA) paradigm, we conducted an experiment to see if an article's perceived quality and its author's expertise change when the AI is given a male, female, or neutral name. <br><br> The results show our biases are clear: we judge machine-written content differently based on the gender we associate with it! This reveals the subtle ways our social prejudices extend into the realm of human-machine communication. <br><br> <img src='{{ '/images/Gender.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>This paper is in Chinese.">
+  <div class="publication-card" data-detail="test ">
     <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究</em>, (1)1:236-266.
     </div>
@@ -183,10 +166,6 @@ author_profile: true
 
   document.querySelectorAll('.publication-card').forEach(card => {
     card.addEventListener('click', () => {
-      // Check if the click target is the button or inside the button
-      if (event.target.closest('.read-more-btn')) {
-        return; // Do not open the modal if the button is clicked
-      }
       const detail = card.getAttribute('data-detail') || 'No details available.';
       modalText.innerHTML = detail;
       modal.classList.add('show');
