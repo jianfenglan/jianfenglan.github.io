@@ -203,7 +203,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Busan 🇰🇷" data-meta="6 April, 2024" data-content="<p>Standing on the breakwater at Haeundae, I couldn’t help but wonder — if a tsunami🌊 hit, which way would I run? That said, the night view of Busan from the Hwangnyeongsan mountaintop is absolutely worth the climb</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Busan 🇰🇷" data-meta="6 April, 2024" data-content="<p>Standing on the breakwater at Haeundae, I couldn’t help but wonder — if a tsunami🌊 hit, which way would I run? Plus, the night view of Busan from the Hwangnyeongsan mountaintop is absolutely worth the climb</p>">
         <img src="{{ '/images/Busan.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Busan 🇰🇷</h3>
@@ -235,7 +235,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>There are two things I regret: I didn’t take the boat ride for a closer view because I was afraid of getting my clothes wet；I didn’t take the chance to escape to the U.S. (just kidding).🫨</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>There are two things I regret: <br>I didn’t take the boat ride for a closer view because I was afraid of getting my clothes wet；<br>I didn’t take the chance to escape to the U.S. 🫨</p>">
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall 🇨🇦</h3>
@@ -259,7 +259,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Bangkok 🇹🇭" data-meta="21 July, 2017" data-content="<p>Love food here. 🥰</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Bangkok 🇹🇭" data-meta="21 July, 2017" data-content="<p>I love the street food in Bangkok; everything here is so casual, perfect for a first-time international trip. 🥰</p>">
         <img src="{{ '/images/Bangkok.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Bangkok 🇹🇭</h3>
