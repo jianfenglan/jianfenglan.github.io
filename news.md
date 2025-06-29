@@ -93,6 +93,16 @@ author_profile: true
     word-wrap: break-word;
 }
 
+/* --- 新增/修改的代码从这里开始 --- */
+#modal-title {
+    margin-bottom: 0.75rem; /* 为弹窗标题下方添加间距 */
+}
+
+#modal-meta {
+    margin-bottom: 1.5rem; /* 为弹窗元信息（日期/地点）下方添加较大间距 */
+}
+/* --- 新增/修改的代码到这里结束 --- */
+
 .modal-overlay.show .modal-content {
     transform: scale(1);
 }
