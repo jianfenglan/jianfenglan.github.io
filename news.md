@@ -1,7 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>News</title>
+---
+title: ""
+permalink: /news/
+author_profile: true
+---
+
 <style>
 .news-list {
     display: grid;
@@ -72,10 +74,8 @@
     inset: 0;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6px);
-    display: flex; /* Changed to flex for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    padding: 2rem 0; /* Add padding to top and bottom */
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-content {
@@ -89,8 +89,9 @@
     transition: transform 0.3s ease;
     position: relative;
     overflow-y: auto;
-    max-height: calc(100vh - 4rem); /* Adjust max-height to account for padding */
+    max-height: calc(100vh - 10rem); /* 留出顶部和底部空间 */
     word-wrap: break-word;
+    margin-top: 5rem; /* 添加顶部间距，避免与导航栏重叠 */
 }
 
 #modal-title {
@@ -113,9 +114,16 @@
     cursor: pointer;
     color: #666;
 }
+
+/* 手机页面调整 */
+@media (max-width: 768px) {
+    .modal-content {
+        margin-top: 7rem; /* 在小屏幕上增加顶部间距 */
+        max-height: calc(100vh - 12rem); /* 调整高度以适应更大间距 */
+    }
+}
 </style>
-</head>
-<body>
+
 <div class="news-list">
 
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2025" data-meta="📅 June 15, 2025 | 📍 Denver 🇺🇸" data-content="<p>I was truly disappointed to have missed this year's ICA conference in Denver. Fortunately, my dear friend and colleague, Kelsie, was there to present our latest work. I wanted to share this wonderful photo of her and express my immense gratitude for her support.</p><p>Over time, I've come to realize that the value of academic conferences extends far beyond presenting research. I couldn't agree more with Kelsie that having a few deep conversations with friends you only meet annually is far more meaningful than adding fifty new contacts to your phone.</p>">
@@ -208,5 +216,3 @@ window.addEventListener('click', function(e) {
   }
 });
 </script>
-</body>
-</html>
