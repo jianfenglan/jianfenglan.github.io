@@ -235,7 +235,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>I didn’t take the 🛶 ride for a closer view because I was afraid of getting my clothes wet. But I did successfully check off a famous scene from the <em>Family Guy</em>. Joe, where are you?! Hang in there Peter. 🤣</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>I didn’t take the boat🛶 ride for a closer view because I was afraid of getting my clothes wet. But I did successfully check off a famous scene from the <em>Family Guy</em>. Joe, where are you?! Hang in there Peter. 🤣</p>">
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall 🇨🇦</h3>
