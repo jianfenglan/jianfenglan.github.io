@@ -28,13 +28,16 @@ author_profile: true
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     line-height: 1.6;
-    cursor: pointer; /* 应用于所有卡片 */
     flex-wrap: wrap;
 }
 
-.publication-card:hover {
+.publication-card.clickable-card {
+    cursor: pointer;
+}
+
+.publication-card.clickable-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.1); /* 应用于所有卡片 */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
 
 .publication-card::before {
@@ -69,7 +72,7 @@ author_profile: true
     backdrop-filter: blur(6px);
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem; /* 为弹窗容器增加上下2rem、左右1rem的内边距 */
+    padding: 6rem 1rem;
 }
 
 .modal-content {
@@ -78,15 +81,14 @@ author_profile: true
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
     max-width: 600px;
-    width: 100%;
+    width: 90%;
     transform: scale(0.9);
     transition: transform 0.3s ease;
     position: relative;
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
-    /* 修正：设置最大高度并开启滚动，确保上下边距 */
-    max-height: calc(100vh - 4rem);
+    max-height: calc(100vh - 12rem); 
     overflow-y: auto;
 }
 
@@ -106,17 +108,17 @@ author_profile: true
 
 <h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
-  <div class="publication-card" data-detail="Ever wondered what happens when private chats with an AI go public? 🤔 <br><br> We examined how users of the chatbot Replika perform their 「intimate」 relationships on social media. Turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. <br><br> We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience. <br><br> Key questions: <br> 👏🏻 When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='{{ '/images/EMM_F1.png' | relative_url }}' alt='A diagram showing the social presentation mechanisms of human-AI intimacy' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
+  <div class="publication-card clickable-card" data-detail="Ever wondered what happens when private chats with an AI go public? 🤔 <br><br> We examined how users of the chatbot Replika perform their 「intimate」 relationships on social media. Turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. <br><br> We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience. <br><br> Key questions: <br> 👏🏻 When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='{{ '/images/EMM_F1.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
     <div class="publication-content">
       <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>Emerging Media</em>, Online first.
     </div>
   </div>
-  <div class="publication-card" data-detail="When a virtual idol 「hibernate」, do we say 「Goodbye」 forever, or just 「Good night」 for now? 👋😴 <br><br> We adopted data-mining to compare how young audiences react to the 「death」 of virtual uploader (VUP), human uploader (HUP), and real-world celebrity. The results are surprising! 🤯 <br><br> Mourning for VUPs is very different from for human celebrities. More interestingly, we found that human uploaders who *don't* show their faces are mourned more like VUPs, while those who do are mourned like real people. <br><br> This leads to some big questions about our digital lives: <br> 🤔 Are we starting to treat humans more like machines based on how 「real」 they appear online? <br> 🤖 As virtual beings become more human, are humans online becoming less so? <br><br> Our theoretical hypothesis for this is: <br> <img src='{{ '/images/VUP.png' | relative_url }}' alt='A diagram showing the theoretical thinking behind the research' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br> It's a fascinating look at how technology is changing our concepts of life, death, and even humanity itself. <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
+  <div class="publication-card clickable-card" data-detail="When a virtual idol 「hibernate」, do we say 「Goodbye」 forever, or just 「Good night」 for now? 👋😴 <br><br> We adopted data-mining to compare how young audiences react to the 「death」 of virtual uploader (VUP), human uploader (HUP), and real-world celebrity. The results are surprising! 🤯 <br><br> Mourning for VUPs is very different from for human celebrities. More interestingly, we found that human uploaders who don't show their faces are mourned more like VUPs, while those who do are mourned like real people. <br><br> This leads to some big questions about our digital lives: <br> 🤔 Are we starting to treat humans more like machines based on how 「real」 they appear online? <br> 🤖 As virtual beings become more human, are humans online becoming less so? <br><br> Our theoretical hypothesis for this is: <br> <img src='{{ '/images/VUP.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br> It's a fascinating look at how technology is changing our concepts of life, death, and even humanity itself. <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
     <div class="publication-content">
       Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
     </div>
   </div>
-  <div class="publication-card" data-detail="Does it matter if an AI writer is a 「he,」 a 「she,」 or an 「it」?<br><br> This time, we dive into the world of machine-written news to see if we apply real-world gender stereotypes to our silicon authors. Based on the Computers Are Social Actors (CASA) paradigm, we conducted an experiment to see if an article's perceived quality and its author's expertise change when the AI is given a male, female, or neutral name and image. <br><br> The results show our biases are clear: we judge machine-written content differently based on the gender we associate with it! This reveals the subtle ways our social prejudices extend into the realm of human-machine communication. <br><br> <img src='{{ '/images/Gender.png' | relative_url }}' alt='A diagram showing the experimental design' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>This paper is in Chinese.">
+  <div class="publication-card clickable-card" data-detail="Does it matter if an AI writer is a 'he,' a 'she,' or an 'it'? 🤖<br><br> This study dives into the world of machine-written news to see if we apply real-world gender stereotypes to our silicon authors. Based on the Computers Are Social Actors (CASA) paradigm, we conducted an experiment to see if an article's perceived quality and its author's expertise change when the AI is given a male, female, or neutral name. <br><br> The results show our biases are clear: we judge machine-written content differently based on the gender we associate with it! This reveals the subtle ways our social prejudices extend into the realm of human-machine communication. <br><br> <img src='{{ '/images/Gender.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>This paper is in Chinese.">
     <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究</em>, (1)1:236-266.
     </div>
@@ -125,27 +127,27 @@ author_profile: true
 
 <h2>🗣️ Conference Papers</h2>
 <div class="publication-list">
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices.  <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Media Metaphors and Social Meaning of ‘Internet’ in Taiwan (1995-2023). <em>AEJMC 2025</em>, San Francisco, U.S. <br>🥈 Second Runner Up Student Paper Award</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Reconfiguring Sociality: Human-AI Intimacy, Narcissistic Dynamics, and Replika. <em>Society for Social Studies of Science (4S) 2025</em>, Seattle, U.S.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content">Mou, Y., Li, J., <span class="my-name">Lan, J.</span> (2025). A Cross-Cultural Diachronic Examination of Audiences’ Attitudes Toward Digital Immortality in Science Fiction. <em>IAMCR 2025</em>, Singapore.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang Y. (2025). Love the Way You Are: Examine the Attribute of Human-AI Intimate Relationships. <em>75th ICA Annual Conference</em>, Denver, U.S.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, Lu, J., Wang, J. (2024). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>NCA 2024</em>, New Orleans, U.S.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content">Jin, Q., <span class="my-name">Lan, J.</span>, Lin, Z. (2024). Share My Face: Understanding Privacy Paradox and Third-person Effect of Artificial Intelligence Generated Content (AIGC) Applications. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang Y., Mou Y. (2024). Examining the Impact of Social Media Use on Chinese Male Adolescent’s Body Image: A Cross-platform Perspective. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2023). Performing Intimacy: Curating the Self- presentation in Human–AI Relationships. <em>the First Hongyi Forum</em>, Chongqing, China.<br>🥉 Third Place Award</div></div>
-  <div class="publication-card" data-detail="No details available yet. Check back soon!">
+  <div class="publication-card">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Mou, Y., Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>73rd ICA Annual Conference</em>, Toronto, Canada.</div></div>
 </div>
 
@@ -161,8 +163,8 @@ author_profile: true
   const modalText = document.getElementById('modal-text');
   const closeBtn = document.querySelector('.close-button');
 
-  // --- 恢复为选择所有 .publication-card ---
-  document.querySelectorAll('.publication-card').forEach(card => {
+  // 最简单的点击逻辑
+  document.querySelectorAll('.clickable-card').forEach(card => {
     card.addEventListener('click', () => {
       const detail = card.getAttribute('data-detail') || 'No details available.';
       modalText.innerHTML = detail;
