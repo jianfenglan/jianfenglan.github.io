@@ -179,33 +179,41 @@ author_profile: true
 </div>
 
 <script>
-  const modal = document.getElementById('popup-modal');
-  const modalText = document.getElementById('modal-text');
-  const closeBtn = document.querySelector('.close-button');
+  // 确保DOM加载完毕后运行脚本
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('popup-modal');
+    const modalText = document.getElementById('modal-text');
+    const closeBtn = document.querySelector('.close-button');
 
-  document.querySelectorAll('.clickable-card').forEach(card => {
-    // --- 修正：在这里的括号里加上 (event) ---
-    card.addEventListener('click', (event) => {
-      // 检查点击的是否是“阅读更多”按钮，如果是，则不弹出窗口
-      if (event.target.closest('.read-more-btn')) {
-        return; 
-      }
-      const detail = card.getAttribute('data-detail') || 'No details available.';
-      modalText.innerHTML = detail;
-      modal.classList.add('show');
-      modal.style.display = 'flex';
+    // 1. 为所有可点击的卡片设置弹窗
+    document.querySelectorAll('.clickable-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const detail = card.getAttribute('data-detail') || 'No details available.';
+        modalText.innerHTML = detail;
+        modal.classList.add('show');
+        modal.style.display = 'flex';
+      });
     });
-  });
 
-  closeBtn.addEventListener('click', () => {
-    modal.classList.remove('show');
-    setTimeout(() => { modal.style.display = 'none'; }, 200);
-  });
+    // 2. 为所有“阅读更多”按钮设置拦截，防止它们触发弹窗
+    document.querySelectorAll('.read-more-btn').forEach(button => {
+      button.addEventListener('click', (event) => {
+        event.stopPropagation(); // 关键：阻止点击事件冒泡到父级卡片
+      });
+    });
 
-  modal.addEventListener('click', e => {
-    if (e.target === modal) {
+    // 3. 关闭按钮的逻辑
+    closeBtn.addEventListener('click', () => {
       modal.classList.remove('show');
       setTimeout(() => { modal.style.display = 'none'; }, 200);
-    }
+    });
+
+    // 4. 点击灰色背景关闭的逻辑
+    modal.addEventListener('click', e => {
+      if (e.target === modal) {
+        modal.classList.remove('show');
+        setTimeout(() => { modal.style.display = 'none'; }, 200);
+      }
+    });
   });
 </script>
