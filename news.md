@@ -209,10 +209,14 @@ function closeModal() {
 }
 
 // 点击遮罩关闭
-window.addEventListener('click', function(e) {
-  const modal = document.getElementById('news-modal');
-  if (e.target === modal) {
+document.getElementById('news-modal').addEventListener('click', function(e) {
+  if (e.target === this) {
     closeModal();
   }
+});
+
+// 阻止模态框内容上的点击事件冒泡
+document.querySelector('.modal-content').addEventListener('click', function(e) {
+  e.stopPropagation();
 });
 </script>
