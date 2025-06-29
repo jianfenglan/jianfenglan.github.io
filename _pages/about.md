@@ -13,7 +13,9 @@ redirect_from:
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 60vh; /* 调整这个值来控制垂直位置 */
+        padding-top: 8vh; /* 顶部留白 */
+        padding-bottom: 4vh; /* 底部留白 */
+        min-height: auto; /* 移除强制的最小高度 */
     }
 
     /* 为本页面的正文段落设置两端对齐 */
