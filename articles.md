@@ -29,6 +29,7 @@ author_profile: true
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     line-height: 1.6;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .publication-card:hover {
@@ -46,16 +47,12 @@ author_profile: true
     text-align: right;
 }
 
-.publication-thumb {
-    width: 100px;
-    height: 100px;
-    border-radius: 12px;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
 .publication-content {
     flex: 1;
+    min-width: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .my-name {
@@ -84,6 +81,9 @@ author_profile: true
     transform: scale(0.9);
     transition: transform 0.3s ease;
     position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .modal-overlay.show .modal-content {
@@ -100,32 +100,55 @@ author_profile: true
 }
 </style>
 
-<h2>📵 Journal Articles</h2>
+<h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
-  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://journals.sagepub.com/doi/10.1177/27523543251334157">
-    <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
+  <div class="publication-card" data-detail="test Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
     <div class="publication-content">
       <span class="my-name">Lan, J.</span>, Huang, Y. (2025).<br>
       Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.<br>
       <em>Emerging Media</em>, Online first.
     </div>
   </div>
-  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
-    <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
+  <div class="publication-card" data-detail="test Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
     <div class="publication-content">
       Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023).<br>
       Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.<br>
       <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
     </div>
   </div>
-  <div class="publication-card" data-detail="test 📄️ 读阅原文: https://kns.cnki.net/kcms2/article/abstract?v=GkDm8A2i92VBZr4Pc9BCTuftHqtLSYVDs72W7FTmGxfw4EkljcxhCMJY_PXcoDUDbJ0UkadB4B8hs0ghaGbIOCDOSUwR5f8KMwCl92uzmX0HhWtKIAC87IOwIsbZroyTNq30gq8ntLqBK7PKGLf8ZPzN9GvOLRd9t6O4RiLs7zE=&uniplatform=NZKPT">
-    <img src="/images/Nara.jpg" alt="cover image" class="publication-thumb">
+  <div class="publication-card" data-detail="test ">
     <div class="publication-content">
-            \u牟怡, <span class="my-name">蓝剑锋</span>. (2023).<br>
-      机器写作中的性别制定印记: 基于实验研究的实然探讨.<br>
+            牟怡, <span class="my-name">蓝剑锋</span>. (2023).<br>
+      机器写作中的性别刻板印象: 基于实验研究的实然探讨.<br>
       <em>中国网络传播研究</em>, (1)1:236-266.
     </div>
   </div>
+</div>
+
+<h2>🗣️ Conference Papers</h2>
+<div class="publication-list">
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices.  <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Media Metaphors and Social Meaning of ‘Internet’ in Taiwan (1995-2023). <em>AEJMC 2025</em>, San Francisco, U.S. <br>🥈 Second Runner Up Student Paper Award</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Reconfiguring Sociality: Human-AI Intimacy, Narcissistic Dynamics, and Replika. <em>Society for Social Studies of Science (4S) 2025</em>, Seattle, U.S.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content">Mou, Y., Li, J., <span class="my-name">Lan, J.</span> (2025). A Cross-Cultural Diachronic Examination of Audiences’ Attitudes Toward Digital Immortality in Science Fiction. <em>IAMCR 2025</em>, Singapore.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang Y. (2025). Love the Way You Are: Examine the Attribute of Human-AI Intimate Relationships. <em>75th ICA Annual Conference</em>, Denver, U.S.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, Lu, J., Wang, J. (2024). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>NCA 2024</em>, New Orleans, U.S.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content">Jin, Q., <span class="my-name">Lan, J.</span>, Lin, Z. (2024). Share My Face: Understanding Privacy Paradox and Third-person Effect of Artificial Intelligence Generated Content (AIGC) Applications. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang Y., Mou Y. (2024). Examining the Impact of Social Media Use on Chinese Male Adolescent’s Body Image: A Cross-platform Perspective. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2023). Performing Intimacy: Curating the Self- presentation in Human–AI Relationships. <em>the First Hongyi Forum</em>, Chongqing, China.<br>🥉 Third Place Award</div></div>
+  <div class="publication-card" data-detail="test">
+    <div class="publication-content"><span class="my-name">Lan, J.</span>, Mou, Y., Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>73rd ICA Annual Conference</em>, Toronto, Canada.</div></div>
 </div>
 
 <!-- Modal -->
