@@ -1,9 +1,7 @@
----
-title: ""
-permalink: /news/
-author_profile: true
----
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>News</title>
 <style>
 .news-list {
     display: grid;
@@ -74,8 +72,10 @@ author_profile: true
     inset: 0;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6px);
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Changed to flex for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 2rem 0; /* Add padding to top and bottom */
 }
 
 .modal-content {
@@ -89,7 +89,7 @@ author_profile: true
     transition: transform 0.3s ease;
     position: relative;
     overflow-y: auto;
-    max-height: 90vh;
+    max-height: calc(100vh - 4rem); /* Adjust max-height to account for padding */
     word-wrap: break-word;
 }
 
@@ -114,7 +114,8 @@ author_profile: true
     color: #666;
 }
 </style>
-
+</head>
+<body>
 <div class="news-list">
 
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2025" data-meta="📅 June 15, 2025 | 📍 Denver 🇺🇸" data-content="<p>I was truly disappointed to have missed this year's ICA conference in Denver. Fortunately, my dear friend and colleague, Kelsie, was there to present our latest work. I wanted to share this wonderful photo of her and express my immense gratitude for her support.</p><p>Over time, I've come to realize that the value of academic conferences extends far beyond presenting research. I couldn't agree more with Kelsie that having a few deep conversations with friends you only meet annually is far more meaningful than adding fifty new contacts to your phone.</p>">
@@ -171,7 +172,7 @@ author_profile: true
 
 <div id="news-modal" class="modal-overlay">
   <div class="modal-content">
-    <span class="close-button" onclick="closeModal()">&times;</span>
+    <span class="close-button" onclick="closeModal()">×</span>
     <h3 id="modal-title"></h3>
     <div class="meta" id="modal-meta"></div>
     <div id="modal-body"></div>
@@ -207,3 +208,5 @@ window.addEventListener('click', function(e) {
   }
 });
 </script>
+</body>
+</html>
