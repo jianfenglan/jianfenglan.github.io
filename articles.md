@@ -102,25 +102,19 @@ author_profile: true
 
 <h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
-  <div class="publication-card" data-detail="test Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
+  <div class="publication-card" data-detail="Ever wondered what happens when private chats with an AI go public? 🤔 This paper examines how users of the chatbot Replika perform their 'intimate' relationships on social media. <br><br> It turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience! 🎭 <br><br> Some key questions we explored: <br> ❤️ When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='images/paper/EMM_F1.png' alt='A diagram showing the social presentation mechanisms of human-AI intimacy' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br> What do you think? Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
     <div class="publication-content">
-      <span class="my-name">Lan, J.</span>, Huang, Y. (2025).<br>
-      Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.<br>
-      <em>Emerging Media</em>, Online first.
+      <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>Emerging Media</em>, Online first.
     </div>
   </div>
-  <div class="publication-card" data-detail="test Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
+  <div class="publication-card" data-detail="test <br>Read at 👉🏻: https://journals.sagepub.com/doi/abs/10.1177/14614448231212822">
     <div class="publication-content">
-      Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023).<br>
-      Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.<br>
-      <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
+      Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)
     </div>
   </div>
   <div class="publication-card" data-detail="test ">
     <div class="publication-content">
-            牟怡, <span class="my-name">蓝剑锋</span>. (2023).<br>
-      机器写作中的性别刻板印象: 基于实验研究的实然探讨.<br>
-      <em>中国网络传播研究</em>, (1)1:236-266.
+            牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究</em>, (1)1:236-266.
     </div>
   </div>
 </div>
@@ -130,7 +124,7 @@ author_profile: true
   <div class="publication-card" data-detail="test">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
   <div class="publication-card" data-detail="test">
-    <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices.  <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
+    <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices.  <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
   <div class="publication-card" data-detail="test">
     <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Media Metaphors and Social Meaning of ‘Internet’ in Taiwan (1995-2023). <em>AEJMC 2025</em>, San Francisco, U.S. <br>🥈 Second Runner Up Student Paper Award</div></div>
   <div class="publication-card" data-detail="test">
@@ -151,7 +145,6 @@ author_profile: true
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Mou, Y., Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>73rd ICA Annual Conference</em>, Toronto, Canada.</div></div>
 </div>
 
-<!-- Modal -->
 <div id="popup-modal" class="modal-overlay">
   <div class="modal-content">
     <span class="close-button">&times;</span>
