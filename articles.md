@@ -1,9 +1,7 @@
----
-title: ""
-permalink: /articles/
-author_profile: true
----
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Articles</title>
 <style>
 .page__inner-wrap {
     max-width: 1600px !important;
@@ -67,11 +65,10 @@ author_profile: true
     inset: 0;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6px);
-    justify-content: center;
-    /* align-items: center; -- 此处移除，用padding代替 */
-    /* --- 新增的代码从这里开始 --- */
-    padding: 6rem 1rem; /* 为弹窗容器增加上下6rem、左右1rem的内边距，确保不被遮挡 */
-    /* --- 新增的代码到这里结束 --- */
+    display: flex; /* Changed to flex for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 2rem 0; /* Add padding to top and bottom */
 }
 
 .modal-content {
@@ -87,10 +84,8 @@ author_profile: true
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
-    max-height: 90vh; 
+    max-height: calc(100vh - 4rem); /* Adjust max-height to account for padding */
     overflow-y: auto;
-    /* --- 新增的代码 --- */
-    margin: auto 0; /* 在垂直方向上自动外边距，实现居中效果 */
 }
 
 .modal-overlay.show .modal-content {
@@ -106,7 +101,8 @@ author_profile: true
     color: #666;
 }
 </style>
-
+</head>
+<body>
 <h2>🗞️ Journal Articles</h2>
 <div class="publication-list">
   <div class="publication-card" data-detail="<h2>Performing Intimacy: Curating the Self-presentation in Human–AI Relationships</h2><br>Ever wondered what happens when private chats with an AI go public? 🤔 <br><br> We examined how users of the chatbot Replika perform their 「intimate」 relationships on social media. Turns out, it's a fascinating mix of seeking genuine validation and carefully crafting an idealized self-image. <br><br> We found that sharing these moments isn't just about the human-AI bond, but also about managing our own emotions and social standing. It's a performance for an audience. <br><br> Key questions: <br> 👏🏻 When we post about our AI companions, are we looking for connection or just applause? <br> 🤖 Does sharing these intimate moments online reinforce our self-worth, or does it feed our inner narcissist? <br><br> Here's a model of the motivations and outcomes we discovered: <br> <img src='{{ '/images/EMM_F1.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>Is our AI partner just a character in the story we write about ourselves online? ✨ <br><br>Read at 👉🏻: https://journals.sagepub.com/doi/10.1177/27523543251334157">
@@ -154,7 +150,7 @@ author_profile: true
 
 <div id="popup-modal" class="modal-overlay">
   <div class="modal-content">
-    <span class="close-button">&times;</span>
+    <span class="close-button">×</span>
     <div id="modal-text">Loading...</div>
   </div>
 </div>
@@ -185,3 +181,5 @@ author_profile: true
     }
   });
 </script>
+</body>
+</html>
