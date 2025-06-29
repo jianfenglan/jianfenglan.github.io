@@ -183,8 +183,8 @@ author_profile: true
   const modalText = document.getElementById('modal-text');
   const closeBtn = document.querySelector('.close-button');
 
-  // --- 修改JavaScript选择器，只选择 .clickable-card ---
   document.querySelectorAll('.clickable-card').forEach(card => {
+    // --- 修正：在这里的括号里加上 (event) ---
     card.addEventListener('click', (event) => {
       // 检查点击的是否是“阅读更多”按钮，如果是，则不弹出窗口
       if (event.target.closest('.read-more-btn')) {
