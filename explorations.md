@@ -147,7 +147,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju 🇰🇷" data-meta="23 February, 2025" data-content="<p>The island’s weatherSo unpredictable — can you imagine? One moment it’s bright and sunny, and the next, snow is falling heavily. 🏝️☀️❄️</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju 🇰🇷" data-meta="23 February, 2025" data-content="<p>The island’s weather is so unpredictable — can you imagine? One moment it’s bright and sunny, and the next, snow is falling heavily. 🏝️☀️❄️</p>">
         <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju 🇰🇷</h3>
@@ -163,7 +163,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="New Orleans 🇺🇸" data-meta="20 November, 2024" data-content="<p>They say the fortune teller in front of St. Louis Cathedral is the most accurate of them all. But with so many stalls lined up, how will I ever find the right one? 🔮</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="New Orleans 🇺🇸" data-meta="20 November, 2024" data-content="<p>People say the Gypsies in front of St. Louis Cathedral are the most skilled fortune-tellers. But with so many stalls lined up, how can I ever find the right one? 🔮</p>">
         <img src="{{ '/images/NOLA.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans 🇺🇸</h3>
@@ -171,7 +171,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney 🇦🇺" data-meta="29 June, 2024" data-content="<p>Never walk under dense tree cover at night — trust me, you don't want to know why. 🦇</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney 🇦🇺" data-meta="29 June, 2024" data-content="<p>Never walk under dense tree cover at night — trust me, you don't wanna know why. 🦇</p>">
         <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sydney 🇦🇺</h3>
