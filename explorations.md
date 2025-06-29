@@ -123,7 +123,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Osaka 🇯🇵" data-meta="10 March, 2025" data-content="<p>Of course I got lost in Namba 🗺️😅. But I genuinely appreciate the laid-back vibe of the people in Osaka 😎🍵..</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Osaka 🇯🇵" data-meta="10 March, 2025" data-content="<p>Of course I got lost in Namba 🗺️😅. But I genuinely appreciate the laid-back vibe of the people in Osaka 😎🍵.</p>">
         <img src="{{ '/images/Osaka.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Osaka 🇯🇵</h3>
@@ -131,7 +131,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kyoto 🇯🇵" data-meta="7 March, 2025" data-content="<p>The night before visiting the Senbon Torii ⛩️⛩️⛩️, I rewatched <em>Memoirs of a Geisha<em>. So the next day, I really wore haori hakama👘 and clacked through Kyoto in wooden sandals🩴.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Kyoto 🇯🇵" data-meta="7 March, 2025" data-content="<p>The night before visiting the Senbon Torii ⛩️⛩️⛩️, I rewatched <em>Memoirs of a Geisha</em>. So the next day, I really wore haori hakama👘 and clacked through Kyoto in wooden sandals🩴.</p>">
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kyoto 🇯🇵</h3>
@@ -139,7 +139,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe 🇯🇵" data-meta="5 March, 2025" data-content="<p>Compared to beef, it’s the captivating Arima Onsen that truly wins my heart 🥰♨️, leaving me eager to return 🌸✨. I also visited Maiko to see the Akashi Kaikyo Bridge 🌉, just like in <em>Suzume<em>—absolutely breathtaking! 😍🎥</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe 🇯🇵" data-meta="5 March, 2025" data-content="<p>Compared to beef, it’s the captivating Arima Onsen that truly wins my heart 🥰♨️, leaving me eager to return 🌸✨. I also visited Maiko to see the Akashi Kaikyo Bridge 🌉, just like in <em>Suzume</em>—absolutely breathtaking! 😍🎥</p>">
         <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kobe 🇯🇵</h3>
@@ -235,7 +235,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>I didn’t take the 🛶 ride for a closer view because I was afraid of getting my clothes wet. But I did successfully check off a famous scene from the <em>Family Guy<em>. Joe, where are you?! Hang in there Peter. 🤣</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall 🇨🇦" data-meta="28 May, 2023" data-content="<p>I didn’t take the 🛶 ride for a closer view because I was afraid of getting my clothes wet. But I did successfully check off a famous scene from the <em>Family Guy</em>. Joe, where are you?! Hang in there Peter. 🤣</p>">
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall 🇨🇦</h3>
