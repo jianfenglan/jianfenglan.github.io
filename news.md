@@ -12,11 +12,8 @@ author_profile: true
     margin: 2rem 0;
 }
 
-/* --- 修改区域开始 --- */
-
 .news-card {
     display: flex;
-    /* 修改1：将布局方向从 column 改为 row */
     flex-direction: row; 
     background: #fff;
     border: 1px solid #e6e6e6;
@@ -33,31 +30,23 @@ author_profile: true
 }
 
 .news-content {
-    /* 修改2：让文字内容区域占据40%的宽度 */
     flex: 4; 
     padding: 1.5rem;
-    /* 添加一个属性，确保内容在垂直方向上居中，更美观 */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .news-image {
-    /* 修改3：让图片区域占据60%的宽度 */
     flex: 6; 
 }
 
 .news-image img {
     width: 100%;
-    /* 修改4：让图片高度填满容器，并用 object-fit 防止变形 */
     height: 100%;
     display: block;
     object-fit: cover;
-    /* 移除只适用于上下布局的圆角，因为父元素 .news-card 的 overflow:hidden 会自动处理圆角裁剪 */
 }
-
-/* --- 修改区域结束 --- */
-
 
 .news-content h3 {
     font-size: 1.3em;
@@ -68,7 +57,6 @@ author_profile: true
 .news-content .meta {
     font-size: 0.85em;
     color: #777;
-    /* 移除了不必要的 margin-bottom，因为内容已垂直居中 */
 }
 
 .news-content p {
@@ -105,17 +93,30 @@ author_profile: true
     transition: transform 0.3s ease;
     position: relative;
     overflow-y: auto;
-    max-height: calc(100vh - 10rem); /* 留出顶部和底部空间 */
+    max-height: calc(100vh - 10rem);
     word-wrap: break-word;
-    margin-top: 5rem; /* 添加顶部间距，避免与导航栏重叠 */
+    margin-top: 5rem;
 }
 
+/* --- 修改区域开始 --- */
+
+/* 新增：为弹窗正文（#modal-body）里的图片添加样式 */
+#modal-body img {
+    max-width: 100%; /* 确保图片不会超出弹窗宽度 */
+    height: auto; /* 保持图片原始宽高比 */
+    margin-top: 15px; /* 在图片上方增加一些间距 */
+    border-radius: 14px; /* ★ 这里是实现圆角的关键 */
+}
+
+/* --- 修改区域结束 --- */
+
+
 #modal-title {
-    margin-bottom: 0.75rem; /* 为弹窗标题下方添加间距 */
+    margin-bottom: 0.75rem;
 }
 
 #modal-meta {
-    margin-bottom: 1.5rem; /* 为弹窗元信息（日期/地点）下方添加较大间距 */
+    margin-bottom: 1.5rem;
 }
 
 .modal-overlay.show .modal-content {
@@ -131,15 +132,13 @@ author_profile: true
     color: #666;
 }
 
-/* 手机页面调整 */
 @media (max-width: 768px) {
-    /* 在小屏幕上恢复为上下布局，体验更佳 */
     .news-card {
         flex-direction: column;
     }
     .modal-content {
-        margin-top: 7rem; /* 在小屏幕上增加顶部间距 */
-        max-height: calc(100vh - 12rem); /* 调整高度以适应更大间距 */
+        margin-top: 7rem;
+        max-height: calc(100vh - 12rem);
     }
 }
 </style>
