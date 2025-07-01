@@ -35,6 +35,7 @@ author_profile: true
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .news-image {
