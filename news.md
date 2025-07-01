@@ -136,7 +136,7 @@ author_profile: true
     </div>
 </div>
 
-<div class="news-card" onclick="openModal(this)" data-title="NCA 2024" data-meta="📅 November 22, 2024 | 📍 New Orleans 🇺🇸" data-content="<p>My journey at NCA begins with magic! I'm thrilled to have so many friends by my side.</p><p>I would especially like to thank Dr. Patrick, and Dr. Dongjing for including me at The Tenth Annual U.S.-China Communication Scholars Summit and for providing the opportunity to share my latest work.</p><p>This year, I'm honored to serve as the Student Committee Chair for ACCS and as the Graduate Student Representative for CATF division in NCA. Feel free to reach out with any suggestions or for more information. <br><img src="{{ '/images/news/NCA1.jpg' | relative_url }}"> <br><img src="{{ '/images/news/NCA2.jpg' | relative_url }}"> </p>">
+<div class="news-card" onclick="openModal(this)" data-title="NCA 2024" data-meta="📅 November 22, 2024 | 📍 New Orleans 🇺🇸" data-content="<p>My journey at NCA begins with magic! I'm thrilled to have so many friends by my side.</p><p>I would especially like to thank Dr. Patrick, and Dr. Dongjing for including me at The Tenth Annual U.S.-China Communication Scholars Summit and for providing the opportunity to share my latest work.</p><p>This year, I'm honored to serve as the Student Committee Chair for ACCS and as the Graduate Student Representative for CATF division in NCA. Feel free to reach out with any suggestions or for more information. </p> <br> <img src='{{ '/images/news/NCA1.jpg' | relative_url }}' style='max-width: 100%; height: auto; margin-top: 15px;'> ">
     <div class="news-content">
         <h3>NCA 2024</h3>
         <div class="meta">📅 November 22, 2024 | 📍 New Orleans 🇺🇸</div>
