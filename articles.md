@@ -139,6 +139,19 @@ author_profile: true
   </div>
 </div>
 
+
+<h2>🖨️ Preprints</h2>
+<div class="publication-list">
+
+ <div class="publication-card" data-detail="<h2>Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations</h2><br>What if your story didn’t end when your body did? 🧬💡<br><br>Our study investigates how young people in China think about digital immortality — the possibility of 「living on」 through AI, virtual worlds, and uploaded minds. 🧠💻✨<br><br>Current studies focus on technological feasibility and ethical dilemmas — but overlook how real users feel about living on digitally. <img src='{{'/images/DtigitalImmortality_LR.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'><br><br>By analyzing their engagement with AI chatbots, virtual humans, XR, and video games, we identified three distinct clusters:<br>🔬 Geeks — tech-savvy, spiritually curious, and most open to the idea.<br>🎮 Gamers — selective adopters, still intrigued.<br>🐌 Laggards — skeptical and resistant<br><br>Surprisingly, the most receptive weren’t the least religious, but often more aligned with Buddhist and Daoist views on life and death. 🌱☯️<br><br>🔍 Our research draws on the contact hypothesis: interactive emerging media (vs. traditional one-way media) provide direct knowledge and experiences that shape acceptance of life beyond the biological body. <img src='{{ '/images/DtigitalImmortality_model.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'><br><br>Key reflections:<br>🪞 Could virtual immortality actually reshape how we cope with mortality?<br>🧘🏽 Is digital existence an escape, or a new form of spiritual continuation?<br><br>👉🏻 Read the full preprint: https://arxiv.org/abs/2505.01355">
+    <div class="publication-content">
+        Mou, Y., <span class="my-name">Lan, J.</span>, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em>
+    </div>
+  </div>
+    
+</div>
+
+
 <h2>🗣️ Conference Papers</h2>
 <div class="publication-list">
   <div class="publication-card" data-detail="Work in progress ✍🏻">
