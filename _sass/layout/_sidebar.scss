@@ -189,74 +189,40 @@
   }
 
   button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
       display: none;
     }
   }
 }
 
+/* 替换为这段新代码 ✨ */
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  /* --- 让列表默认显示并设置为常规布局 --- */
+  display: block;
+  position: relative;
+  margin: 20px 0 0 0; /* 和上方内容增加一些间距 */
+  padding: 0;
   list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
   cursor: default;
+  /* --- 结束 --- */
+
+  /* 隐藏用作弹出菜单箭头的小三角 */
+  &:before,
+  &:after {
+    display: none;
+  }
 
   @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: var(--global-border-color) transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    /* 桌面端的样式现在和移动端基本一致，可以保留或清空 */
+    margin-top: 0;
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal; /* 允许长链接在小屏幕上自动换行 */
+    /* 继承父元素的居中对齐，如果想让链接列表靠左，可以取消下面这行注释 */
+    /* text-align: left; */
   }
 
   a {
