@@ -11,7 +11,7 @@ redirect_from:
     /* 1. 主要内容区域：已修复留白问题 */
     .page__content {
         padding-top: 4rem;    /* <-- 已从 12vh 修改为更稳定的 4rem */
-        padding-bottom: 10vh;
+        padding-bottom: 4rem;
     }
 
     /* 2. 统一的文本容器 */
