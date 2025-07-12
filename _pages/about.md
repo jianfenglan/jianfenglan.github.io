@@ -10,8 +10,8 @@ redirect_from:
 <style>
     /* 1. 主要内容区域：提供垂直留白 */
     .page__content {
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        padding-top: 3rem;
+        padding-bottom: 10vh;
     }
 
     /* 2. 统一的文本容器：为所有文本设定样式 */
