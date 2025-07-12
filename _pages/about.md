@@ -2,80 +2,73 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 <style>
-    /* --- 卡片样式（已更新） --- */
-    .about-card {
-        background: white;
-        border: 1px solid #e9e9e9;
-        border-radius: 12px;
-        padding: 2.5rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        line-height: 1.7;
-        margin-bottom: 1.5rem; /* 新增：为卡片之间创建垂直间距 */
-    }
-
-    /* 最后一个卡片不需要底部间距 */
-    .about-card:last-child {
-        margin-bottom: 0;
-    }
-
-    .about-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-    }
-    /* --- 样式结束 --- */
-
-
-    /* 为主要内容区域设置 Flexbox 布局来实现垂直居中 */
+    /* 1. 主要内容区域：创造一个大的垂直留白区域 */
     .page__content {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding-top: 8vh;
-        padding-bottom: 4vh;
-        min-height: auto;
+        justify-content: center; /* 让内容块在垂直方向上居中 */
+        min-height: 70vh;      /* 确保内容区域至少有视窗高度的70%，为居中留出足够空间 */
+        padding: 4vh 0;
     }
 
-    /* 为本页面的正文段落设置两端对齐 */
-    .page__content p {
+    /* 2. 开场白样式：突出 "Hi, this is Jeff." */
+    .lead-greeting {
+        font-size: 1.8rem;     /* 更大的字号 */
+        font-weight: 300;      /* 更细的字体，显得更优雅 */
+        color: #555;           /* 柔和的深灰色 */
+        text-align: center;    /* 居中显示 */
+        margin-bottom: 3rem;   /* 和下方的正文拉开足够的距离 */
+    }
+
+    /* 3. 正文容器：实现最佳阅读行宽和呼吸感 */
+    .bio-text-container {
+        max-width: 68ch;       /* 核心：将最大宽度限制在约68个字符，这是最理想的阅读行宽 */
+        margin-left: auto;     /* 配合上一条，实现水平居中 */
+        margin-right: auto;    /* 配合上一条，实现水平居中 */
+        line-height: 1.8;      /* 增加行高，创造段落的“呼吸感” */
+    }
+
+    /* 4. 正文段落：两端对齐并增加段间距 */
+    .bio-text-container p {
         text-align: justify;
+        margin-bottom: 1.5em; /* 增加段落之间的距离 */
     }
-    
-    .page__content h2 {
-        margin-top: 2.5rem;
+    .bio-text-container p:last-child {
+        margin-bottom: 0;
     }
 
-    /* 链接样式 */
-    .page__content a {
+    /* 5. 链接样式：在简洁基础上增加精致的交互细节 */
+    .bio-text-container a {
       color: #333333;
-      font-weight: 400;
       text-decoration: none;
-      border-bottom: none;
-      transition: color 0.2s ease-in-out;
+      /* 默认状态下是一条非常浅的虚线，几乎不可见，但暗示了可点击 */
+      border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+      padding-bottom: 2px;
+      transition: all 0.2s ease-in-out;
     }
 
-    .page__content a:hover {
+    /* 鼠标悬浮时，颜色变蓝，下划线变实线并更明显 */
+    .bio-text-container a:hover {
       color: #002FA7;
-      background-image: none;
-      text-decoration: none;
+      border-bottom-color: #002FA7;
     }
 
 </style>
 
-<div class="about-card" markdown="1">
-Hi, this is Jeff.
-</div>
+<p class="lead-greeting">Hi, this is Jeff.</p>
 
-<div class="about-card" markdown="1">
-I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, and a member of the [**Center for Future Media & Human-Machine Communication**](https://cfmhmc.github.io/), led by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/).
-</div>
+<div class="bio-text-container" markdown="1">
 
-<div class="about-card" markdown="1">
-My research focuses on human-AI interaction's impact on emerging media users' perception of intimacy and digital immortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
+I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Media and Communication, Shanghai Jiao Tong University, and a member of the [**Center for Future Media & Human-Machine Communication**](https://cfmhmc.github.io/), led by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). 
+
+My research focuses on human-AI interaction's impact on emerging media users' perception of intimacy and digital immortality. 
+
+Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
+
 </div>
