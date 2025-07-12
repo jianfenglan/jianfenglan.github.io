@@ -82,27 +82,32 @@
    Author profile and links
    ========================================================================== */
 
-/* 替换为这段新代码 ✨ */
+/* 替换为这个最终版本的 .author__avatar 代码 ✨ */
 .author__avatar {
   display: block;
   width: 100%;
-  text-align: center;
-  margin-bottom: 1em; /* 在头像和文字之间增加一些间距 */
+  margin-bottom: 1em;
+
+  /* 我们不再需要 text-align: center; 因为将直接操作图片 */
 
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
-    text-align: left; /* 在桌面端恢复默认的左对齐 */
     margin-bottom: 0;
   }
 
   img {
-    max-width: 150px; /* 移动端头像的最大宽度 */
+    display: block;          /* 将图片显式声明为块级元素 */
+    margin-left: auto;     /* 这是强制块级元素水平居中的最可靠方法 */
+    margin-right: auto;    /* 同上 */
+    max-width: 150px;        /* 移动端头像的最大宽度 */
     border-radius: 50%;
 
     @include breakpoint($large) {
-      max-width: 175px; /* 桌面端头像的最大宽度 */
+      margin-left: 0;      /* 在桌面端恢复默认的左边距 */
+      margin-right: 0;     /* 在桌面端恢复默认的右边距 */
+      max-width: 175px;
       padding: 5px;
       border: 1px solid var(--global-border-color);
     }
