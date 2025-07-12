@@ -115,7 +115,7 @@ author_profile: true
 
 <div class="gallery-grid">
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Wakayama 🇯🇵" data-meta="12 March, 2025" 
+    <div class="gallery-card" onclick="openModal(this)" data-title="Wakayama 🇯🇵" data-meta="12 March, 2025" data-content="<p>My trip to Wakayama was completely unplanned, yet it felt like I had stumbled into a hidden paradise 🌴✨. I narrowly made it onto the last bus 🚌 from the seaside 🌊 back to town at 4 p.m. 🕓 with a thrilling dash! 😅</p>">
         <img src="{{ '/images/Wakayama.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Wakayama 🇯🇵</h3>
