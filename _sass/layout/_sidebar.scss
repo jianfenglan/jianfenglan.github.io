@@ -13,14 +13,14 @@
   @include clearfix();
   margin-bottom: 1em;
   text-align: center;
-   
+
   @media (orientation: portrait) {
     margin-top: 1em;
   }
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;          // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
     text-align: left;
@@ -82,13 +82,10 @@
    Author profile and links
    ========================================================================== */
 
-/* 替换为这个最终版本的 .author__avatar 代码 ✨ */
 .author__avatar {
   display: block;
   width: 100%;
   margin-bottom: 1em;
-
-  /* 我们不再需要 text-align: center; 因为将直接操作图片 */
 
   @include breakpoint($large) {
     display: block;
@@ -98,15 +95,15 @@
   }
 
   img {
-    display: block;          /* 将图片显式声明为块级元素 */
-    margin-left: auto;     /* 这是强制块级元素水平居中的最可靠方法 */
-    margin-right: auto;    /* 同上 */
-    max-width: 150px;        /* 移动端头像的最大宽度 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
     border-radius: 50%;
 
     @include breakpoint($large) {
-      margin-left: 0;      /* 在桌面端恢复默认的左边距 */
-      margin-right: 0;     /* 在桌面端恢复默认的右边距 */
+      margin-left: 0;
+      margin-right: 0;
       max-width: 175px;
       padding: 5px;
       border: 1px solid var(--global-border-color);
@@ -114,21 +111,20 @@
   }
 }
 
-/* 替换为这段新代码 ✨ */
 .author__content {
   display: block;
   width: 100%;
-  text-align: center; /* 文本居中 */
+  text-align: center;
   padding-left: 0;
   padding-right: 0;
-  line-height: 1.5; /* 增加行高，提升可读性 */
+  line-height: 1.5;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    text-align: left; /* 在桌面端恢复文本的左对齐 */
+    text-align: left;
   }
 }
 
@@ -170,10 +166,9 @@
   }
 }
 
-/* 替换为这段新代码 ✨ */
 .author__urls-wrapper {
   position: relative;
-  display: block; /* 核心改动：从 table-cell 改为 block */
+  display: block;
   font-family: $sans-serif;
   z-index: 10;
   cursor: pointer;
@@ -189,12 +184,10 @@
   }
 
   button {
-      display: none;
-    }
+    display: none;
   }
 }
 
-/* 替换为这段新代码 ✨ */
 .author__urls {
   /* --- 让列表默认显示并设置为常规布局 --- */
   display: block;
