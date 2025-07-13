@@ -10,8 +10,8 @@ redirect_from:
 <style>
     /* 1. 主要内容区域：已修复留白问题 */
     .page__content {
-        padding-top: 4rem;    /* <-- 已从 12vh 修改为更稳定的 4rem */
-        padding-bottom: 4rem;
+        padding-top: 3rem;    /* <-- 已从 12vh 修改为更稳定的 4rem */
+        padding-bottom: 3rem;
     }
 
     /* 2. 统一的文本容器 */
@@ -19,7 +19,6 @@ redirect_from:
         max-width: 68ch;
         margin-left: auto;
         margin-right: auto;
-        font-weight: 300;
         line-height: 1.8;
     }
 
