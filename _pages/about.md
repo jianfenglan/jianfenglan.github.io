@@ -13,5 +13,4 @@ I'm a Ph.D. candidate (in the combined Master-Ph.D. program) at the School of Me
 My research focuses on human-AI interaction's impact on emerging media users' perception of intimacy and digital immortality.
 
 Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
-
-![affliation](images/affiliation.jpg)
+![institution](images/institution.jpg)
