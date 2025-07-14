@@ -45,12 +45,13 @@ redirect_from:
       text-decoration: none; 
     }
 
-    /* 5. 新增：机构Logo图片样式 */
+    /* 5. 修改：机构Logo图片样式 */
     .affiliation-image {
       display: block; /* 将图片设置为块级元素以应用外边距 */
-      max-width: 50%; /* 图片最大宽度为容器的50%，防止过大 */
+      max-width: 100%; /* 图片最大宽度调整为100%，以铺满容器 */
       height: auto;   /* 高度自动，保持图片比例 */
       margin: 3em auto 0; /* 上方外边距为3em，左右自动以实现居中 */
+      pointer-events: none; /* 使图片不可点击，并禁用所有鼠标交互（如悬停效果） */
     }
 
 </style>
