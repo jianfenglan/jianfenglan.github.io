@@ -14,4 +14,4 @@ My research focuses on human-AI interaction's impact on emerging media users' pe
 
 Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
 
-![affliation](images/affliation.jpg)
+![affliation](images/affiliation.jpg)
