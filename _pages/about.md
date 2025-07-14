@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 <style>
-    /* 1. 主要内容区域：已修复留白问题 */
+    /* 1. 主要内容区域 */
     .page__content {
-        padding-top: 3rem;    /* <-- 已从 12vh 修改为更稳定的 4rem */
+        padding-top: 3rem;
         padding-bottom: 3rem;
     }
 
@@ -45,6 +45,14 @@ redirect_from:
       text-decoration: none; 
     }
 
+    /* 5. 新增：机构Logo图片样式 */
+    .affiliation-image {
+      display: block; /* 将图片设置为块级元素以应用外边距 */
+      max-width: 50%; /* 图片最大宽度为容器的50%，防止过大 */
+      height: auto;   /* 高度自动，保持图片比例 */
+      margin: 3em auto 0; /* 上方外边距为3em，左右自动以实现居中 */
+    }
+
 </style>
 
 <div class="bio-container" markdown="1">
@@ -58,3 +66,6 @@ My research focuses on human-AI interaction's impact on emerging media users' pe
 Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University.
 
 </div>
+
+<!-- 新增的图片 -->
+<img src="/images/affiliation.jpg" alt="Affiliations Logo" class="affiliation-image">
