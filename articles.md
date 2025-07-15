@@ -40,7 +40,7 @@ author_profile: true
 .publication-card::before {
     counter-increment: pub-counter;
     content: counter(pub-counter) ".";
-    font-weight: 600;
+    font-weight: 300; /* 修改：将数字编号字重设置为 Light */
     font-size: 1.1em;
     color: #888;
     min-width: 2em;
@@ -57,7 +57,7 @@ author_profile: true
 
 .my-name {
     color: #002FA7;
-    font-weight: 700;
+    font-weight: 300; /* 修改：取消加粗，设置为 Light 字重 */
 }
 
 .modal-overlay {
@@ -68,7 +68,7 @@ author_profile: true
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6px);
     justify-content: center;
-    padding: 6rem 1rem; /* 为弹窗容器增加上下6rem、左右1rem的内边距，确保不被遮挡 */
+    padding: 6rem 1rem;
 }
 
 .modal-content {
@@ -84,9 +84,13 @@ author_profile: true
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
-    max-height: calc(100vh - 12rem); /* 调整最大高度，确保上下都有6rem间距 */
+    max-height: calc(100vh - 12rem);
     overflow-y: auto;
-    margin: auto 0; /* 在垂直方向上自动外边距，实现居中效果 */
+    margin: auto 0;
+}
+
+.modal-content h2 {
+    font-weight: 300; /* 设置模态框内部的 H2 标题为 Light 字重 */
 }
 
 .modal-overlay.show .modal-content {
@@ -102,13 +106,17 @@ author_profile: true
     color: #666;
 }
 
+h2 {
+    font-weight: 300; /* 设置页面上的 H2 标题为 Light 字重 */
+}
+
 /* 手机页面调整 */
 @media (max-width: 768px) {
     .modal-overlay {
-        padding: 7rem 1rem; /* 在小屏幕上增加顶部和底部间距 */
+        padding: 7rem 1rem;
     }
     .modal-content {
-        max-height: calc(100vh - 14rem); /* 配合更大的上下间距调整高度 */
+        max-height: calc(100vh - 14rem);
     }
 }
 </style>
