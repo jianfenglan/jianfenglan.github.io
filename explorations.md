@@ -5,117 +5,124 @@ author_profile: true
 ---
 
 <style>
-    /* 强制拓宽本页面的主内容区域 */
+/* 强制拓宽本页面的主内容区域 - 这部分保持不变 */
+.page__inner-wrap {
+    max-width: 1600px !important;
+}
 
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2.5rem; /* 控制卡片之间的垂直间距 */
-        padding: 1rem 0;
-    }
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 1rem 0;
+}
 
-    .gallery-card {
-        border: 1px solid #e0e0e0;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        cursor: pointer; /* 添加手型光标，提示可点击 */
-    }
+.gallery-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
 
-    .gallery-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    }
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
 
-    .gallery-card img {
-        width: 100%;
-        object-fit: cover;
-        display: block;
-        height: auto;
-    }
+.gallery-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: auto;
+}
 
-    .gallery-caption {
-        padding: 1rem 1.5rem;
-        text-align: center;
-        font-size: 0.9em;
-        color: #555;
-        background: #fdfdfd;
-    }
+.gallery-caption {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    background: #fdfdfd;
+}
 
-    .gallery-caption h3 {
-        margin: 0 0 0.5rem 0;
-        font-size: 1.2em;
-        color: #333;
-    }
+.gallery-caption h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
+}
 
-    /* --- 以下是新增的弹窗样式 --- */
-    .modal-overlay {
-        display: none;
-        position: fixed;
-        z-index: 999;
-        inset: 0;
-        background: rgba(255, 255, 255, 0.6);
-        backdrop-filter: blur(6px);
-        justify-content: center;
-        align-items: center;
-    }
+.gallery-caption p { /* 新增：为卡片日期设置字重 */
+    font-weight: 300; /* 设置为 Light 字重 */
+}
 
-    .modal-content {
-        background: #fff;
-        padding: 2rem;
-        border-radius: 16px;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-        max-width: 700px;
-        width: 90%;
-        transform: scale(0.9);
-        transition: transform 0.3s ease;
-        position: relative;
-        overflow-y: auto;
-        max-height: 90vh;
-        word-wrap: break-word;
-    }
-    
-    #modal-title {
-        margin-top: 0;
-        margin-bottom: 0.75rem;
-    }
+/* --- 以下是新增的弹窗样式 --- */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    justify-content: center;
+    align-items: center;
+}
 
-    #modal-meta {
-        font-size: 0.9em;
-        color: #777;
-        margin-bottom: 1.5rem;
-    }
-    
-    #modal-body p {
-        font-size: 0.95em;
-        line-height: 1.7;
-        color: #333;
-        margin-bottom: 1em;
-        text-align: justify;
-    }
-    
-    #modal-body p:last-of-type {
-        margin-bottom: 0;
-    }
+.modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    max-width: 700px;
+    width: 90%;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow-y: auto;
+    max-height: 90vh;
+    word-wrap: break-word;
+}
 
-    .modal-overlay.show .modal-content {
-        transform: scale(1);
-    }
+#modal-title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
+}
 
-    .close-button {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: #666;
-    }
+#modal-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 1.5rem;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
+}
+
+#modal-body p {
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 1em;
+    text-align: justify;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
+}
+
+.modal-overlay.show .modal-content {
+    transform: scale(1);
+}
+
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+}
 </style>
 
 <div class="gallery-grid">
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Wakayama 🇯🇵" data-meta="12 March, 2025" data-content="<p>My trip to Wakayama was completely unplanned. I narrowly made it onto the last bus from the seaside back to town at 4 p.m. with a thrilling dash!</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Wakayama 🇯🇵" data-meta="12 March, 2025" data-content="<p>My trip to Wakayama was completely unplanned.</p>">
         <img src="{{ '/images/Wakayama.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Wakayama 🇯🇵</h3>
@@ -139,7 +146,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe 🇯🇵" data-meta="5 March, 2025" data-content="<p>I visited Maiko to see the Akashi Kaikyo Bridge, just like in <em>Suzume</em>, absolutely breathtaking!</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe 🇯🇵" data-meta="5 March, 2025" data-content="<p>I visited Maiko to see the Akashi Kaikyo Bridge, just like in <em>Suzume</em>, absolutely breathtaking.</p>">
         <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kobe 🇯🇵</h3>
@@ -147,7 +154,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju 🇰🇷" data-meta="23 February, 2025" data-content="<p>The weather on Jeju Island is unpredictable</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju 🇰🇷" data-meta="23 February, 2025" data-content="<p>The weather on Jeju Island is unpredictable.</p>">
         <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju 🇰🇷</h3>
@@ -179,7 +186,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast 🇦🇺" data-meta="20 June, 2024" data-content="<p>I wish I could’ve lingered there a bit longer!</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast 🇦🇺" data-meta="20 June, 2024" data-content="<p>I wish I could’ve lingered there a bit longer.</p>">
         <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Gold Coast 🇦🇺</h3>
