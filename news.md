@@ -147,9 +147,9 @@ author_profile: true
 <div class="news-list">
 
 
-<div class="news-card" onclick="openModal(this)" data-title="IAMCR 2025" data-meta="📅 July 15, 2025 | 🇸🇬 Singapore" data-content="<p>While my physical form was tragically unable to grace the halls of IAMCR 2025 this year, my fantastic colleague and co-author, Jingyi Li, represented us beautifully. Holding in Asia, this year's IAMCR conference attracted so many scholars and friends from China. While I definitely felt a pang of FOMO, it was quickly replaced by pride in Jingyi's stellar delivery and the vibrant community gathered there. Maybe next year I'll figure out how to teleport!</p>">
+<div class="news-card" onclick="openModal(this)" data-title="IAMCR 2025" data-meta="📅 July 15, 2025 | 🇸🇬 Singapore" data-content="<p>While my physical form was tragically unable to grace the halls of IAMCR 2025 this year, my fantastic colleague and co-author, Jingyi Li, represented us beautifully. Holding in Asia, this year's IAMCR conference attracted so many scholars and friends from China. While I definitely felt a pang of FOMO, it was quickly replaced by pride in Jingyi's stellar delivery and the vibrant community gathered there. Maybe next year I'll figure out how to teleport!</p><img src='{{ '/images/news/IAMCR2025_1.jpg' | relative_url }}' style='max-width: 100%; height: auto; margin-top: 15px;'>">
     <div class="news-content">
-        <h3>ICA 2025</h3>
+        <h3>IAMCR 2025</h3>
         <div class="meta">📅 July 15, 2025 <br>🇸🇬 Singapore</div>
     </div>
     <div class="news-image">
