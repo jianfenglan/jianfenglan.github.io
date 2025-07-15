@@ -14,7 +14,7 @@ author_profile: true
 
 .news-card {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     background: #fff;
     border: 1px solid #e6e6e6;
     border-radius: 14px;
@@ -30,7 +30,7 @@ author_profile: true
 }
 
 .news-content {
-    flex: 4; 
+    flex: 4;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ author_profile: true
 }
 
 .news-image {
-    flex: 6; 
+    flex: 6;
 }
 
 .news-image img {
@@ -53,11 +53,13 @@ author_profile: true
     font-size: 1.3em;
     margin: 0 0 0.5rem;
     color: #222;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
 }
 
 .news-content .meta {
     font-size: 0.85em;
     color: #777;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
 }
 
 .news-content p {
@@ -66,6 +68,7 @@ author_profile: true
     color: #333;
     margin-bottom: 1em;
     text-align: justify;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
 }
 
 .news-content p:last-of-type {
@@ -99,25 +102,27 @@ author_profile: true
     margin-top: 5rem;
 }
 
-/* --- 修改区域开始 --- */
-
 /* 新增：为弹窗正文（#modal-body）里的图片添加样式 */
 #modal-body img {
-    max-width: 100%; /* 确保图片不会超出弹窗宽度 */
-    height: auto; /* 保持图片原始宽高比 */
-    margin-top: 15px; /* 在图片上方增加一些间距 */
-    border-radius: 14px; /* ★ 这里是实现圆角的关键 */
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 14px;
 }
-
-/* --- 修改区域结束 --- */
-
 
 #modal-title {
     margin-bottom: 0.75rem;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
 }
 
 #modal-meta {
     margin-bottom: 1.5rem;
+    font-weight: 300; /* 修改：设置为 Light 字重 */
+}
+
+/* 新增：为弹窗正文中的 p 标签设置字重 */
+#modal-body p {
+    font-weight: 300;
 }
 
 .modal-overlay.show .modal-content {
