@@ -6,13 +6,11 @@
 // 我们在这里重新定义主题的变量，并添加我们自己的样式规则。
 // ===================================================================
 
-// 1. 修改全局字体为苹方 (优先)
-// 这会告诉主题，在接下来的所有样式中都优先使用苹方字体。
-$sans-serif: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+// 1. 定义全局字体堆栈
+$sans-serif: "Helvetica Neue", "PingFang SC", "Dengxian", sans-serif;
 
 // 2. 调整整体布局宽度
-// 这会告诉主题，页面的最大宽度是我们定义的新数值。
-$max-width: 1800px; 
+$max-width: 1800px;
 
 // 3. 解决侧边栏文字溢出问题
 .author__employer,
@@ -26,37 +24,50 @@ $max-width: 1800px;
 .news-list,
 .publication-list,
 .gallery-grid {
-    max-width: 100%;
-    margin: 2rem 0;
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+// 5. 全局应用 Light 字体权重 (300)
+// 对于大部分文本，包括导航、侧边栏和正文，应用 Light 字重
+body {
+  font-family: $sans-serif; // 确保应用你定义的字体堆栈
+  font-weight: 300; // Light 字重
+}
+
+// 如果希望某些地方使用 Extra Light (Ultra Light) 字重，可以专门指定
+// 例如，如果你想让导航栏的文字更细，可以这样添加：
+.masthead__menu-item a {
+  font-weight: 200; // Extra Light (Ultra Light) 字重
 }
 
 // ===================================================================
-// 【主题默认导入区】 
+// 【主题默认导入区】
 // 现在，主题会带着我们上面的新定义去加载它的所有默认样式。
 // ===================================================================
 @import
-    "vendor/breakpoint/breakpoint",
-    "themes",
-    "theme/default",
-    //"theme/dark",
-    "include/mixins",
-    "vendor/susy/susy",
-    "layout/reset",
-    "layout/base",
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-    "layout/forms",
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
+  "vendor/breakpoint/breakpoint",
+  "themes",
+  "theme/default",
+  //"theme/dark",
+  "include/mixins",
+  "vendor/susy/susy",
+  "layout/reset",
+  "layout/base",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
+  "layout/forms",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands",
+  "vendor/magnific-popup/magnific-popup"
 ;
