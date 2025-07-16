@@ -40,9 +40,9 @@ author_profile: true
 .publication-card::before {
     counter-increment: pub-counter;
     content: counter(pub-counter) ".";
-    font-weight: 300; /* 修改：将数字编号字重设置为 Light */
+    font-weight: 200; /* 修改：将数字编号字重设置为 Light */
     font-size: 1.1em;
-    color: #888;
+    color: #333;
     min-width: 2em;
     text-align: right;
 }
@@ -57,7 +57,7 @@ author_profile: true
 
 .my-name {
     color: #002FA7;
-    font-weight: 300; /* 修改：取消加粗，设置为 Light 字重 */
+    font-weight: 200; /* 修改：取消加粗，设置为 Light 字重 */
 }
 
 .modal-overlay {
@@ -90,7 +90,7 @@ author_profile: true
 }
 
 .modal-content h2 {
-    font-weight: 300; /* 设置模态框内部的 H2 标题为 Light 字重 */
+    font-weight: 200; /* 设置模态框内部的 H2 标题为 Light 字重 */
 }
 
 .modal-overlay.show .modal-content {
@@ -103,11 +103,11 @@ author_profile: true
     right: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #666;
+    color: #333;
 }
 
 h2 {
-    font-weight: 300; /* 设置页面上的 H2 标题为 Light 字重 */
+    font-weight: 200; /* 设置页面上的 H2 标题为 Light 字重 */
 }
 
 /* 手机页面调整 */
@@ -121,7 +121,7 @@ h2 {
 }
 </style>
 
-<h2>🗞️ Journal Articles</h2>
+<h2>Journal Articles</h2>
 <div class="publication-list">
 
  <div class="publication-card" data-detail="<h2>Life and Death in the Era of AI: The Relationship between the Deep Meaning Interaction with Intelligent Technology and Youth's View on Digital Life</h2><br>What happens when our deep interactions with artificial intelligence begin to reshape our fundamental views on life and death?<br><br>Our research examined how China’s (Gen Z) are forming their unique perspectives on 「digital life」 through their interactions with intelligent technology. The study found that it's not the frequency of media use that matters, but the depth of the interaction.<br><br>We discovered that 「deep meaning interaction」—an engagement with AI agents and virtual beings that involves emotional projection and meaning-making—positively predicts young people's acceptance of digital life. But, in a surprising twist, high-frequency contact with virtual humans actually lowers their acceptance. <br><br>Key Questions: <br>When we consider digital immortality, are we embracing a new form of life, or simply avoiding our fear of physical death? <br>Why does deep, meaningful human-AI interaction increase acceptance of digital life, while frequent but shallow contact might make us more skeptical? <br>How is technology changing the definition of 「life」 and helping us come to terms with 「death」? <br><br>We built a model that illustrates this journey from the technical act of using a machine (机事) to the formation of an internalized, tech-influenced worldview (机心): <br> <img src='{{ '/images/DtigitalImmortality.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'> <br>This paper is in Chinese.">
@@ -148,7 +148,7 @@ h2 {
 </div>
 
 
-<h2>🖨️ Preprints</h2>
+<h2>Preprints</h2>
 <div class="publication-list">
 
  <div class="publication-card" data-detail="<h2>Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations</h2><br>What if your story didn’t end when your body did?<br><br>Our study investigates how young people in China think about digital immortality — the possibility of 「living on」 through AI, virtual worlds, and uploaded minds.<br><br>Current studies focus on technological feasibility and ethical dilemmas — but overlook how real users feel about living on digitally. <img src='{{'/images/DtigitalImmortality_LR.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'><br><br>By analyzing their engagement with AI chatbots, virtual humans, XR, and video games, we identified three distinct clusters:<br>Geeks — tech-savvy, spiritually curious, and most open to the idea.<br>Gamers — selective adopters, still intrigued.<br>Laggards — skeptical and resistant<br><br>Surprisingly, the most receptive weren’t the least religious, but often more aligned with Buddhist and Daoist views on life and death.<br><br>Our research draws on the contact hypothesis: interactive emerging media (vs. traditional one-way media) provide direct knowledge and experiences that shape acceptance of life beyond the biological body. <img src='{{ '/images/DtigitalImmortality_model.png' | relative_url }}' style='width:100%; border-radius: 8px; margin-top: 1rem; margin-bottom: 1rem;'><br><br>Key reflections:<br>Could virtual immortality actually reshape how we cope with mortality?<br>Is digital existence an escape, or a new form of spiritual continuation?<br><br>Read at: https://arxiv.org/abs/2505.01355<br><br>This paper is currently under review at a peer-reviewed journal.">
@@ -160,7 +160,7 @@ h2 {
 </div>
 
 
-<h2>🗣️ Conference Papers</h2>
+<h2>Conference Papers</h2>
 <div class="publication-list">
   <div class="publication-card" data-detail="Work in progress ✍🏻">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
