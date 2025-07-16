@@ -126,7 +126,6 @@ author_profile: true
         <img src="{{ '/images/Wakayama.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Wakayama</h3>
-            <p>12 March, 2025</p>
         </div>
     </div>
 
@@ -134,7 +133,6 @@ author_profile: true
         <img src="{{ '/images/Osaka.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Osaka</h3>
-            <p>10 March, 2025</p>
         </div>
     </div>
 
@@ -142,7 +140,6 @@ author_profile: true
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kyoto</h3>
-            <p>7 March, 2025</p>
         </div>
     </div>
 
@@ -150,7 +147,6 @@ author_profile: true
         <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kobe</h3>
-            <p>5 March, 2025</p>
         </div>
     </div>
 
@@ -158,7 +154,6 @@ author_profile: true
         <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju</h3>
-            <p>23 February, 2025</p>
         </div>
     </div>
 
@@ -166,7 +161,6 @@ author_profile: true
         <img src="{{ '/images/Macau.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Macau</h3>
-            <p>31 January, 2025</p>
         </div>
     </div>
 
@@ -174,7 +168,6 @@ author_profile: true
         <img src="{{ '/images/NOLA.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans</h3>
-            <p>20 November, 2024</p>
         </div>
     </div>
 
@@ -182,7 +175,6 @@ author_profile: true
         <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sydney</h3>
-            <p>29 June, 2024</p>
         </div>
     </div>
 
@@ -190,7 +182,6 @@ author_profile: true
         <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Gold Coast</h3>
-            <p>20 June, 2024</p>
         </div>
     </div>
 
@@ -198,7 +189,6 @@ author_profile: true
         <img src="{{ '/images/Brisbane.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Brisbane</h3>
-            <p>16 June, 2024</p>
         </div>
     </div>
 
@@ -206,7 +196,6 @@ author_profile: true
         <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Singapore</h3>
-            <p>4 June, 2024</p>
         </div>
     </div>
 
@@ -214,7 +203,6 @@ author_profile: true
         <img src="{{ '/images/Busan.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Busan</h3>
-            <p>6 April, 2024</p>
         </div>
     </div>
 
@@ -222,7 +210,6 @@ author_profile: true
         <img src="{{ '/images/Seoul.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Seoul</h3>
-            <p>1 April, 2024</p>
         </div>
     </div>
 
@@ -230,7 +217,6 @@ author_profile: true
         <img src="{{ '/images/HK.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Hong Kong</h3>
-            <p>14 February, 2024</p>
         </div>
     </div>
 
@@ -238,7 +224,6 @@ author_profile: true
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall</h3>
-            <p>28 May, 2023</p>
         </div>
     </div>
 
@@ -246,7 +231,6 @@ author_profile: true
         <img src="{{ '/images/Toronto.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Toronto</h3>
-            <p>25 May, 2023</p>
         </div>
     </div>
 
@@ -254,7 +238,6 @@ author_profile: true
         <img src="{{ '/images/Pattaya.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Pattaya</h3>
-            <p>23 July, 2017</p>
         </div>
     </div>
 
@@ -262,7 +245,6 @@ author_profile: true
         <img src="{{ '/images/Bangkok.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Bangkok</h3>
-            <p>21 July, 2017</p>
         </div>
     </div>
 
