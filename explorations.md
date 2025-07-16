@@ -40,7 +40,7 @@ author_profile: true
 
 .gallery-caption {
     padding: 1rem 1.5rem;
-    text-align: center;
+    text-align: center; /* 居中整个容器，但内部元素需要进一步对齐 */
     font-size: 0.9em;
     color: #555;
     background: #fdfdfd;
@@ -50,11 +50,17 @@ author_profile: true
     margin: 0 0 0.5rem 0;
     font-size: 1.2em;
     color: #333;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 200;
+    /* --- 核心修改：使用 Flexbox 精确居中 --- */
+    display: flex;             /* 将 h3 变为 Flex 容器 */
+    justify-content: center;   /* 水平居中 Flex 项目 */
+    align-items: center;       /* 垂直居中 Flex 项目 (此处影响不大) */
+    /* text-align: center; */ /* 这行在 flexbox 模式下通常不是必需的，可以移除或保留作为回退 */
+    /* --- 结束核心修改 --- */
 }
 
-.gallery-caption p { /* 新增：为卡片日期设置字重 */
-    font-weight: 200; /* 设置为 Light 字重 */
+.gallery-caption p {
+    font-weight: 200;
 }
 
 /* --- 以下是新增的弹窗样式 --- */
@@ -87,14 +93,14 @@ author_profile: true
 #modal-title {
     margin-top: 0;
     margin-bottom: 0.75rem;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 200;
 }
 
 #modal-meta {
     font-size: 0.9em;
     color: #777;
     margin-bottom: 1.5rem;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 200;
 }
 
 #modal-body p {
@@ -103,7 +109,7 @@ author_profile: true
     color: #333;
     margin-bottom: 1em;
     text-align: justify;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 200;
 }
 
 .modal-overlay.show .modal-content {
