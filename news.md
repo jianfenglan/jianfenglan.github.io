@@ -22,9 +22,6 @@ author_profile: true
     overflow: hidden; /* Ensure content doesn't spill out if constrained */
     transition: all 0.3s ease;
     cursor: pointer;
-    /* --- NEW --- */
-    height: 250px; /* Set a fixed height for all news cards */
-    /* --- END NEW --- */
 }
 
 .news-card:hover {
