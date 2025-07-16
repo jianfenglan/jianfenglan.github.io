@@ -199,7 +199,7 @@ author_profile: true
         <h3>ICA 2024</h3>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA202401.JPG' | relative_url }}">
+        <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
     </div>
 </div>
 
