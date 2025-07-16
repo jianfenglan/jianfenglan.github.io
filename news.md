@@ -58,7 +58,7 @@ author_profile: true
 }
 
 .news-content h3 {
-    font-size: 1.3em;
+    font-size: 0.95em;
     margin: 0 0 0.5rem;
     color: #333;
     font-weight: 300;
