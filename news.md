@@ -209,7 +209,7 @@ author_profile: true
         <div class="meta">May 25, 2023 <br>Toronto</div>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA202302.jpg' | relative_url }}">
+        <img src="{{ '/images/news/ICA2302.jpg' | relative_url }}">
     </div>
 </div>
 
