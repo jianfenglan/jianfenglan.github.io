@@ -51,12 +51,7 @@ author_profile: true
     font-size: 1.2em;
     color: #333;
     font-weight: 200;
-    /* --- 核心修改：使用 Flexbox 精确居中 --- */
-    display: flex;             /* 将 h3 变为 Flex 容器 */
-    justify-content: center;   /* 水平居中 Flex 项目 */
-    align-items: center;       /* 垂直居中 Flex 项目 (此处影响不大) */
-    /* text-align: center; */ /* 这行在 flexbox 模式下通常不是必需的，可以移除或保留作为回退 */
-    /* --- 结束核心修改 --- */
+    text-align: right;
 }
 
 .gallery-caption p {
