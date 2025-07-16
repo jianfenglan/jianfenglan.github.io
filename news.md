@@ -169,7 +169,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="IAMCR 2025" data-meta="July 15, 2025 | Singapore" data-content="<p>While my physical form was tragically unable to grace the halls of IAMCR 2025 this year, my fantastic colleague and co-author, Jingyi Li, represented us beautifully. Holding in Asia, this year's IAMCR conference attracted so many scholars and friends from China. While I definitely felt a pang of FOMO, it was quickly replaced by pride in Jingyi's stellar delivery and the vibrant community gathered there. Maybe next year I'll figure out how to teleport!</p>">
     <div class="news-content">
         <h3>IAMCR 2025</h3>
-        <div class="meta">July 15, 2025 <br>Singapore</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/IAMCR2025.jpg' | relative_url }}">
@@ -180,7 +179,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2025" data-meta="June 15, 2025 | Denver" data-content="<p>I was truly disappointed to have missed this year's ICA conference in Denver. Fortunately, my dear friend and colleague, Kelsie, was there to present our latest work. I wanted to share this wonderful photo of her and express my immense gratitude for her support.</p><p>Over time, I've come to realize that the value of academic conferences extends far beyond presenting research. I couldn't agree more with Kelsie that having a few deep conversations with friends you only meet annually is far more meaningful than adding fifty new contacts to your phone.</p>">
     <div class="news-content">
         <h3>ICA 2025</h3>
-        <div class="meta">June 15, 2025 <br>Denver</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/ICA2025.jpg' | relative_url }}">
@@ -190,7 +188,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="NCA 2024" data-meta="November 22, 2024 | New Orleans" data-content="<p>My journey at NCA 2024 is off to a magical start! I’m thrilled to be surrounded by so many supportive friends and colleagues.</p><p>I extend my heartfelt gratitude to Dr. Patrick and Dr. Dongjing for inviting me to the Tenth Annual U.S.-China Communication Scholars Summit and giving me the opportunity to present my latest research.</p><p>This year, I’m honored to serve as the Student Committee Chair for ACCS and the Graduate Student Representative for the CATF division at NCA. I welcome your suggestions and invite you to reach out for more information.</p> ">
     <div class="news-content">
         <h3>NCA 2024</h3>
-        <div class="meta">November 22, 2024 <br>New Orleans</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/NCA.png' | relative_url }}">
@@ -200,7 +197,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2024" data-meta="June 23, 2024 | Gold Coast" data-content="<p>I thoroughly enjoyed my time in Australia. Cozy was the word I used most frequently during my stay.</p><p>This year, I and my colleague Kelsie, Christina and Zhi shared two papers about AIGC regulation, emerging media usage and body image issues of adolescents in China.</p><p>Academic research not only provided a sense of achievement but also fostered valuable friendships. Delighted to meet everyone here!</p>">
     <div class="news-content">
         <h3>ICA 2024</h3>
-        <div class="meta">June 23, 2024  <br>Gold Coast</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/ICA202401.JPG' | relative_url }}">
@@ -210,7 +206,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="SICSS-Singapore" data-meta="June 7, 2024 | Singapore" data-content="<p>This summer, I'm really honored to attend SICSS-Singapore at beautiful National University of Singapore. Five days' talks and discussions were beyond insightful and full of joy. Special thanks to Han Li, Rongxin, Anita, Jinyuan, Xuejiao and Renwen for their uncompromising care and careful organization.</p><p>Also, thanks to the speakers' generous sharing about their research, it was so inspiring. I highly recommend you sign up for the future SICSS-Singapore event and you won't regret for this decision.</p>">
     <div class="news-content">
         <h3>SICSS-Singapore</h3>
-        <div class="meta">June 7, 2024  <br>Singapore</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/SICSS01.JPG' | relative_url }}">
@@ -220,7 +215,6 @@ author_profile: true
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2023" data-meta="May 25, 2023 | Toronto" data-content="<p>This is my inaugural experience of attending ICA!</p><p>I was eager to engage in discourse, to gain insight, and to pursue academic inquiry. Fortunately, I received considerable assistance and support. I regard this academic excursion as a pivotal experience in my life, one that also initiated a new phase.</p>">
     <div class="news-content">
         <h3>ICA 2023</h3>
-        <div class="meta">May 25, 2023 <br>Toronto</div>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/ICA2302.jpg' | relative_url }}">
