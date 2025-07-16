@@ -19,9 +19,12 @@ author_profile: true
     border: 1px solid #e6e6e6;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    overflow: hidden;
+    overflow: hidden; /* Ensure content doesn't spill out if constrained */
     transition: all 0.3s ease;
     cursor: pointer;
+    /* --- NEW --- */
+    height: 250px; /* Set a fixed height for all news cards */
+    /* --- END NEW --- */
 }
 
 .news-card:hover {
@@ -36,30 +39,38 @@ author_profile: true
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    /* --- NEW --- */
+    min-height: 0; /* Allows content to shrink correctly within flexbox */
+    /* If content frequently overflows and you want scrollbars within the text area: */
+    /* overflow-y: auto; */
+    /* --- END NEW --- */
 }
 
 .news-image {
     flex: 6;
+    /* --- NEW --- */
+    height: 100%; /* Make image container fill the card height */
+    /* --- END NEW --- */
 }
 
 .news-image img {
     width: 100%;
-    height: 100%;
+    height: 100%; /* Make the image fill its parent container */
     display: block;
-    object-fit: cover;
+    object-fit: cover; /* This is key: scales and crops image to fill container */
 }
 
 .news-content h3 {
     font-size: 1.3em;
     margin: 0 0 0.5rem;
     color: #333;
-    font-weight: 300; /* 修改：设置为 Light 字重 */
+    font-weight: 300;
 }
 
 .news-content .meta {
     font-size: 0.85em;
     color: #333;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 300; /* Adjusted to 300 for consistency */
 }
 
 .news-content p {
@@ -68,7 +79,7 @@ author_profile: true
     color: #333;
     margin-bottom: 1em;
     text-align: justify;
-    font-weight: 200; /* 修改：设置为 Light 字重 */
+    font-weight: 300; /* Adjusted to 300 for consistency */
 }
 
 .news-content p:last-of-type {
@@ -112,17 +123,17 @@ author_profile: true
 
 #modal-title {
     margin-bottom: 0.75rem;
-    font-weight: 300; /* 修改：设置为 Light 字重 */
+    font-weight: 300;
 }
 
 #modal-meta {
     margin-bottom: 1.5rem;
-    font-weight: 300; /* 修改：设置为 Light 字重 */
+    font-weight: 300;
 }
 
 /* 新增：为弹窗正文中的 p 标签设置字重 */
 #modal-body p {
-    font-weight: 200;
+    font-weight: 300; /* Adjusted to 300 for consistency */
 }
 
 .modal-overlay.show .modal-content {
@@ -141,6 +152,12 @@ author_profile: true
 @media (max-width: 768px) {
     .news-card {
         flex-direction: column;
+        /* --- NEW --- */
+        height: auto; /* Allow height to adjust on small screens */
+        /* --- END NEW --- */
+    }
+    .news-image {
+        height: 200px; /* Fixed height for image on mobile for consistency */
     }
     .modal-content {
         margin-top: 7rem;
