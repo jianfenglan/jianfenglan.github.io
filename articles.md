@@ -162,7 +162,7 @@ h2 {
 
 <h2>Conference Papers</h2>
 <div class="publication-list">
- <div class="publication-card" data-detail="Under Review ✍🏻">
+ <div class="publication-card" data-detail="Under Review 🙏🏻">
     <div class="publication-content"><span class="my-name">Lan, J.</span> (2025). Less Positive but More Covert: Examining Geolocation-based Discursive Violence on Chinese Social Media after IP Address Disclosure. <em>111th NCA Annual Convention</em>, Denver, U.S. </div></div>
     <div class="publication-card" data-detail="Work in progress ✍🏻">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
