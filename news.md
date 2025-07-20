@@ -185,7 +185,7 @@ author_profile: true
     </div>
 </div>
 
-<div class="news-card" onclick="openModal(this)" data-title="NCA 2024" data-meta="November 22, 2024 | New Orleans" data-content="<p>My journey at NCA 2024 is off to a magical start! I’m thrilled to be surrounded by so many supportive friends and colleagues.</p><p>I extend my heartfelt gratitude to Dr. Patrick and Dr. Dongjing for inviting me to the Tenth Annual U.S.-China Communication Scholars Summit and giving me the opportunity to present my latest research.</p><p>This year, I’m honored to serve as the Student Committee Chair for ACCS and the Graduate Student Representative for the CATF division at NCA. I welcome your suggestions and invite you to reach out for more information.</p> ">
+<div class="news-card" onclick="openModal(this)" data-title="NCA 2024" data-meta="November 22, 2024 | New Orleans" data-content="<p>My journey at NCA 2024 is off to a magical start.</p><p>I extend my heartfelt gratitude to Dr. Patrick and Dr. Dongjing for inviting me to the Tenth Annual U.S.-China Communication Scholars Summit and giving me the opportunity to present my latest research.</p><p>This year, I’m honored to serve as the Student Committee Chair for ACCS and the Graduate Student Representative for the CATF division at NCA. I welcome your suggestions and invite you to reach out for more information.</p> ">
     <div class="news-content">
         <h3>NCA 2024</h3>
     </div>
