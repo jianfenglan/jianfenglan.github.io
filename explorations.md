@@ -152,7 +152,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card" onclick="openModal(this)" data-title="Jeju" data-meta="23 February, 2025" data-content="<p>The weather on Jeju Island is unpredictable.</p>">
-        <img src="{{ '/images/Jeju.JPG' | relative_url }}">
+        <img src="{{ '/images/Jeju.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju</h3>
         </div>
@@ -183,13 +183,6 @@ author_profile: true
         <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Gold Coast</h3>
-        </div>
-    </div>
-
-    <div class="gallery-card" onclick="openModal(this)" data-title="Brisbane" data-meta="16 June, 2024" data-content="<p>Is there anywhere in Brisbane that hasn’t been taken over by ibises?</p>">
-        <img src="{{ '/images/Brisbane1.JPG' | relative_url }}">
-        <div class="gallery-caption">
-            <h3>Brisbane</h3>
         </div>
     </div>
 
