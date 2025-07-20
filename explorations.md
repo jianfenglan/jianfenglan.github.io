@@ -187,7 +187,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card" onclick="openModal(this)" data-title="Brisbane" data-meta="16 June, 2024" data-content="<p>Is there anywhere in Brisbane that hasn’t been taken over by ibises?</p>">
-        <img src="{{ '/images/Brisbane.jpeg' | relative_url }}">
+        <img src="{{ '/images/Brisbane1.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Brisbane</h3>
         </div>
