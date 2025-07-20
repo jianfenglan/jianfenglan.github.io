@@ -130,7 +130,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Osaka" data-meta="10 March, 2025" data-content="<p>Of course I got lost in Namba. But I genuinely appreciate the laid-back vibe of the people in Osaka.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Osaka" data-meta="10 March, 2025" data-content="<p>Of course I got lost in Namba. But I genuinely appreciate the laid-back vibe of the people here.</p>">
         <img src="{{ '/images/Osaka.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Osaka</h3>
@@ -144,7 +144,7 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe" data-meta="5 March, 2025" data-content="<p>I visited Maiko to see the Akashi Kaikyo Bridge, just like in <em>Suzume</em>, absolutely breathtaking.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe" data-meta="5 March, 2025" data-content="<p>I visited Maiko to see the Akashi Kaikyo Bridge, inspired by <em>Suzume</em>.</p>">
         <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kobe</h3>
@@ -172,14 +172,14 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney" data-meta="29 June, 2024" data-content="<p>Never wander under dense tree cover at night.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney" data-meta="29 June, 2024" data-content="<p>Sails of light glow softly against the night.</p>">
         <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sydney</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast" data-meta="20 June, 2024" data-content="<p>I wish I could’ve lingered there a bit longer.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast" data-meta="20 June, 2024" data-content="<p>I wish I could stay here a bit longer.</p>">
         <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Gold Coast</h3>
@@ -193,35 +193,35 @@ author_profile: true
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Singapore" data-meta="4 June, 2024" data-content="<p>I highly recommend cycling along the East Coast. Imagine gazing out at the Strait of Malacca, reaching Marina Bay, and then wrapping it up with a delicious lunch in Chinatown.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Singapore" data-meta="4 June, 2024" data-content="<p>Why does everyone want to catch the water?</p>">
         <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Singapore</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Busan" data-meta="6 April, 2024" data-content="<p>Standing on the breakwater at Haeundae, a slightly anxious thought popped into my head — if a tsunami hit , which way would I run?</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Busan" data-meta="6 April, 2024" data-content="<p>Rising with the dawn to sit in a seaside café at Busan is a fleeting and exquisite experience.</p>">
         <img src="{{ '/images/Busan.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Busan</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Seoul" data-meta="1 April, 2024" data-content="<p>I heard that wearing a hanbok grants free admission to Gyeongbokgung Palace. I was too shy to try.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Seoul" data-meta="1 April, 2024" data-content="<p>Wearing a hanbok grants free admission to Gyeongbokgung Palace. I was too shy to try.</p>">
         <img src="{{ '/images/Seoul.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Seoul</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Hong Kong" data-meta="14 February, 2024" data-content="<p>Starting from Central and hiking up to the Peak is a pleasant experience. There's a saying that couples who walk along Findlay Road will break up.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Hong Kong" data-meta="14 February, 2024" data-content="<p>Starting from Central and hiking up to the Peak is a pleasant experience. There's a saying that couples who walk along Findlay Path will break up.</p>">
         <img src="{{ '/images/HK.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Hong Kong</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall" data-meta="28 May, 2023" data-content="<p>I didn’t take the boat ride for a closer view because I was afraid of getting my clothes wet.</p>">
+    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall" data-meta="28 May, 2023" data-content="<p>I skipped the boat ride for a closer view, wary of soaking my clothes.</p>">
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall</h3>
