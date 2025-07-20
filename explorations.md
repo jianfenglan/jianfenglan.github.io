@@ -166,7 +166,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card" onclick="openModal(this)" data-title="New Orleans" data-meta="20 November, 2024" data-content="<p>Folks swear the Gypsies in front of St. Louis Cathedral are the most gifted fortune-tellers, weaving magic with every reading. But with countless stalls sparkling under the cathedral’s shadow, how do I pick the right one to reveal my fate?</p>">
-        <img src="{{ '/images/NOLA.jpg' | relative_url }}">
+        <img src="{{ '/images/NOLA1.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans</h3>
         </div>
