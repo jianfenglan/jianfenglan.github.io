@@ -165,12 +165,12 @@ h2 {
  <div class="publication-card" data-detail="Under Review 🙏🏻">
     <div class="publication-content"><span class="my-name">Lan, J.</span> (2025). Less Positive but More Covert: Examining Geolocation-based Discursive Violence on Chinese Social Media after IP Address Disclosure. <em>111th NCA Annual Convention</em>, Denver, U.S. </div></div>
     <div class="publication-card" data-detail="Work in progress ✍🏻">
-    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
+    <div class="publication-content"><span class="my-name">Lan, J.</span> (2025). Subscribing to Intimacy: Hyperreal Love and the Commodification of Affordances in Chinese AI Romance Apps. <em> HKBU Graduate Conference on Advancing Responsible AI Communication</em>, Hong Kong. <br>🏆 Competitive Travel Scholarship(1/8 recipients)</div></div>
   <div class="publication-card" data-detail="Work in progress ✍🏻">
     <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Rethinking Vulnerability and Communication Inequality in East Asia: A Scoping Review of COVID-19 Science Communication Practices. <em>JSF-PCST Tokyo 2025</em>, Tokyo, Japan. </div></div>
   <div class="publication-card" data-detail="Under Review 🙏🏻">
     <div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Media Metaphors and Social Meaning of ‘Internet’ in Taiwan (1995-2023). <em>AEJMC 2025</em>, San Francisco, U.S. <br>🥈 Second Runner Up Student Paper Award</div></div>
-  <div class="publication-card" data-detail="Work in progress ✍🏻">
+  <div class="publication-card" data-detail="Published in a revised and extended version on <em>Emerging Media</em> with the title <em>Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.</em> ">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Reconfiguring Sociality: Human-AI Intimacy, Narcissistic Dynamics, and Replika. <em>Society for Social Studies of Science (4S) 2025</em>, Seattle, U.S.</div></div>
   <div class="publication-card" data-detail="Work in progress ✍🏻">
     <div class="publication-content">Mou, Y., Li, J., <span class="my-name">Lan, J.</span> (2025). A Cross-Cultural Diachronic Examination of Audiences’ Attitudes Toward Digital Immortality in Science Fiction. <em>IAMCR 2025</em>, Singapore.</div></div>
@@ -182,8 +182,6 @@ h2 {
     <div class="publication-content">Jin, Q., <span class="my-name">Lan, J.</span>, Lin, Z. (2024). Share My Face: Understanding Privacy Paradox and Third-person Effect of Artificial Intelligence Generated Content (AIGC) Applications. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
   <div class="publication-card" data-detail="Under Review 🙏🏻">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang Y., Mou Y. (2024). Examining the Impact of Social Media Use on Chinese Male Adolescent’s Body Image: A Cross-platform Perspective. <em>74th ICA Annual Conference</em>, Gold Coast, Australia.</div></div>
-  <div class="publication-card" data-detail="Published on <em>Emerging Media</em>">
-    <div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2023). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>the First Hongyi Forum</em>, Chongqing, China.<br>🥉 Third Place Award</div></div>
   <div class="publication-card" data-detail="Published on <em>New Media & Society</em>">
     <div class="publication-content"><span class="my-name">Lan, J.</span>, Mou, Y., Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>73rd ICA Annual Conference</em>, Toronto, Canada.</div></div>
 </div>
