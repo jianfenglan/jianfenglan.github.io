@@ -152,7 +152,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card" onclick="openModal(this)" data-title="Jeju" data-meta="23 February, 2025" data-content="<p>The weather on Jeju Island is unpredictable.</p>">
-        <img src="{{ '/images/Jeju.jpeg' | relative_url }}">
+        <img src="{{ '/images/Jeju.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju</h3>
         </div>
