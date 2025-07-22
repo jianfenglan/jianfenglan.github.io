@@ -15,5 +15,5 @@ main:
   - title: "Explorations"
     url: /explorations/    
         
-  - title: "News"
-    url: /news/
+  #- title: "News"
+   # url: /news/
