@@ -22,11 +22,13 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jianfeng Lan<br>“Jeff”<br> "
-  bio              : "Ph.D. Candidate<br>Shanghai Jiao Tong University"
+  bio              : "Ph.D. Candidate"
   pronouns         : # URL 
   location         : # URL
   uri              : # URL
   email            : "jeff_lan@sjtu.edu.cn" 
+  affiliation      : "Shanghai Jiao Tong University" # <-- 新增这行
+  affiliation_url  : "https://www.sjtu.edu.cn/"       # <-- 新增这行
 
   # Academic websites
   academia         : # URL
