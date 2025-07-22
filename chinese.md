@@ -2,6 +2,7 @@
 title: ""
 permalink: /chinese/
 author_profile: true
+author: jianfeng_zh
 ---
 
 <style>
