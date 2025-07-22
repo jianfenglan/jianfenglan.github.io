@@ -16,3 +16,23 @@ Name2 Name2:
   avatar      : "bio-photo.jpg"
   twitter     : "name2"
   google_plus : "Name"
+
+# -------------------------------------
+# 下面是你新增的中文作者档案
+jianfeng_zh:
+  # 中文个人信息
+  name             : "蓝剑锋"
+  bio              : "博士研究生<br>上海交通大学"
+  affiliation      : "未来媒体与人机传播中心"
+  affiliation_url  : "https://cfmhmc.github.io/"
+
+  # 侧边栏链接的中文标签
+  email_label      : "电子邮箱"
+  googlescholar_label: "谷歌学术"
+  orcid_label      : "ORCID"
+  
+  # 保持不变的链接信息
+  avatar           : "profile.png"
+  email            : "jeff_lan@sjtu.edu.cn" 
+  googlescholar    : "https://scholar.google.com/citations?user=Jggjp2IAAAAJ&hl=zh-CN"
+  orcid            : "https://orcid.org/0009-0000-1241-3361"
