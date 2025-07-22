@@ -5,6 +5,16 @@ author_profile: true
 ---
 
 <style>
+/* 为引言添加的古典样式 */
+.epigraph {
+  text-align: center; /* 居中对齐 */
+  margin-bottom: 2.5rem; /* 与下方标题的间距 */
+  font-family: 'Times New Roman', Times, serif; /* 使用 Times New Roman 字体 */
+  font-style: italic; /* 斜体 */
+  font-weight: 300; /* 使用更细的字重 */
+  color: #555; /* 使用深灰色，比纯黑更柔和 */
+}
+
 .page__inner-wrap {
     max-width: 1600px !important;
 }
@@ -103,6 +113,8 @@ h2 {
     }
 }
 </style>
+
+<p class="epigraph">“The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.”</p>
 
 <h2>Journal Articles</h2>
 <div class="publication-list">
