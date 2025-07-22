@@ -11,7 +11,7 @@ author_profile: true
   margin-bottom: 2.5rem; /* 与下方标题的间距 */
   font-family: 'Times New Roman', Times, serif; /* 使用 Times New Roman 字体 */
   font-style: italic; /* 斜体 */
-  font-weight: 300; /* 使用更细的字重 */
+  font-weight: 200; /* 使用更细的字重 */
   color: #555; /* 使用深灰色，比纯黑更柔和 */
 }
 
@@ -53,7 +53,7 @@ body {
     counter-increment: pub-counter;
     content: counter(pub-counter) ".";
     font-weight: 200;
-    font-size: 1em;
+    font-size: 0.95em;
     color: #333;
     min-width: 2em;
     text-align: right;
@@ -79,7 +79,7 @@ body {
 /* 小标题美化 */
 h2 {
     font-weight: 200;
-    font-size: 1.4em;
+    font-size: 0.95em;
     margin-top: 2rem;
 }
 
@@ -98,7 +98,7 @@ h2 {
     padding: 0.5rem 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 0.95em;
     line-height: 1.6;
 }
 
