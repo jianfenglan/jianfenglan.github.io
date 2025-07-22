@@ -62,7 +62,7 @@ author_profile: true
 }
 </style>
 
-<p class="epigraph">"One's destination is never a place, but a new way of seeing things."</p>
+<p class="epigraph">“One’s destination is never a place, but a new way of seeing things.”</p>
 
 <div class="gallery-grid">
 
