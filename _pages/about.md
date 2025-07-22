@@ -10,7 +10,9 @@ redirect_from:
 <style>
 /* 为主页内容定义一个容器样式 */
 .main-content {
-  font-weight: 200; /* 设置为 Ultra Light 字重 */
+  font-size: 0.95rem; /* 设置统一的字体大小 */
+  font-weight: 200;   /* 设置为 Ultra Light 字重 */
+  line-height: 1.8;   /* 增加行高，让文本更易读 */
 }
 
 /* 如果主页上的名字或特定短语被 Markdown 或模板默认加粗，可以强制取消 */
