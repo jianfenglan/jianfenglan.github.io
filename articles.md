@@ -60,26 +60,25 @@ author_profile: true
     font-weight: 200;
 }
 
-/* --- 新增的 CSS --- */
+/* --- 修改后的 Conference CSS --- */
 .conference-grid {
-    display: grid;
-    /* 核心代码: 创建一个响应式网格布局，每列最小280px，自动填充 */
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
+    display: flex; /* 改为 flex 布局 */
+    flex-wrap: wrap; /* 允许项目自动换行 */
+    gap: 0.75rem; /* 调整间距 */
     margin-top: 1rem;
 }
 
 .conference-card {
     background: white;
     border: 1px solid #e9e9e9;
-    border-radius: 12px;
-    padding: 1.25rem 1.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    text-align: center;
+    border-radius: 8px; /* 减小圆角 */
+    padding: 0.4rem 0.9rem; /* 大幅减小内边距，使其紧贴文字 */
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05); /* 更柔和的阴影 */
     font-weight: 300;
-    line-height: 1.6;
+    font-size: 0.95em; /* 可选：微调字体大小 */
+    line-height: 1.5;
 }
-/* --- 新增 CSS 结束 --- */
+/* --- CSS 修改结束 --- */
 
 
 .modal-overlay {
@@ -177,18 +176,19 @@ h2 {
 
 <h2>Conference Presentations</h2>
 <div class="conference-grid">
-    <div class="conference-card">
-        International Communication Association (ICA) Annual Conference
-    </div>
-    <div class="conference-card">
-        National Communication Association (NCA) Annual Convention
-    </div>
-    <div class="conference-card">
-        Association for Education in Journalism and Mass Communication (AEJMC) Conference
-    </div>
-    <div class="conference-card">
-        Chinese Communication Society (CCS) Annual Conference
-    </div>
+    <div class="conference-card">NCA 2025</div>
+    <div class="conference-card">HKBU Graduate Conference on Advancing Responsible AI Communication</div>
+    <div class="conference-card">JSF-PCST Tokyo</div>
+    <div class="conference-card">Society for Social Studies of Science (4S) 2025</div>
+    <div class="conference-card">AEJMC 2025</div>
+    <div class="conference-card">IAMCR 2025</div>
+    <div class="conference-card">ICA 2025</div>
+    <div class="conference-card">NCA 2024</div>
+    <div class="conference-card">ICA 2024</div>
+    <div class="conference-card">SICSS-Singapore 2024</div>
+    <div class="conference-card">IAMCR 2024</div>
+    <div class="conference-card">Mobile Studies Congress 2023</div>
+    <div class="conference-card">ICA 2023</div>
 </div>
 <div id="popup-modal" class="modal-overlay">
     <div class="modal-content">
