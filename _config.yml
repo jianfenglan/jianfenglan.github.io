@@ -27,7 +27,7 @@ author:
   location         : # URL
   uri              : # URL
   email            : "jeff_lan@sjtu.edu.cn" 
-  affiliation      : "Shanghai Jiao Tong University" # <-- 新增这行
+  affiliation      : "SJTU" # <-- 新增这行
   affiliation_url  : "https://www.sjtu.edu.cn/"       # <-- 新增这行
 
   # Academic websites
