@@ -27,8 +27,6 @@ author:
   location         : # URL
   uri              : # URL
   email            : "jeff_lan@sjtu.edu.cn" 
-  affiliation      : "CFMHMC" # <-- 新增这行
-  affiliation_url  : "https://cfmhmc.github.io/"       # <-- 新增这行
 
   # Academic websites
   academia         : # URL
