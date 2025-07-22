@@ -32,9 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 新增：为脚注定义的样式 */
 .footnote {
-  font-size: 0.8rem; /* 设置更小的字体大小 */
+  font-size: 0.7rem; /* 设置更小的字体大小 */
   font-weight: 200; /* 保持字重统一 */
-  color: #555;      /* 设置一个稍浅的颜色以示区别 */
   margin-top: 2.5em; /* 增加与上方正文的间距 */
   line-height: 1.5;  /* 可以为脚注设置单独的行高 */
 }
@@ -42,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 
 <div class="main-content">
-你好，我是蓝剑锋。<br><br>我现在是上海交通大学传播学专业的博士生（硕博连读项目），同时也是<a href="https://cfmhmc.github.io/" class="klein-link" target="_blank">未来媒体与人机传播研究中心</a>的研究助理。我的导师是<a href="https://cfmhmc.github.io/yimou.github.io/" class="klein-link" target="_blank">牟怡教授</a>。<br><br>我的研究聚焦在人机交互对新兴媒介用户的亲密关系感知和数字死亡观的影响。<br><br>目前我担任英文期刊<a href="https://journals.sagepub.com/home/bds" class="klein-link" target="_blank">《大数据与社会》</a><sup>*</sup>的助理编辑，同时我也担任<a href="https://www.chinesecommunicationstudies.com/" class="klein-link" target="_blank">中华传播学会</a><sup>*</sup>的学生委员会主席。<br><br>我曾在重庆大学获得新闻学学士学位。
+你好，我是蓝剑锋。<br><br>我现在是上海交通大学传播学专业的博士生（硕博连读项目），同时也是<a href="https://cfmhmc.github.io/" class="klein-link" target="_blank">未来媒体与人机传播研究中心</a>的研究助理。我的导师是<a href="https://cfmhmc.github.io/yimou.github.io/" class="klein-link" target="_blank">牟怡教授</a>。<br><br>我的研究聚焦在人机交互对新兴媒介用户的亲密关系感知和数字死亡观的影响。<br><br>目前我担任英文期刊<a href="https://journals.sagepub.com/home/bds" class="klein-link" target="_blank">《大数据与社会》</a>*的助理编辑，同时我也担任<a href="https://www.chinesecommunicationstudies.com/" class="klein-link" target="_blank">中华传播学会</a>的学生委员会主席。<br><br>我曾在重庆大学获得新闻学学士学位。<br><br>
 
 <p class="footnote">*相关链接可能无法直接从中国大陆访问。</p>
 </div>
