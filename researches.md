@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /articles/
+permalink: /researches/
 author_profile: true
 ---
 
@@ -186,7 +186,6 @@ h2 {
     <div class="conference-card">NCA 2024</div>
     <div class="conference-card">ICA 2024</div>
     <div class="conference-card">SICSS-Singapore 2024</div>
-    <div class="conference-card">IAMCR 2024</div>
     <div class="conference-card">Mobile Studies Congress 2023</div>
     <div class="conference-card">ICA 2023</div>
     <div class="conference-card">2022 SJTU-ICA Forum</div>
