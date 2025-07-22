@@ -42,7 +42,7 @@ body {
     background: #fff;
     border: none;
     border-radius: 16px;
-    padding: 1.25rem 1.5rem;
+    padding: 0.8rem 1.2rem; /* <-- 修改这里，减小了上下和左右的内边距 */
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     line-height: 1.75;
     flex-wrap: wrap;
@@ -79,7 +79,7 @@ body {
 /* 小标题美化 */
 h2 {
     font-weight: 200;
-    font-size: 0.95em;
+    font-size: 1.1em;
     margin-top: 2rem;
 }
 
