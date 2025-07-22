@@ -54,7 +54,8 @@
   p, li {
     font-family: $sans-serif;
     font-size: 0.85rem;
-    line-height: 1.5;
+    line-height: 1.8;
+    font-weight: 200;
   }
 
   img {
@@ -228,6 +229,8 @@
     color: inherit;
     font-size: 0.85rem;
     text-decoration: none;
+   line-height: 1.8;
+    font-weight: 200;
 
     &:hover {
       text-decoration: underline;
