@@ -5,15 +5,7 @@ author_profile: true
 ---
 
 <style>
-/* 为引言添加的古典样式 */
-.epigraph {
-  text-align: center; /* 居中对齐 */
-  margin-bottom: 2.5rem; /* 与下方标题的间距 */
-  font-family: 'Times New Roman', Times, serif; /* 使用 Times New Roman 字体 */
-  font-style: italic; /* 斜体 */
-  font-weight: 200; /* 使用更细的字重 */
-  color: #555; /* 使用深灰色，比纯黑更柔和 */
-}
+
 
 .page__inner-wrap {
     max-width: 1600px !important;
@@ -67,13 +59,13 @@ body {
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 0.95em;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 /* 作者高亮 */
 .my-name {
     color: #002FA7;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 /* 小标题美化 */
@@ -97,7 +89,7 @@ h2 {
     border-radius: 12px;
     padding: 0.5rem 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 0.95em;
     line-height: 1.6;
 }
@@ -113,8 +105,6 @@ h2 {
     }
 }
 </style>
-
-<p class="epigraph">“The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.”</p>
 
 <h2>Journal Articles</h2>
 <div class="publication-list">
