@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <style>
-/* 强制拓宽本页面的主内容区域 - 这部分保持不变 */
+/* 强制拓宽本页面的主内容区域 */
 .page__inner-wrap {
     max-width: 1600px !important;
 }
@@ -22,14 +22,15 @@ author_profile: true
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+    /* Removed transition and cursor properties to make it static */
 }
 
+/*
 .gallery-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
+*/
 
 .gallery-card img {
     width: 100%;
@@ -40,25 +41,29 @@ author_profile: true
 
 .gallery-caption {
     padding: 1rem 1.5rem;
-    text-align: center; /* 居中整个容器，但内部元素需要进一步对齐 */
+    text-align: center;
     font-size: 0.9em;
     color: #555;
     background: #fdfdfd;
 }
 
 .gallery-caption h3 {
-    margin: 0 0 0.5rem 0;
+    margin: 0;
     font-size: 1.2em;
     color: #333;
     font-weight: 200;
-    text-align: right;
+    text-align: center; /* Centered the title */
 }
 
+/* Removed paragraph style as it's no longer used */
+/*
 .gallery-caption p {
     font-weight: 200;
 }
+*/
 
-/* --- 以下是新增的弹窗样式 --- */
+/* --- Hiding the modal pop-up styles --- */
+/*
 .modal-overlay {
     display: none;
     position: fixed;
@@ -119,123 +124,124 @@ author_profile: true
     cursor: pointer;
     color: #666;
 }
+*/
 </style>
 
 <div class="gallery-grid">
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Wakayama" data-meta="12 March, 2025" data-content="<p>My trip to Wakayama was completely unplanned.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Wakayama.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Wakayama</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Osaka" data-meta="10 March, 2025" data-content="<p>Of course I got lost in Namba. But I genuinely appreciate the laid-back vibe of the people here.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Osaka.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Osaka</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kyoto" data-meta="7 March, 2025" data-content="<p>The night before visiting the Senbon Torii, I rewatched <em>Memoirs of a Geisha</em>.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kyoto</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Kobe" data-meta="5 March, 2025" data-content="<p>I visited Maiko to see the Akashi Kaikyo Bridge, inspired by <em>Suzume</em>.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Kobe_Maiko.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Kobe</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Jeju" data-meta="23 February, 2025" data-content="<p>The weather on Jeju Island is unpredictable.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Jeju.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Jeju</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Macau" data-meta="31 January, 2025" data-content="<p>Only the egg tart is worth trying.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Macau.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Macau</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="New Orleans" data-meta="20 November, 2024" data-content="<p>Folks swear the Gypsies in front of St. Louis Cathedral are the most gifted fortune-tellers, weaving magic with every reading. But with countless stalls sparkling under the cathedral’s shadow, how do I pick the right one to reveal my fate?</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/NOLA1.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>New Orleans</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Sydney" data-meta="29 June, 2024" data-content="<p>Sails of light glow softly against the night.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Sydney</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Gold Coast" data-meta="20 June, 2024" data-content="<p>I wish I could stay here a bit longer.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Goldcoast.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Gold Coast</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Singapore" data-meta="4 June, 2024" data-content="<p>Why does everyone want to catch the water?</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Singapore</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Busan" data-meta="6 April, 2024" data-content="<p>Rising with the dawn to sit in a seaside café at Busan is a fleeting and exquisite experience.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Busan.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Busan</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Seoul" data-meta="1 April, 2024" data-content="<p>Wearing a hanbok grants free admission to Gyeongbokgung Palace. I was too shy to try.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Seoul.jpeg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Seoul</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Hong Kong" data-meta="14 February, 2024" data-content="<p>Starting from Central and hiking up to the Peak is a pleasant experience. There's a saying that couples who walk along Findlay Path will break up.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/HK.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Hong Kong</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Niagara Fall" data-meta="28 May, 2023" data-content="<p>I skipped the boat ride for a closer view, wary of soaking my clothes.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Niagara.jpg' | relative_url }}">
         <div class="gallery-caption">
             <h3>Niagara Fall</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Toronto" data-meta="25 May, 2023" data-content="<p>Toronto island is an enssitial.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Toronto.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Toronto</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Pattaya" data-meta="23 July, 2017" data-content="<p>Don't go to Pattaya with you mom.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Pattaya.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Pattaya</h3>
         </div>
     </div>
 
-    <div class="gallery-card" onclick="openModal(this)" data-title="Bangkok" data-meta="21 July, 2017" data-content="<p>Everything here is casual.</p>">
+    <div class="gallery-card">
         <img src="{{ '/images/Bangkok.JPG' | relative_url }}">
         <div class="gallery-caption">
             <h3>Bangkok</h3>
@@ -243,52 +249,3 @@ author_profile: true
     </div>
 
 </div>
-
-<div id="gallery-modal" class="modal-overlay">
-  <div class="modal-content">
-    <span class="close-button" onclick="closeModal()">×</span>
-    <h3 id="modal-title"></h3>
-    <div class="meta" id="modal-meta"></div>
-    <div id="modal-body"></div>
-  </div>
-</div>
-
-<script>
-function openModal(card) {
-  const title = card.getAttribute('data-title');
-  const meta = card.getAttribute('data-meta');
-  const content = card.getAttribute('data-content');
-
-  document.getElementById('modal-title').innerText = title;
-  document.getElementById('modal-meta').innerText = meta;
-  document.getElementById('modal-body').innerHTML = content;
-
-  const modal = document.getElementById('gallery-modal');
-  modal.classList.add('show');
-  modal.style.display = 'flex';
-}
-
-function closeModal() {
-  const modal = document.getElementById('gallery-modal');
-  modal.classList.remove('show');
-  setTimeout(() => { modal.style.display = 'none'; }, 200);
-}
-
-// 点击遮罩关闭
-window.addEventListener('click', function(e) {
-  const modal = document.getElementById('gallery-modal');
-  if (e.target === modal) {
-    closeModal();
-  }
-});
-
-// 按下 Escape 键关闭弹窗
-window.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') {
-    const modal = document.getElementById('gallery-modal');
-    if (modal.style.display === 'flex') {
-      closeModal();
-    }
-  }
-});
-</script>
