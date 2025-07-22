@@ -189,6 +189,7 @@ h2 {
     <div class="conference-card">IAMCR 2024</div>
     <div class="conference-card">Mobile Studies Congress 2023</div>
     <div class="conference-card">ICA 2023</div>
+    <div class="conference-card">2022 SJTU-ICA Forum</div>
 </div>
 <div id="popup-modal" class="modal-overlay">
     <div class="modal-content">
