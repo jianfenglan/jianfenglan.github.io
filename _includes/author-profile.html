@@ -44,7 +44,7 @@
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}" itemprop="email">
-            Email
+      {{ author.email_label | default: "Email" }}
           </a>
         </li>
       {% endif %}
@@ -59,14 +59,15 @@
        {% if author.orcid %}
         <li>
           <a href="{{ author.orcid }}">
-            ORCID</a>
+      {{ author.orcid_label | default: "ORCID" }}
+          </a>
         </li>
       {% endif %}
       
       {% if author.googlescholar %}
         <li>
           <a href="{{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            Google Scholar
+      {{ author.googlescholar_label | default: "Google Scholar" }}
           </a>
         </li>
       {% endif %}
