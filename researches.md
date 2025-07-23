@@ -2,6 +2,8 @@
 title: ""
 permalink: /researches/
 author_profile: true
+header:
+  overlay_image: /images/accept.jpg
 ---
 
 <style>
