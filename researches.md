@@ -2,8 +2,6 @@
 title: ""
 permalink: /researches/
 author_profile: true
-header:
-  overlay_image: /images/accept.jpg
 ---
 
 <style>
@@ -107,7 +105,7 @@ h2 {
     }
 }
 </style>
-
+<img src="/images/accept.jpg" alt="accept">
 <h2>Journal Articles</h2>
 <div class="publication-list">
     <div class="publication-card">
