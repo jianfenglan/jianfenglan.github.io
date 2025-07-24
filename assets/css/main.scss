@@ -7,7 +7,7 @@
 // ===================================================================
 
 // 1. 定义全局字体堆栈
-$sans-serif: "Avenir", "Helvetica Neue", "PingFang SC", "Dengxian", sans-serif;
+$sans-serif: "Inter", "Source Han Sans SC", "PingFang SC", "Dengxian", sans-serif;
 
 // 2. 调整整体布局宽度
 $max-width: 1800px;
@@ -32,13 +32,13 @@ $max-width: 1800px;
 // 对于大部分文本，包括导航、侧边栏和正文，应用 Light 字重
 body {
   font-family: $sans-serif; // 确保应用你定义的字体堆栈
-  font-weight: 300; // Light 字重
+  font-weight: 200; // Light 字重
 }
 
 // 如果希望某些地方使用 Extra Light (Ultra Light) 字重，可以专门指定
 // 例如，如果你想让导航栏的文字更细，可以这样添加：
 .masthead__menu-item a {
-  font-weight: 300; // Extra Light (Ultra Light) 字重
+  font-weight: 200; // Extra Light (Ultra Light) 字重
 }
 
 // ===================================================================
