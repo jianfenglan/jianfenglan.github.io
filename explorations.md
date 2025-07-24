@@ -9,7 +9,7 @@ author_profile: true
 .epigraph {
   text-align: center; /* 居中对齐 */
   margin-bottom: 2.5rem; /* 与下方内容的间距 */
-  font-weight: 300; /* 使用更细的字重 */
+  font-weight: 200; /* 使用更细的字重 */
   color: #555; /* 使用深灰色，比纯黑更柔和 */
 }
 
@@ -55,7 +55,7 @@ author_profile: true
     font-size: 0.95em;
     line-height: 1.8;
     color: #333;
-    font-weight: 300;
+    font-weight: 200;
     text-align: right;
 }
 </style>
