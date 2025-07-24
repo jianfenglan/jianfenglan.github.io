@@ -44,7 +44,7 @@ body {
 .publication-card::before {
     counter-increment: pub-counter;
     content: counter(pub-counter) ".";
-    font-weight: 300;
+    font-weight: 200;
     font-size: 0.95em;
     color: #333;
     min-width: 2em;
@@ -59,18 +59,18 @@ body {
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 0.95em;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 /* 作者高亮 */
 .my-name {
     color: #002FA7;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 /* 小标题美化 */
 h2 {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.1em;
     margin-top: 2rem;
 }
@@ -89,7 +89,7 @@ h2 {
     border-radius: 12px;
     padding: 0.5rem 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 0.95em;
     line-height: 1.6;
 }
