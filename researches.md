@@ -147,18 +147,16 @@ h2 {
 <h2>Conference Presentations</h2>
 <div class="conference-grid">
     <div class="conference-card">111th NCA</div>
-    <div class="conference-card">JSF-PCST Tokyo</div>
+    <div class="conference-card">JSF-PCST Tokyo 2025</div>
     <div class="conference-card">4S 2025</div>
     <div class="conference-card">108th AEJMC</div>
     <div class="conference-card">IAMCR 2025</div>
     <div class="conference-card">75th ICA</div>
     <div class="conference-card">PCST-Suzhou 2024</div>
     <div class="conference-card">110th NCA</div>
-    <div class="conference-card">第五届公共传播学术论坛</div>
     <div class="conference-card">74th ICA</div>
     <div class="conference-card">21st CIRC</div>
     <div class="conference-card">SICSS-Singapore 2024</div>
-    <div class="conference-card">重庆大学首届“弘毅学术论坛”</div>
     <div class="conference-card">Mobile Studies Congress 2023</div>
     <div class="conference-card">73rd ICA</div>
     <div class="conference-card">2022 SJTU-ICA Forum</div>
