@@ -11,18 +11,18 @@ redirect_from:
 /* 为主页内容定义一个容器样式 */
 .main-content {
   font-size: 0.95rem; /* 设置统一的字体大小 */
-  font-weight: 200;   /* 设置为 Ultra Light 字重 */
+  font-weight: 400;   /* 设置为 Ultra Light 字重 */
   line-height: 1.8;   /* 增加行高，让文本更易读 */
 }
 
 /* 如果主页上的名字或特定短语被 Markdown 或模板默认加粗，可以强制取消 */
 strong {
-  font-weight: 200 !important; /* 强制设置为 Ultra Light */
+  font-weight: 400 !important; /* 强制设置为 Ultra Light */
 }
 
 /* 如果主页有其他 H 标签（h1, h2, h3等）且想设置为 Ultra Light */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200; /* 设置标题为 Ultra Light 字重 */
+  font-weight: 400; /* 设置标题为 Ultra Light 字重 */
 }
 
 /* 新增：为特定链接定义的克莱因蓝样式 */
