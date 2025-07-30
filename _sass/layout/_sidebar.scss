@@ -219,18 +219,18 @@
     /* 继承父元素的居中对齐，如果想让链接列表靠左，可以取消下面这行注释 */
     /* text-align: left; */
   }
-
+   
   a {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px; // <-- 修改点2：减小下方间距
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
     font-size: 0.85rem;
     text-decoration: none;
-   line-height: 1.8;
-    font-weight: 200;
+    line-height: 1.5; // <-- 修改点2：减小行高
+    font-weight: 400; // <-- 修改点1：统一到正常粗细
 
     &:hover {
       text-decoration: underline;
