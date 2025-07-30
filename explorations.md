@@ -9,7 +9,7 @@ author_profile: true
 .epigraph {
   text-align: center; /* 居中对齐 */
   margin-bottom: 2.5rem; /* 与下方内容的间距 */
-  font-weight: 400; /* 使用更细的字重 */
+  font-weight: 400; 
   color: #555; /* 使用深灰色，比纯黑更柔和 */
 }
 
@@ -39,7 +39,19 @@ author_profile: true
     object-fit: cover;
     display: block;
     height: auto;
+    /* --- 新增修改点 开始 --- */
+    filter: grayscale(100%); /* 1. 默认设置为黑白 */
+    transition: filter 0.4s ease; /* 2. 添加平滑过渡效果 */
+    /* --- 新增修改点 结束 --- */
 }
+
+/* --- 新增CSS规则 开始 --- */
+/* 3. 鼠标悬停在卡片上时，图片恢复彩色 */
+.gallery-card:hover img {
+    filter: grayscale(0%);
+}
+/* --- 新增CSS规则 结束 --- */
+
 
 /* 标题文字样式优化 */
 .gallery-caption {
