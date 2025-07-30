@@ -137,7 +137,6 @@ h2 {
             Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em>（*Corresponding author）
         </div>
     </div>
-</div>
     <div class="publication-card">
         <div class="publication-content">
             <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image. <em>arXiv preprint arXiv:2507.17755.</em>
