@@ -5,13 +5,6 @@ author_profile: true
 ---
 
 <style>
-/* 为引言添加的古典样式 */
-.epigraph {
-  text-align: center; /* 居中对齐 */
-  margin-bottom: 2.5rem; /* 与下方内容的间距 */
-  font-weight: 400; 
-  color: #555; /* 使用深灰色，比纯黑更柔和 */
-}
 
 /* 强制拓宽页面主内容区域 */
 .page__inner-wrap {
@@ -71,8 +64,6 @@ author_profile: true
     text-align: right;
 }
 </style>
-
-<p class="epigraph">“One’s destination is never a place, but a new way of seeing things.”</p>
 
 <div class="gallery-grid">
 
