@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /researches/
+permalink: /academia/
 author_profile: true
 ---
 
