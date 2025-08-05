@@ -149,7 +149,7 @@ h2 {
     <div class="conference-card">111th NCA</div>
     <div class="conference-card">JSF-PCST Tokyo 2025</div>
     <div class="conference-card">4S 2025</div>
-    <div class="conference-card">108th AEJMC<br>🏆 Top Student Paper</div>
+    <div class="conference-card">108th AEJMC (🏆 Top Student Paper)</div>
     <div class="conference-card">IAMCR 2025</div>
     <div class="conference-card">75th ICA</div>
     <div class="conference-card">PCST-Suzhou 2024</div>
