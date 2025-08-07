@@ -106,6 +106,8 @@ h2 {
 }
 </style>
 
+「Être sur des charbons ardents」
+
 <h2>Journal Articles</h2>
 <div class="publication-list">
     <div class="publication-card">
