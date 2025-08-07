@@ -125,12 +125,17 @@ h2 {
             Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. (*co-first author)
         </div>
     </div>
+</div>
+
+<h2>Book Chapter</h2>
+<div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究, 1</em>(1), 236-266.
         </div>
     </div>
-</div>
+    </div>
+
 
 <h2>Preprints</h2>
 <div class="publication-list">
@@ -151,7 +156,7 @@ h2 {
     <div class="conference-card">111th NCA</div>
     <div class="conference-card">JSF-PCST Tokyo 2025</div>
     <div class="conference-card">4S 2025</div>
-    <div class="conference-card">108th AEJMC / 🏆 Top Student Paper</div>
+    <div class="conference-card">108th AEJMC*</div>
     <div class="conference-card">IAMCR 2025</div>
     <div class="conference-card">75th ICA</div>
     <div class="conference-card">PCST-Suzhou 2024</div>
@@ -163,3 +168,4 @@ h2 {
     <div class="conference-card">73rd ICA</div>
     <div class="conference-card">2022 SJTU-ICA Forum</div>
 </div>
+* = 🏆 Top Student Paper
