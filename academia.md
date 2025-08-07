@@ -167,7 +167,7 @@ h2 {
     <div class="conference-card">111th NCA</div>
     <div class="conference-card">JSF-PCST Tokyo 2025</div>
     <div class="conference-card">4S 2025</div>
-    <div class="conference-card">108th AEJMC*</div>
+    <div class="conference-card">108th AEJMC 🏆</div>
     <div class="conference-card">IAMCR 2025</div>
     <div class="conference-card">75th ICA</div>
     <div class="conference-card">PCST-Suzhou 2024</div>
@@ -179,4 +179,3 @@ h2 {
     <div class="conference-card">73rd ICA</div>
     <div class="conference-card">2022 SJTU-ICA Forum</div>
 </div>
-* = 🏆 Top Student Paper
