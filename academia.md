@@ -104,9 +104,20 @@ h2 {
         font-size: 0.85em;
     }
 }
+
+ .quote-style {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  color: #002fa7; /* 克莱因蓝 */
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 1.5rem;
+}
 </style>
 
-「Être sur des charbons ardents」
+<div class="quote-style">
+  <em>「Être sur des charbons ardents」</em>
+</div>
 
 <h2>Journal Articles</h2>
 <div class="publication-list">
