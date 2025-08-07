@@ -63,9 +63,21 @@ author_profile: true
     font-weight: 400;
     text-align: right;
 }
+
+    .quote-style {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  color: #002fa7; /* 克莱因蓝 */
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 1.5rem;
+}
+
 </style>
 
-「Gespannt wie eine Flitzebogen」
+<div class="quote-style">
+  <em>「Gespannt wie ein Flitzebogen」</em>
+</div>
 
 <div class="gallery-grid">
 
