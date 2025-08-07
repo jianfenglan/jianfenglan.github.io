@@ -69,7 +69,7 @@ author_profile: true
   font-style: italic;
   color: #002fa7; /* 克莱因蓝 */
   text-align: center;
-  font-size: 1.4em;
+  font-size: 0.95em;
   margin-top: 1.5rem;
 }
 
