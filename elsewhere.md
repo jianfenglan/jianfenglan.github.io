@@ -65,6 +65,8 @@ author_profile: true
 }
 </style>
 
+「Gespannt wie eine Flitzebogen」
+
 <div class="gallery-grid">
 
   <div class="gallery-card">
