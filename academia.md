@@ -138,7 +138,7 @@ h2 {
     </div>
 </div>
 
-<h2>Book Chapter</h2>
+<h2>Book Chapters</h2>
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
