@@ -126,7 +126,6 @@ h2 {
             Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>.(Accepted)（*Corresponding author）
         </div>
     </div>
-<div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2025). 从“机事”到“机心”：与智能技术的深度意义交互及当代青年的数字生命观形成. <em>新闻与传播研究, 32</em>(6), 17-29.
@@ -139,7 +138,7 @@ h2 {
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y.*, <span class="my-name">Lan, J.</span>*, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. (*co-first author)
+            Mou, Y.†, <span class="my-name">Lan, J.</span>†, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. († co-first author)
         </div>
     </div>
 </div>
