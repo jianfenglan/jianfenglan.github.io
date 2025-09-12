@@ -123,7 +123,7 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>.(Accepted)（*Corresponding author）
+            Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>.(Accepted)(*Corresponding author)
         </div>
     </div>
     <div class="publication-card">
@@ -138,7 +138,7 @@ h2 {
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y.†, <span class="my-name">Lan, J.</span>†, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. († co-first author)
+            Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. (Co-first author with Mou Y.)
         </div>
     </div>
 </div>
@@ -157,7 +157,7 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em>（*Corresponding author）
+            Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em>(*Corresponding author)
         </div>
     </div>
     <div class="publication-card">
