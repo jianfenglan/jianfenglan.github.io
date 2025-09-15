@@ -143,6 +143,15 @@ h2 {
     </div>
 </div>
 
+<h2>Book Reviews</h2>
+<div class="publication-list">
+    <div class="publication-card">
+        <div class="publication-content">
+         <span class="my-name">Lan, J.</span>. (2025). Book Review:Person, Thing, Robot.
+        </div>
+    </div>
+    </div>
+
 <h2>Book Chapters</h2>
 <div class="publication-list">
     <div class="publication-card">
@@ -170,17 +179,17 @@ h2 {
 <h2>Conference Presentations</h2>
 <div class="conference-grid">
     <div class="conference-card">NCA 2025</div>
-    <div class="conference-card">JSF-PCST Tokyo 2025</div>
     <div class="conference-card">4S 2025</div>
     <div class="conference-card">AEJMC 2025 🏆</div>
     <div class="conference-card">IAMCR 2025</div>
     <div class="conference-card">ICA 2025</div>
-    <div class="conference-card">PCST-Suzhou 2024</div>
     <div class="conference-card">NCA 2024</div>
     <div class="conference-card">ICA 2024</div>
-    <div class="conference-card">CIRC 2024</div>
-    <div class="conference-card">SICSS-Singapore 2024</div>
-    <div class="conference-card">Mobile Studies Congress 2023</div>
     <div class="conference-card">ICA 2023</div>
-    <div class="conference-card">SJTU-ICA Forum 2022</div>
 </div>
+
+<h2>Professional Training</h2>
+<div class="conference-grid">
+    <div class="conference-card">Summer Institute in Computational Social Science——Singapore 2024</div>
+</div>
+
