@@ -127,7 +127,7 @@ author_profile: true
   </div>
 
   <div class="gallery-card">
-    <img src="{{ '/images/Bluemoutains.jpeg' | relative_url }}">
+    <img src="{{ '/images/Bluemoutains.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Blue Mountains<br>June, 2024</h3></div>
   </div>
   
