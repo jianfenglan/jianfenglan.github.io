@@ -107,8 +107,8 @@ author_profile: true
   </div>
 
   <div class="gallery-card">
-    <img src="{{ '/images/Macau.jpeg' | relative_url }}">
-    <div class="gallery-caption"><h3>Macau<br>January, 2025</h3></div>
+    <img src="{{ '/images/Macao.jpg' | relative_url }}">
+    <div class="gallery-caption"><h3>Macao<br>January, 2025</h3></div>
   </div>
 
   <div class="gallery-card">
@@ -118,12 +118,17 @@ author_profile: true
 
   <div class="gallery-card">
     <img src="{{ '/images/Huangshan.JPG' | relative_url }}">
-    <div class="gallery-caption"><h3>Huangshan<br>July, 2024</h3></div>
+    <div class="gallery-caption"><h3>Yellow Mountains(Huangshan)<br>July, 2024</h3></div>
   </div>
 
   <div class="gallery-card">
-    <img src="{{ '/images/Muztagata.jpeg' | relative_url }}">
+    <img src="{{ '/images/Muztagata.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Muztagata<br>July, 2024</h3></div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="{{ '/images/Bluemoutains.jpeg' | relative_url }}">
+    <div class="gallery-caption"><h3>Blue Mountains<br>June, 2024</h3></div>
   </div>
   
   <div class="gallery-card">
