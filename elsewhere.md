@@ -118,7 +118,7 @@ author_profile: true
 
   <div class="gallery-card">
     <img src="{{ '/images/Huangshan.JPG' | relative_url }}">
-    <div class="gallery-caption"><h3>Yellow Mountains(Huangshan)<br>July, 2024</h3></div>
+    <div class="gallery-caption"><h3>Yellow Mountains (Huangshan)<br>July, 2024</h3></div>
   </div>
 
   <div class="gallery-card">
