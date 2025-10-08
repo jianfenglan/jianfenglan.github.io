@@ -80,7 +80,12 @@ author_profile: true
 </div>
 
 <div class="gallery-grid">
-
+ 
+<div class="gallery-card">
+    <img src="{{ '/images/Hukou.jpeg' | relative_url }}">
+    <div class="gallery-caption"><h3>Hukou Waterfall<br>October, 2025</h3></div>
+  </div>
+  
   <div class="gallery-card">
     <img src="{{ '/images/Osaka.jpg' | relative_url }}">
     <div class="gallery-caption"><h3>Osaka<br>April, 2025</h3></div>
@@ -112,6 +117,16 @@ author_profile: true
   </div>
 
   <div class="gallery-card">
+    <img src="{{ '/images/Huangshan.JPG' | relative_url }}">
+    <div class="gallery-caption"><h3>Huangshan<br>July, 2024</h3></div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="{{ '/images/Muztagata.jpeg' | relative_url }}">
+    <div class="gallery-caption"><h3>Muztagata<br>July, 2024</h3></div>
+  </div>
+  
+  <div class="gallery-card">
     <img src="{{ '/images/Sydney.jpeg' | relative_url }}">
     <div class="gallery-caption"><h3>Sydney<br>June, 2024</h3></div>
   </div>
@@ -139,6 +154,11 @@ author_profile: true
   <div class="gallery-card">
     <img src="{{ '/images/HK.png' | relative_url }}">
     <div class="gallery-caption"><h3>Hong Kong<br>February, 2024</h3></div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="{{ '/images/Wuzhen.jpeg' | relative_url }}">
+    <div class="gallery-caption"><h3>Wuzhen<br>January, 2024</h3></div>
   </div>
 
   <div class="gallery-card">
