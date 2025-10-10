@@ -147,7 +147,7 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-         <span class="my-name">Lan, J.</span>. (2025). Book Review:Person, Thing, Robot.<em>AI & Society</em>. (Accepted)
+         <span class="my-name">Lan, J.</span>. (2025). Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond. <em>AI & Society</em>. (Accepted)
         </div>
     </div>
     </div>
