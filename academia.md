@@ -190,6 +190,6 @@ h2 {
 
 <h2>Professional Training</h2>
 <div class="conference-grid">
-    <div class="conference-card">Summer Institute in Computational Social Science——Singapore 2024</div>
+    <div class="conference-card">Summer Institute in Computational Social Science—Singapore 2024</div>
 </div>
 
