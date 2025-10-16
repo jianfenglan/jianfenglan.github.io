@@ -34,7 +34,7 @@ body {
     background: #fff;
     border: none;
     border-radius: 16px;
-    padding: 0.8rem 1.2rem; /* <-- 修改这里，减小了上下和左右的内边距 */
+    padding: 0.8rem 1.2rem;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     line-height: 1.75;
     flex-wrap: wrap;
@@ -60,6 +60,21 @@ body {
     word-break: break-word;
     font-size: 0.95em;
     font-weight: 400;
+}
+
+/* 链接样式 */
+.publication-link {
+    display: block;
+    margin-top: 0.4rem;
+    color: #999;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.publication-link:hover {
+    color: #666;
+    text-decoration: underline;
 }
 
 /* 作者高亮 */
@@ -123,22 +138,26 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>.(Accepted)(*Corresponding author)
+            Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>. Advance online publication. (*Corresponding author)
+            <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">https://doi.org/10.1037/ppm0000636</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            牟怡, <span class="my-name">蓝剑锋</span>. (2025). 从“机事”到“机心”：与智能技术的深度意义交互及当代青年的数字生命观形成. <em>新闻与传播研究, 32</em>(6), 17-29.
+            牟怡, <span class="my-name">蓝剑锋</span>. (2025). 从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成. <em>新闻与传播研究, 32</em>(6), 17-29.
+            <a href="https://link.cnki.net/doi/CNKI:SUN:YANJ.0.2025-06-002" class="publication-link" target="_blank">https://link.cnki.net/doi/CNKI:SUN:YANJ.0.2025-06-002</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
             <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>Emerging Media, 3</em>(2), 305-317.
+              <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">https://doi.org/10.1177/27523543251334157</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
             Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. (Co-first author with Mou Y.)
+            <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">https://doi.org/10.1177/14614448231212822</a>
         </div>
     </div>
 </div>
@@ -157,6 +176,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究, 1</em>(1), 236-266.
+             <a href="https://link.cnki.net/doi/CNKI:SUN:ZWCY.0.2023-01-011" class="publication-link" target="_blank">https://link.cnki.net/doi/CNKI:SUN:ZWCY.0.2023-01-011</a>
         </div>
     </div>
     </div>
@@ -167,11 +187,13 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em>(*Corresponding author)
+            <a href="https://doi.org/10.48550/arXiv.2505.01355" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2505.01355</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
             <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image. <em>arXiv preprint arXiv:2507.17755.</em>
+            <a href="https://doi.org/10.48550/arXiv.2507.17755" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2507.17755</a>
         </div>
     </div>
 </div>
@@ -192,4 +214,3 @@ h2 {
 <div class="conference-grid">
     <div class="conference-card">Summer Institute in Computational Social Science—Singapore 2024</div>
 </div>
-
