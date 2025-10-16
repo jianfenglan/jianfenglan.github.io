@@ -145,7 +145,6 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2025). 从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成. <em>新闻与传播研究, 32</em>(6), 17-29.
-            <a href="https://link.cnki.net/doi/CNKI:SUN:YANJ.0.2025-06-002" class="publication-link" target="_blank">https://link.cnki.net/doi/CNKI:SUN:YANJ.0.2025-06-002</a>
         </div>
     </div>
     <div class="publication-card">
@@ -176,7 +175,6 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究, 1</em>(1), 236-266.
-             <a href="https://link.cnki.net/doi/CNKI:SUN:ZWCY.0.2023-01-011" class="publication-link" target="_blank">https://link.cnki.net/doi/CNKI:SUN:ZWCY.0.2023-01-011</a>
         </div>
     </div>
     </div>
