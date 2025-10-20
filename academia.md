@@ -112,35 +112,37 @@ h2 {
     line-height: 1.6;
 }
 
-/* 5. 无编号列表 */
+/* 5. 无编号列表 - 关键修改：从 Grid 改为 Flex，实现内容自适应宽度 */
 .no-counter-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: flex; /* 改为 Flex 布局 */
+    flex-wrap: wrap; /* 允许卡片在一行内并排显示，空间不足时换行 */
+    gap: 1rem; /* 卡片之间的间距 */
     margin-top: 1rem;
 }
 
-/* 无编号卡片样式 */
+/* 无编号卡片样式 - 关键修改：移除 display: flex，让宽度由内容决定 */
 .no-counter-card {
-    display: flex;
-    align-items: flex-start;
+    /* 移除原有的 display: flex; align-items: flex-start; */
     background: #fff;
     border: none;
     border-radius: 16px;
     padding: 0.8rem 1.2rem;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     line-height: 1.75;
+    /* 允许卡片宽度根据内容自适应 */
+    width: auto; 
+    /* 确保内部内容块正确显示 */
+    display: block; 
 }
 
 /* 无编号内容 */
 .no-counter-content {
-    flex: 1;
-    min-width: 0;
+    /* 移除 flex: 1; min-width: 0; 等 Flex 相关属性 */
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 0.95em;
-    font-weight: 400; /* 取消加粗 */
+    font-weight: 400;
 }
 
 /* 第一行/主标题样式：取消加粗，恢复正常字重 */
@@ -270,7 +272,7 @@ h2 {
     </div>
 </div>
 
-<h2>Editorial Duties</h2>
+<h2>Editorial Duty</h2>
 <div class="no-counter-list">
     <div class="no-counter-card">
         <div class="no-counter-content">
@@ -285,6 +287,8 @@ h2 {
         </div>
     </div>
 </div>
+
+
 <h2>Peer Review for Journal</h2>
 <div class="conference-grid">
     <div class="conference-card">New Media & Society</div>
