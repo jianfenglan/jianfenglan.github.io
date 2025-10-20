@@ -147,7 +147,7 @@ h2 {
 .no-counter-content .first-line {
     font-weight: 400; /* 恢复正常字重 */
     display: block;
-    line-height: 1.75; /* 确保行高一致 */
+    line-height: 1.75;
 }
 
 
@@ -270,6 +270,21 @@ h2 {
     </div>
 </div>
 
+<h2>Editorial Duties</h2>
+<div class="no-counter-list">
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Assistant Editor</span>
+            <span class="auxiliary-text">Big Data & Society (2024 January - present)</span>
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Editorial Assistant</span>
+            <span class="auxiliary-text">Emerging Media (2024 January - 2025 May)</span>
+        </div>
+    </div>
+</div>
 <h2>Peer Review for Journal</h2>
 <div class="conference-grid">
     <div class="conference-card">New Media & Society</div>
