@@ -109,6 +109,43 @@ h2 {
     line-height: 1.6;
 }
 
+/* 无编号列表 */
+.no-counter-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* 无编号卡片样式 */
+.no-counter-card {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+    line-height: 1.75;
+}
+
+/* 无编号内容 */
+.no-counter-content {
+    flex: 1;
+    min-width: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 0.95em;
+    font-weight: 400;
+}
+
+/* 第一行加粗 */
+.no-counter-content .first-line {
+    font-weight: 600;
+    display: block;
+}
+
 /* 移动端优化 */
 @media (max-width: 768px) {
     .publication-card {
@@ -117,6 +154,10 @@ h2 {
 
     .conference-card {
         font-size: 0.85em;
+    }
+    
+    .no-counter-card {
+        padding: 1rem;
     }
 }
 
@@ -169,7 +210,7 @@ h2 {
              <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">https://doi.org/10.1007/s00146-025-02693-0</a>
         </div>
     </div>
-    </div>
+</div>
 
 <h2>Book Chapters</h2>
 <div class="publication-list">
@@ -178,8 +219,7 @@ h2 {
             牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究, 1</em>(1), 236-266.
         </div>
     </div>
-    </div>
-
+</div>
 
 <h2>Preprints</h2>
 <div class="publication-list">
@@ -207,6 +247,91 @@ h2 {
     <div class="conference-card">NCA 2024</div>
     <div class="conference-card">ICA 2024</div>
     <div class="conference-card">ICA 2023</div>
+</div>
+
+<h2>Services</h2>
+<div class="no-counter-list">
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Student Committee Chair (2024-2026)</span>
+            Association for Chinese Communication Studies, US
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Graduate Student Representative (2024-2025)</span>
+            Communication and the Future Division, at NCA, US
+        </div>
+    </div>
+</div>
+
+<h2>Peer Review for Journal</h2>
+<div class="conference-grid">
+    <div class="conference-card">New Media & Society</div>
+    <div class="conference-card">Psychology of Popular Media</div>
+    <div class="conference-card">AI & Society</div>
+    <div class="conference-card">Emerging Media</div>
+</div>
+
+<h2>Peer Review for Conference</h2>
+<div class="conference-grid">
+    <div class="conference-card">International Communication Association</div>
+    <div class="conference-card">National Communication Association</div>
+    <div class="conference-card">Association for Education in Journalism and Mass Communication</div>
+    <div class="conference-card">International Association for Media and Communication Research</div>
+    <div class="conference-card">The Network for the Public Communication of Science and Technology</div>
+    <div class="conference-card">Association for Information Systems</div>
+    <div class="conference-card">The Korean American Communication Association</div>
+</div>
+
+<h2>Research Assistant</h2>
+<div class="no-counter-list">
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Shanghai Jiao Tong University</span>
+            Advised by Dr. Yi Mou (2021 September - present)
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Utrecht University (Online)</span>
+            Advised by Dr. Jing Zeng (2023 January - 2024 January)
+        </div>
+    </div>
+</div>
+
+<h2>Teaching Assistant</h2>
+<div class="no-counter-list">
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">New Media and Technological Culture</span>
+            2025 Fall, Fang Wu, Undergraduate Level
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Quantitative Research Method (JC6504)</span>
+            2024 Fall, Yi Mou, Doctoral level
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Human-Machine Communication (JC8209)</span>
+            2023/2025 Spring, Yi Mou, Master level
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Qualitative Research Method (JC6012)</span>
+            2023 Fall, Fang Wu/Xueqing Li, Master level
+        </div>
+    </div>
+    <div class="no-counter-card">
+        <div class="no-counter-content">
+            <span class="first-line">Introduction to New Media (JC3163)</span>
+            2023/2024 Spring, Yi Mou, Undergraduate Level
+        </div>
+    </div>
 </div>
 
 <h2>Professional Training</h2>
