@@ -261,29 +261,29 @@ h2 {
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Student Committee Chair (2024-2026)</span>
-            <span class="auxiliary-text">Association for Chinese Communication Studies, US</span>
+            <span class="auxiliary-text">Association for Chinese Communication Studies</span>
         </div>
     </div>
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Graduate Student Representative (2024-2025)</span>
-            <span class="auxiliary-text">Communication and the Future Division, at NCA, US</span>
+            <span class="auxiliary-text">Communication and the Future Division, at NCA</span>
         </div>
     </div>
 </div>
 
-<h2>Editorial Duty</h2>
+<h2>Editorial Duties</h2>
 <div class="no-counter-list">
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Assistant Editor</span>
-            <span class="auxiliary-text">Big Data & Society (2024 January - present)</span>
+            <span class="auxiliary-text">Big Data & Society (Jan. 2024 - present)</span>
         </div>
     </div>
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Editorial Assistant</span>
-            <span class="auxiliary-text">Emerging Media (2024 January - 2025 May)</span>
+            <span class="auxiliary-text">Emerging Media (Jan. 2024 - May 2025)</span>
         </div>
     </div>
 </div>
@@ -313,13 +313,13 @@ h2 {
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Shanghai Jiao Tong University</span>
-            <span class="auxiliary-text">Advised by Dr. Yi Mou (2021 September - present)</span>
+            <span class="auxiliary-text">Advised by Dr.Yi Mou (Sep. 2021 - present)</span>
         </div>
     </div>
     <div class="no-counter-card">
         <div class="no-counter-content">
             <span class="first-line">Utrecht University (Online)</span>
-            <span class="auxiliary-text">Advised by Dr. Jing Zeng (2023 January - 2024 January)</span>
+            <span class="auxiliary-text">Advised by Dr.Jing Zeng (Jan. 2023 - Jan. 2024)</span>
         </div>
     </div>
 </div>
