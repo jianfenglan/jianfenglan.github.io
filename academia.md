@@ -14,7 +14,6 @@ author_profile: true
 body {
     font-size: 0.95em;
     line-height: 1.75;
-    /* 确保 body 级别的文本不加粗 */
     font-weight: 400;
 }
 
@@ -22,10 +21,10 @@ body {
 .publication-link, 
 .auxiliary-text {
     color: #999;
-    font-size: 0.9em; /* 辅助信息字体可以略小 */
+    font-size: 0.9em;
     text-decoration: none;
     transition: color 0.2s ease;
-    display: block; /* 确保辅助文本独立一行 */
+    display: block;
     margin-top: 0.2rem;
     line-height: 1.6;
 }
@@ -84,13 +83,39 @@ h2 {
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 0.95em;
-    font-weight: 400; /* 取消加粗 */
+    font-weight: 400;
+}
+
+/* 新增：论文标题样式 */
+.publication-title {
+    display: block;
+    margin-bottom: 0.3rem;
+    line-height: 1.75;
+}
+
+/* 新增：作者行样式 */
+.publication-authors {
+    display: block;
+    line-height: 1.75;
+    margin-bottom: 0.3rem;
+}
+
+/* 新增：期刊信息行样式 */
+.publication-venue {
+    display: block;
+    line-height: 1.75;
 }
 
 /* 作者高亮：保持原有样式 */
 .my-name {
     color: #002FA7;
     font-weight: 400;
+}
+
+/* 新增：inline 辅助文本样式（用于通讯作者和共同一作标记）*/
+.auxiliary-text-inline {
+    color: #999;
+    font-size: 0.9em;
 }
 
 /* 4. Conference/Review 卡片样式：确保内容不加粗 */
@@ -107,37 +132,33 @@ h2 {
     border-radius: 12px;
     padding: 0.5rem 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-    font-weight: 400; /* 取消加粗 */
+    font-weight: 400;
     font-size: 0.95em;
     line-height: 1.6;
 }
 
-/* 5. 无编号列表 - 关键修改：从 Grid 改为 Flex，实现内容自适应宽度 */
+/* 5. 无编号列表 */
 .no-counter-list {
-    display: flex; /* 改为 Flex 布局 */
-    flex-wrap: wrap; /* 允许卡片在一行内并排显示，空间不足时换行 */
-    gap: 1rem; /* 卡片之间的间距 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 1rem;
 }
 
-/* 无编号卡片样式 - 关键修改：移除 display: flex，让宽度由内容决定 */
+/* 无编号卡片样式 */
 .no-counter-card {
-    /* 移除原有的 display: flex; align-items: flex-start; */
     background: #fff;
     border: none;
     border-radius: 16px;
     padding: 0.8rem 1.2rem;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     line-height: 1.75;
-    /* 允许卡片宽度根据内容自适应 */
     width: auto; 
-    /* 确保内部内容块正确显示 */
     display: block; 
 }
 
 /* 无编号内容 */
 .no-counter-content {
-    /* 移除 flex: 1; min-width: 0; 等 Flex 相关属性 */
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -147,11 +168,10 @@ h2 {
 
 /* 第一行/主标题样式：取消加粗，恢复正常字重 */
 .no-counter-content .first-line {
-    font-weight: 400; /* 恢复正常字重 */
+    font-weight: 400;
     display: block;
     line-height: 1.75;
 }
-
 
 /* 6. 移动端优化 */
 @media (max-width: 768px) {
@@ -171,7 +191,7 @@ h2 {
 .quote-style {
     font-family: 'Times New Roman', serif;
     font-style: italic;
-    color: #002fa7; /* 克莱因蓝 */
+    color: #002fa7;
     text-align: center;
     font-size: 0.95em;
     margin-top: 1.5rem;
@@ -186,24 +206,32 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            Huang, Y., <span class="my-name">Lan, J.*</span> (2025). Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions. <em>Psychology of Popular Media</em>. Advance online publication. <span class="auxiliary-text">(*Corresponding author)</span>
+            <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
+            <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span> <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
+            <span class="publication-venue"><em>Psychology of Popular Media</em>. Advance online publication.</span>
             <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">https://doi.org/10.1037/ppm0000636</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            牟怡, <span class="my-name">蓝剑锋</span>. (2025). 从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成. <em>新闻与传播研究, 32</em>(6), 17-29.
+            <span class="publication-title">从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成.</span>
+            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>. 2025.</span>
+            <span class="publication-venue"><em>新闻与传播研究</em> 32(6): 17-29.</span>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self-presentation in Human–AI Relationships. <em>Emerging Media, 3</em>(2), 305-317.
-              <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">https://doi.org/10.1177/27523543251334157</a>
+            <span class="publication-title">Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y. 2025.</span>
+            <span class="publication-venue"><em>Emerging Media</em> 3(2): 305-317.</span>
+            <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">https://doi.org/10.1177/27523543251334157</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2023). Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach. <em>New Media & Society, 27</em>(5), 2684-2702. <span class="auxiliary-text">(Co-first author with Mou Y.)</span>
+            <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</span>
+            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. <span class="auxiliary-text-inline">(Co-first author with Mou Y.)</span> 2023.</span>
+            <span class="publication-venue"><em>New Media & Society</em> 27(5): 2684-2702.</span>
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">https://doi.org/10.1177/14614448231212822</a>
         </div>
     </div>
@@ -213,8 +241,10 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-           <span class="my-name">Lan, J.</span> (2025). Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond. <em>AI & Society</em>. Advance online publication.
-                <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">https://doi.org/10.1007/s00146-025-02693-0</a>
+            <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.</span> 2025.</span>
+            <span class="publication-venue"><em>AI & Society</em>. Advance online publication.</span>
+            <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">https://doi.org/10.1007/s00146-025-02693-0</a>
         </div>
     </div>
 </div>
@@ -223,7 +253,9 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象: 基于实验研究的实然探讨. <em>中国网络传播研究, 1</em>(1), 236-266.
+            <span class="publication-title">机器写作中的性别刻板印象: 基于实验研究的实然探讨.</span>
+            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>. 2023.</span>
+            <span class="publication-venue"><em>中国网络传播研究</em> 1(1): 236-266.</span>
         </div>
     </div>
 </div>
@@ -232,13 +264,17 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. (2025). Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations. <em>arXiv preprint arXiv:2505.01355.</em><span class="auxiliary-text">(*Corresponding author)</span>
+            <span class="publication-title">Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations.</span>
+            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
+            <span class="publication-venue"><em>arXiv preprint arXiv:2505.01355.</em></span>
             <a href="https://doi.org/10.48550/arXiv.2505.01355" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2505.01355</a>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            <span class="my-name">Lan, J.</span>, Huang, Y. (2025). Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image. <em>arXiv preprint arXiv:2507.17755.</em>
+            <span class="publication-title">Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y. 2025.</span>
+            <span class="publication-venue"><em>arXiv preprint arXiv:2507.17755.</em></span>
             <a href="https://doi.org/10.48550/arXiv.2507.17755" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2507.17755</a>
         </div>
     </div>
@@ -287,7 +323,6 @@ h2 {
         </div>
     </div>
 </div>
-
 
 <h2>Peer Review for Journal</h2>
 <div class="conference-grid">
