@@ -207,7 +207,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
-            <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span> <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
+            <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.,*</span> <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
             <span class="publication-venue"><em>Psychology of Popular Media</em>. Advance online publication.</span>
             <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">https://doi.org/10.1037/ppm0000636</a>
         </div>
@@ -215,14 +215,14 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成.</span>
-            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>. 2025.</span>
+            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>, 2025.</span>
             <span class="publication-venue"><em>新闻与传播研究</em> 32(6): 17-29.</span>
         </div>
     </div>
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.</span>
-            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y. 2025.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y., 2025.</span>
             <span class="publication-venue"><em>Emerging Media</em> 3(2): 305-317.</span>
             <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">https://doi.org/10.1177/27523543251334157</a>
         </div>
@@ -230,7 +230,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</span>
-            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. <span class="auxiliary-text-inline">(Co-first author with Mou Y.)</span> 2023.</span>
+            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y., <span class="auxiliary-text-inline">(Co-first author with Mou Y.)</span> 2023.</span>
             <span class="publication-venue"><em>New Media & Society</em> 27(5): 2684-2702.</span>
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">https://doi.org/10.1177/14614448231212822</a>
         </div>
@@ -241,8 +241,8 @@ h2 {
 <div class="publication-list">
     <div class="publication-card">
         <div class="publication-content">
-            <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
-            <span class="publication-authors"><span class="my-name">Lan, J.</span> 2025.</span>
+            <span class="publication-title">Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.,</span> 2025.</span>
             <span class="publication-venue"><em>AI & Society</em>. Advance online publication.</span>
             <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">https://doi.org/10.1007/s00146-025-02693-0</a>
         </div>
@@ -254,7 +254,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">机器写作中的性别刻板印象: 基于实验研究的实然探讨.</span>
-            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>. 2023.</span>
+            <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>, 2023.</span>
             <span class="publication-venue"><em>中国网络传播研究</em> 1(1): 236-266.</span>
         </div>
     </div>
@@ -265,7 +265,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Emerging Media Use and Acceptance of Digital Immortality: A Cluster Analysis among Chinese Young Generations.</span>
-            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J. <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
+            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>*, Lu, J., Wang, J., <span class="auxiliary-text-inline">(*Corresponding author)</span> 2025.</span>
             <span class="publication-venue"><em>arXiv preprint arXiv:2505.01355.</em></span>
             <a href="https://doi.org/10.48550/arXiv.2505.01355" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2505.01355</a>
         </div>
@@ -273,7 +273,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image.</span>
-            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y. 2025.</span>
+            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y., 2025.</span>
             <span class="publication-venue"><em>arXiv preprint arXiv:2507.17755.</em></span>
             <a href="https://doi.org/10.48550/arXiv.2507.17755" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2507.17755</a>
         </div>
