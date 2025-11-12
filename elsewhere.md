@@ -82,6 +82,11 @@ author_profile: true
 <div class="gallery-grid">
  
 <div class="gallery-card">
+    <img src="{{ '/images/Tokyo.jpg' | relative_url }}">
+    <div class="gallery-caption"><h3>Tokyo<br>November, 2025</h3></div>
+  </div>
+
+  <div class="gallery-card">
     <img src="{{ '/images/Hukou.jpeg' | relative_url }}">
     <div class="gallery-caption"><h3>Hukou Waterfall<br>October, 2025</h3></div>
   </div>
