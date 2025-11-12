@@ -61,13 +61,13 @@ author_profile: true
     font-size: 0.95em;
     margin: 0 0 0.5rem;
     color: #333;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .news-content .meta {
     font-size: 0.85em;
     color: #333;
-    font-weight: 300; /* Adjusted to 300 for consistency */
+    font-weight: 400; /* Adjusted to 300 for consistency */
 }
 
 .news-content p {
@@ -76,7 +76,7 @@ author_profile: true
     color: #333;
     margin-bottom: 1em;
     text-align: justify;
-    font-weight: 300; /* Adjusted to 300 for consistency */
+    font-weight: 400; 
 }
 
 .news-content p:last-of-type {
@@ -125,12 +125,12 @@ author_profile: true
 
 #modal-meta {
     margin-bottom: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* 新增：为弹窗正文中的 p 标签设置字重 */
 #modal-body p {
-    font-weight: 300; /* Adjusted to 300 for consistency */
+    font-weight: 400; 
 }
 
 .modal-overlay.show .modal-content {
@@ -165,6 +165,34 @@ author_profile: true
 
 <div class="news-list">
 
+<div class="news-card" onclick="openModal(this)" data-title="PCST-Tokyo Symposium 2025" data-meta="November 11, 2025 | Tokyo" data-content="<p>My journey brought me to Tokyo, Japan, for my first time attending the PCST Conference. Together with my collaborator Kelsie, our latest research explores issues of inequality and vulnerability in communication, with a particular focus on East Asian contexts. We were excited to share our ongoing work at this meeting—our first venture into the field of science communication. The organizer provided an excellent environment for thoughtful exchange, with everyone fully engaged in each presentation. <br><br>The Institute of Science Tokyo is such a fascinating place, and I truly hope to return to Japan for more conferences in the future.</p>">
+    <div class="news-content">
+        <h3>PCST-Tokyo Symposium 2025</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/PCSTtokyo.JPG' | relative_url }}">
+    </div>
+</div>
+
+
+<div class="news-card" onclick="openModal(this)" data-title="HKBU Graduate Conference 2025" data-meta="August 12, 2025 | Hong Kong" data-content="<p>I am sincerely grateful to the School of Communication at Hong Kong Baptist University for organizing the conference themed “Advancing Responsible AI Communication” and for fully funding my trip to Hong Kong. This marks my third visit to the city, but my first time at HKBU. <br><br>I was delighted to share my latest research on human–AI intimacy at the conference and truly appreciated the insightful feedback and inspiring conversations I received.</p>">
+    <div class="news-content">
+        <h3>HKBU Graduate Conference 2025</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/HKBU25.JPG' | relative_url }}">
+    </div>
+</div>
+
+
+<div class="news-card" onclick="openModal(this)" data-title="AEJMC 2025" data-meta="August 8, 2025 | San Francisco" data-content="<p>I’m deeply honored to receive the Top Student Paper Award from the AEJMC History Division this year. My co-author, Kelsie, deserves immense credit—she contributed greatly, and this recognition truly belongs to her. <br><br>Although I couldn’t attend the conference in person, I’m grateful to my friend Nesh for bringing this precious gift back to Shanghai.</p>">
+    <div class="news-content">
+        <h3>AEJMC 2025</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/AEJMC25.png' | relative_url }}">
+    </div>
+</div>
 
 <div class="news-card" onclick="openModal(this)" data-title="IAMCR 2025" data-meta="July 15, 2025 | Singapore" data-content="<p>While my physical form was tragically unable to grace the halls of IAMCR 2025 this year, my fantastic colleague and co-author, Jingyi Li, represented us beautifully.<br><br>Maybe next year I'll figure out how to teleport.</p>">
     <div class="news-content">
@@ -203,9 +231,9 @@ author_profile: true
     </div>
 </div>
 
-<div class="news-card" onclick="openModal(this)" data-title="SICSS-Singapore" data-meta="June 7, 2024 | Singapore" data-content="<p>This summer, I'm deeply honored to attend SICSS-Singapore at beautiful National University of Singapore. Five days' talks and discussions were beyond insightful and full of joy. Special thanks to Rongxin and Jinyuan for their host.</p><p>Also, thanks to the speakers' generous sharing about their research, it was so inspiring. I highly recommend signing up for the upcoming SICSS-Singapore event—you won’t regret it.</p>">
+<div class="news-card" onclick="openModal(this)" data-title="SICSS-Singapore 2024" data-meta="June 7, 2024 | Singapore" data-content="<p>This summer, I'm deeply honored to attend SICSS-Singapore at beautiful National University of Singapore. Five days' talks and discussions were beyond insightful and full of joy. Special thanks to Rongxin and Jinyuan for their host.</p><p>Also, thanks to the speakers' generous sharing about their research, it was so inspiring. I highly recommend signing up for the upcoming SICSS-Singapore event—you won’t regret it.</p>">
     <div class="news-content">
-        <h3>SICSS-Singapore</h3>
+        <h3>SICSS-Singapore 2024</h3>
     </div>
     <div class="news-image">
         <img src="{{ '/images/news/SICSS01.JPG' | relative_url }}">
