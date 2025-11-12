@@ -67,7 +67,7 @@ author_profile: true
 .news-content .meta {
     font-size: 0.85em;
     color: #333;
-    font-weight: 400; /* Adjusted to 300 for consistency */
+    font-weight: 400; 
 }
 
 .news-content p {
@@ -120,7 +120,7 @@ author_profile: true
 
 #modal-title {
     margin-bottom: 0.75rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #modal-meta {
