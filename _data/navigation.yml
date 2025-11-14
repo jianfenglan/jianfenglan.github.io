@@ -8,14 +8,13 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "中文"
-    url: /chinese/   
+ # - title: "中文"
+  #  url: /chinese/   
+  - title: "News"
+    url: /news/
     
   - title: "Academia"
     url: /academia/
 
   - title: "Elsewhere"
     url: /elsewhere/    
-        
-  - title: "News"
-    url: /news/
