@@ -270,14 +270,6 @@ h2 {
             <a href="https://doi.org/10.48550/arXiv.2505.01355" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2505.01355</a>
         </div>
     </div>
-    <div class="publication-card">
-        <div class="publication-content">
-            <span class="publication-title">Between Filters and Feeds: Investigating Douyin and WeChat's Influence on Chinese Adolescent Body Image.</span>
-            <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y.</span>
-            <span class="publication-venue"><em>arXiv preprint arXiv:2507.17755.</em> 2025.</span>
-            <a href="https://doi.org/10.48550/arXiv.2507.17755" class="publication-link" target="_blank">https://doi.org/10.48550/arXiv.2507.17755</a>
-        </div>
-    </div>
 </div>
 
 <h2>Conference Presentations</h2>
