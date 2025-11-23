@@ -170,7 +170,7 @@ author_profile: true
         <h3>NCA 2025</h3>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/NCA25.jpg' | relative_url }}">
+        <img src="{{ '/images/news/NCA25.JPG' | relative_url }}">
     </div>
 </div>
 
