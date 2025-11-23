@@ -75,9 +75,6 @@ author_profile: true
 
 </style>
 
-<div class="quote-style">
-  <em>「Gespannt wie ein Flitzebogen」</em>
-</div>
 
 <div class="gallery-grid">
  
