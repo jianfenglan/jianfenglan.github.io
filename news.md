@@ -165,6 +165,15 @@ author_profile: true
 
 <div class="news-list">
 
+<div class="news-card" onclick="openModal(this)" data-title="NCA 2025" data-meta="November 22, 2025 | Denver" data-content="<p>This is my first year serving as the Student Affairs Committee Chair for ACCS at NCA. I joined the business meeting remotely and was delighted to be part of the group photo.<br><br>I feel deeply honored and grateful to have received such tremendous support from both the internal and external communities. I look forward to connecting with you all in the future.</p>">
+    <div class="news-content">
+        <h3>NCA 2025</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/news/NCA25.jpg' | relative_url }}">
+    </div>
+</div>
+
 <div class="news-card" onclick="openModal(this)" data-title="PCST-Tokyo Symposium 2025" data-meta="November 11, 2025 | Tokyo" data-content="<p>My journey brought me to Tokyo, Japan, for my first time attending the PCST Conference. Together with my collaborator Kelsie, our latest research explores issues of inequality and vulnerability in communication, with a particular focus on East Asian contexts. We were excited to share our ongoing work at this meeting—our first venture into the field of science communication. The organizer provided an excellent environment for thoughtful exchange, with everyone fully engaged in each presentation. <br><br>The Institute of Science Tokyo is such a fascinating place, and I truly hope to return to Japan for more conferences in the future.</p>">
     <div class="news-content">
         <h3>PCST-Tokyo Symposium 2025</h3>
