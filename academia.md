@@ -234,7 +234,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders through A Data-mining Approach.</span>
-            <span class="publication-authors">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y., <span class="auxiliary-text-inline">(Co-first author with Mou Y.)</span></span>
+            <span class="publication-authors">Mou, Y.+, <span class="my-name">Lan, J.+</span>, & Huang, Y., <span class="auxiliary-text-inline">(+Co-first author)</span></span>
             <span class="publication-venue"><em>New Media & Society</em>. 2023, 27(5): 2684-2702.</span>
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">https://doi.org/10.1177/14614448231212822</a>
         </div>
@@ -292,21 +292,9 @@ h2 {
     </div>
 </div>
 
-<h2>Peer Review for Journal</h2>
+<h2>Academic Reviewing</h2>
 <div class="conference-grid">
     <div class="conference-card">New Media & Society</div>
     <div class="conference-card">Psychology of Popular Media</div>
     <div class="conference-card">AI & Society</div>
-    <div class="conference-card">Emerging Media</div>
-</div>
-
-<h2>Peer Review for Conference</h2>
-<div class="conference-grid">
-    <div class="conference-card">International Communication Association</div>
-    <div class="conference-card">National Communication Association</div>
-    <div class="conference-card">Association for Education in Journalism and Mass Communication</div>
-    <div class="conference-card">International Association for Media and Communication Research</div>
-    <div class="conference-card">The Network for the Public Communication of Science and Technology</div>
-    <div class="conference-card">Association for Information Systems</div>
-    <div class="conference-card">The Korean American Communication Association</div>
 </div>
