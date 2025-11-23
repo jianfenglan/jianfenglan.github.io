@@ -210,7 +210,7 @@ h2 {
     </div>
     <div class="publication-card">
         <div class="publication-content">
-            <span class="publication-title">Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
+            <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
             <span class="publication-authors"><span class="my-name">Lan, J.</span></span>
             <span class="publication-venue"><em>AI & Society</em>. 2025. Advance online publication.</span>
             <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">https://doi.org/10.1007/s00146-025-02693-0</a>
