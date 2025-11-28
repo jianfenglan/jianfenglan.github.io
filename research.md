@@ -324,7 +324,7 @@ h2 {
             <span class="publication-venue"><em>新闻与传播研究</em> 2025</span>
         </div>
         <div class="publication-image-wrapper">
-             <img src="https://placehold.co/400x260/e0e0e0/999?text=Chinese+Paper" alt="Research Visualization" class="publication-image">
+             <img src="/images/logo/forXWCBYJ.png" alt="Research Visualization" class="publication-image">
         </div>
     </div>
 
@@ -336,7 +336,7 @@ h2 {
             <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
-             <img src="https://placehold.co/400x260/e0e0e0/999?text=Intimacy+Study" alt="Research Visualization" class="publication-image">
+             <img src="/images/logo/forEMM.png" alt="Research Visualization" class="publication-image">
         </div>
     </div>
 
@@ -348,7 +348,7 @@ h2 {
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
-             <img src="https://placehold.co/400x260/e0e0e0/999?text=Data+Mining" alt="Research Visualization" class="publication-image">
+             <img src="/images/logo/forNMS.png" alt="Research Visualization" class="publication-image">
         </div>
     </div>
 
@@ -359,7 +359,7 @@ h2 {
             <span class="publication-venue"><em>中国网络传播研究</em> 2023</span>
         </div>
         <div class="publication-image-wrapper">
-             <img src="https://placehold.co/400x260/e0e0e0/999?text=AI+Writing" alt="Research Visualization" class="publication-image">
+             <img src="/images/logo/forZGWLCB.png" alt="Research Visualization" class="publication-image">
         </div>
     </div>
 </div>
