@@ -313,7 +313,7 @@ h2 {
             <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
-             <img src="https://placehold.co/400x260/e0e0e0/999?text=Book+Review" alt="Book Cover" class="publication-image">
+             <img src="/images/logo/forAISco.png" alt="Book Cover" class="publication-image">
         </div>
     </div>
 
