@@ -46,7 +46,7 @@ body {
 h2 {
     font-weight: 400; 
     font-size: 1.1em;
-    margin-top: 3rem; /* 增加一点间距，让版块分得更开 */
+    margin-top: 3rem; 
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 0.5rem;
@@ -58,7 +58,7 @@ h2 {
 }
 
 /* =========================================
-   2. Publications (左文右图布局 - 加大版)
+   2. Publications (左文右图 - 完整显示版)
    ========================================= */
 .publication-list {
     display: flex;
@@ -73,7 +73,7 @@ h2 {
     align-items: flex-start;
     background: #fff;
     border-radius: 16px;
-    padding: 1.5rem; /* 稍微增加内边距 */
+    padding: 1.5rem;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     position: relative;
     overflow: hidden;
@@ -95,16 +95,16 @@ h2 {
 .publication-content {
     flex: 1;
     min-width: 0;
-    padding-right: 2rem; /* 增加文字和图片的间距 */
+    padding-right: 2rem; 
 }
 
 .publication-title {
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: 500;
+    font-weight: 500; /* 标题保持极轻微的区分度，如果想完全不加粗可改为400 */
     color: #333;
     line-height: 1.6;
-    font-size: 1.05em; /* 稍微加大标题字号 */
+    font-size: 1.05em;
 }
 
 .publication-authors, 
@@ -115,27 +115,30 @@ h2 {
     color: #555;
 }
 
-/* 右侧：图片容器 - 已加大尺寸 */
+/* 右侧：图片容器 - 调整为完整显示 */
 .publication-image-wrapper {
-    width: 320px;  /* 宽度增加 (原200px) */
-    height: 210px; /* 高度增加 (原130px) */
+    /* 设置一个最大宽高度，让图片在里面自适应 */
+    width: 300px;  
+    height: 180px; 
     flex-shrink: 0;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #f9f9f9;
-    border: 1px solid #eee;
+    /* 去掉边框和背景色，让不同比例的图片自然悬浮 */
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start; /* 图片顶部对齐 */
+    justify-content: flex-end; /* 图片靠右对齐 */
 }
 
 .publication-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    /* 关键修改：contain 确保图片完整显示，不裁剪 */
+    object-fit: contain; 
+    object-position: right top; /* 图片靠右上方显示 */
     transition: transform 0.3s ease;
 }
 
 .publication-card:hover .publication-image {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 /* =========================================
@@ -166,19 +169,26 @@ h2 {
 }
 
 .conference-logo {
-    width: 28px; /* 稍微调大一点点 */
+    width: 28px;
     height: 28px;
     object-fit: contain;
 }
 
+/* 去除服务部分可能存在的加粗 */
+.conference-card span, 
+.conference-card div,
+.conference-card strong {
+    font-weight: 400 !important;
+}
+
 /* =========================================
-   4. Editorial & Reviewing (大图卡片模式)
+   4. Editorial & Reviewing (精致小卡片模式)
    ========================================= */
 .gallery-grid {
     display: grid;
-    /* 增加最小宽度，让卡片看起来更像竖版海报 */
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
-    gap: 2rem;
+    /* 减小最小宽度(220->160)，让卡片变小 */
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+    gap: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -188,7 +198,7 @@ h2 {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* 关键：去掉padding，隐藏溢出，实现满出血 */
+    overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -197,29 +207,30 @@ h2 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* 新增：图片包裹层，强制固定高度 */
+/* 图片包裹层：高度减小，背景改白 */
 .gallery-image-wrapper {
     width: 100%;
-    height: 280px; /* 设定一个较高的固定高度，放置封面 */
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #f0f0f0;
+    height: 200px; /* 高度减小 (原280px)，显得更精致 */
+    background-color: #fff; /* 改为白色背景，避免未填满时显示灰色 */
     position: relative;
+    padding-top: 1rem; /* 给顶部一点呼吸空间 */
 }
 
 .gallery-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 填满容器，这要求图片尽量是高清竖版 */
-    object-position: top center; /* 从顶部开始显示，防止切掉封面标题 */
+    /* 关键修改：contain 确保期刊封面完整显示 */
+    object-fit: contain; 
+    object-position: center;
     display: block;
 }
 
-/* 新增：文字内容区域，因为卡片没有padding了，这里需要单独加 */
+/* 文字内容区域 */
 .gallery-content {
-    padding: 1.2rem;
+    padding: 1rem;
     text-align: center;
     background: #fff;
-    flex: 1; /* 撑满剩余高度 */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,8 +238,9 @@ h2 {
 
 .gallery-title {
     display: block;
-    font-weight: 600;
-    margin-bottom: 0.4rem;
+    /* 去除加粗 */
+    font-weight: 400; 
+    margin-bottom: 0.2rem;
     line-height: 1.4;
     color: #333;
 }
@@ -255,19 +267,25 @@ h2 {
     }
 
     .publication-image-wrapper {
-        width: 100%; /* 移动端全宽 */
-        height: 200px; /* 保持适度高度 */
+        width: 100%; 
+        height: auto; /* 高度自适应 */
+        max-height: 200px;
         margin-bottom: 1.2rem;
+        justify-content: center; /* 移动端居中 */
     }
     
-    /* Editorial: 移动端每行显示两个或者一个，视情况自动调整 */
+    .publication-image {
+        object-position: center;
+    }
+    
+    /* Editorial: 移动端适配 */
     .gallery-grid {
-         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+         grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
          gap: 1rem;
     }
     
     .gallery-image-wrapper {
-        height: 220px; /* 移动端稍微调小一点封面高度 */
+        height: 180px; 
     }
 }
 </style>
@@ -280,7 +298,7 @@ h2 {
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
             <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.,*</span> <span class="auxiliary-text-inline">(*Corresponding author)</span></span>
             <span class="publication-venue"><em>Psychology of Popular Media</em> 2025</span>
-            <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">DOI Link</a>
+            <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
             <img src="/images/logo/forPPM.png" alt="Visualization" class="publication-image">
@@ -292,7 +310,7 @@ h2 {
             <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
             <span class="publication-authors"><span class="my-name">Lan, J.</span></span>
             <span class="publication-venue"><em>AI & Society</em> 2025</span>
-            <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">DOI Link</a>
+            <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
              <img src="https://placehold.co/400x260/e0e0e0/999?text=Book+Review" alt="Book Cover" class="publication-image">
@@ -315,7 +333,7 @@ h2 {
             <span class="publication-title">Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.</span>
             <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y.</span>
             <span class="publication-venue"><em>Emerging Media</em> 2025</span>
-            <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">DOI Link</a>
+            <a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
              <img src="https://placehold.co/400x260/e0e0e0/999?text=Intimacy+Study" alt="Research Visualization" class="publication-image">
@@ -327,7 +345,7 @@ h2 {
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders.</span>
             <span class="publication-authors">Mou, Y.+, <span class="my-name">Lan, J.+</span>, & Huang, Y., <span class="auxiliary-text-inline">(+Co-first author)</span></span>
             <span class="publication-venue"><em>New Media & Society</em> 2023</span>
-            <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">DOI Link</a>
+            <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
              <img src="https://placehold.co/400x260/e0e0e0/999?text=Data+Mining" alt="Research Visualization" class="publication-image">
@@ -387,14 +405,14 @@ h2 {
     <div class="conference-card" style="width: auto;"> 
         <img src="/images/logo/ACCS.png" class="conference-logo">
         <div>
-            <strong>Student Committee Chair</strong>
+            <span>Student Committee Chair</span>
             <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
         </div>
     </div>
     <div class="conference-card" style="width: auto;">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <div>
-            <strong>Graduate Student Representative</strong>
+            <span>Graduate Student Representative</span>
             <div style="font-size:0.85em; color:#888;">Communication and the Future Division, NCA</div>
         </div>
     </div>
