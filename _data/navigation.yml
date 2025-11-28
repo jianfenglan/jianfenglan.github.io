@@ -13,8 +13,8 @@ main:
   - title: "News"
     url: /news/
     
-  - title: "Academia"
-    url: /academia/
+  - title: "Research"
+    url: /research/
 
   - title: "Elsewhere"
     url: /elsewhere/    
