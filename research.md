@@ -29,7 +29,7 @@ body {
 }
 
 .publication-link {
-    display: inline-block; /* 改为 inline-block 以便更好排版 */
+    display: inline-block;
     margin-top: 0.2rem;
 }
 
@@ -46,9 +46,9 @@ body {
 h2 {
     font-weight: 400; 
     font-size: 1.1em;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #f0f0f0; /* 加个淡淡的下划线区分区块 */
+    margin-top: 3rem; /* 增加一点间距，让版块分得更开 */
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #f0f0f0;
     padding-bottom: 0.5rem;
 }
 
@@ -58,7 +58,7 @@ h2 {
 }
 
 /* =========================================
-   2. Publications (左文右图布局)
+   2. Publications (左文右图布局 - 加大版)
    ========================================= */
 .publication-list {
     display: flex;
@@ -69,14 +69,14 @@ h2 {
 
 .publication-card {
     display: flex;
-    justify-content: space-between; /* 两端对齐：左文右图 */
-    align-items: flex-start; /* 顶部对齐 */
+    justify-content: space-between;
+    align-items: flex-start;
     background: #fff;
     border-radius: 16px;
-    padding: 1.2rem;
+    padding: 1.5rem; /* 稍微增加内边距 */
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     position: relative;
-    overflow: hidden; /* 防止图片溢出圆角 */
+    overflow: hidden;
 }
 
 /* 序号样式 */
@@ -86,55 +86,56 @@ h2 {
     font-weight: 400;
     font-size: 0.95em;
     color: #999;
-    margin-right: 1rem;
-    flex-shrink: 0; /* 防止序号被压缩 */
-    margin-top: 0; /* 对齐微调 */
+    margin-right: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0;
 }
 
 /* 左侧：文字内容容器 */
 .publication-content {
-    flex: 1; /* 占据剩余空间 */
+    flex: 1;
     min-width: 0;
-    padding-right: 1.5rem; /* 给文字和图片之间留空隙 */
+    padding-right: 2rem; /* 增加文字和图片的间距 */
 }
 
 .publication-title {
     display: block;
-    margin-bottom: 0.4rem;
-    font-weight: 500; /* 标题稍微加重一点点区分度，也可改为400 */
+    margin-bottom: 0.5rem;
+    font-weight: 500;
     color: #333;
     line-height: 1.6;
+    font-size: 1.05em; /* 稍微加大标题字号 */
 }
 
 .publication-authors, 
 .publication-venue {
     display: block;
     line-height: 1.6;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
     color: #555;
 }
 
-/* 右侧：图片容器 */
+/* 右侧：图片容器 - 已加大尺寸 */
 .publication-image-wrapper {
-    width: 200px; /* 图片固定宽度 */
-    height: 130px; /* 图片固定高度 */
-    flex-shrink: 0; /* 防止被挤压 */
+    width: 320px;  /* 宽度增加 (原200px) */
+    height: 210px; /* 高度增加 (原130px) */
+    flex-shrink: 0;
     border-radius: 8px;
     overflow: hidden;
-    background-color: #f9f9f9; /* 图片加载前的背景色 */
+    background-color: #f9f9f9;
     border: 1px solid #eee;
 }
 
 .publication-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 保证图片填满容器且不变形（裁剪） */
+    object-fit: cover;
     object-position: center;
     transition: transform 0.3s ease;
 }
 
 .publication-card:hover .publication-image {
-    transform: scale(1.05); /* 鼠标悬停时图片微放大特效 */
+    transform: scale(1.03);
 }
 
 /* =========================================
@@ -152,76 +153,99 @@ h2 {
     padding: 0.6rem 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
     display: flex;
-    align-items: center; /* 垂直居中 */
+    align-items: center;
     gap: 0.8rem;
     font-size: 0.95em;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.conference-card:hover {
+    border-color: #eee;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 .conference-logo {
-    width: 24px;  /* 小图标尺寸 */
-    height: 24px;
+    width: 28px; /* 稍微调大一点点 */
+    height: 28px;
     object-fit: contain;
 }
 
 /* =========================================
-   4. Editorial & Reviewing (垂直卡片：上图下文)
+   4. Editorial & Reviewing (大图卡片模式)
    ========================================= */
 .gallery-grid {
     display: grid;
-    /* 自动适应宽度，最小宽度180px */
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
-    gap: 1.5rem;
+    /* 增加最小宽度，让卡片看起来更像竖版海报 */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    gap: 2rem;
     margin-top: 1rem;
 }
 
 .gallery-card {
     background: #fff;
     border-radius: 12px;
-    padding: 1.2rem;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.2s ease;
+    overflow: hidden; /* 关键：去掉padding，隐藏溢出，实现满出血 */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .gallery-card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 新增：图片包裹层，强制固定高度 */
+.gallery-image-wrapper {
+    width: 100%;
+    height: 280px; /* 设定一个较高的固定高度，放置封面 */
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
 }
 
 .gallery-image {
-    height: 100px; /* 期刊封面高度 */
-    width: auto;
-    max-width: 100%;
-    object-fit: contain;
-    margin-bottom: 1rem;
-    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 填满容器，这要求图片尽量是高清竖版 */
+    object-position: top center; /* 从顶部开始显示，防止切掉封面标题 */
+    display: block;
 }
 
+/* 新增：文字内容区域，因为卡片没有padding了，这里需要单独加 */
 .gallery-content {
-    width: 100%;
+    padding: 1.2rem;
+    text-align: center;
+    background: #fff;
+    flex: 1; /* 撑满剩余高度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .gallery-title {
     display: block;
-    font-weight: 500;
-    margin-bottom: 0.3rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
     line-height: 1.4;
+    color: #333;
 }
 
 /* =========================================
    5. 移动端适配
    ========================================= */
 @media (max-width: 768px) {
-    /* Publications: 移动端改为垂直排列，图片在上方 */
+    /* Publications: 移动端改为垂直排列 */
     .publication-card {
-        flex-direction: column-reverse; /* 文字在下，图片在上 */
+        flex-direction: column-reverse;
         align-items: center;
+        padding: 1.2rem;
     }
 
     .publication-card::before {
-        align-self: flex-start; /* 序号回到左上角 */
+        align-self: flex-start;
         margin-bottom: 0.5rem;
     }
 
@@ -231,9 +255,19 @@ h2 {
     }
 
     .publication-image-wrapper {
-        width: 100%; /* 图片全宽 */
-        height: 160px;
-        margin-bottom: 1rem;
+        width: 100%; /* 移动端全宽 */
+        height: 200px; /* 保持适度高度 */
+        margin-bottom: 1.2rem;
+    }
+    
+    /* Editorial: 移动端每行显示两个或者一个，视情况自动调整 */
+    .gallery-grid {
+         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+         gap: 1rem;
+    }
+    
+    .gallery-image-wrapper {
+        height: 220px; /* 移动端稍微调小一点封面高度 */
     }
 }
 </style>
@@ -249,7 +283,7 @@ h2 {
             <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">DOI Link</a>
         </div>
         <div class="publication-image-wrapper">
-            <img src="https://placehold.co/400x260/e0e0e0/999?text=Research+Img+1" alt="Visualization" class="publication-image">
+            <img src="/images/logo/forPPM.png" alt="Visualization" class="publication-image">
         </div>
     </div>
 
@@ -261,7 +295,7 @@ h2 {
             <a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank">DOI Link</a>
         </div>
         <div class="publication-image-wrapper">
-            <img src="https://placehold.co/400x260/e0e0e0/999?text=Book+Review" alt="Book Cover" class="publication-image">
+             <img src="https://placehold.co/400x260/e0e0e0/999?text=Book+Review" alt="Book Cover" class="publication-image">
         </div>
     </div>
 
@@ -272,7 +306,7 @@ h2 {
             <span class="publication-venue"><em>新闻与传播研究</em> 2025</span>
         </div>
         <div class="publication-image-wrapper">
-            <img src="https://placehold.co/400x260/e0e0e0/999?text=Chinese+Paper" alt="Research Visualization" class="publication-image">
+             <img src="https://placehold.co/400x260/e0e0e0/999?text=Chinese+Paper" alt="Research Visualization" class="publication-image">
         </div>
     </div>
 
@@ -334,33 +368,34 @@ h2 {
         <img src="/images/logo/ICA.png" class="conference-logo">
         <span>ICA 2025</span>
     </div>
-        <div class="conference-card">
+    <div class="conference-card">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <span>NCA 2024</span>
     </div>
-        <div class="conference-card">
+    <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo">
         <span>ICA 2024</span>
     </div>
-        <div class="conference-card">
+    <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo">
         <span>ICA 2023</span>
     </div>
-    </div>
+</div>
 
 <h2>Services</h2>
 <div class="conference-grid">
-    <div class="conference-card" style="width: auto;"> <img src="https://placehold.co/50/e0e0e0/333?text=AC" class="conference-logo">
+    <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/ACCS.png" class="conference-logo">
         <div>
             <strong>Student Committee Chair</strong>
-            <div style="font-size:0.85em; color:#888;">Assoc. for Chinese Comm. Studies</div>
+            <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
         </div>
     </div>
     <div class="conference-card" style="width: auto;">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <div>
-            <strong>Grad. Student Rep.</strong>
-            <div style="font-size:0.85em; color:#888;">Comm. & Future Division, NCA</div>
+            <strong>Graduate Student Representative</strong>
+            <div style="font-size:0.85em; color:#888;">Communication and the Future Division, NCA</div>
         </div>
     </div>
 </div>
@@ -368,14 +403,18 @@ h2 {
 <h2>Editorial Duties</h2>
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="/images/logo/BDS.png" class="gallery-image">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/BDS.png" class="gallery-image">
+        </div>
         <div class="gallery-content">
             <span class="gallery-title">Assistant Editor</span>
             <span class="auxiliary-text">Big Data & Society</span>
         </div>
     </div>
     <div class="gallery-card">
-        <img src="/images/logo/EMM.jpg" class="gallery-image">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/EMM.jpg" class="gallery-image">
+        </div>
         <div class="gallery-content">
             <span class="gallery-title">Editorial Assistant</span>
             <span class="auxiliary-text">Emerging Media</span>
@@ -386,19 +425,25 @@ h2 {
 <h2>Academic Reviewing</h2>
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="/images/logo/NMS.png" class="gallery-image">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/NMS.png" class="gallery-image">
+        </div>
         <div class="gallery-content">
             <span class="gallery-title">New Media & Society</span>
         </div>
     </div>
     <div class="gallery-card">
-        <img src="https://placehold.co/150x200/e0e0e0/333?text=PPM" class="gallery-image">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/PPM.png" class="gallery-image">
+        </div>
         <div class="gallery-content">
             <span class="gallery-title">Psychology of Popular Media</span>
         </div>
     </div>
     <div class="gallery-card">
-        <img src="/images/logo/AISco.png" class="gallery-image">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/AISco.png" class="gallery-image">
+        </div>
         <div class="gallery-content">
             <span class="gallery-title">AI & Society</span>
         </div>
