@@ -101,7 +101,7 @@ h2 {
 .publication-title {
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: 500; /* 标题保持极轻微的区分度，如果想完全不加粗可改为400 */
+    font-weight: 500; 
     color: #333;
     line-height: 1.6;
     font-size: 1.05em;
@@ -117,23 +117,20 @@ h2 {
 
 /* 右侧：图片容器 - 调整为完整显示 */
 .publication-image-wrapper {
-    /* 设置一个最大宽高度，让图片在里面自适应 */
     width: 300px;  
     height: 180px; 
     flex-shrink: 0;
-    /* 去掉边框和背景色，让不同比例的图片自然悬浮 */
     background-color: #fff;
     display: flex;
-    align-items: flex-start; /* 图片顶部对齐 */
-    justify-content: flex-end; /* 图片靠右对齐 */
+    align-items: flex-start; 
+    justify-content: flex-end; 
 }
 
 .publication-image {
     width: 100%;
     height: 100%;
-    /* 关键修改：contain 确保图片完整显示，不裁剪 */
     object-fit: contain; 
-    object-position: right top; /* 图片靠右上方显示 */
+    object-position: right top; 
     transition: transform 0.3s ease;
 }
 
@@ -174,7 +171,7 @@ h2 {
     object-fit: contain;
 }
 
-/* 去除服务部分可能存在的加粗 */
+/* 去除可能存在的加粗 */
 .conference-card span, 
 .conference-card div,
 .conference-card strong {
@@ -186,7 +183,6 @@ h2 {
    ========================================= */
 .gallery-grid {
     display: grid;
-    /* 减小最小宽度(220->160)，让卡片变小 */
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
     gap: 1.5rem;
     margin-top: 1rem;
@@ -207,19 +203,18 @@ h2 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* 图片包裹层：高度减小，背景改白 */
+/* 图片包裹层 */
 .gallery-image-wrapper {
     width: 100%;
-    height: 200px; /* 高度减小 (原280px)，显得更精致 */
-    background-color: #fff; /* 改为白色背景，避免未填满时显示灰色 */
+    height: 200px; 
+    background-color: #fff; 
     position: relative;
-    padding-top: 1rem; /* 给顶部一点呼吸空间 */
+    padding-top: 1rem; 
 }
 
 .gallery-image {
     width: 100%;
     height: 100%;
-    /* 关键修改：contain 确保期刊封面完整显示 */
     object-fit: contain; 
     object-position: center;
     display: block;
@@ -238,7 +233,6 @@ h2 {
 
 .gallery-title {
     display: block;
-    /* 去除加粗 */
     font-weight: 400; 
     margin-bottom: 0.2rem;
     line-height: 1.4;
@@ -246,36 +240,47 @@ h2 {
 }
 
 /* =========================================
-   5. 移动端适配
+   5. 移动端适配 (核心修复)
    ========================================= */
 @media (max-width: 768px) {
-    /* Publications: 移动端改为垂直排列 */
+    /* Publications: 移动端修复 */
     .publication-card {
-        flex-direction: column-reverse;
-        align-items: center;
+        /* 1. 改为 column (正向)，保证 序号->文字->图片 的顺序 */
+        flex-direction: column; 
+        align-items: flex-start; /* 左对齐 */
         padding: 1.2rem;
+        position: relative; /* 为序号定位做准备 */
     }
 
     .publication-card::before {
-        align-self: flex-start;
+        /* 2. 序号样式调整：不需要单独占一行，紧凑一点 */
+        margin-right: 0;
         margin-bottom: 0.5rem;
+        /* 如果想让序号看起来和文字并排，可以使用绝对定位：
+           position: absolute;
+           left: 1.2rem;
+           top: 1.2rem;
+           但为了简单和防止遮挡，这里让它作为第一行显示 */
+        font-weight: 500;
+        color: #002FA7; /* 移动端给序号加点颜色突出一下 */
     }
 
     .publication-content {
         padding-right: 0;
         width: 100%;
+        margin-bottom: 1rem; /* 3. 文字和下方图片增加间距 */
     }
 
     .publication-image-wrapper {
         width: 100%; 
-        height: auto; /* 高度自适应 */
-        max-height: 200px;
-        margin-bottom: 1.2rem;
-        justify-content: center; /* 移动端居中 */
+        height: auto; 
+        max-height: 220px; /* 限制最大高度，防止竖图太占地 */
+        justify-content: center; /* 移动端图片居中 */
+        align-items: center;
     }
     
     .publication-image {
-        object-position: center;
+        object-position: center; /* 移动端图片居中显示 */
     }
     
     /* Editorial: 移动端适配 */
