@@ -430,8 +430,8 @@ h2 {
             <img src="/images/logo/BDS.png" class="gallery-image">
         </div>
         <div class="gallery-content">
-            <span class="gallery-title">Assistant Editor</span>
-            <span class="auxiliary-text">Big Data & Society</span>
+            <span class="gallery-title">Big Data & Society</span>
+            <span class="auxiliary-text">Assistant Editor</span>
         </div>
     </div>
     <div class="gallery-card">
@@ -439,8 +439,8 @@ h2 {
             <img src="/images/logo/EMM.jpg" class="gallery-image">
         </div>
         <div class="gallery-content">
-            <span class="gallery-title">Editorial Assistant</span>
-            <span class="auxiliary-text">Emerging Media</span>
+            <span class="gallery-title">Emerging Media</span>
+            <span class="auxiliary-text">Editorial Assistant</span>
         </div>
     </div>
 </div>
