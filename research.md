@@ -101,7 +101,7 @@ h2 {
 .publication-title {
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: 500; 
+    font-weight: 400; 
     color: #333;
     line-height: 1.6;
     font-size: 1.05em;
