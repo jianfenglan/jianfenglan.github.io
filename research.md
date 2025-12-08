@@ -52,6 +52,15 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+/* 新增：图例说明样式 */
+.publication-legend {
+    color: #999;
+    font-size: 0.9em;
+    margin-top: -1rem;      /* 拉近与上方标题的距离 */
+    margin-bottom: 1.5rem;  /* 与下方列表保持距离 */
+    line-height: 1.5;
+}
+
 .my-name {
     color: #002FA7;
     font-weight: 400;
@@ -256,11 +265,6 @@ h2 {
         /* 2. 序号样式调整：不需要单独占一行，紧凑一点 */
         margin-right: 0;
         margin-bottom: 0.5rem;
-        /* 如果想让序号看起来和文字并排，可以使用绝对定位：
-           position: absolute;
-           left: 1.2rem;
-           top: 1.2rem;
-           但为了简单和防止遮挡，这里让它作为第一行显示 */
         font-weight: 500;
         color: #002FA7; /* 移动端给序号加点颜色突出一下 */
     }
@@ -296,12 +300,18 @@ h2 {
 </style>
 
 <h2>Publications</h2>
+
+<div class="publication-legend">
+    * = Corresponding author<br>
+    + = Co-first author
+</div>
+
 <div class="publication-list">
     
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
-            <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span> <span class="auxiliary-text-inline">(*Corresponding author)</span></span>
+            <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span></span>
             <span class="publication-venue"><em>Psychology of Popular Media</em>, 2025.</span>
             <a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank">Access</a>
         </div>
@@ -348,7 +358,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders.</span>
-            <span class="publication-authors">Mou, Y.+, <span class="my-name">Lan, J.+</span>, & Huang, Y. <span class="auxiliary-text-inline">(+Co-first author)</span></span>
+            <span class="publication-authors">Mou, Y.+, <span class="my-name">Lan, J.+</span>, & Huang, Y.</span>
             <span class="publication-venue"><em>New Media & Society</em>, 2023.</span>
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">Access</a>
         </div>
