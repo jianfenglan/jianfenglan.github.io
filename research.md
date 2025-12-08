@@ -61,6 +61,13 @@ h2 {
     line-height: 1.5;
 }
 
+/* 优化上标样式 */
+sup {
+    vertical-align: super;
+    font-size: smaller;
+    line-height: 0;
+}
+
 .my-name {
     color: #002FA7;
     font-weight: 400;
@@ -303,7 +310,7 @@ h2 {
 
 <div class="publication-legend">
     * = Corresponding author<br>
-    + = Co-first author
+    <sup>+</sup> = Co-first author
 </div>
 
 <div class="publication-list">
@@ -358,7 +365,7 @@ h2 {
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders.</span>
-            <span class="publication-authors">Mou, Y.+, <span class="my-name">Lan, J.+</span>, & Huang, Y.</span>
+            <span class="publication-authors">Mou, Y.<sup>+</sup>, <span class="my-name">Lan, J.<sup>+</sup></span>, & Huang, Y.</span>
             <span class="publication-venue"><em>New Media & Society</em>, 2023.</span>
             <a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank">Access</a>
         </div>
