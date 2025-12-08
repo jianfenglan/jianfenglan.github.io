@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About"
+title                    : "About Jeff"
 title_separator          : "-"
 url                      : "https://jefflan.blue"
 baseurl                  : ""
