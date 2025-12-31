@@ -310,7 +310,7 @@ sup {
 
 <div class="publication-legend">
     * = Corresponding author<br>
-    <sup>+</sup> = Co-first author
+    + = Co-first author
 </div>
 
 <div class="publication-list">
