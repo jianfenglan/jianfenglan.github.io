@@ -493,7 +493,7 @@ sup {
             <img src="/images/logo/IJHCI.png" class="gallery-image">
         </div>
         <div class="gallery-content">
-            <span class="gallery-title">International Journal of Human-Conputer Interaction</span>
+            <span class="gallery-title">International Journal of Human-Computer Interaction</span>
         </div>
     </div>  
 </div>
