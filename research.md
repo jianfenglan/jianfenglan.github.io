@@ -488,4 +488,12 @@ sup {
             <span class="gallery-title">AI & Society</span>
         </div>
     </div>
+     <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/IJHCI.png" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">International Journal of Human-Conputer Interaction</span>
+        </div>
+    </div>  
 </div>
