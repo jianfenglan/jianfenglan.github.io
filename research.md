@@ -388,7 +388,11 @@ sup {
 
 <h2>Conference Presentations</h2>
 <div class="conference-grid">
-    <div class="conference-card">
+   <div class="conference-card">
+        <img src="/images/logo/ICA.png" class="conference-logo">
+        <span>ICA 2026</span>
+    </div>
+   <div class="conference-card">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <span>NCA 2025</span>
     </div>
