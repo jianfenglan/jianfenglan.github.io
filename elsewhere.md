@@ -80,7 +80,7 @@ author_profile: true
  
 <div class="gallery-card">
     <img src="{{ '/images/NewC.png' | relative_url }}">
-    <div class="gallery-caption"><h3>New Castle 🇦🇺<br>January, 2026</h3></div>
+    <div class="gallery-caption"><h3>Newcastle 🇦🇺<br>January, 2026</h3></div>
   </div>
   
 <div class="gallery-card">
