@@ -77,7 +77,17 @@ author_profile: true
 
 
 <div class="gallery-grid">
- 
+
+ <div class="gallery-card">
+    <img src="{{ '/images/Gerringong.png' | relative_url }}">
+    <div class="gallery-caption"><h3>Gerringong 🇦🇺<br>February, 2026</h3></div>
+  </div>
+  
+  <div class="gallery-card">
+    <img src="{{ '/images/Sydney1.jpg' | relative_url }}">
+    <div class="gallery-caption"><h3>Sydney 🇦🇺<br>February, 2026</h3></div>
+  </div>
+  
 <div class="gallery-card">
     <img src="{{ '/images/NewC.png' | relative_url }}">
     <div class="gallery-caption"><h3>Newcastle 🇦🇺<br>January, 2026</h3></div>
@@ -118,6 +128,11 @@ author_profile: true
     <div class="gallery-caption"><h3>Macao 🇲🇴<br>January, 2025</h3></div>
   </div>
 
+    <div class="gallery-card">
+    <img src="{{ '/images/HK2.jpg' | relative_url }}">
+    <div class="gallery-caption"><h3>Hong Kong 🇭🇰<br>January, 2025</h3></div>
+  </div>
+
   <div class="gallery-card">
     <img src="{{ '/images/NOLA1.jpg' | relative_url }}">
     <div class="gallery-caption"><h3>New Orleans 🇺🇸<br>November, 2024</h3></div>
@@ -125,7 +140,7 @@ author_profile: true
 
   <div class="gallery-card">
     <img src="{{ '/images/Huangshan.JPG' | relative_url }}">
-    <div class="gallery-caption"><h3>Yellow Mountains (Huangshan)🇨🇳<br>July, 2024</h3></div>
+    <div class="gallery-caption"><h3>Huangshan🇨🇳<br>July, 2024</h3></div>
   </div>
 
   <div class="gallery-card">
@@ -171,6 +186,11 @@ author_profile: true
   <div class="gallery-card">
     <img src="{{ '/images/Muztagata.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Muztagata 🇨🇳<br>July, 2023</h3></div>
+  </div>
+
+    <div class="gallery-card">
+    <img src="{{ '/images/Baisha.JPG' | relative_url }}">
+    <div class="gallery-caption"><h3>Baisha Lake 🇨🇳<br>July, 2023</h3></div>
   </div>
 
   <div class="gallery-card">
