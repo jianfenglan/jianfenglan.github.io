@@ -317,6 +317,17 @@ sup {
     
     <div class="publication-card">
         <div class="publication-content">
+            <span class="publication-title">人、物、机器：重思“机器问题”与机器人权利——专访大卫·贡克尔.</span>
+            <span class="publication-authors"><span class="my-name">蓝剑锋</span></span>
+            <span class="publication-venue"><em>国际新闻界</em>, 2026.</span>
+        </div>
+        <div class="publication-image-wrapper">
+             <img src="/images/logo/forGJXWJ.png" alt="Research Visualization" class="publication-image">
+        </div>
+    </div>
+    
+    <div class="publication-card">
+        <div class="publication-content">
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
             <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span></span>
             <span class="publication-venue"><em>Psychology of Popular Media</em>, 2025.</span>
