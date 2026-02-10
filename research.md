@@ -466,18 +466,9 @@ sup {
             <span class="auxiliary-text">Assistant Editor</span>
         </div>
     </div>
-    <div class="gallery-card">
-        <div class="gallery-image-wrapper">
-            <img src="/images/logo/EMM.jpg" class="gallery-image">
-        </div>
-        <div class="gallery-content">
-            <span class="gallery-title">Emerging Media</span>
-            <span class="auxiliary-text">Editorial Assistant</span>
-        </div>
-    </div>
 </div>
 
-<h2>Academic Reviewing</h2>
+<h2>Journal Review</h2>
 <div class="gallery-grid">
     <div class="gallery-card">
         <div class="gallery-image-wrapper">
@@ -511,4 +502,44 @@ sup {
             <span class="gallery-title">International Journal of Human-Computer Interaction</span>
         </div>
     </div>  
+</div>
+
+<h2>Conference Review</h2>
+<div class="conference-grid">
+    <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/ICA.png" class="conference-logo">
+        <div>
+            <span>International Communication Association</span>
+        </div>
+    </div>
+      <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/NCA.jpeg" class="conference-logo">
+        <div>
+            <span>National Communication Association</span>
+        </div>
+    </div>
+      <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/AEJMC.jpeg" class="conference-logo">
+        <div>
+            <span>The Association for Education in Journalism and Mass Communication</span>
+        </div>
+    </div>
+     <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/IAMCR1.png" class="conference-logo">
+        <div>
+            <span>International Association for Media and Communication Research</span>
+        </div>
+    </div>
+         <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/AIS.png" class="conference-logo">
+        <div>
+            <span>Association for Information Systems</span>
+        </div>
+    </div>
+ <div class="conference-card" style="width: auto;"> 
+        <img src="/images/logo/KACA.png" class="conference-logo">
+        <div>
+            <span>Korean American Communication Association</span>
+        </div>
+    </div>
 </div>
