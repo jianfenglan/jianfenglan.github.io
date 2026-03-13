@@ -315,6 +315,17 @@ sup {
 </div>
 
 <div class="publication-list">
+
+    <div class="publication-card">
+        <div class="publication-content">
+            <span class="publication-title">Empowering civic engagement in AI governance: A two-wave panel study on AI literacy and participatory governance of generative AI in China.</span>
+            <span class="publication-authors">Lin, Z., Jin, Q, <span class="my-name">Lan, J.</span></span>
+            <span class="publication-venue"><em>Telecommunications Policy</em>, 2026.</span>
+        </div>
+        <div class="publication-image-wrapper">
+            <img src="/images/logo/Telecomm.png" alt="Visualization" class="publication-image">
+        </div>
+    </div>
     
     <div class="publication-card">
         <div class="publication-content">
