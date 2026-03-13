@@ -79,6 +79,11 @@ author_profile: true
 <div class="gallery-grid">
 
  <div class="gallery-card">
+    <img src="{{ '/images/Lijiang.png' | relative_url }}">
+    <div class="gallery-caption"><h3>Lijiang 🇨🇳<br>March, 2026</h3></div>
+  </div>
+ 
+ <div class="gallery-card">
     <img src="{{ '/images/Wailingding.png' | relative_url }}">
     <div class="gallery-caption"><h3>Wailingding Island 🇨🇳<br>February, 2026</h3></div>
   </div>
