@@ -97,12 +97,7 @@ author_profile: true
     <img src="{{ '/images/Gerringong.png' | relative_url }}">
     <div class="gallery-caption"><h3>Gerringong 🇦🇺<br>February, 2026</h3></div>
   </div>
-  
-  <div class="gallery-card">
-    <img src="{{ '/images/Sydney1.jpg' | relative_url }}">
-    <div class="gallery-caption"><h3>Sydney 🇦🇺<br>February, 2026</h3></div>
-  </div>
-  
+    
 <div class="gallery-card">
     <img src="{{ '/images/NewC.png' | relative_url }}">
     <div class="gallery-caption"><h3>Newcastle 🇦🇺<br>January, 2026</h3></div>
@@ -141,11 +136,6 @@ author_profile: true
   <div class="gallery-card">
     <img src="{{ '/images/Macao.jpg' | relative_url }}">
     <div class="gallery-caption"><h3>Macao 🇲🇴<br>January, 2025</h3></div>
-  </div>
-
-    <div class="gallery-card">
-    <img src="{{ '/images/HK2.jpg' | relative_url }}">
-    <div class="gallery-caption"><h3>Hong Kong 🇭🇰<br>January, 2025</h3></div>
   </div>
 
   <div class="gallery-card">
