@@ -163,6 +163,11 @@ author_profile: true
     <div class="gallery-caption"><h3>Gold Coast 🇦🇺<br>June, 2024</h3></div>
   </div>
 
+    <div class="gallery-card">
+    <img src="{{ '/images/Brisbane.JPG' | relative_url }}">
+    <div class="gallery-caption"><h3>Brisbane 🇦🇺<br>June, 2024</h3></div>
+  </div>
+
   <div class="gallery-card">
     <img src="{{ '/images/Singapore.jpeg' | relative_url }}">
     <div class="gallery-caption"><h3>Singapore 🇸🇬<br>June, 2024</h3></div>
@@ -184,7 +189,7 @@ author_profile: true
   </div>
 
   <div class="gallery-card">
-    <img src="{{ '/images/Wuzhen.jpeg' | relative_url }}">
+    <img src="{{ '/images/Wuzhen.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Wuzhen 🇨🇳<br>January, 2024</h3></div>
   </div>
 
