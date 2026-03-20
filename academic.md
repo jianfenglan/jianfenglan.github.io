@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /research/
+permalink: /academic/
 author_profile: true
 ---
 
@@ -454,14 +454,14 @@ sup {
     <div class="conference-card" style="width: auto;"> 
         <img src="/images/logo/ACCS.png" class="conference-logo">
         <div>
-            <span>Student Committee Chair</span>
+            <span>Student Committee Chair(2024-2026)</span>
             <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
         </div>
     </div>
     <div class="conference-card" style="width: auto;">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <div>
-            <span>Graduate Student Representative</span>
+            <span>Graduate Student Representative(2024-2025)</span>
             <div style="font-size:0.85em; color:#888;">Communication and the Future Division, NCA</div>
         </div>
     </div>
@@ -476,6 +476,15 @@ sup {
         <div class="gallery-content">
             <span class="gallery-title">Big Data & Society</span>
             <span class="auxiliary-text">Assistant Editor</span>
+        </div>
+    </div>
+    <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/EMM.jpg" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">Emerging Media</span>
+            <span class="auxiliary-text">Editorial Assistant<br>(2023-2025)</span>
         </div>
     </div>
 </div>
@@ -516,7 +525,7 @@ sup {
     </div>  
       <div class="gallery-card">
         <div class="gallery-image-wrapper">
-            <img src="/images/logo/FIP.jpg" class="gallery-image">
+            <img src="/images/logo/FIP.png" class="gallery-image">
         </div>
         <div class="gallery-content">
             <span class="gallery-title">Frontiers in Psychology</span>
