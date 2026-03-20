@@ -482,7 +482,7 @@ sup {
 
 <h2>Journal Review</h2>
 <div class="gallery-grid">
-    <div class="gallery-card">
+   <div class="gallery-card">
         <div class="gallery-image-wrapper">
             <img src="/images/logo/NMS.png" class="gallery-image">
         </div>
@@ -514,6 +514,14 @@ sup {
             <span class="gallery-title">International Journal of Human-Computer Interaction</span>
         </div>
     </div>  
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/FIP.jpg" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">Frontiers in Psychology</span>
+        </div>
+    </div>
 </div>
 
 <h2>Conference Review</h2>
