@@ -454,14 +454,14 @@ sup {
     <div class="conference-card" style="width: auto;"> 
         <img src="/images/logo/ACCS.png" class="conference-logo">
         <div>
-            <span>Student Committee Chair(2024-2026)</span>
+            <span>Student Committee Chair (2024-2026)</span>
             <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
         </div>
     </div>
     <div class="conference-card" style="width: auto;">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <div>
-            <span>Graduate Student Representative(2024-2025)</span>
+            <span>Graduate Student Representative (2024-2025)</span>
             <div style="font-size:0.85em; color:#888;">Communication and the Future Division, NCA</div>
         </div>
     </div>
@@ -475,7 +475,7 @@ sup {
         </div>
         <div class="gallery-content">
             <span class="gallery-title">Big Data & Society</span>
-            <span class="auxiliary-text">Assistant Editor</span>
+            <span class="auxiliary-text">Assistant Editor<br>(2024-current)</span>
         </div>
     </div>
     <div class="gallery-card">
