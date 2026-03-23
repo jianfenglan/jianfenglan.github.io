@@ -321,9 +321,10 @@ sup {
             <span class="publication-title">Empowering Civic Engagement in AI Governance: A Two-wave Panel Study on AI Literacy and Participatory Governance of Generative AI in China.</span>
             <span class="publication-authors">Lin, Z., Jin, Q, <span class="my-name">Lan, J.</span></span>
             <span class="publication-venue"><em>Telecommunications Policy</em>, 2026.</span>
+             <a href="https://doi.org/10.1037/00000000" class="publication-link" target="_blank">Access</a>
         </div>
         <div class="publication-image-wrapper">
-            <img src="/images/logo/Telecomm.png" alt="Visualization" class="publication-image">
+            <img src="/images/logo/forTele.png" alt="Visualization" class="publication-image">
         </div>
     </div>
     
