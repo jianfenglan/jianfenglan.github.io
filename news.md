@@ -165,15 +165,6 @@ author_profile: true
 
 <div class="news-list">
 
-<div class="news-card" onclick="openModal(this)" data-title="Monash-SJTU GIG" data-meta="December 4, 2025 | Shanghai" data-content="<p>For the past three weeks, I served as a Teaching Assistant for the Monash-SJTU Global Immersion Guarantee (GIG) program. This immersive initiative connects visiting students with the dynamic academic and industrial landscape of Shanghai to explore sustainability and innovation.<br><br>My primary role was serving as a communicative bridge, facilitating translation and coordination between Monash students and SJTU lecturers. Beyond the classroom, I participated in interactive workshops and assisted in leading field trips to major tech companies, including Tesla and NIO, helping students witness Shanghai's cutting-edge industry practices firsthand.<br><br>On a personal note, I truly enjoyed the interactions with the Monash students. We had many delightful exchanges throughout the program, and their energy and curiosity made the experience deeply rewarding.</p>">
-    <div class="news-content">
-        <h3>Monash-SJTU GIG</h3>
-    </div>
-    <div class="news-image">
-        <img src="{{ '/images/news/GIGMonash.JPG' | relative_url }}">
-    </div>
-</div>
-
 <div class="news-card" onclick="openModal(this)" data-title="NCA 2025" data-meta="November 22, 2025 | Denver" data-content="<p>This is my first year serving as the Student Affairs Committee Chair for ACCS at NCA. I joined the business meeting remotely and was delighted to be part of the group photo.<br><br>I feel deeply honored and grateful to have received such tremendous support from both the internal and external communities. I look forward to connecting with you all in the future.</p>">
     <div class="news-content">
         <h3>NCA 2025</h3>
@@ -188,7 +179,7 @@ author_profile: true
         <h3>PCST-Tokyo Symposium 2025</h3>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/PCSTtokyo.JPG' | relative_url }}">
+        <img src="{{ '/images/news/PCST.jpg' | relative_url }}">
     </div>
 </div>
 
