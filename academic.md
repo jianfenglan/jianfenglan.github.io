@@ -532,6 +532,14 @@ sup {
             <span class="gallery-title">Frontiers in Psychology</span>
         </div>
     </div>
+         <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/HMC.png" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">Human-Machine Communication</span>
+        </div>
+    </div>
 </div>
 
 <h2>Conference Review</h2>
