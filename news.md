@@ -19,7 +19,7 @@ author_profile: true
     border: 1px solid #e6e6e6;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    overflow: hidden; /* Ensure content doesn't spill out if constrained */
+    overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -36,25 +36,19 @@ author_profile: true
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* --- NEW --- */
-    min-height: 0; /* Allows content to shrink correctly within flexbox */
-    /* If content frequently overflows and you want scrollbars within the text area: */
-    /* overflow-y: auto; */
-    /* --- END NEW --- */
+    min-height: 0;
 }
 
 .news-image {
     flex: 6;
-    /* --- NEW --- */
-    height: 100%; /* Make image container fill the card height */
-    /* --- END NEW --- */
+    height: 100%;
 }
 
 .news-image img {
     width: 100%;
-    height: 100%; /* Make the image fill its parent container */
+    height: 100%;
     display: block;
-    object-fit: cover; /* This is key: scales and crops image to fill container */
+    object-fit: cover;
 }
 
 .news-content h3 {
@@ -110,7 +104,6 @@ author_profile: true
     margin-top: 5rem;
 }
 
-/* 新增：为弹窗正文（#modal-body）里的图片添加样式 */
 #modal-body img {
     max-width: 100%;
     height: auto;
@@ -128,7 +121,6 @@ author_profile: true
     font-weight: 400;
 }
 
-/* 新增：为弹窗正文中的 p 标签设置字重 */
 #modal-body p {
     font-weight: 400; 
 }
@@ -149,12 +141,10 @@ author_profile: true
 @media (max-width: 768px) {
     .news-card {
         flex-direction: column;
-        /* --- NEW --- */
-        height: auto; /* Allow height to adjust on small screens */
-        /* --- END NEW --- */
+        height: auto;
     }
     .news-image {
-        height: 200px; /* Fixed height for image on mobile for consistency */
+        height: 200px;
     }
     .modal-content {
         margin-top: 7rem;
@@ -164,6 +154,15 @@ author_profile: true
 </style>
 
 <div class="news-list">
+
+<div class="news-card" onclick="openModal(this)" data-title="Invited Lecture at Shandong Normal University" data-meta="May 8, 2026 | Jinan" data-content="<p>I was honored to visit the School of Journalism and Communication at Shandong Normal University for an invited frontier lecture on human-AI communication and emerging media research.</p><p>In the talk, I shared two recent studies: one published in <em>New Media &amp; Society</em> on virtual influencers and online mourning, and another to be presented at ICA 2026 on human-AI conflict and communication adaptation theory. I also discussed methodological approaches including computational content analysis, social network analysis, and experimental design. The conversations with students were thoughtful and engaging, and I learned a great deal from their questions and reflections.</p>">
+    <div class="news-content">
+        <h3>Invited Lecture at Shandong Normal University</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/news/SDNU2026.jpg' | relative_url }}">
+    </div>
+</div>
 
 <div class="news-card" onclick="openModal(this)" data-title="NCA 2025" data-meta="November 22, 2025 | Denver" data-content="<p>This is my first year serving as the Student Affairs Committee Chair for ACCS at NCA. I joined the business meeting remotely and was delighted to be part of the group photo.<br><br>I feel deeply honored and grateful to have received such tremendous support from both the internal and external communities. I look forward to connecting with you all in the future.</p>">
     <div class="news-content">
@@ -183,7 +182,6 @@ author_profile: true
     </div>
 </div>
 
-
 <div class="news-card" onclick="openModal(this)" data-title="HKBU Graduate Conference 2025" data-meta="August 12, 2025 | Hong Kong" data-content="<p>I am sincerely grateful to the School of Communication at Hong Kong Baptist University for organizing the conference themed “Advancing Responsible AI Communication” and for fully funding my trip to Hong Kong. This marks my third visit to the city, but my first time at HKBU. <br><br>I was delighted to share my latest research on human–AI intimacy at the conference and truly appreciated the insightful feedback and inspiring conversations I received.</p>">
     <div class="news-content">
         <h3>HKBU Graduate Conference 2025</h3>
@@ -192,7 +190,6 @@ author_profile: true
         <img src="{{ '/images/HKBU25.JPG' | relative_url }}">
     </div>
 </div>
-
 
 <div class="news-card" onclick="openModal(this)" data-title="AEJMC 2025" data-meta="August 8, 2025 | San Francisco" data-content="<p>I’m deeply honored to receive the Top Student Paper Award from the AEJMC History Division this year. My co-author, Kelsie, deserves immense credit—she contributed greatly, and this recognition truly belongs to her. <br><br>Although I couldn’t attend the conference in person, I’m grateful to my friend Nesh for bringing this precious gift back to Shanghai.</p>">
     <div class="news-content">
@@ -211,7 +208,6 @@ author_profile: true
         <img src="{{ '/images/news/IAMCR2025.jpg' | relative_url }}">
     </div>
 </div>
-
 
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2025" data-meta="June 15, 2025 | Denver" data-content="<p>I was truly disappointed to have missed this year's ICA conference in Denver. Fortunately, my dear friend and colleague, Kelsie, was there to present our latest work. I wanted to share this wonderful photo of her and express my immense gratitude for her support.</p><p>Over time, I've come to realize that the value of academic conferences extends far beyond presenting research. I couldn't agree more with Kelsie that having a few deep conversations with friends you only meet annually is far more meaningful than adding fifty new contacts to your phone.</p>">
     <div class="news-content">
@@ -290,14 +286,12 @@ function closeModal() {
     setTimeout(() => { modal.style.display = 'none'; }, 200);
 }
 
-// 点击遮罩关闭
 document.getElementById('news-modal').addEventListener('click', function(e) {
     if (e.target === this) {
         closeModal();
     }
 });
 
-// 阻止模态框内容上的点击事件冒泡
 document.querySelector('.modal-content').addEventListener('click', function(e) {
     e.stopPropagation();
 });
