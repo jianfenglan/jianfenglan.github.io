@@ -481,7 +481,7 @@ sup {
     </div>
     <div class="gallery-card">
         <div class="gallery-image-wrapper">
-            <img src="/images/logo/EMM.jpg" class="gallery-image">
+            <img src="/images/logo/EMM.png" class="gallery-image">
         </div>
         <div class="gallery-content">
             <span class="gallery-title">Emerging Media</span>
@@ -542,10 +542,18 @@ sup {
     </div>
             <div class="gallery-card">
         <div class="gallery-image-wrapper">
-            <img src="/images/logo/Tele.jpg" class="gallery-image">
+            <img src="/images/logo/Tele.png" class="gallery-image">
         </div>
         <div class="gallery-content">
             <span class="gallery-title">Telecommunications Policy</span>
+        </div>
+    </div>
+               <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/FIS.png" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">Frontiers in Sociology</span>
         </div>
     </div>
 </div>
