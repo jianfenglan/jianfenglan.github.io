@@ -540,6 +540,14 @@ sup {
             <span class="gallery-title">Human-Machine Communication</span>
         </div>
     </div>
+            <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+            <img src="/images/logo/Tele.jpg" class="gallery-image">
+        </div>
+        <div class="gallery-content">
+            <span class="gallery-title">Telecommunications Policy</span>
+        </div>
+    </div>
 </div>
 
 <h2>Conference Review</h2>
