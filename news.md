@@ -155,12 +155,12 @@ author_profile: true
 
 <div class="news-list">
 
-<div class="news-card" onclick="openModal(this)" data-title="Invited Lecture at Shandong Normal University" data-meta="May 8, 2026 | Jinan" data-content="<p>I was honored to visit the School of Journalism and Communication at Shandong Normal University for an invited frontier lecture on human-AI communication and emerging media research.</p><p>In the talk, I shared two recent studies: one published in <em>New Media &amp; Society</em> on virtual influencers and online mourning, and another to be presented at ICA 2026 on human-AI conflict and communication adaptation theory. I also discussed methodological approaches including computational content analysis, social network analysis, and experimental design. The conversations with students were thoughtful and engaging, and I learned a great deal from their questions and reflections.</p>">
+<div class="news-card" onclick="openModal(this)" data-title="Invited Lecture at Shandong Normal University" data-meta="May 8, 2026 | Jinan" data-content="<p>This May, I had the pleasure of visiting the School of Journalism and Communication at Shandong Normal University for a frontier lecture on communication methodologies. Drawing on two recent projects, I walked the audience through a set of methodological approaches including computational content analysis, social network analysis, and experimental design. I also learned a great deal about qualitative methods from my colleague KJ's sharing. The faculty and students at Shandong Normal raised some genuinely stimulating questions, and I am grateful to the School of Journalism and Communication for the warm hospitality.<br><br>Now I finally understand why Jinan is called the City of Springs.</p>">
     <div class="news-content">
         <h3>Invited Lecture at Shandong Normal University</h3>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/SDNU2026.jpg' | relative_url }}">
+        <img src="{{ '/images/news/SDNU.JPG' | relative_url }}">
     </div>
 </div>
 
