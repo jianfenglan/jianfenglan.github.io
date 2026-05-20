@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /news/
+permalink: /blog/
 author_profile: true
 ---
 
