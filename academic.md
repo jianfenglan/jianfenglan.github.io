@@ -170,7 +170,7 @@ sup {
 }
 
 /* =========================================
-   4. Editorial & Reviewing
+   4. Editorial Duties
    ========================================= */
 .gallery-grid {
     display: grid;
@@ -214,7 +214,41 @@ sup {
 }
 
 /* =========================================
-   5. 移动端适配
+   5. Review List 长条框
+   ========================================= */
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.95em;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.review-card:hover {
+    border-color: #eee;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.review-card span,
+.review-card div,
+.review-card strong {
+    font-weight: 400 !important;
+}
+
+/* =========================================
+   6. 移动端适配
    ========================================= */
 @media (max-width: 768px) {
     .publication-card {
@@ -323,11 +357,11 @@ sup {
 
 <h2>Conference Presentations</h2>
 <div class="conference-grid">
-   <div class="conference-card">
+    <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo">
         <span>ICA 2026</span>
     </div>
-   <div class="conference-card">
+    <div class="conference-card">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <span>NCA 2025</span>
     </div>
@@ -370,6 +404,7 @@ sup {
             <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
         </div>
     </div>
+
     <div class="conference-card" style="width: auto;">
         <img src="/images/logo/NCA.jpeg" class="conference-logo">
         <div>
@@ -387,6 +422,7 @@ sup {
             <span class="auxiliary-text">Assistant Editor<br>(2024-current)</span>
         </div>
     </div>
+
     <div class="gallery-card">
         <div class="gallery-content">
             <span class="gallery-title">Emerging Media</span>
@@ -396,85 +432,97 @@ sup {
 </div>
 
 <h2>Journal Review</h2>
-<div class="gallery-grid">
-   <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">New Media & Society</span>
+<div class="review-list">
+    <div class="review-card">
+        <div>
+            <span>AI & Society</span>
         </div>
     </div>
-    <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">Psychology of Popular Media</span>
+
+    <div class="review-card">
+        <div>
+            <span>Frontiers in Psychology</span>
         </div>
     </div>
-    <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">AI & Society</span>
+
+    <div class="review-card">
+        <div>
+            <span>Frontiers in Sociology</span>
         </div>
     </div>
-     <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">International Journal of Human-Computer Interaction</span>
-        </div>
-    </div>  
-      <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">Frontiers in Psychology</span>
+
+    <div class="review-card">
+        <div>
+            <span>Human-Machine Communication</span>
         </div>
     </div>
-         <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">Human-Machine Communication</span>
+
+    <div class="review-card">
+        <div>
+            <span>International Journal of Human-Computer Interaction</span>
         </div>
     </div>
-            <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">Telecommunications Policy</span>
+
+    <div class="review-card">
+        <div>
+            <span>New Media & Society</span>
         </div>
     </div>
-               <div class="gallery-card">
-        <div class="gallery-content">
-            <span class="gallery-title">Frontiers in Sociology</span>
+
+    <div class="review-card">
+        <div>
+            <span>Psychology of Popular Media</span>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <div>
+            <span>Telecommunications Policy</span>
         </div>
     </div>
 </div>
 
 <h2>Conference Review</h2>
-<div class="conference-grid">
-    <div class="conference-card" style="width: auto;"> 
-        <img src="/images/logo/ICA.png" class="conference-logo">
-        <div>
-            <span>International Communication Association</span>
-        </div>
-    </div>
-      <div class="conference-card" style="width: auto;"> 
-        <img src="/images/logo/NCA.jpeg" class="conference-logo">
-        <div>
-            <span>National Communication Association</span>
-        </div>
-    </div>
-      <div class="conference-card" style="width: auto;"> 
+<div class="review-list">
+    <div class="review-card"> 
         <img src="/images/logo/AEJMC.jpeg" class="conference-logo">
         <div>
             <span>The Association for Education in Journalism and Mass Communication</span>
         </div>
     </div>
-     <div class="conference-card" style="width: auto;"> 
-        <img src="/images/logo/IAMCR1.png" class="conference-logo">
-        <div>
-            <span>International Association for Media and Communication Research</span>
-        </div>
-    </div>
-         <div class="conference-card" style="width: auto;"> 
+
+    <div class="review-card"> 
         <img src="/images/logo/AIS.png" class="conference-logo">
         <div>
             <span>Association for Information Systems</span>
         </div>
     </div>
- <div class="conference-card" style="width: auto;"> 
+
+    <div class="review-card"> 
+        <img src="/images/logo/ICA.png" class="conference-logo">
+        <div>
+            <span>International Communication Association</span>
+        </div>
+    </div>
+
+    <div class="review-card"> 
+        <img src="/images/logo/IAMCR1.png" class="conference-logo">
+        <div>
+            <span>International Association for Media and Communication Research</span>
+        </div>
+    </div>
+
+    <div class="review-card"> 
         <img src="/images/logo/KACA.png" class="conference-logo">
         <div>
             <span>Korean American Communication Association</span>
+        </div>
+    </div>
+
+    <div class="review-card"> 
+        <img src="/images/logo/NCA.jpeg" class="conference-logo">
+        <div>
+            <span>National Communication Association</span>
         </div>
     </div>
 </div>
