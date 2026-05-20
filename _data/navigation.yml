@@ -10,11 +10,12 @@
 main:
  # - title: "中文"
   #  url: /chinese/   
-  - title: "News"
-    url: /news/
     
   - title: "Academic"
     url: /academic/
 
-  - title: "Elsewhere"
-    url: /elsewhere/    
+  - title: "News"
+    url: /news/
+    
+ # - title: "Elsewhere"
+  #  url: /elsewhere/    
