@@ -1,13 +1,10 @@
 ---
 title: ""
-permalink: /academic/
+permalink: /research/
 author_profile: true
 ---
 
 <style>
-/* =========================================
-   1. 全局基础设置
-   ========================================= */
 .page__inner-wrap {
     max-width: 1600px !important;
 }
@@ -18,50 +15,15 @@ body {
     font-weight: 400;
 }
 
-/* 链接与辅助文本颜色 */
-.publication-link, 
-.auxiliary-text,
-.auxiliary-text-inline {
-    color: #999;
-    font-size: 0.9em;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.publication-link {
-    display: inline-block;
-    margin-top: 0.2rem;
-}
-
-.publication-link:hover {
-    color: #666;
-    text-decoration: underline;
-}
-
-.auxiliary-text {
-    display: block;
-    line-height: 1.6;
-}
-
 h2 {
-    font-weight: 400; 
-    font-size: 1.1em;
-    margin-top: 3rem; 
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #f0f0f0;
     padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1.1em;
+    font-weight: 400;
 }
 
-/* 图例说明样式 */
-.publication-legend {
-    color: #999;
-    font-size: 0.9em;
-    margin-top: -1rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.5;
-}
-
-/* 优化上标样式 */
 sup {
     vertical-align: super;
     font-size: smaller;
@@ -73,9 +35,19 @@ sup {
     font-weight: 400;
 }
 
-/* =========================================
-   2. Publications
-   ========================================= */
+/* Publications */
+.publication-legend,
+.publication-link {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.publication-legend {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
 .publication-list {
     display: flex;
     flex-direction: column;
@@ -86,52 +58,62 @@ sup {
 .publication-card {
     display: flex;
     align-items: flex-start;
-    background: #fff;
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
     position: relative;
     overflow: hidden;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
 }
 
-/* 序号样式 */
 .publication-card::before {
     counter-increment: pub-counter;
     content: counter(pub-counter) ".";
-    font-weight: 400;
-    font-size: 0.95em;
-    color: #999;
-    margin-right: 1.2rem;
     flex-shrink: 0;
-    margin-top: 0;
+    margin-right: 1.2rem;
+    color: #999;
+    font-size: 0.95em;
+    font-weight: 400;
 }
 
-/* 文字内容容器 */
 .publication-content {
     flex: 1;
     min-width: 0;
 }
 
-.publication-title {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 400; 
-    color: #333;
-    line-height: 1.6;
-    font-size: 1.05em;
-}
-
-.publication-authors, 
+.publication-title,
+.publication-authors,
 .publication-venue {
     display: block;
     line-height: 1.6;
+}
+
+.publication-title {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+
+.publication-authors,
+.publication-venue {
     margin-bottom: 0.3rem;
     color: #555;
 }
 
-/* =========================================
-   3. Conference & Services
-   ========================================= */
+.publication-link {
+    display: inline-block;
+    margin-top: 0.2rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.publication-link:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+/* Conference Presentations */
 .conference-grid {
     display: flex;
     flex-wrap: wrap;
@@ -139,21 +121,26 @@ sup {
 }
 
 .conference-card {
-    background: white;
-    border-radius: 12px;
-    padding: 0.6rem 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    font-size: 0.95em;
+    padding: 0.6rem 1rem;
     border: 1px solid transparent;
-    transition: all 0.2s ease;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    font-size: 0.95em;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .conference-card:hover {
     border-color: #eee;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.conference-card span,
+.conference-card strong {
+    font-weight: 400 !important;
 }
 
 .conference-logo {
@@ -162,116 +149,23 @@ sup {
     object-fit: contain;
 }
 
-/* 去除可能存在的加粗 */
-.conference-card span, 
-.conference-card div,
-.conference-card strong {
-    font-weight: 400 !important;
-}
-
-/* =========================================
-   4. Editorial Duties
-   ========================================= */
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.gallery-card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.gallery-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-}
-
-/* 文字内容区域 */
-.gallery-content {
-    padding: 1rem;
-    text-align: center;
-    background: #fff;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.gallery-title {
-    display: block;
-    font-weight: 400; 
-    margin-bottom: 0.2rem;
-    line-height: 1.4;
-    color: #333;
-}
-
-/* =========================================
-   5. Review List 长条框
-   ========================================= */
-.review-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
-}
-
-.review-card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 0.75rem 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 0.95em;
-    border: 1px solid transparent;
-    transition: all 0.2s ease;
-    width: 100%;
-}
-
-.review-card:hover {
-    border-color: #eee;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-}
-
-.review-card span,
-.review-card div,
-.review-card strong {
-    font-weight: 400 !important;
-}
-
-/* =========================================
-   6. 移动端适配
-   ========================================= */
+/* Mobile */
 @media (max-width: 768px) {
     .publication-card {
-        flex-direction: column; 
+        flex-direction: column;
         align-items: flex-start;
         padding: 1.2rem;
-        position: relative;
     }
 
     .publication-card::before {
         margin-right: 0;
         margin-bottom: 0.5rem;
-        font-weight: 500;
         color: #002FA7;
+        font-weight: 500;
     }
 
     .publication-content {
         width: 100%;
-    }
-    
-    .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 1rem;
     }
 }
 </style>
@@ -284,7 +178,6 @@ sup {
 </div>
 
 <div class="publication-list">
-
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Empowering Civic Engagement in AI Governance: A Two-wave Panel Study on AI Literacy and Participatory Governance of Generative AI in China.</span>
@@ -293,7 +186,7 @@ sup {
             <a href="https://doi.org/10.1016/j.telpol.2026.103190" class="publication-link" target="_blank" rel="noopener">DOI: 10.1016/j.telpol.2026.103190</a>
         </div>
     </div>
-    
+
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">人、物、机器：重思“机器问题”与机器人权利——专访大卫·贡克尔.</span>
@@ -301,7 +194,7 @@ sup {
             <span class="publication-venue"><em>国际新闻界</em>, 2026.</span>
         </div>
     </div>
-    
+
     <div class="publication-card">
         <div class="publication-content">
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
@@ -356,60 +249,50 @@ sup {
 </div>
 
 <h2>Conference Presentations</h2>
+
 <div class="conference-grid">
     <div class="conference-card">
-        <img src="/images/logo/ICA.png" class="conference-logo">
+        <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2026</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/NCA.jpeg" class="conference-logo">
+        <img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">
         <span>NCA 2025</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/4S.png" class="conference-logo">
+        <img src="/images/logo/4S.png" class="conference-logo" alt="4S logo">
         <span>4S 2025</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/AEJMC.jpeg" class="conference-logo">
+        <img src="/images/logo/AEJMC.jpeg" class="conference-logo" alt="AEJMC logo">
         <span>AEJMC 2025 🏆</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/IAMCR1.png" class="conference-logo">
+        <img src="/images/logo/IAMCR1.png" class="conference-logo" alt="IAMCR logo">
         <span>IAMCR 2025</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/ICA.png" class="conference-logo">
+        <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2025</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/NCA.jpeg" class="conference-logo">
+        <img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">
         <span>NCA 2024</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/ICA.png" class="conference-logo">
+        <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2024</span>
     </div>
+
     <div class="conference-card">
-        <img src="/images/logo/ICA.png" class="conference-logo">
+        <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2023</span>
-    </div>
-</div>
-
-<h2>Services</h2>
-<div class="conference-grid">
-    <div class="conference-card" style="width: auto;"> 
-        <img src="/images/logo/ACCS.png" class="conference-logo">
-        <div>
-            <span>Student Committee Chair (2024-2026)</span>
-            <div style="font-size:0.85em; color:#888;">Association for Chinese Communication Studies</div>
-        </div>
-    </div>
-
-    <div class="conference-card" style="width: auto;">
-        <img src="/images/logo/NCA.jpeg" class="conference-logo">
-        <div>
-            <span>Graduate Student Representative (2024-2025)</span>
-            <div style="font-size:0.85em; color:#888;">Communication and the Future Division, NCA</div>
-        </div>
     </div>
 </div>
