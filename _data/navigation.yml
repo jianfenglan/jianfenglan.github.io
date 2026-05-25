@@ -17,5 +17,5 @@ main:
   - title: "Blog"
     url: /blog/
     
- # - title: "Elsewhere"
-  #  url: /elsewhere/    
+  - title: "Elsewhere"
+    url: /elsewhere/    
