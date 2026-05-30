@@ -252,45 +252,41 @@ sup {
 
 <div class="conference-grid">
     <div class="conference-card">
+        <img src="/images/logo/4S.png" class="conference-logo" alt="4S logo">
+        <span>4S 2026</span>
+    </div>
+    <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2026</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">
         <span>NCA 2025</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/4S.png" class="conference-logo" alt="4S logo">
         <span>4S 2025</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/AEJMC.jpeg" class="conference-logo" alt="AEJMC logo">
         <span>AEJMC 2025 🏆</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/IAMCR1.png" class="conference-logo" alt="IAMCR logo">
         <span>IAMCR 2025</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2025</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">
         <span>NCA 2024</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2024</span>
     </div>
-
     <div class="conference-card">
         <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2023</span>
