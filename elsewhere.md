@@ -79,35 +79,15 @@ author_profile: true
 <div class="gallery-grid">
 
  <div class="gallery-card">
-    <img src="{{ '/images/Goodhope.png' | relative_url }}">
-    <div class="gallery-caption"><h3>the Cape of Good Hope 🇿🇦<br>June, 2026</h3></div>
-  </div>
-
- <div class="gallery-card">
     <img src="{{ '/images/Capetown.png' | relative_url }}">
     <div class="gallery-caption"><h3>Cape Town 🇿🇦<br>June, 2026</h3></div>
-  </div>
-  
- <div class="gallery-card">
-    <img src="{{ '/images/Jinan.JPG' | relative_url }}">
-    <div class="gallery-caption"><h3>Jinan 🇨🇳<br>May, 2026</h3></div>
   </div>
   
  <div class="gallery-card">
     <img src="{{ '/images/Xishuangbanna.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Xishuangbanna 🇨🇳<br>March, 2026</h3></div>
   </div>
-  
- <div class="gallery-card">
-    <img src="{{ '/images/Lijiang1.png' | relative_url }}">
-    <div class="gallery-caption"><h3>Lijiang 🇨🇳<br>March, 2026</h3></div>
-  </div>
  
- <div class="gallery-card">
-    <img src="{{ '/images/Wailingding.png' | relative_url }}">
-    <div class="gallery-caption"><h3>Wailingding Island 🇨🇳<br>February, 2026</h3></div>
-  </div>
-  
  <div class="gallery-card">
     <img src="{{ '/images/Gerringong.png' | relative_url }}">
     <div class="gallery-caption"><h3>Gerringong 🇦🇺<br>February, 2026</h3></div>
@@ -123,11 +103,6 @@ author_profile: true
     <div class="gallery-caption"><h3>Tokyo 🇯🇵<br>November, 2025</h3></div>
   </div>
 
-  <div class="gallery-card">
-    <img src="{{ '/images/Hukou.jpeg' | relative_url }}">
-    <div class="gallery-caption"><h3>Hukou Waterfall 🇨🇳<br>October, 2025</h3></div>
-  </div>
-  
   <div class="gallery-card">
     <img src="{{ '/images/Osaka.jpg' | relative_url }}">
     <div class="gallery-caption"><h3>Osaka 🇯🇵<br>April, 2025</h3></div>
