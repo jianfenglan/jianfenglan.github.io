@@ -79,6 +79,16 @@ author_profile: true
 <div class="gallery-grid">
 
  <div class="gallery-card">
+    <img src="{{ '/images/Goodhope.png' | relative_url }}">
+    <div class="gallery-caption"><h3>the Cape of Good Hope 🇿🇦<br>June, 2026</h3></div>
+  </div>
+
+ <div class="gallery-card">
+    <img src="{{ '/images/Capetown.png' | relative_url }}">
+    <div class="gallery-caption"><h3>Cape Town 🇿🇦<br>June, 2026</h3></div>
+  </div>
+  
+ <div class="gallery-card">
     <img src="{{ '/images/Jinan.JPG' | relative_url }}">
     <div class="gallery-caption"><h3>Jinan 🇨🇳<br>May, 2026</h3></div>
   </div>
