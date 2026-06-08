@@ -155,6 +155,15 @@ author_profile: true
 
 <div class="news-list">
 
+<div class="news-card" onclick="openModal(this)" data-title="ICA 2026" data-meta="June 6, 2026 | Cape Town" data-content="<p>Caught up with old friends, met new ones, presented research, learned a lot, and probably drank more wine than I should admit.<br><br>Also managed to see penguins, seals, baboons, and a few breathtaking landscapes along the way. Leaving with new ideas, new connections, and a renewed appreciation for this community.<br><br>Until next year.</p>">
+    <div class="news-content">
+        <h3>ICA 2026</h3>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/news/ICA2026.png' | relative_url }}">
+    </div>
+</div>
+
 <div class="news-card" onclick="openModal(this)" data-title="Invited Talk at Shandong Normal University" data-meta="May 8, 2026 | Jinan" data-content="<p>This May, I had the pleasure of visiting the School of Journalism and Communication at Shandong Normal University and to delivered a talk on communication methodologies. Drawing on two recent projects, I walked the audience through a set of methodological approaches including computational content analysis, social network analysis, and experimental design. I also learned a great deal about qualitative methods from my colleague KJ's sharing. The faculty and students at Shandong Normal raised some genuinely stimulating questions, and I am grateful to the School of Journalism and Communication for the warm hospitality.<br><br>Now I finally understand why Jinan is called the City of Springs.</p>">
     <div class="news-content">
         <h3>Invited Talk at Shandong Normal U.</h3>
