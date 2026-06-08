@@ -164,15 +164,6 @@ author_profile: true
     </div>
 </div>
 
-<div class="news-card" onclick="openModal(this)" data-title="Invited Talk at Shandong Normal University" data-meta="May 8, 2026 | Jinan" data-content="<p>This May, I had the pleasure of visiting the School of Journalism and Communication at Shandong Normal University and to delivered a talk on communication methodologies. Drawing on two recent projects, I walked the audience through a set of methodological approaches including computational content analysis, social network analysis, and experimental design. I also learned a great deal about qualitative methods from my colleague KJ's sharing. The faculty and students at Shandong Normal raised some genuinely stimulating questions, and I am grateful to the School of Journalism and Communication for the warm hospitality.<br><br>Now I finally understand why Jinan is called the City of Springs.</p>">
-    <div class="news-content">
-        <h3>Invited Talk at Shandong Normal U.</h3>
-    </div>
-    <div class="news-image">
-        <img src="{{ '/images/news/SDNU.JPG' | relative_url }}">
-    </div>
-</div>
-
 <div class="news-card" onclick="openModal(this)" data-title="NCA 2025" data-meta="November 22, 2025 | Denver" data-content="<p>This is my first year serving as the Student Affairs Committee Chair for ACCS at NCA. I joined the business meeting remotely and was delighted to be part of the group photo.<br><br>I feel deeply honored and grateful to have received such tremendous support from both the internal and external communities. I look forward to connecting with you all in the future.</p>">
     <div class="news-content">
         <h3>NCA 2025</h3>
