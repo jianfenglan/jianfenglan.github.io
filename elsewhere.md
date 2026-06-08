@@ -124,11 +124,6 @@ author_profile: true
   </div>
 
   <div class="gallery-card">
-    <img src="{{ '/images/Macao.jpg' | relative_url }}">
-    <div class="gallery-caption"><h3>Macao 🇲🇴<br>January, 2025</h3></div>
-  </div>
-
-  <div class="gallery-card">
     <img src="{{ '/images/NOLA1.jpg' | relative_url }}">
     <div class="gallery-caption"><h3>New Orleans 🇺🇸<br>November, 2024</h3></div>
   </div>
