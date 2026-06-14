@@ -20,7 +20,6 @@ body {
     --blue: #002FA7;
     --text: #2f3337;
     --muted: #6f7680;
-    --soft: #f7f9ff;
     --line: #e7ebf2;
 }
 
@@ -75,14 +74,14 @@ sup {
     padding: 1.05rem 1.15rem;
     border: 1px solid var(--line);
     border-radius: 14px;
-    background: linear-gradient(180deg, #fff 0%, #fcfdff 100%);
+    background: #fff;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
     transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 }
 
 .publication-card:hover {
-    border-color: rgba(0, 47, 167, 0.22);
-    box-shadow: 0 10px 22px rgba(0, 47, 167, 0.06);
+    border-color: #d8dee8;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
     transform: translateY(-1px);
 }
 
@@ -94,9 +93,9 @@ sup {
     justify-content: center;
     width: 2.15rem;
     height: 2.15rem;
-    border: 1px solid #dfe6f7;
+    border: 1px solid #dfe3eb;
     border-radius: 999px;
-    background: var(--soft);
+    background: #fff;
     color: var(--blue);
     font-size: 0.72em;
     font-weight: 560;
@@ -154,8 +153,8 @@ sup {
 }
 
 .publication-link:hover {
-    border-color: rgba(0, 47, 167, 0.35);
-    background: var(--soft);
+    border-color: #d8dee8;
+    background: #fff;
     color: var(--blue);
     text-decoration: none;
 }
@@ -182,8 +181,8 @@ sup {
 }
 
 .conference-card:hover {
-    border-color: rgba(0, 47, 167, 0.22);
-    box-shadow: 0 8px 18px rgba(0, 47, 167, 0.055);
+    border-color: #d8dee8;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.055);
     transform: translateY(-1px);
 }
 
