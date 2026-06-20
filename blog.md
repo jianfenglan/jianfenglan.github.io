@@ -52,8 +52,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.3rem 1.6rem 1.3rem 0;
+    align-items: center;
+    padding: 1.3rem 1.8rem;
     min-width: 0;
+    text-align: center;
 }
 
 .news-content h3 {
@@ -204,7 +206,7 @@ body {
     }
 
     .news-content {
-        padding: 1rem 0 1.1rem;
+        padding: 1rem 1.2rem 1.1rem;
     }
 
     .modal-overlay {
