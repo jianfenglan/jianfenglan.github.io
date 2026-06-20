@@ -253,7 +253,7 @@ body {
     </div>
 </div>
 
-<div class="news-card" onclick="openModal(this)" data-title="HKBU Graduate Conference 2025" data-meta="August 12, 2025 · Hong Kong" data-content="<p>I am sincerely grateful to the School of Communication at Hong Kong Baptist University for organizing the conference themed "Advancing Responsible AI Communication" and for fully funding my trip to Hong Kong. This marks my third visit to the city, but my first time at HKBU.<br><br>I was delighted to share my latest research on human–AI intimacy at the conference and truly appreciated the insightful feedback and inspiring conversations I received.</p>">
+<div class="news-card" onclick="openModal(this)" data-title="HKBU Graduate Conference 2025" data-meta="August 12, 2025 · Hong Kong" data-content="<p>I am sincerely grateful to the School of Communication at Hong Kong Baptist University for organizing the conference themed &quot;Advancing Responsible AI Communication&quot; and for fully funding my trip to Hong Kong. This marks my third visit to the city, but my first time at HKBU.<br><br>I was delighted to share my latest research on human–AI intimacy at the conference and truly appreciated the insightful feedback and inspiring conversations I received.</p>">
     <div class="news-content">
         <h3>HKBU Graduate Conference 2025</h3>
         <span class="news-meta">August 12, 2025 · Hong Kong</span>
