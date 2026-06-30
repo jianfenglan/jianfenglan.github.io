@@ -225,6 +225,16 @@ body {
 
 <div class="news-list">
 
+<div class="news-card" onclick="openModal(this)" data-title="PKU HSBC Conference" data-meta="June 29, 2026 · Shenzhen" data-content="<p>I had the chance to present our research at the 2026 Peking University HSBC Business School International Conference on Media and Communication Studies. We shared our work comparing AI companion app design across Chinese and U.S. platforms, and the conversation that followed was genuinely energizing. I'm grateful to the discussant and to everyone in the audience for their sharp questions and generous feedback, which gave me a lot to think through as I revise the paper.<br><br>The conference also gave us the opportunity to hear directly from two scholars whose work has shaped how I think about this field: Professor CJ, EIC of Journal of Communication, and Professor Kim, editor of Media Psychology. Both talks offered a clear sense of where communication research is heading, and listening to them was one of the most useful parts of the trip.</p>">
+    <div class="news-content">
+        <h3>PKU HSBC Conference</h3>
+        <span class="news-meta">June 29, 2026 · Shenzhen</span>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/news/PKUSZ.jpg' | relative_url }}" alt="PKU HSBC Conference">
+    </div>
+</div>
+
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2026" data-meta="June 6, 2026 · Cape Town" data-content="<p>Caught up with old friends, met new ones, presented research, learned a lot, and probably drank more wine than I should admit.<br><br>Also managed to see penguins, seals, baboons, and a few breathtaking landscapes along the way. Leaving with new ideas, new connections, and a renewed appreciation for this community.<br><br>Until next year.</p>">
     <div class="news-content">
         <h3>ICA 2026</h3>
