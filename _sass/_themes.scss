@@ -14,9 +14,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* System typefaces */
-$serif                      : Futura, "Futura PT", "Avenir Next", Avenir, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-$sans-serif                 : Futura, "Futura PT", "Avenir Next", Avenir, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-$monospace                  : Futura, "Futura PT", "Avenir Next", Avenir, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+$serif                      : Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
+$sans-serif                 : Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
+$monospace                  : Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -27,7 +27,7 @@ $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
-$garamond                   : Futura, "Futura PT", "Avenir Next", Avenir, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+$garamond                   : Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
 $avenir                     : "Avenir", serif;
 
 /* Type scale */
