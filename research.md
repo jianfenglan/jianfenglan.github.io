@@ -30,7 +30,7 @@ h2 {
     border-bottom: 0.5px solid var(--line);
     color: var(--muted);
     font-size: 0.72em;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
@@ -60,25 +60,12 @@ sup {
 }
 
 .publication-card {
-    display: grid;
-    grid-template-columns: 2.2rem minmax(0, 1fr);
-    column-gap: 1rem;
-    align-items: baseline;
-    padding: 0.9rem 0;
+    padding: 0.95rem 0;
     border-bottom: 0.5px solid var(--line);
 }
 
 .publication-list .publication-card:first-child {
     border-top: 0.5px solid var(--line);
-}
-
-.pub-num {
-    font-size: 0.75em;
-    font-weight: 500;
-    color: var(--klein);
-    letter-spacing: 0.02em;
-    padding-top: 0.15em;
-    line-height: 1.7;
 }
 
 .publication-content {
@@ -88,23 +75,25 @@ sup {
 .publication-title {
     display: block;
     font-size: 0.93em;
-    font-weight: 500;
+    font-weight: 400;
     color: #202327;
-    line-height: 1.5;
-    margin-bottom: 0.22rem;
+    line-height: 1.55;
+    margin-bottom: 0.24rem;
 }
 
 .publication-authors {
     display: block;
     font-size: 0.86em;
+    font-weight: 400;
     color: var(--muted);
     line-height: 1.55;
     margin-bottom: 0.1rem;
 }
 
 .publication-venue {
-    display: inline;
+    display: block;
     font-size: 0.86em;
+    font-weight: 400;
     color: var(--muted);
     line-height: 1.55;
 }
@@ -112,23 +101,6 @@ sup {
 .publication-venue em {
     font-style: italic;
     color: var(--muted);
-}
-
-.publication-link {
-    display: inline;
-    font-size: 0.82em;
-    color: var(--klein);
-    text-decoration: none;
-    margin-left: 0.5em;
-    opacity: 0.85;
-    border-bottom: 0.5px solid currentColor;
-    padding-bottom: 0.05em;
-    transition: opacity 0.15s ease;
-}
-
-.publication-link:hover {
-    opacity: 1;
-    text-decoration: none;
 }
 
 /* Conference Presentations */
@@ -148,6 +120,7 @@ sup {
     border-radius: 999px;
     background: #fff;
     font-size: 0.84em;
+    font-weight: 400;
     color: var(--muted);
     transition: border-color 0.15s ease, color 0.15s ease;
 }
@@ -179,8 +152,6 @@ sup {
     }
 
     .publication-card {
-        grid-template-columns: 1fr;
-        gap: 0.4rem;
         padding: 0.85rem 0;
     }
 }
@@ -194,25 +165,22 @@ sup {
 
 <div class="publication-list">
     <div class="publication-card">
-        <span class="pub-num">01</span>
         <div class="publication-content">
             <span class="publication-title">Empowering Civic Engagement in AI Governance: A Two-wave Panel Study on AI Literacy and Participatory Governance of Generative AI in China.</span>
             <span class="publication-authors">Lin, Z., Jin, Q., & <span class="my-name">Lan, J.</span></span>
-            <span class="publication-venue"><em>Telecommunications Policy</em>, 2026.<a href="https://doi.org/10.1016/j.telpol.2026.103190" class="publication-link" target="_blank" rel="noopener">Access</a></span>
+            <span class="publication-venue"><em>Telecommunications Policy</em>, 2026.</span>
         </div>
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">02</span>
         <div class="publication-content">
             <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human–AI Intimate Interactions.</span>
             <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span></span>
-            <span class="publication-venue"><em>Psychology of Popular Media</em>, 2025.<a href="https://doi.org/10.1037/ppm0000636" class="publication-link" target="_blank" rel="noopener">Access</a></span>
+            <span class="publication-venue"><em>Psychology of Popular Media</em>, 2025.</span>
         </div>
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">03</span>
         <div class="publication-content">
             <span class="publication-title">从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成.</span>
             <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span></span>
@@ -221,25 +189,22 @@ sup {
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">04</span>
         <div class="publication-content">
             <span class="publication-title">Performing Intimacy: Curating the Self-presentation in Human–AI Relationships.</span>
             <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y.</span>
-            <span class="publication-venue"><em>Emerging Media</em>, 2025.<a href="https://doi.org/10.1177/27523543251334157" class="publication-link" target="_blank" rel="noopener">Access</a></span>
+            <span class="publication-venue"><em>Emerging Media</em>, 2025.</span>
         </div>
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">05</span>
         <div class="publication-content">
             <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders.</span>
             <span class="publication-authors">Mou, Y.<sup>+</sup>, <span class="my-name">Lan, J.<sup>+</sup></span>, & Huang, Y.</span>
-            <span class="publication-venue"><em>New Media & Society</em>, 2023.<a href="https://doi.org/10.1177/14614448231212822" class="publication-link" target="_blank" rel="noopener">Access</a></span>
+            <span class="publication-venue"><em>New Media & Society</em>, 2023.</span>
         </div>
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">06</span>
         <div class="publication-content">
             <span class="publication-title">机器写作中的性别刻板印象：基于实验研究的实然探讨.</span>
             <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span></span>
@@ -252,7 +217,6 @@ sup {
 
 <div class="publication-list">
     <div class="publication-card">
-        <span class="pub-num">01</span>
         <div class="publication-content">
             <span class="publication-title">人、物、机器：重思"机器问题"与机器人权利——专访大卫·贡克尔.</span>
             <span class="publication-authors"><span class="my-name">蓝剑锋</span></span>
@@ -261,11 +225,10 @@ sup {
     </div>
 
     <div class="publication-card">
-        <span class="pub-num">02</span>
         <div class="publication-content">
             <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
             <span class="publication-authors"><span class="my-name">Lan, J.</span></span>
-            <span class="publication-venue"><em>AI & Society</em>, 2025.<a href="https://doi.org/10.1007/s00146-025-02693-0" class="publication-link" target="_blank" rel="noopener">Access</a></span>
+            <span class="publication-venue"><em>AI & Society</em>, 2025.</span>
         </div>
     </div>
 </div>
