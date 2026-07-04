@@ -65,7 +65,7 @@ author_profile: true
 }
 
 .quote-style {
-  font-family: Futura, "Futura PT", "Avenir Next", Avenir, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
   font-style: italic;
   color: #002fa7; /* 克莱因蓝 */
   text-align: center;
