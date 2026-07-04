@@ -1,13 +1,8 @@
 ---
 ---
 
-// ===================================================================
-// 【你的自定义修改区】
-// 我们在这里重新定义主题的变量，并添加我们自己的样式规则。
-// ===================================================================
-
 // 1. 定义全局字体堆栈
-$sans-serif: "Helvetica Neue", "Source Han Sans SC", "PingFang SC", "Aptos", "Dengxian", sans-serif;
+$sans-serif: Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
 
 // 2. 调整整体布局宽度
 $max-width: 1800px;
