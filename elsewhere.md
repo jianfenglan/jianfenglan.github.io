@@ -64,8 +64,8 @@ author_profile: true
     text-align: right;
 }
 
-    .quote-style {
-  font-family: 'Times New Roman', serif;
+.quote-style {
+  font-family: Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
   font-style: italic;
   color: #002fa7; /* 克莱因蓝 */
   text-align: center;
