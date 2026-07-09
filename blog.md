@@ -116,7 +116,7 @@ body {
     width: min(680px, 100%);
     max-height: calc(100vh - 8rem);
     margin-top: 2rem;
-    padding: 2rem 2.2rem;
+    padding: 0;
     border: 0.5px solid var(--line);
     border-radius: 16px;
     background: #fff;
@@ -137,6 +137,7 @@ body {
     position: absolute;
     top: 1rem;
     right: 1.2rem;
+    z-index: 10;
     color: var(--muted);
     font-size: 1.2rem;
     line-height: 1;
@@ -146,6 +147,24 @@ body {
 
 .close-button:hover {
     color: var(--klein);
+}
+
+.modal-image-wrap {
+    width: 100%;
+    overflow: hidden;
+    background: #f4f5f7;
+    border-bottom: 0.5px solid var(--line);
+}
+
+.modal-image-wrap img {
+    width: 100%;
+    max-height: 420px;
+    display: block;
+    object-fit: cover;
+}
+
+.modal-text {
+    padding: 2rem 2.2rem;
 }
 
 #modal-title {
@@ -217,13 +236,21 @@ body {
     .modal-content {
         max-height: calc(100vh - 5rem);
         margin-top: 3rem;
-        padding: 1.4rem;
         border-radius: 14px;
+    }
+
+    .modal-image-wrap img {
+        max-height: 300px;
+    }
+
+    .modal-text {
+        padding: 1.4rem;
     }
 }
 </style>
 
 <div class="news-list">
+
 <div class="news-card" onclick="openModal(this)" data-title="PKU HSBC Conference" data-meta="June 29, 2026 · Shenzhen" data-content="<p>I had the chance to present our research at the 2026 Peking University HSBC Business School International Conference on Media and Communication Studies. We shared our work comparing AI companion app design across Chinese and U.S. platforms, and the conversation that followed was genuinely energizing. I'm grateful to the discussant and to everyone in the audience for their sharp questions and generous feedback, which gave me a lot to think through as I revise the paper.<br><br>The conference also gave us the opportunity to hear directly from two scholars whose work has shaped how I think about this field: Professor CJ, EIC of Journal of Communication, and Professor Kim, editor of Media Psychology. Both talks offered a clear sense of where communication research is heading, and listening to them was one of the most useful parts of the trip.</p>">
     <div class="news-content">
         <h3>PKU HSBC Conference</h3>
@@ -233,6 +260,7 @@ body {
         <img src="{{ '/images/news/PKUSZ.jpg' | relative_url }}" alt="PKU HSBC Conference">
     </div>
 </div>
+
 <div class="news-card" onclick="openModal(this)" data-title="ICA 2026" data-meta="June 6, 2026 · Cape Town" data-content="<p>Caught up with old friends, met new ones, presented research, learned a lot, and probably drank more wine than I should admit.<br><br>Also managed to see penguins, seals, baboons, and a few breathtaking landscapes along the way. Leaving with new ideas, new connections, and a renewed appreciation for this community.<br><br>Until next year.</p>">
     <div class="news-content">
         <h3>ICA 2026</h3>
@@ -348,17 +376,43 @@ body {
 <div id="news-modal" class="modal-overlay">
     <div class="modal-content">
         <span class="close-button" onclick="closeModal()">×</span>
-        <h3 id="modal-title"></h3>
-        <div id="modal-meta"></div>
-        <div id="modal-body"></div>
+
+        <div class="modal-image-wrap" id="modal-image-wrap">
+            <img id="modal-image" src="" alt="">
+        </div>
+
+        <div class="modal-text">
+            <h3 id="modal-title"></h3>
+            <div id="modal-meta"></div>
+            <div id="modal-body"></div>
+        </div>
     </div>
 </div>
 
 <script>
 function openModal(card) {
-    document.getElementById('modal-title').innerText = card.getAttribute('data-title');
-    document.getElementById('modal-meta').innerText = card.getAttribute('data-meta');
-    document.getElementById('modal-body').innerHTML = card.getAttribute('data-content');
+    const title = card.getAttribute('data-title') || '';
+    const meta = card.getAttribute('data-meta') || '';
+    const content = card.getAttribute('data-content') || '';
+    const cardImage = card.querySelector('.news-image img');
+
+    document.getElementById('modal-title').innerText = title;
+    document.getElementById('modal-meta').innerText = meta;
+    document.getElementById('modal-body').innerHTML = content;
+
+    const modalImageWrap = document.getElementById('modal-image-wrap');
+    const modalImage = document.getElementById('modal-image');
+
+    if (cardImage && cardImage.getAttribute('src')) {
+        modalImage.src = cardImage.src;
+        modalImage.alt = cardImage.alt || title;
+        modalImageWrap.style.display = 'block';
+    } else {
+        modalImage.removeAttribute('src');
+        modalImage.alt = '';
+        modalImageWrap.style.display = 'none';
+    }
+
     const modal = document.getElementById('news-modal');
     modal.classList.add('show');
     document.body.style.overflow = 'hidden';
