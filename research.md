@@ -37,32 +37,12 @@ sup {
 
 .research-intro {
   margin: 0 0 2.2rem;
-  padding-bottom: 1.4rem;
-  border-bottom: 0.5px solid var(--line);
-}
-
-.research-kicker {
-  margin: 0 0 0.75rem;
-  color: var(--muted);
-  font-size: 0.72em;
-  font-weight: 400;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.research-intro p {
-  max-width: 740px;
-  margin: 0;
-  color: #30343a;
-  font-size: 1.02em;
-  line-height: 1.82;
 }
 
 .research-clusters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1.15rem;
 }
 
 .research-cluster {
@@ -221,9 +201,6 @@ sup {
 
 <div class="research-page">
   <div class="research-intro">
-    <div class="research-kicker">Research</div>
-    <p>My work sits at the intersection of human-AI communication and platform studies. I'm interested in how people form intimacy with AI systems, how these relationships persist or shift as the underlying technology evolves, and how emerging media reshape practices around mourning, memory and digital immortality. I also study the governance and political economy of AI platforms, drawing on qualitative, quantitative and mixed-methods approaches.</p>
-
     <div class="research-clusters">
       <span class="research-cluster">Human-AI intimacy</span>
       <span class="research-cluster">Digital immortality</span>
@@ -324,7 +301,7 @@ sup {
     <span class="conference-card">ICA 2026</span>
     <span class="conference-card">NCA 2025</span>
     <span class="conference-card">4S 2025</span>
-    <span class="conference-card">AEJMC 2025 · Top Student Paper</span>
+    <span class="conference-card">AEJMC 2025</span>
     <span class="conference-card">IAMCR 2025</span>
     <span class="conference-card">ICA 2025</span>
     <span class="conference-card">NCA 2024</span>
