@@ -23,6 +23,10 @@ body {
     --line: #e7ebf2;
 }
 
+.research-wrap h2:first-of-type {
+    margin-top: 0.5rem;
+}
+
 h2 {
     margin-top: 3rem;
     margin-bottom: 1.2rem;
@@ -62,10 +66,15 @@ sup {
 .publication-card {
     padding: 0.95rem 0;
     border-bottom: 0.5px solid var(--line);
+    transition: padding-left 0.18s ease;
 }
 
 .publication-list .publication-card:first-child {
     border-top: 0.5px solid var(--line);
+}
+
+.publication-card:hover {
+    padding-left: 0.5rem;
 }
 
 .publication-content {
@@ -79,6 +88,11 @@ sup {
     color: #202327;
     line-height: 1.55;
     margin-bottom: 0.24rem;
+    transition: color 0.18s ease;
+}
+
+.publication-card:hover .publication-title {
+    color: var(--klein);
 }
 
 .publication-authors {
@@ -154,8 +168,14 @@ sup {
     .publication-card {
         padding: 0.85rem 0;
     }
+
+    .publication-card:hover {
+        padding-left: 0;
+    }
 }
 </style>
+
+<div class="research-wrap">
 
 <h2>Publications</h2>
 
@@ -276,4 +296,6 @@ sup {
         <img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">
         <span>ICA 2023</span>
     </div>
+</div>
+
 </div>
