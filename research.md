@@ -35,26 +35,8 @@ sup {
   max-width: 860px;
 }
 
-.research-intro {
-  margin: 0 0 2.2rem;
-}
-
-.research-clusters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.research-cluster {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.42rem 0.78rem;
-  border: 0.5px solid var(--line);
-  border-radius: 999px;
-  color: var(--muted);
-  background: #fff;
-  font-size: 0.82em;
-  line-height: 1;
+.research-page > .section-title:first-child {
+  margin-top: 0.3rem;
 }
 
 .section-title {
@@ -157,6 +139,7 @@ sup {
 .conference-card {
   display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
   padding: 0.42rem 0.78rem;
   border: 0.5px solid var(--line);
   border-radius: 999px;
@@ -171,6 +154,13 @@ sup {
   border-color: var(--klein);
   color: var(--klein);
   transform: translateY(-1px);
+}
+
+.conference-logo {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -200,16 +190,6 @@ sup {
 </style>
 
 <div class="research-page">
-  <div class="research-intro">
-    <div class="research-clusters">
-      <span class="research-cluster">Human-AI intimacy</span>
-      <span class="research-cluster">Digital immortality</span>
-      <span class="research-cluster">Platform governance</span>
-      <span class="research-cluster">AI and society</span>
-      <span class="research-cluster">Mixed-methods approaches</span>
-    </div>
-  </div>
-
   <h2 class="section-title">Publications</h2>
 
   <div class="publication-legend">
@@ -297,15 +277,15 @@ sup {
   <h2 class="section-title">Conference Presentations</h2>
 
   <div class="conference-grid">
-    <span class="conference-card">4S 2026</span>
-    <span class="conference-card">ICA 2026</span>
-    <span class="conference-card">NCA 2025</span>
-    <span class="conference-card">4S 2025</span>
-    <span class="conference-card">AEJMC 2025</span>
-    <span class="conference-card">IAMCR 2025</span>
-    <span class="conference-card">ICA 2025</span>
-    <span class="conference-card">NCA 2024</span>
-    <span class="conference-card">ICA 2024</span>
-    <span class="conference-card">ICA 2023</span>
+    <span class="conference-card"><img src="/images/logo/4S.png" class="conference-logo" alt="4S logo">4S 2026</span>
+    <span class="conference-card"><img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">ICA 2026</span>
+    <span class="conference-card"><img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">NCA 2025</span>
+    <span class="conference-card"><img src="/images/logo/4S.png" class="conference-logo" alt="4S logo">4S 2025</span>
+    <span class="conference-card"><img src="/images/logo/AEJMC.jpeg" class="conference-logo" alt="AEJMC logo">AEJMC 2025</span>
+    <span class="conference-card"><img src="/images/logo/IAMCR1.png" class="conference-logo" alt="IAMCR logo">IAMCR 2025</span>
+    <span class="conference-card"><img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">ICA 2025</span>
+    <span class="conference-card"><img src="/images/logo/NCA.jpeg" class="conference-logo" alt="NCA logo">NCA 2024</span>
+    <span class="conference-card"><img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">ICA 2024</span>
+    <span class="conference-card"><img src="/images/logo/ICA.png" class="conference-logo" alt="ICA logo">ICA 2023</span>
   </div>
 </div>
