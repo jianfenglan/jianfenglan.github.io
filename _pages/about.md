@@ -1,6 +1,6 @@
 ---
-permalink: /
 title: ""
+permalink: /
 author_profile: true
 redirect_from:
   - /about/
@@ -8,32 +8,82 @@ redirect_from:
 ---
 
 <style>
-/* 为主页内容定义一个容器样式 */
-.main-content {
-  font-size: 0.95rem; /* 设置统一的字体大小 */
-  font-weight: 400;   /* 设置为 Ultra Light 字重 */
-  line-height: 1.8;   /* 增加行高，让文本更易读 */
+.page__inner-wrap {
+    max-width: 780px !important;
 }
 
-/* 如果主页上的名字或特定短语被 Markdown 或模板默认加粗，可以强制取消 */
-strong {
-  font-weight: 400 !important; /* 强制设置为 Ultra Light */
+body {
+    font-size: 0.95em;
+    line-height: 1.9;
+    font-weight: 400;
+    color: #2f3337;
 }
 
-/* 如果主页有其他 H 标签（h1, h2, h3等）且想设置为 Ultra Light */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; /* 设置标题为 Ultra Light 字重 */
+:root {
+    --klein: #002FA7;
 }
 
-/* 新增：为特定链接定义的克莱因蓝样式 */
-.main-content a.klein-link {
-  color: #002FA7; /* 克莱因蓝 */
-  text-decoration: none; /* 移除默认的下划线 */
-  font-weight: inherit; /* 继承父元素的字重，保持字体粗细不变 */
+.about-wrap {
+    padding: 0.3rem 0 1.5rem;
+    max-width: 560px;
 }
 
+.about-rule {
+    width: 36px;
+    height: 2px;
+    background: var(--klein);
+    margin: 0.4rem 0 1.6rem;
+}
+
+.about-wrap p {
+    margin: 0 0 1.1rem;
+    color: #2f3337;
+}
+
+.about-wrap p:last-child {
+    margin-bottom: 0;
+}
+
+.about-wrap a {
+    color: var(--klein);
+    text-decoration: none;
+    border-bottom: 0.5px solid rgba(0, 47, 167, 0.3);
+    transition: border-color 0.15s ease;
+}
+
+.about-wrap a:hover {
+    border-color: var(--klein);
+}
+
+.about-wrap .cn {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .page__inner-wrap {
+        max-width: 100% !important;
+    }
+
+    body {
+        font-size: 0.94em;
+    }
+}
 </style>
 
-<div class="main-content">
-Hi, this is Jeff.<br><br>I'm a Ph.D. student in Communication at Shanghai Jiao Tong University (M.A.-Ph.D. combined program), and a member of the <a href="https://cfmhmc.github.io/" class="klein-link" target="_blank">Center for Future Media & Human-Machine Communication</a>, advised by <a href="https://cfmhmc.github.io/yimou.github.io/" class="klein-link" target="_blank">Prof. Yi Mou</a>.<br><br>My research focuses on human-AI interaction's impact on emerging media users' perception of intimacy and digital immortality.<br><br>Currently, I'm serving as the assistant editor for journal <a href="https://journals.sagepub.com/home/bds" class="klein-link" target="_blank">Big Data & Society</a>, and the student committee chair for <a href="https://www.chinesecommunicationstudies.com/" class="klein-link" target="_blank">Association for Chinese Communication Studies</a>.<br><br>Before joining SJTU, I received my B.A. in Journalism from Chongqing University.<br><br>你好，我是蓝剑锋。<br><br>我现在是上海交通大学传播学专业的博士生（硕博连读项目），同时也是<a href="https://cfmhmc.github.io/" class="klein-link" target="_blank">未来媒体与人机传播研究中心</a>的研究助理。我的导师是<a href="https://cfmhmc.github.io/yimou.github.io/" class="klein-link" target="_blank">牟怡教授</a>。<br><br>我的研究聚焦在人机交互对新兴媒介用户的亲密关系感知和数字死亡观的影响。<br><br>目前我担任英文期刊<a href="https://journals.sagepub.com/home/bds" class="klein-link" target="_blank">《大数据与社会》</a>的助理编辑，同时我也是<a href="https://www.chinesecommunicationstudies.com/" class="klein-link" target="_blank">中华传播学会</a>的学生委员会主席。<br><br>我曾在重庆大学获得新闻学学士学位。<br><br>
+<div class="about-wrap">
+
+<div class="about-rule"></div>
+
+<p>I'm a Ph.D. candidate in Communication at Shanghai Jiao Tong University, part of the combined master's-doctoral program, and a member of the <a href="https://cfmhmc.github.io/" target="_blank">Center for Future Media &amp; Human-Machine Communication</a>, advised by <a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">Prof. Yi Mou</a>.</p>
+
+<p>My work sits at the intersection of human-AI communication and platform studies. I'm interested in how people form intimacy with AI systems, how these relationships persist or shift as the underlying technology evolves, and how emerging media reshape practices around mourning, memory and digital immortality. I also study the governance and political economy of AI platforms, drawing on qualitative, quantitative and mixed-methods approaches.</p>
+
+<p>I currently serve as Assistant Editor for <a href="https://journals.sagepub.com/home/bds" target="_blank">Big Data &amp; Society</a>, and Student Committee Chair for the <a href="https://www.chinesecommunicationstudies.com/" target="_blank">Association for Chinese Communication Studies</a>. Before joining SJTU I completed my B.A. in Journalism at Chongqing University.</p>
+
+<p class="cn">我是上海交通大学传播学专业的博士生，硕博连读项目在读，同时是<a href="https://cfmhmc.github.io/" target="_blank">未来媒体与人机传播研究中心</a>的研究助理，师从<a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">牟怡教授</a>。</p>
+
+<p>我的研究处于人机传播与平台研究的交叉领域。我关注人们如何与人工智能系统建立亲密关系，这种关系如何随着技术演变而延续或改变，以及新兴媒介如何重塑哀悼、记忆与数字生命观念相关的实践。我也关注人工智能平台的治理与政治经济学问题，研究方法涵盖质性、量化与混合方法。</p>
+
+<p>我目前担任<a href="https://journals.sagepub.com/home/bds" target="_blank">《大数据与社会》</a>助理编辑，以及<a href="https://www.chinesecommunicationstudies.com/" target="_blank">中华传播学会</a>学生委员会主席。在加入交大之前，我在重庆大学完成新闻学学士学位。</p>
+
 </div>
