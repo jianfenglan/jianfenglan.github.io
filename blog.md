@@ -251,6 +251,16 @@ body {
 
 <div class="news-list">
 
+<div class="news-card" onclick="openModal(this)" data-title="Intelligent & Computational Comm. Workshop" data-meta="July 15, 2026 · Zhuhai" data-content="<p>This might have been my most computational birthday yet. I attended a workshop at the Computational Communication Research Center at Beijing Normal University, where I had the chance to meet Professors Jonathan Zhu and Winson Peng and listen to their insightful presentations.<br><br>Computational Communication has long been a field that fascinates me, yet one I’ve always found somewhat intimidating. Now that AI has been deeply integrated into it, what have the core research questions become? I suppose this is something I’ll need to keep exploring.</p>">
+    <div class="news-content">
+        <h3>Intelligent & Computational Comm. Workshop</h3>
+        <span class="news-meta">July 15, 2026 · Zhuhai</span>
+    </div>
+    <div class="news-image">
+        <img src="{{ '/images/news/BNU.JPG' | relative_url }}" alt="Intelligent & Computational Comm. Workshop">
+    </div>
+</div>
+
 <div class="news-card" onclick="openModal(this)" data-title="PKU HSBC Conference" data-meta="June 29, 2026 · Shenzhen" data-content="<p>I had the chance to present our research at the 2026 Peking University HSBC Business School International Conference on Media and Communication Studies. We shared our work comparing AI companion app design across Chinese and U.S. platforms, and the conversation that followed was genuinely energizing. I'm grateful to the discussant and to everyone in the audience for their sharp questions and generous feedback, which gave me a lot to think through as I revise the paper.<br><br>The conference also gave us the opportunity to hear directly from two scholars whose work has shaped how I think about this field: Professor CJ, EIC of Journal of Communication, and Professor Kim, editor of Media Psychology. Both talks offered a clear sense of where communication research is heading, and listening to them was one of the most useful parts of the trip.</p>">
     <div class="news-content">
         <h3>PKU HSBC Conference</h3>
