@@ -199,6 +199,13 @@ sup {
   </div>
 
   <div class="publication-list">
+            <div class="publication-card">
+      <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
+      <div class="publication-content">
+        <span class="publication-title">Subscribe to Intimacy: Platform Capitalism, Governance, and the Stratification of AI Companionship.</span>
+        <span class="publication-authors"><span class="my-name">Lan, J.</span>, Deng, K., and Huang, Y.<em>Telematics and Informatics</em>.</span>
+      </div>
+    </div>
         <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
