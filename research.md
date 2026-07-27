@@ -209,7 +209,7 @@ sup {
         <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
-        <span class="publication-title">Provincializing Vulnerability: Rethinking Communication Inequality in East Asia’s COVID-19 Research.</span>
+        <span class="publication-title">Provincializing Vulnerability: Rethinking Communication Inequality in East Asia's COVID-19 Research.</span>
         <span class="publication-authors">Huang, Y. & <span class="my-name">Lan, J.*</span>, <em>Health</em>.</span>
       </div>
     </div>
@@ -233,7 +233,7 @@ sup {
       <div class="publication-meta"><span class="publication-year">2025</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成.</span>
-        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>新闻与传播研究</em>。</span>
+        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>新闻与传播研究</em>.</span>
       </div>
     </div>
 
@@ -252,14 +252,6 @@ sup {
         <span class="publication-authors">Mou, Y.<sup>+</sup>, <span class="my-name">Lan, J.<sup>+</sup></span>, & Huang, Y., <em>New Media & Society</em>.</span>
       </div>
     </div>
-
-    <div class="publication-card">
-      <div class="publication-meta"><span class="publication-year">2023</span><span class="publication-type">Article</span></div>
-      <div class="publication-content">
-        <span class="publication-title">机器写作中的性别刻板印象：基于实验研究的实然探讨.</span>
-        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>中国网络传播研究</em>。</span>
-      </div>
-    </div>
   </div>
 
   <h2 class="section-title">Book Reviews & Interviews</h2>
@@ -269,7 +261,7 @@ sup {
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Interview</span></div>
       <div class="publication-content">
         <span class="publication-title">人、物、机器：重思"机器问题"与机器人权利，专访大卫·贡克尔.</span>
-        <span class="publication-authors"><span class="my-name">蓝剑锋</span>，<em>国际新闻界</em>。</span>
+        <span class="publication-authors"><span class="my-name">蓝剑锋</span>，<em>国际新闻界</em>.</span>
       </div>
     </div>
 
@@ -278,6 +270,26 @@ sup {
       <div class="publication-content">
         <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
         <span class="publication-authors"><span class="my-name">Lan, J.</span>, <em>AI & Society</em>.</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">Book Chapter</h2>
+
+  <div class="publication-list">
+    <div class="publication-card">
+      <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
+      <div class="publication-content">
+        <span class="publication-title">生成式人工智能赋能下的新闻传播学研究方法革新探析.</span>
+        <span class="publication-authors">牟怡, 倪盈盈, <span class="my-name">蓝剑锋</span>, 马文斌，<em>智能传播研究</em>.</span>
+      </div>
+    </div>
+
+    <div class="publication-card">
+      <div class="publication-meta"><span class="publication-year">2023</span><span class="publication-type">Article</span></div>
+      <div class="publication-content">
+        <span class="publication-title">机器写作中的性别刻板印象：基于实验研究的实然探讨.</span>
+        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>中国网络传播研究</em>.</span>
       </div>
     </div>
   </div>
