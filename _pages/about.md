@@ -41,7 +41,7 @@ redirect_from:
 
 <div class="about-wrap">
 
-<p>Hi, this is Jeff. I study people, machines, and the complicated feelings in between. I'm a Ph.D. candidate in Communication at Shanghai Jiao Tong University, part of the combined master's-doctoral program, and a member of the <a href="https://cfmhmc.github.io/" target="_blank">Center for Future Media &amp; Human-Machine Communication</a>, advised by <a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">Prof. Yi Mou</a>.</p>
+<p>Hi, this is Jeff. I study people, machines, and the complicated feelings in between. I'm a Ph.D. candidate in Communication at Shanghai Jiao Tong University, part of the combined master's-doctoral program, and a member of the <a href="https://cfmhmc.github.io/" target="_blank">Center for Future Media &amp; Human-Machine Communication</a>, under the supervision of <a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">Prof. Yi Mou</a>.</p>
 
 <p>My work sits at the intersection of human-AI communication and platform studies. Specifically, I'm interested in how people form intimacy with AI systems, how these relationships persist or shift as the underlying technology evolves, and how emerging media reshape practices around mourning, memory and digital immortality. I also study the governance and political economy of AI platforms, drawing on qualitative, quantitative and mixed-methods approaches.</p>
 
