@@ -45,7 +45,7 @@ redirect_from:
 
 <p>My work sits at the intersection of human-AI communication and media psychology. Specifically, I am interested in how people form intimate relationships with AI systems, how these relationships persist or shift as the underlying technology evolves, and how emerging media reshape practices around mourning, memory, and digital immortality. I also examine the governance and political economy of AI platforms, integrating qualitative, quantitative, and mixed-methods approaches to investigate the psychological, relational, and institutional dimensions of human–AI interaction.</p>
 
-<p>I currently serve as Assistant Editor for <a href="https://journals.sagepub.com/home/bds" target="_blank">Big Data &amp; Society</a>, and Student Committee Chair for the <a href="https://www.chinesecommunicationstudies.com/" target="_blank">Association for Chinese Communication Studies</a>. Before joining SJTU I completed my B.A. in Journalism at Chongqing University.</p>
+<p>I currently serve as Assistant Editor for <a href="https://journals.sagepub.com/home/bds" target="_blank">Big Data &amp; Society</a>, and Student Committee Chair for the <a href="https://www.chinesecommunicationstudies.com/" target="_blank">Association for Chinese Communication Studies</a>. Before joining SJTU, I completed my B.A. in Journalism at Chongqing University.</p>
 
 <p class="cn">你好，我是Jeff。我研究人与机器，以及二者间产生的复杂情感。我是上海交通大学传播学专业的博士研究生，硕博连读项目在读，同时是<a href="https://cfmhmc.github.io/" target="_blank">未来媒体与人机传播研究中心</a>的研究助理，师从<a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">牟怡教授</a>。</p>
 
