@@ -38,15 +38,8 @@ redirect_from:
     margin-top: 2rem;
 }
 </style>
-
 <div class="about-wrap">
-
 <p>Hi, this is Jeff. I study people, machines, and the complicated feelings in between. I'm a Ph.D. candidate in Communication at Shanghai Jiao Tong University, part of the combined master's-doctoral program, and a member of the <a href="https://cfmhmc.github.io/" target="_blank">Center for Future Media &amp; Human-Machine Communication</a>, under the supervision of <a href="https://cfmhmc.github.io/yimou.github.io/" target="_blank">Prof. Yi Mou</a>.</p>
-
 <p>My work sits at the intersection of human-AI communication and media psychology. Specifically, I am interested in how people form intimate relationships with AI systems, how these relationships persist or shift as the underlying technology evolves, and how emerging media reshape practices around mourning, memory, and digital immortality. I also examine the governance and political economy of AI platforms, integrating qualitative, quantitative, and mixed-methods approaches to investigate the psychological, relational, and institutional dimensions of human–AI interaction.</p>
-
 <p>I currently serve as Assistant Editor for <a href="https://journals.sagepub.com/home/bds" target="_blank">Big Data &amp; Society</a>, and Student Committee Chair for the <a href="https://www.chinesecommunicationstudies.com/" target="_blank">Association for Chinese Communication Studies</a>. Before joining SJTU, I completed my B.A. in Journalism at Chongqing University.</p>
-
-<p>我目前担任<a href="https://journals.sagepub.com/home/bds" target="_blank">《大数据与社会》</a>助理编辑，以及<a href="https://www.chinesecommunicationstudies.com/" target="_blank">中华传播学会</a>学生委员会主席。在加入交大之前，我在重庆大学获得了新闻学学士学位。</p>
-
 </div>
