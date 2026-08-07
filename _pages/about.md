@@ -17,6 +17,8 @@ redirect_from:
 
 .about-wrap p {
     margin: 0 0 1.1rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-wrap p:last-child {
