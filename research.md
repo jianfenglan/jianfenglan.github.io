@@ -294,7 +294,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2025</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">从"机事"到"机心"：与智能技术的深度意义交互及当代青年的数字生命观形成.</span>
-        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>新闻与传播研究</em>.</span>
+        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span></span>
+        <span class="publication-journal-row">
+          <em>新闻与传播研究</em>
+          <a class="publication-doi-link" href="https://www.ncpssd.org/Literature/secure/articleinfo?params=THlnRFlmRjBGSlo0bnE3RW9aVVJnczN6UDRFVWUwZk9aRWxuUDREdk11RWhOcUF1bE1lOG9wRWp4V1YvdUcvbXNEYlBNUEF5Ykp3MnBoKyt2L0J0S1hPZ0ZCa0JyQklHQnZtdGtCaVNIdDA3K1pibFdya0ZNb3gwR281OXZzT0lZUVQxWS8yZmpXNlhIMDZESVY1SklBPT0&pageUrl=https%253A%252F%252Fwww.ncpssd.org%252Fjournal%252Fsecure%252Fdetails%253Fparams%253DOXZteWZmTXFqWjlyZ2x3RzN1NEFFYk1MTU40Z0V3dGZEUlUyK2doYnREUzN3Ly9YL1NZdXFUUGIzMGNnZkh3Rg" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
 
@@ -334,7 +340,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Interview</span></div>
       <div class="publication-content">
         <span class="publication-title">人、物、机器：重思"机器问题"与机器人权利，专访大卫·贡克尔.</span>
-        <span class="publication-authors"><span class="my-name">蓝剑锋</span>，<em>国际新闻界</em>.</span>
+        <span class="publication-authors"><span class="my-name">蓝剑锋</span></span>
+        <span class="publication-journal-row">
+          <em>国际新闻界</em>
+          <a class="publication-doi-link" href="https://www.ncpssd.org/Literature/secure/articleinfo?params=UWpIOW9XYTU0NklGQko3a0xyVnhqS0c3NTRhT3FaWTVkM3BjaTlreUZXN2kvTjl3Zmc2VThxUGxMS0tWL29nSjVaNVhsWEJYdms5L1BkUkpCelU5VlpiRHpMd3RNSVpOYXNBSzNjRzcrQnV4V0NxRjVYR1djUVhhZ2F3WkZsT1BPVkpoMU8zUjJBcmJ4SlZlSzg2bkhRPT0&pageUrl=https%253A%252F%252Fwww.ncpssd.org%252Fjournal%252Fsecure%252Fdetails%253Fparams%253DQjdSUDJKa0Y2UzRMQlZZemluaW1sL0VJUE8yTmpKZDFHMElFUUNUR0MyWT0" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
 
@@ -360,7 +372,10 @@ sup {
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">生成式人工智能赋能下的新闻传播学研究方法革新探析.</span>
-        <span class="publication-authors">牟怡, 倪盈盈, <span class="my-name">蓝剑锋</span>, 马文斌，<em>智能传播研究</em>.</span>
+        <span class="publication-authors">牟怡, 倪盈盈, <span class="my-name">蓝剑锋</span>, 马文斌</span>
+        <span class="publication-journal-row">
+          <em>智能传播研究</em>
+        </span>
       </div>
     </div>
 
@@ -368,7 +383,10 @@ sup {
       <div class="publication-meta"><span class="publication-year">2023</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">机器写作中的性别刻板印象：基于实验研究的实然探讨.</span>
-        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>，<em>中国网络传播研究</em>.</span>
+        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span></span>
+        <span class="publication-journal-row">
+          <em>中国网络传播研究</em>
+        </span>
       </div>
     </div>
   </div>
