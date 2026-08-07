@@ -28,22 +28,18 @@ $max-width: 1800px;
   margin: 2rem 0;
 }
 
-// 5. 全局应用 Light 字体权重 (300)
-// 对于大部分文本，包括导航、侧边栏和正文，应用 Light 字重
+// 5. 全局应用字体权重
 body {
-  font-family: $sans-serif; // 确保应用你定义的字体堆栈
-  font-weight: 400; // Light 字重
+  font-family: $sans-serif;
+  font-weight: 400;
 }
 
-// 如果希望某些地方使用 Extra Light (Ultra Light) 字重，可以专门指定
-// 例如，如果你想让导航栏的文字更细，可以这样添加：
 .masthead__menu-item a {
-  font-weight: 400; // Extra Light (Ultra Light) 字重
+  font-weight: 400;
 }
 
 // ===================================================================
 // 【主题默认导入区】
-// 现在，主题会带着我们上面的新定义去加载它的所有默认样式。
 // ===================================================================
 @import
   "vendor/breakpoint/breakpoint",
@@ -71,3 +67,30 @@ body {
   "vendor/font-awesome/brands",
   "vendor/magnific-popup/magnific-popup"
 ;
+
+// ===================================================================
+// Desktop layout rebalance
+// The upstream Academic Pages layout reserves much more whitespace on the
+// right side of .page than on the left. Keep the author sidebar, but let the
+// content use the remaining desktop width symmetrically.
+// ===================================================================
+@include breakpoint($large) {
+  .page {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .page .page__inner-wrap {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include breakpoint($x-large) {
+  #main {
+    max-width: 1600px;
+  }
+}
