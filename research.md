@@ -120,8 +120,8 @@ sup {
 .publication-journal-row {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 0.6rem;
+  justify-content: flex-start;
+  gap: 0.35rem;
   margin-top: 0.15rem;
 }
 
@@ -136,6 +136,8 @@ sup {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  position: relative;
+  top: 1px;
   color: var(--muted);
   transition: color 0.15s ease, transform 0.15s ease;
 }
