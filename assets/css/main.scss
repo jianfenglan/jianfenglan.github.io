@@ -9,8 +9,8 @@
 // 1. 定义全局字体堆栈
 $sans-serif: Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
 
-// 2. 调整整体布局宽度
-$max-width: 1800px;
+// 2. 保持页面内容在宽屏上的舒适阅读宽度
+$max-width: 1280px;
 
 // 3. 解决侧边栏文字溢出问题
 .author__employer,
@@ -20,7 +20,7 @@ $max-width: 1800px;
   word-break: break-all;
 }
 
-// 4. 统一并拓宽所有卡片页面的内容宽度
+// 4. 统一所有卡片页面的内容宽度
 .news-list,
 .publication-list,
 .gallery-grid {
@@ -69,28 +69,30 @@ body {
 ;
 
 // ===================================================================
-// Desktop layout rebalance
-// The upstream Academic Pages layout reserves much more whitespace on the
-// right side of .page than on the left. Keep the author sidebar, but let the
-// content use the remaining desktop width symmetrically.
+// Desktop layout refinement
+// Keep Academic Pages' original centered 1280px container, but replace its
+// strongly asymmetric page padding with balanced gutters. This preserves
+// comfortable whitespace at full-screen widths and a stable gap between the
+// fixed author sidebar and the main content at intermediate desktop widths.
 // ===================================================================
 @include breakpoint($large) {
   .page {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 4.75%;
+    padding-right: 4.75%;
+  }
+}
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .page .page__inner-wrap {
-    max-width: 1120px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 @include breakpoint($x-large) {
   #main {
-    max-width: 1600px;
+    max-width: $x-large;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
