@@ -116,6 +116,41 @@ sup {
   font-style: italic;
 }
 
+/* Journal name on its own line, with a DOI link icon aligned to the right */
+.publication-journal-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: 0.15rem;
+}
+
+.publication-journal-row em {
+  color: var(--muted);
+  font-size: 0.86em;
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.publication-doi-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--muted);
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.publication-doi-link:hover {
+  color: var(--klein);
+  transform: translateY(-1px);
+}
+
+.publication-doi-link svg {
+  width: 13px;
+  height: 13px;
+  display: block;
+}
+
 .my-name {
   color: var(--klein);
 }
@@ -203,21 +238,39 @@ sup {
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Subscribe to Intimacy: Platform Capitalism, Governance, and the Stratification of AI Companionship.</span>
-        <span class="publication-authors"><span class="my-name">Lan, J.</span>, Deng, K., and Huang, Y.,<em>Telematics and Informatics</em>.</span>
+        <span class="publication-authors"><span class="my-name">Lan, J.</span>, Deng, K., and Huang, Y.</span>
+        <span class="publication-journal-row">
+          <em>Telematics and Informatics</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1016/j.tele.2026.102446" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
         <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Provincializing Vulnerability: Rethinking Communication Inequality in East Asia's COVID-19 Research.</span>
-        <span class="publication-authors">Huang, Y. & <span class="my-name">Lan, J.*</span>, <em>Health</em>.</span>
+        <span class="publication-authors">Huang, Y. & <span class="my-name">Lan, J.*</span></span>
+        <span class="publication-journal-row">
+          <em>Health</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1177/13634593261473177" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
     <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Empowering Civic Engagement in AI Governance: A Two-wave Panel Study on AI Literacy and Participatory Governance of Generative AI in China.</span>
-        <span class="publication-authors">Lin, Z., Jin, Q., & <span class="my-name">Lan, J.</span>, <em>Telecommunications Policy</em>.</span>
+        <span class="publication-authors">Lin, Z., Jin, Q., & <span class="my-name">Lan, J.</span></span>
+        <span class="publication-journal-row">
+          <em>Telecommunications Policy</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1016/j.telpol.2026.103190" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
 
@@ -225,7 +278,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2025</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Personality Meets the Machine: Traits and Attributes in Human-AI Intimate Interactions.</span>
-        <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span>, <em>Psychology of Popular Media</em>.</span>
+        <span class="publication-authors">Huang, Y., <span class="my-name">Lan, J.*</span></span>
+        <span class="publication-journal-row">
+          <em>Psychology of Popular Media</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1037/ppm0000636" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
 
@@ -241,7 +300,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2025</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Performing Intimacy: Curating the Self-presentation in Human-AI Relationships.</span>
-        <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y., <em>Emerging Media</em>.</span>
+        <span class="publication-authors"><span class="my-name">Lan, J.</span>, Huang, Y.</span>
+        <span class="publication-journal-row">
+          <em>Emerging Media</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1177/27523543251334157" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
 
@@ -249,7 +314,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2023</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Good Night versus Goodbye? Comparing the Mourning Remarks of Virtual and Human Uploaders.</span>
-        <span class="publication-authors">Mou, Y.<sup>+</sup>, <span class="my-name">Lan, J.<sup>+</sup></span>, & Huang, Y., <em>New Media & Society</em>.</span>
+        <span class="publication-authors">Mou, Y.<sup>+</sup>, <span class="my-name">Lan, J.<sup>+</sup></span>, & Huang, Y.</span>
+        <span class="publication-journal-row">
+          <em>New Media & Society</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1177/14614448231212822" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
   </div>
@@ -269,7 +340,13 @@ sup {
       <div class="publication-meta"><span class="publication-year">2025</span><span class="publication-type">Review</span></div>
       <div class="publication-content">
         <span class="publication-title">Book Review: Person, Thing, Robot: A Moral and Legal Ontology for the 21st Century and Beyond.</span>
-        <span class="publication-authors"><span class="my-name">Lan, J.</span>, <em>AI & Society</em>.</span>
+        <span class="publication-authors"><span class="my-name">Lan, J.</span></span>
+        <span class="publication-journal-row">
+          <em>AI & Society</em>
+          <a class="publication-doi-link" href="https://doi.org/10.1007/s00146-025-02693-0" target="_blank" rel="noopener" aria-label="View article">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </span>
       </div>
     </div>
   </div>
