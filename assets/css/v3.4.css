@@ -1,0 +1,78 @@
+/* Modern Sans V3.4 — restrained interactions and compact About placement */
+
+/* About: centered horizontally, placed near the top with moderate breathing room. */
+.page__content .about-v3 {
+  display: block !important;
+  min-height: 0 !important;
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  padding: 4.5rem 1rem 3rem !important;
+}
+
+.page__content .about-v3__statement {
+  max-width: 42ch !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+/* Research: remove all publication/conference hover effects. */
+.page__content .publication-card,
+.page__content .publication-card:hover {
+  margin: 0 !important;
+  padding: 0.8rem 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.page__content .publication-card:hover .publication-year,
+.page__content .publication-card:hover .my-name {
+  color: #002FA7 !important;
+}
+
+.page__content .publication-card:hover .publication-title,
+.page__content .publication-card:hover .publication-journal-row {
+  color: #555a5f !important;
+}
+
+.page__content .publication-card:hover .publication-type,
+.page__content .publication-card:hover .publication-authors,
+.page__content .publication-card:hover .publication-journal-row em,
+.page__content .publication-card:hover .publication-doi-link {
+  color: #737980 !important;
+}
+
+.page__content .conference-card:hover {
+  color: #737980 !important;
+  background: transparent !important;
+  transform: none !important;
+}
+
+/* Blog: clickable cards with depth, but no hover color/scale treatment. */
+.page__content .news-card,
+.page__content .news-card:hover {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 6px 22px rgba(15, 23, 42, 0.10) !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.page__content .news-card:hover .news-image img {
+  transform: none !important;
+  filter: saturate(0.88) !important;
+}
+
+@media (max-width: 768px) {
+  .page__content .about-v3 {
+    min-height: 0 !important;
+    padding: 3rem 0.5rem 2rem !important;
+  }
+
+  .page__content .publication-card,
+  .page__content .publication-card:hover {
+    margin: 0 !important;
+    padding: 0.7rem 0 !important;
+  }
+}
