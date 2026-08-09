@@ -67,10 +67,29 @@ body {
   font-family: $sans-serif;
   font-weight: 300;
   line-height: 1.62;
-  color: #44484d;
+  color: #555a5f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+// Keep long-form copy optically as light as the sidebar bio. Some individual
+// pages carry older local rules at weight 400, so the content layer is made
+// explicit here without weakening titles or labels.
+.page__content {
+  font-weight: 300;
+  color: #555a5f;
+}
+
+.page__content p,
+.page__content li,
+.page__content dl {
+  font-weight: 300;
+}
+
+.page__content .about-wrap {
+  font-weight: 300;
+  color: #555a5f;
 }
 
 // Strong hierarchy without returning to a heavy, old-fashioned page texture.
