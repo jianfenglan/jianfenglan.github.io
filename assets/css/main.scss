@@ -2,17 +2,18 @@
 ---
 
 // ===================================================================
-// 【你的自定义修改区】
-// 我们在这里重新定义主题的变量，并添加我们自己的样式规则。
+// Modern Sans v1
+// Inter for Latin text + Source Han Sans / Noto Sans SC for Chinese.
+// Body copy is intentionally light and dark gray; headings retain weight.
 // ===================================================================
 
-// 1. 定义全局字体堆栈
-$sans-serif: Garamond, STSong, "Songti SC", SimSun, "Noto Serif CJK SC", serif;
+// 1. Modern bilingual font stack
+$sans-serif: "Inter", "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "Segoe UI", Helvetica, Arial, sans-serif;
 
-// 2. 保持页面内容在宽屏上的舒适阅读宽度
+// 2. Keep page content at a comfortable width on large screens
 $max-width: 1280px;
 
-// 3. 解决侧边栏文字溢出问题
+// 3. Prevent long sidebar metadata from overflowing
 .author__employer,
 .author__location {
   overflow-wrap: break-word;
@@ -20,7 +21,7 @@ $max-width: 1280px;
   word-break: break-all;
 }
 
-// 4. 统一所有卡片页面的内容宽度
+// 4. Keep card/list pages aligned with the full content column
 .news-list,
 .publication-list,
 .gallery-grid {
@@ -28,18 +29,8 @@ $max-width: 1280px;
   margin: 2rem 0;
 }
 
-// 5. 全局应用字体权重
-body {
-  font-family: $sans-serif;
-  font-weight: 400;
-}
-
-.masthead__menu-item a {
-  font-weight: 400;
-}
-
 // ===================================================================
-// 【主题默认导入区】
+// Theme imports
 // ===================================================================
 @import
   "vendor/breakpoint/breakpoint",
@@ -67,6 +58,88 @@ body {
   "vendor/font-awesome/brands",
   "vendor/magnific-popup/magnific-popup"
 ;
+
+// ===================================================================
+// Modern Sans v1 visual layer
+// ===================================================================
+body {
+  font-family: $sans-serif;
+  font-weight: 300;
+  line-height: 1.62;
+  color: #44484d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// Strong hierarchy without returning to a heavy, old-fashioned page texture.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif;
+  color: #2d3034;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+// Navigation should feel crisp but lighter than section headings.
+.masthead__menu-item a {
+  font-family: $sans-serif;
+  font-weight: 400;
+}
+
+.masthead__menu-item--lg {
+  font-weight: 600;
+}
+
+// Sidebar text is deliberately lighter; the author's name anchors the column.
+.sidebar p,
+.sidebar li,
+.author__bio,
+.author__urls-wrapper {
+  font-family: $sans-serif;
+  font-weight: 300;
+}
+
+.sidebar .author__name {
+  font-family: $sans-serif;
+  font-weight: 600;
+  color: #2d3034;
+}
+
+// Secondary text stays visibly gray instead of approaching pure black.
+.page__meta,
+.archive__item-excerpt,
+.author__bio,
+.author__employer,
+.author__location,
+figcaption {
+  color: #686d72;
+}
+
+// Slightly calmer rule color improves the airy typography.
+hr {
+  border-top-color: #e6e7e8;
+}
 
 // ===================================================================
 // Desktop layout refinement
