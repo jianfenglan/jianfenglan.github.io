@@ -1,22 +1,30 @@
-/* Modern Sans V3.4 — restrained interactions and compact About placement */
-/* Redeploy marker: GitHub Actions migration */
+/* Modern Sans V3.5 — restrained static research, lifted cards, refined About placement */
 
-/* About: centered horizontally, placed near the top with moderate breathing room. */
+/* About: centered horizontally, placed a little lower, with a deliberate two-line statement. */
 .page__content .about-v3 {
   display: block !important;
   min-height: 0 !important;
-  max-width: 720px !important;
+  max-width: 900px !important;
   margin: 0 auto !important;
-  padding: 4.5rem 1rem 3rem !important;
+  padding: 6.5rem 1rem 3rem !important;
 }
 
 .page__content .about-v3__statement {
-  max-width: 42ch !important;
+  max-width: none !important;
   margin: 0 auto !important;
   text-align: center !important;
 }
 
-/* Research: remove all publication/conference hover effects. */
+.page__content .about-line1,
+.page__content .about-line2 {
+  display: block;
+}
+
+.page__content .about-line2 {
+  white-space: nowrap;
+}
+
+/* Research: completely static publication cards; keep all text and article icons visible. */
 .page__content .publication-card,
 .page__content .publication-card:hover {
   margin: 0 !important;
@@ -32,15 +40,20 @@
   color: #002FA7 !important;
 }
 
-.page__content .publication-card:hover .publication-title,
-.page__content .publication-card:hover .publication-journal-row {
+.page__content .publication-card:hover .publication-title {
   color: #555a5f !important;
 }
 
+.page__content .publication-card:hover .publication-meta,
 .page__content .publication-card:hover .publication-type,
 .page__content .publication-card:hover .publication-authors,
-.page__content .publication-card:hover .publication-journal-row em,
-.page__content .publication-card:hover .publication-doi-link {
+.page__content .publication-card:hover .publication-journal-row,
+.page__content .publication-card:hover .publication-journal-row em {
+  color: #737980 !important;
+}
+
+.page__content .publication-card:hover .publication-doi-link,
+.page__content .publication-card:hover .publication-doi-link * {
   color: #737980 !important;
 }
 
@@ -50,14 +63,20 @@
   transform: none !important;
 }
 
-/* Blog: clickable cards with depth, but no hover color/scale treatment. */
-.page__content .news-card,
-.page__content .news-card:hover {
+/* Blog: keep cards clickable and add only a subtle lift. */
+.page__content .news-card {
   border: 0 !important;
   border-radius: 0 !important;
   box-shadow: 0 6px 22px rgba(15, 23, 42, 0.10) !important;
   transform: none !important;
-  transition: none !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+.page__content .news-card:hover {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.13) !important;
+  transform: translateY(-3px) !important;
 }
 
 .page__content .news-card:hover .news-image img {
@@ -65,10 +84,25 @@
   filter: saturate(0.88) !important;
 }
 
+/* Elsewhere: retain the grayscale-to-color image behavior and add a subtle card lift. */
+.page__content .gallery-card {
+  border-radius: 0 !important;
+  transition: transform 0.20s ease, box-shadow 0.20s ease !important;
+}
+
+.page__content .gallery-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.10) !important;
+}
+
 @media (max-width: 768px) {
   .page__content .about-v3 {
     min-height: 0 !important;
-    padding: 3rem 0.5rem 2rem !important;
+    padding: 4.25rem 0.5rem 2rem !important;
+  }
+
+  .page__content .about-line2 {
+    white-space: normal;
   }
 
   .page__content .publication-card,
