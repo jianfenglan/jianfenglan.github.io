@@ -2,10 +2,10 @@
 ---
 
 // ===================================================================
-// Modern Sans v1
+// Modern Sans v2
 // Inter for Latin text + Source Han Sans / Noto Sans SC for Chinese.
-// Body copy is intentionally light and dark gray; headings retain weight.
-// Deployment retrigger: 2026-08-10 01:38 CST (no visual change).
+// Light editorial typography, restrained Klein blue accents, and a shared
+// visual system across About, Research, Blog, and Elsewhere.
 // ===================================================================
 
 // 1. Modern bilingual font stack
@@ -61,38 +61,38 @@ $max-width: 1280px;
 ;
 
 // ===================================================================
-// Modern Sans v1 visual layer
+// Shared editorial system
 // ===================================================================
+:root {
+  --site-accent: #002FA7;
+  --site-heading: #2d3034;
+  --site-text: #555a5f;
+  --site-muted: #737980;
+  --site-line: #e5e7ea;
+  --site-soft: #f7f8fa;
+}
+
 body {
   font-family: $sans-serif;
   font-weight: 300;
   line-height: 1.62;
-  color: #555a5f;
+  color: var(--site-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
-// Keep long-form copy optically as light as the sidebar bio. Some individual
-// pages carry older local rules at weight 400, so the content layer is made
-// explicit here without weakening titles or labels.
-.page__content {
-  font-weight: 300;
-  color: #555a5f;
-}
-
+// Keep long-form copy optically as light as the sidebar bio. Individual pages
+// still contain some older local 400-weight rules, so content is explicit here.
+.page__content,
 .page__content p,
 .page__content li,
-.page__content dl {
-  font-weight: 300;
-}
-
+.page__content dl,
 .page__content .about-wrap {
   font-weight: 300;
-  color: #555a5f;
+  color: var(--site-text);
 }
 
-// Strong hierarchy without returning to a heavy, old-fashioned page texture.
 h1,
 h2,
 h3,
@@ -100,7 +100,7 @@ h4,
 h5,
 h6 {
   font-family: $sans-serif;
-  color: #2d3034;
+  color: var(--site-heading);
   letter-spacing: -0.015em;
 }
 
@@ -121,17 +121,22 @@ b {
   font-weight: 600;
 }
 
-// Navigation should feel crisp but lighter than section headings.
+// Navigation stays crisp while remaining visually quieter than headings.
 .masthead__menu-item a {
   font-family: $sans-serif;
   font-weight: 400;
+  letter-spacing: 0.005em;
 }
 
 .masthead__menu-item--lg {
   font-weight: 600;
 }
 
-// Sidebar text is deliberately lighter; the author's name anchors the column.
+.masthead::after {
+  background: var(--site-line);
+}
+
+// Sidebar typography remains the optical reference for the lighter body copy.
 .sidebar p,
 .sidebar li,
 .author__bio,
@@ -143,30 +148,203 @@ b {
 .sidebar .author__name {
   font-family: $sans-serif;
   font-weight: 600;
-  color: #2d3034;
+  color: var(--site-heading);
 }
 
-// Secondary text stays visibly gray instead of approaching pure black.
 .page__meta,
 .archive__item-excerpt,
 .author__bio,
 .author__employer,
 .author__location,
 figcaption {
-  color: #686d72;
+  color: var(--site-muted);
 }
 
-// Slightly calmer rule color improves the airy typography.
 hr {
-  border-top-color: #e6e7e8;
+  border-top-color: var(--site-line);
+}
+
+// ===================================================================
+// Research — linear, publication-first editorial layout
+// ===================================================================
+.page__content .research-page {
+  max-width: 900px;
+}
+
+.page__content .section-title {
+  color: var(--site-muted);
+  font-family: $sans-serif;
+  font-size: 0.7em;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+}
+
+.page__content .publication-legend {
+  color: var(--site-muted);
+  font-weight: 300;
+}
+
+.page__content .publication-list {
+  border-top-color: var(--site-line);
+}
+
+.page__content .publication-card {
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1.6rem;
+  padding: 1.25rem 0;
+  border-bottom-color: var(--site-line);
+  transition: none;
+}
+
+.page__content .publication-card:hover {
+  padding-left: 0;
+}
+
+.page__content .publication-meta {
+  color: var(--site-muted);
+  font-weight: 300;
+}
+
+.page__content .publication-year {
+  color: var(--site-accent);
+  font-family: $sans-serif;
+  font-size: 1.35em;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.page__content .publication-type {
+  margin-top: 0.35rem;
+  font-size: 0.76em;
+  font-weight: 300;
+  letter-spacing: 0.035em;
+}
+
+.page__content .publication-title {
+  color: var(--site-heading);
+  font-size: 0.98em;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.page__content .publication-card:hover .publication-title {
+  color: var(--site-accent);
+  transform: translateX(3px);
+}
+
+.page__content .publication-authors,
+.page__content .publication-journal-row em {
+  color: var(--site-muted);
+  font-weight: 300;
+}
+
+.page__content .publication-doi-link {
+  color: var(--site-muted);
+}
+
+.page__content .publication-doi-link:hover,
+.page__content .my-name {
+  color: var(--site-accent);
+}
+
+.page__content .conference-card {
+  border-color: var(--site-line);
+  color: var(--site-muted);
+  font-weight: 300;
+}
+
+// ===================================================================
+// Blog — image-led cards with editorial alignment
+// ===================================================================
+.page__content .news-list {
+  gap: 0.9rem;
+}
+
+.page__content .news-card {
+  grid-template-columns: minmax(0, 1fr) 250px;
+  border-color: var(--site-line);
+  border-radius: 12px;
+  box-shadow: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.page__content .news-card:hover {
+  border-color: #d5d9df;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.055);
+  transform: translateY(-2px);
+}
+
+.page__content .news-content {
+  align-items: flex-start;
+  padding: 1.5rem 1.8rem;
+  text-align: left;
+}
+
+.page__content .news-content h3 {
+  color: var(--site-heading);
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+}
+
+.page__content .news-meta {
+  color: var(--site-muted);
+  font-weight: 300;
+}
+
+.page__content .modal-content {
+  border-color: var(--site-line);
+  border-radius: 14px;
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.085);
+}
+
+.page__content .modal-text,
+.page__content #modal-meta {
+  font-weight: 300;
+}
+
+// ===================================================================
+// Elsewhere — cinematic photography, quieter captions
+// ===================================================================
+.page__content .gallery-grid {
+  gap: 2.2rem;
+}
+
+.page__content .gallery-card {
+  border: 0.5px solid var(--site-line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: none;
+}
+
+.page__content .gallery-caption {
+  padding: 0.95rem 1.2rem;
+  background: #fff;
+}
+
+.page__content .gallery-caption h3 {
+  color: #61666c;
+  font-family: $sans-serif;
+  font-size: 0.88em;
+  font-weight: 300;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+.page__content .quote-style {
+  color: var(--site-accent);
+  font-family: $sans-serif;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.015em;
 }
 
 // ===================================================================
 // Desktop layout refinement
-// Keep Academic Pages' original centered 1280px container, but replace its
-// strongly asymmetric page padding with balanced gutters. This preserves
-// comfortable whitespace at full-screen widths and a stable gap between the
-// fixed author sidebar and the main content at intermediate desktop widths.
 // ===================================================================
 @include breakpoint($large) {
   .page {
@@ -187,5 +365,31 @@ hr {
     max-width: $x-large;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__content .publication-card {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    padding: 1rem 0;
+  }
+
+  .page__content .publication-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .page__content .publication-year {
+    font-size: 1.18em;
+  }
+
+  .page__content .news-card {
+    grid-template-columns: 1fr;
+  }
+
+  .page__content .news-image {
+    min-height: 190px;
   }
 }
