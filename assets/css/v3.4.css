@@ -1,22 +1,30 @@
-/* Modern Sans V3.4 — restrained interactions and compact About placement */
+/* Modern Sans V3.5 — restrained motion and clean publication interactions */
 /* Redeploy marker: GitHub Actions migration */
 
-/* About: centered horizontally, placed near the top with moderate breathing room. */
+/* About: centered horizontally, with a compact two-line statement placed slightly lower. */
 .page__content .about-v3 {
   display: block !important;
   min-height: 0 !important;
-  max-width: 720px !important;
+  max-width: 900px !important;
   margin: 0 auto !important;
-  padding: 4.5rem 1rem 3rem !important;
+  padding: 6.5rem 1rem 3rem !important;
 }
 
 .page__content .about-v3__statement {
-  max-width: 42ch !important;
+  max-width: none !important;
   margin: 0 auto !important;
   text-align: center !important;
 }
 
-/* Research: remove all publication/conference hover effects. */
+.page__content .about-v3__line {
+  display: block;
+}
+
+.page__content .about-v3__line--second {
+  white-space: nowrap;
+}
+
+/* Research: publication cards stay visually static; only the article-link icon has its own hover feedback. */
 .page__content .publication-card,
 .page__content .publication-card:hover {
   margin: 0 !important;
@@ -44,20 +52,37 @@
   color: #737980 !important;
 }
 
+.page__content .publication-card:hover .publication-doi-link svg {
+  color: inherit !important;
+  stroke: currentColor !important;
+}
+
+.page__content .publication-doi-link:hover,
+.page__content .publication-card:hover .publication-doi-link:hover {
+  color: #002FA7 !important;
+  transform: translateY(-1px) !important;
+}
+
 .page__content .conference-card:hover {
   color: #737980 !important;
   background: transparent !important;
   transform: none !important;
 }
 
-/* Blog: clickable cards with depth, but no hover color/scale treatment. */
-.page__content .news-card,
-.page__content .news-card:hover {
+/* Blog: clickable sharp cards with subtle lift and depth, without hover recoloring. */
+.page__content .news-card {
   border: 0 !important;
   border-radius: 0 !important;
   box-shadow: 0 6px 22px rgba(15, 23, 42, 0.10) !important;
-  transform: none !important;
-  transition: none !important;
+  transform: translateY(0) !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+.page__content .news-card:hover {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.14) !important;
+  transform: translateY(-3px) !important;
 }
 
 .page__content .news-card:hover .news-image img {
@@ -65,15 +90,34 @@
   filter: saturate(0.88) !important;
 }
 
+/* Elsewhere: retain the image treatment, add only a small vertical lift. */
+.page__content .gallery-card {
+  transform: translateY(0) !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+.page__content .gallery-card:hover {
+  transform: translateY(-3px) !important;
+}
+
 @media (max-width: 768px) {
   .page__content .about-v3 {
     min-height: 0 !important;
-    padding: 3rem 0.5rem 2rem !important;
+    padding: 4.5rem 0.5rem 2rem !important;
+  }
+
+  .page__content .about-v3__line--second {
+    white-space: normal;
   }
 
   .page__content .publication-card,
   .page__content .publication-card:hover {
     margin: 0 !important;
     padding: 0.7rem 0 !important;
+  }
+
+  .page__content .news-card:hover,
+  .page__content .gallery-card:hover {
+    transform: none !important;
   }
 }
