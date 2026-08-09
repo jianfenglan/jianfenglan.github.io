@@ -8,5 +8,8 @@ redirect_from:
 ---
 
 <div class="about-v3">
-  <p class="about-v3__statement">Hi, this is <span class="about-accent">Jeff</span>. I study people, machines, and the complicated feelings in between.</p>
+  <p class="about-v3__statement">
+    <span class="about-v3__line">Hi, this is <span class="about-accent">Jeff</span>.</span>
+    <span class="about-v3__line about-v3__line--second">I study people, machines, and the complicated feelings in between.</span>
+  </p>
 </div>
