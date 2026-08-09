@@ -1,4 +1,4 @@
-/* Modern Sans V3.5 — restrained motion and clean publication interactions */
+/* Modern Sans V3.6 — stable Research interactions and co-first author markers */
 /* Redeploy marker: GitHub Actions migration */
 
 /* About: centered horizontally, with a compact two-line statement placed slightly lower. */
@@ -24,7 +24,7 @@
   white-space: nowrap;
 }
 
-/* Research: publication cards stay visually static; only the article-link icon has its own hover feedback. */
+/* Research: publication cards stay visually static. */
 .page__content .publication-card,
 .page__content .publication-card:hover {
   margin: 0 !important;
@@ -52,15 +52,61 @@
   color: #737980 !important;
 }
 
-.page__content .publication-card:hover .publication-doi-link svg {
-  color: inherit !important;
-  stroke: currentColor !important;
+/* Keep article/PDF icons visible even when an older wildcard hover rule is present. */
+.page__content .research-page .publication-card:hover .publication-doi-link,
+.page__content .research-page .publication-card:hover .publication-doi-link svg {
+  color: #737980 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-doi-link svg,
+.page__content .research-page .publication-card:hover .publication-doi-link svg path,
+.page__content .research-page .publication-card:hover .publication-doi-link svg polyline,
+.page__content .research-page .publication-card:hover .publication-doi-link svg line {
+  stroke: #737980 !important;
 }
 
 .page__content .publication-doi-link:hover,
-.page__content .publication-card:hover .publication-doi-link:hover {
+.page__content .research-page .publication-card:hover .publication-doi-link:hover {
   color: #002FA7 !important;
   transform: translateY(-1px) !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg path,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg polyline,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg line {
+  stroke: #002FA7 !important;
+}
+
+/* Co-first-author + markers: true superscripts and always inherit the surrounding author color. */
+.page__content .publication-authors sup {
+  position: relative !important;
+  top: -0.42em !important;
+  vertical-align: baseline !important;
+  font-size: 0.66em !important;
+  line-height: 0 !important;
+  color: inherit !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-authors sup,
+.page__content .research-page .publication-card:hover .my-name sup {
+  color: inherit !important;
+}
+
+/* Display the publication legend with a semicolon between the two author-note definitions. */
+.page__content .publication-legend {
+  font-size: 0 !important;
+}
+
+.page__content .publication-legend::before {
+  content: "* Corresponding author; + Co-first author";
+  font-family: "Helvetica Neue", Helvetica, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  font-size: 1rem !important;
+  font-weight: 200 !important;
+  color: #737980 !important;
+  line-height: 1.5 !important;
 }
 
 .page__content .conference-card:hover {
