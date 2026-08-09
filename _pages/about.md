@@ -68,28 +68,27 @@ redirect_from:
 
 .about-questions__label {
   margin: 0 0 1rem;
-  color: #737980;
+  color: #555a5f;
   font-family: "Source Sans 3", "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
 }
 
 .about-question {
-  margin: 0;
-  padding: 1rem 0;
-  border-top: 0.5px solid #e5e7ea;
-  color: #3f4347;
-  font-family: Garamond, Georgia, "Times New Roman", serif;
-  font-size: 1.12rem;
+  margin: 0 0 0.9rem;
+  padding: 0;
+  color: #555a5f;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-style: italic;
   font-weight: 400;
-  line-height: 1.45;
-  letter-spacing: -0.005em;
+  line-height: 1.6;
+  letter-spacing: 0;
 }
 
 .about-question:last-child {
-  border-bottom: 0.5px solid #e5e7ea;
+  margin-bottom: 0;
 }
 
 @media (max-width: 820px) {
@@ -111,10 +110,6 @@ redirect_from:
 
   .about-hero__statement {
     font-size: 1.35rem;
-  }
-
-  .about-question {
-    font-size: 1.05rem;
   }
 }
 </style>
