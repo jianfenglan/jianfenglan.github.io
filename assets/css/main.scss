@@ -2,9 +2,9 @@
 ---
 
 // ===================================================================
-// Modern Sans v2.1
+// Modern Sans v2.1.2
 // Source Sans 3 for Latin text + Source Han Sans / Noto Sans SC for Chinese.
-// Lighter editorial typography with a more restrained Research type scale.
+// Lighter editorial typography with a restrained Research type scale.
 // ===================================================================
 
 // 1. Modern bilingual font stack
@@ -136,6 +136,13 @@ b {
 .sidebar li,
 .author__bio,
 .author__urls-wrapper {
+  font-family: $sans-serif;
+  font-weight: 300;
+}
+
+// The theme assigns author links weight 400; keep profile links aligned with
+// the lighter sidebar typography used for the bio and affiliation line.
+.sidebar .author__urls a {
   font-family: $sans-serif;
   font-weight: 300;
 }
