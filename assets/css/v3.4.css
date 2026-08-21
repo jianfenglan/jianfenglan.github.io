@@ -1,6 +1,66 @@
 /* Modern Sans V3.6 — stable Research interactions and co-first author markers */
 /* Redeploy marker: GitHub Actions migration */
 
+/* Global typography: use Helvetica Neue Light (300) throughout text UI. */
+body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dl,
+.page__meta,
+.archive__item-excerpt,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b,
+.masthead__menu-item,
+.masthead__menu-item a,
+.masthead__menu-item--lg,
+.greedy-nav a,
+.visible-links a,
+.hidden-links a,
+.sidebar,
+.sidebar p,
+.sidebar li,
+.author__content,
+.author__bio,
+.author__urls-wrapper,
+.author__urls a,
+.page__content .about-v3__statement,
+.page__content .research-v3-intro p,
+.page__content .section-title,
+.page__content .publication-legend,
+.page__content .publication-meta,
+.page__content .publication-year,
+.page__content .publication-type,
+.page__content .publication-title,
+.page__content .publication-authors,
+.page__content .publication-journal-row,
+.page__content .publication-journal-row em,
+.page__content .conference-card,
+.page__content .news-content h3,
+.page__content .news-meta,
+.page__content #modal-title,
+.page__content #modal-meta,
+.page__content #modal-body p,
+.page__content .modal-text,
+.page__content .gallery-caption h3,
+.page__content .quote-style {
+  font-weight: 300 !important;
+}
+
+.sidebar .author__name,
+.sidebar .author__name::before,
+.sidebar .author__name::after,
+.sidebar .author__urls li + li::before {
+  font-weight: 300 !important;
+}
+
 /* About: centered horizontally, with a compact two-line statement placed slightly lower. */
 .page__content .about-v3 {
   display: block !important;
@@ -104,7 +164,7 @@
   content: "* Corresponding author; + Co-first author";
   font-family: "Helvetica Neue", Helvetica, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
   font-size: 1rem !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   color: #737980 !important;
   line-height: 1.5 !important;
 }
