@@ -1,0 +1,22 @@
+/* Research publication separators: only between adjacent entries. */
+.page__content .publication-card {
+  position: relative;
+}
+
+.page__content .publication-card + .publication-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.8rem;
+  right: 1.8rem;
+  height: 0.5px;
+  background: rgba(105, 113, 124, 0.22);
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .page__content .publication-card + .publication-card::before {
+    left: 1.25rem;
+    right: 1.25rem;
+  }
+}
