@@ -91,6 +91,16 @@ b,
   margin: 3rem auto 0 !important;
 }
 
+.page__content .image-credit {
+  margin-top: 0.35rem;
+  color: #9aa0a6;
+  font-family: "Helvetica Neue", Helvetica, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 300 !important;
+  line-height: 1.35;
+  text-align: right;
+}
+
 /* Research: publication cards stay visually static. */
 .page__content .publication-card,
 .page__content .publication-card:hover {
@@ -225,6 +235,10 @@ b,
 
   .page__content .about-v3 > img {
     margin-top: 2.4rem !important;
+  }
+
+  .page__content .image-credit {
+    font-size: 0.64rem;
   }
 
   .page__content .publication-card,
