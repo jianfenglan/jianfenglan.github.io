@@ -67,7 +67,7 @@ b,
   min-height: 0 !important;
   max-width: 900px !important;
   margin: 0 auto !important;
-  padding: 6.5rem 1rem 3rem !important;
+  padding: 5.2rem 1rem 3rem !important;
 }
 
 .page__content .about-v3__statement {
@@ -82,6 +82,13 @@ b,
 
 .page__content .about-v3__line--second {
   white-space: nowrap;
+}
+
+.page__content .about-v3 > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 3rem auto 0 !important;
 }
 
 /* Research: publication cards stay visually static. */
@@ -209,11 +216,15 @@ b,
 @media (max-width: 768px) {
   .page__content .about-v3 {
     min-height: 0 !important;
-    padding: 4.5rem 0.5rem 2rem !important;
+    padding: 3.6rem 0.5rem 2rem !important;
   }
 
   .page__content .about-v3__line--second {
     white-space: normal;
+  }
+
+  .page__content .about-v3 > img {
+    margin-top: 2.4rem !important;
   }
 
   .page__content .publication-card,
