@@ -61,6 +61,13 @@ b,
   font-weight: 300 !important;
 }
 
+/* Keep the desktop identity rail slightly below the masthead. */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    padding-top: 88px !important;
+  }
+}
+
 /* About: centered horizontally with a compact overall vertical footprint. */
 .page__content .about-v3 {
   display: block !important;
