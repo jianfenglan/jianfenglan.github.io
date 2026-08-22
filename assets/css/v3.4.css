@@ -74,7 +74,7 @@ b,
   min-height: 0 !important;
   max-width: 900px !important;
   margin: 0 auto !important;
-  padding: 3.8rem 1rem 0.75rem !important;
+  padding: 3.8rem 1rem 0 !important;
 }
 
 .page__content .about-v3__statement {
@@ -100,6 +100,7 @@ b,
 
 .page__content .image-credit {
   margin-top: 0.35rem;
+  margin-bottom: 0 !important;
   color: #9aa0a6;
   font-family: "Helvetica Neue", Helvetica, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
   font-size: 0.68rem;
@@ -233,7 +234,7 @@ b,
 @media (max-width: 768px) {
   .page__content .about-v3 {
     min-height: 0 !important;
-    padding: 2.4rem 0.5rem 0.75rem !important;
+    padding: 2.4rem 0.5rem 0 !important;
   }
 
   .page__content .about-v3__line--second {
