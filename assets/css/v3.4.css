@@ -109,6 +109,13 @@ b,
   text-align: right;
 }
 
+/* Homepage only: let the footer follow the short content instead of pinning it to the viewport floor. */
+.home-page .page__footer {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: 1.25rem !important;
+}
+
 /* Research: publication cards stay visually static. */
 .page__content .publication-card,
 .page__content .publication-card:hover {
