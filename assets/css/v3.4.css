@@ -109,15 +109,15 @@ b,
   text-align: right;
 }
 
-/* Homepage only: let the footer follow the short content and remove the global sticky-footer reserve. */
+/* Homepage only: use the theme's bottom-anchored footer with a compact reserve. */
 body.home-page {
-  padding-bottom: 0 !important;
+  padding-bottom: 3.5rem !important;
 }
 
 .home-page .page__footer {
-  position: relative !important;
-  bottom: auto !important;
-  margin-top: 1.25rem !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* Research: publication cards stay visually static. */
