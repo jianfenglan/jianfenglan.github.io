@@ -49,19 +49,10 @@ sup {
 }
 
 .publication-legend {
-  margin: -0.5rem 0 0.45rem;
+  margin: -0.5rem 0 1.1rem;
   color: var(--muted);
   font-size: 0.82em;
   line-height: 1.6;
-}
-
-.publication-intro {
-  max-width: 720px;
-  margin: 0 0 1.25rem;
-  color: var(--muted);
-  font-size: 0.84em;
-  font-style: italic;
-  line-height: 1.65;
 }
 
 .publication-list {
@@ -72,7 +63,7 @@ sup {
   display: grid;
   grid-template-columns: 108px minmax(0, 1fr);
   gap: 1.3rem;
-  padding: 1.05rem 0;
+  padding: 1rem 0 0.68rem;
   border-bottom: 0.5px solid var(--line);
   transition: padding-left 0.18s ease;
 }
@@ -162,16 +153,16 @@ sup {
 }
 
 .publication-note {
-  max-width: 720px;
-  margin: 0.62rem 0 0;
-  color: #59616b;
+  max-width: 700px;
+  margin: 0.52rem 0 0 0.8rem;
+  color: #7f9ab8;
   font-size: 0.85em;
-  font-weight: 300;
-  line-height: 1.72;
+  font-weight: 200 !important;
+  line-height: 1.66;
 }
 
 .publication-note em {
-  color: #4d545d;
+  color: inherit;
 }
 
 .my-name {
@@ -224,7 +215,7 @@ sup {
   .publication-card {
     grid-template-columns: 1fr;
     gap: 0.35rem;
-    padding: 0.95rem 0;
+    padding: 0.9rem 0 0.65rem;
   }
 
   .publication-card:hover {
@@ -248,8 +239,9 @@ sup {
   }
 
   .publication-note {
-    margin-top: 0.55rem;
-    font-size: 0.86em;
+    max-width: none;
+    margin: 0.48rem 0 0 0.5rem;
+    font-size: 0.85em;
   }
 }
 </style>
@@ -260,8 +252,6 @@ sup {
   <div class="publication-legend">
     * Corresponding author &nbsp;·&nbsp; + Co-first author
   </div>
-
-  <p class="publication-intro">A publication list tells you what I wrote. The notes below are my attempt to tell you why I cared.</p>
 
   <div class="publication-list">
     <div class="publication-card">
@@ -347,7 +337,7 @@ sup {
         <span class="publication-journal-row">
           <em>Emerging Media</em>
           <a class="publication-doi-link" href="https://doi.org/10.1177/27523543251334157" target="_blank" rel="noopener" aria-label="View article">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1 2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
         <p class="publication-note">Pygmalion fell in love with a statue. Our question begins a little later, once Pygmalion gets Wi-Fi and starts posting screenshots of the relationship online. When people publicly share affectionate conversations with Replika, they are showing us an AI relationship, and they are also carefully showing us themselves. The interviews revealed a small theatre of affirmation, vulnerability, desirability, and audience management. Human-AI intimacy may be deeply private, yet the moment it enters social media, it also becomes a performance.</p>
