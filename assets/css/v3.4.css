@@ -148,16 +148,24 @@ body.home-page {
   color: #737980 !important;
 }
 
-/* Personal notes sit one visual layer below the formal publication record. */
+/* Personal notes: quoted Klein-blue reflections beneath each publication. */
 .page__content .research-page .publication-note {
-  max-width: 700px !important;
-  margin: 0.5rem 0 0 0.78rem !important;
-  color: #8fa8c1 !important;
-  font-size: 0.85em !important;
-  font-weight: 200 !important;
-  line-height: 1.64 !important;
+  max-width: 680px !important;
+  margin: 0.52rem 0 0 1.45rem !important;
+  color: #002FA7 !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 1.62 !important;
   opacity: 1 !important;
   visibility: visible !important;
+}
+
+.page__content .research-page .publication-note::before {
+  content: "“";
+}
+
+.page__content .research-page .publication-note::after {
+  content: "”";
 }
 
 .page__content .research-page .publication-note em {
@@ -168,9 +176,11 @@ body.home-page {
 /* Never let the legacy wildcard hover rule turn notes white. */
 .page__content .research-page .publication-card:hover .publication-note,
 .page__content .research-page .publication-card:hover .publication-note *,
-.page__content .research-page .publication-card:hover .publication-note em {
-  color: #8fa8c1 !important;
-  font-weight: 200 !important;
+.page__content .research-page .publication-card:hover .publication-note em,
+.page__content .research-page .publication-card:hover .publication-note::before,
+.page__content .research-page .publication-card:hover .publication-note::after {
+  color: #002FA7 !important;
+  font-weight: 300 !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
@@ -295,8 +305,8 @@ body.home-page {
 
   .page__content .research-page .publication-note {
     max-width: none !important;
-    margin: 0.46rem 0 0 0.5rem !important;
-    font-size: 0.85em !important;
+    margin: 0.48rem 0 0 0.9rem !important;
+    font-size: 1rem !important;
   }
 
   .page__content .news-card:hover,
