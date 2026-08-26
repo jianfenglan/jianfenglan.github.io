@@ -49,10 +49,19 @@ sup {
 }
 
 .publication-legend {
-  margin: -0.5rem 0 1.1rem;
+  margin: -0.5rem 0 0.45rem;
   color: var(--muted);
   font-size: 0.82em;
   line-height: 1.6;
+}
+
+.publication-intro {
+  max-width: 720px;
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.84em;
+  font-style: italic;
+  line-height: 1.65;
 }
 
 .publication-list {
@@ -116,7 +125,6 @@ sup {
   font-style: italic;
 }
 
-/* Journal name on its own line, with a DOI link icon aligned to the right */
 .publication-journal-row {
   display: flex;
   align-items: baseline;
@@ -151,6 +159,19 @@ sup {
   width: 13px;
   height: 13px;
   display: block;
+}
+
+.publication-note {
+  max-width: 720px;
+  margin: 0.62rem 0 0;
+  color: #59616b;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.72;
+}
+
+.publication-note em {
+  color: #4d545d;
 }
 
 .my-name {
@@ -225,6 +246,11 @@ sup {
     display: inline;
     margin-left: 0;
   }
+
+  .publication-note {
+    margin-top: 0.55rem;
+    font-size: 0.86em;
+  }
 }
 </style>
 
@@ -235,8 +261,10 @@ sup {
     * Corresponding author &nbsp;·&nbsp; + Co-first author
   </div>
 
+  <p class="publication-intro">A publication list tells you what I wrote. The notes below are my attempt to tell you why I cared.</p>
+
   <div class="publication-list">
-            <div class="publication-card">
+    <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Subscribe to Intimacy: Platform Capitalism, Governance, and the Stratification of AI Companionship.</span>
@@ -247,9 +275,11 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">Most love stories ask whether two people can stay together. This paper asks a stranger question. What happens when the relationship comes with a subscription plan? We walked through eight AI companion apps in China and the United States and found that memory, availability, expressive richness, and even relational identity can be divided into payment tiers. It sometimes feels like a <em>Black Mirror</em> episode designed by a SaaS pricing team. The unsettling part is that the platform is quietly deciding what continuity and closeness are allowed to feel like.</p>
       </div>
     </div>
-        <div class="publication-card">
+
+    <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
         <span class="publication-title">Provincializing Vulnerability: Rethinking Communication Inequality in East Asia's COVID-19 Research.</span>
@@ -260,8 +290,10 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">We often speak of vulnerability as if it were a label attached to certain people. This project made me think of it more like a crack that appears when a person and the systems around them stop fitting together. Across 184 studies from China, Japan, and South Korea, vulnerability repeatedly emerged when schools, hospitals, digital platforms, families, or public services changed faster than people could adapt. A crisis can therefore do more than reveal vulnerability. The systems built to manage it can help produce it.</p>
       </div>
     </div>
+
     <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
@@ -273,6 +305,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">AI governance can sound like a distant room occupied by regulators, engineers, and technology companies. This paper follows the staircase that ordinary users can take into that room. News, conversation, technological knowledge, policy knowledge, efficacy, and participation turned out to form a reinforcing cycle. One result I especially like is that participation can itself make people feel more capable of participating. Civic agency may grow partly through being exercised.</p>
       </div>
     </div>
 
@@ -287,6 +320,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">AI intimacy performs a peculiar magic trick. It can feel real without requiring us to believe that the machine is real in quite the same way another person is. Trust and dependency emerged as especially important parts of that experience, while personality shaped who was more receptive to it. I like to think of this through Heidegger. When the conversation works, the machine almost disappears into the relationship. When it repeats itself or fails, the spell breaks and the tool suddenly becomes visible again.</p>
       </div>
     </div>
 
@@ -301,6 +335,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">Traditional media often teach us about life and death by showing them to us. Interactive media let us rehearse these questions ourselves. In this study, what mattered was not simply how often young people encountered intelligent agents or virtual humans, but whether those encounters carried enough meaning to become part of how they understood life, death, and continuity. That distinction between exposure and meaningful interaction eventually became the idea I like most in the paper, the movement from <em>jishi</em>, what we do with machines, to <em>jixin</em>, what machines begin to do to our ways of thinking.</p>
       </div>
     </div>
 
@@ -315,6 +350,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">Pygmalion fell in love with a statue. Our question begins a little later, once Pygmalion gets Wi-Fi and starts posting screenshots of the relationship online. When people publicly share affectionate conversations with Replika, they are showing us an AI relationship, and they are also carefully showing us themselves. The interviews revealed a small theatre of affirmation, vulnerability, desirability, and audience management. Human-AI intimacy may be deeply private, yet the moment it enters social media, it also becomes a performance.</p>
       </div>
     </div>
 
@@ -329,6 +365,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">One of the strangest questions I have worked on is whether a virtual idol can die. Kizuna AI's "hibernation" gave us an unusual way to investigate it. What surprised me was that mourning did not simply divide humans from machines. Embodiment mattered. A disembodied human uploader could be mourned more like a virtual being, while an embodied uploader looked more like a conventional celebrity in the language of grief. The human-machine boundary may be less like a wall and more like a costume whose cues we learn to read.</p>
       </div>
     </div>
   </div>
@@ -347,6 +384,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">After writing the review, I wanted to keep the conversation going. Speaking with David Gunkel allowed me to move from the abstract question of robot rights to messier questions about responsibility, AI companions, distributed agency, and non-Western relational ethics. I came away increasingly convinced that the "machine question" is also a human question. Machines force us to explain why our moral categories have the boundaries they do, and whether those boundaries still make sense in a world full of hybrid social actors.</p>
       </div>
     </div>
 
@@ -361,6 +399,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">This book begins with a deceptively simple problem. If a robot is neither comfortably a person nor merely a thing, where should we put it? Gunkel's answer is to inspect the boxes themselves. What stayed with me most was this reversal. The robot becomes a kind of philosophical stress test, exposing cracks in categories that have organized Western law and ethics for centuries. Sometimes a new technology becomes interesting because it solves a problem. Sometimes it reveals that our old vocabulary was already broken.</p>
       </div>
     </div>
   </div>
@@ -379,6 +418,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">Communication scholars have spent the past few years treating AI as a fascinating new object in the laboratory. In this chapter, we turn the telescope around and ask what happens when AI becomes part of the laboratory itself. Surveys, content analysis, and other familiar methods were designed for a world with very different computational limits. Generative AI gives us new ways to simulate, scale, connect, and interrogate data. For me, the interesting question is how much of the research workflow itself will eventually become intelligent.</p>
       </div>
     </div>
 
@@ -393,6 +433,7 @@ sup {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
+        <p class="publication-note">This was one of my earliest human-machine communication projects, and <em>Ex Machina</em> provided the perfect opening question. An AI does not need a gender, so what happens when we give it one anyway? Our experiment suggested that even a thin cue such as the implied gender of a machine author can carry a surprisingly thick bundle of human expectations. The effects shifted across topics and author types, but the broader lesson stayed with me. Social stereotypes do not stop at the boundary between flesh and code.</p>
       </div>
     </div>
   </div>
