@@ -124,7 +124,7 @@ body.home-page {
 .page__content .publication-card,
 .page__content .publication-card:hover {
   margin: 0 !important;
-  padding: 0.8rem 0 !important;
+  padding: 0.86rem 0 0.58rem !important;
   border: 0 !important;
   background: transparent !important;
   transform: none !important;
@@ -146,6 +146,33 @@ body.home-page {
 .page__content .publication-card:hover .publication-journal-row em,
 .page__content .publication-card:hover .publication-doi-link {
   color: #737980 !important;
+}
+
+/* Personal notes sit one visual layer below the formal publication record. */
+.page__content .research-page .publication-note {
+  max-width: 700px !important;
+  margin: 0.5rem 0 0 0.78rem !important;
+  color: #8fa8c1 !important;
+  font-size: 0.85em !important;
+  font-weight: 200 !important;
+  line-height: 1.64 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.page__content .research-page .publication-note em {
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+/* Never let the legacy wildcard hover rule turn notes white. */
+.page__content .research-page .publication-card:hover .publication-note,
+.page__content .research-page .publication-card:hover .publication-note *,
+.page__content .research-page .publication-card:hover .publication-note em {
+  color: #8fa8c1 !important;
+  font-weight: 200 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Keep article/PDF icons visible even when an older wildcard hover rule is present. */
@@ -263,7 +290,13 @@ body.home-page {
   .page__content .publication-card,
   .page__content .publication-card:hover {
     margin: 0 !important;
-    padding: 0.7rem 0 !important;
+    padding: 0.74rem 0 0.52rem !important;
+  }
+
+  .page__content .research-page .publication-note {
+    max-width: none !important;
+    margin: 0.46rem 0 0 0.5rem !important;
+    font-size: 0.85em !important;
   }
 
   .page__content .news-card:hover,
