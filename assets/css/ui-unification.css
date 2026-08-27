@@ -45,3 +45,14 @@
 .page__content .blog-travel-item figcaption {
   color: #555a5f !important;
 }
+
+/* Blog timeline thumbnails stay monochrome; modal images retain their original color. */
+.page__content .news-card .news-image img,
+.page__content .news-card:hover .news-image img {
+  filter: grayscale(100%) !important;
+}
+
+.page__content .modal-image-wrap img,
+.page__content #modal-body img {
+  filter: none !important;
+}
