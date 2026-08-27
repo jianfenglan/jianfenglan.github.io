@@ -26,7 +26,12 @@ html body .page__content .news-list {
   margin-top: 0 !important;
 }
 
-/* Desktop timeline: date/place on the left, card title on the right. */
+/* Travel captions align with the left edge of each photograph. */
+html body .page__content .blog-travel-item figcaption {
+  text-align: left !important;
+}
+
+/* Desktop timeline: date and place on separate lines left of the axis. */
 @media (min-width: 769px) {
   html body .page__content .news-list {
     position: relative !important;
@@ -56,30 +61,45 @@ html body .page__content .news-list {
 
   html body .page__content .news-content {
     justify-content: center !important;
-    align-items: flex-start !important;
+    align-items: center !important;
     padding: 1.05rem 1.25rem !important;
-    text-align: left !important;
+    text-align: center !important;
   }
 
   html body .page__content .news-content h3 {
+    width: 100% !important;
     margin: 0 !important;
     font-size: 0.96em !important;
     line-height: 1.5 !important;
+    text-align: center !important;
   }
 
   html body .page__content .news-meta {
     position: absolute !important;
     top: 50% !important;
     right: calc(100% + 3.35rem) !important;
-    width: 8.8rem !important;
+    width: 9.25rem !important;
     margin: 0 !important;
     color: #737980 !important;
-    font-size: 0.8em !important;
+    font-size: 0.96em !important;
     font-weight: 300 !important;
-    line-height: 1.5 !important;
+    line-height: 1.42 !important;
     text-align: right !important;
     white-space: normal !important;
     transform: translateY(-50%) !important;
+  }
+
+  html body .page__content .news-meta-date,
+  html body .page__content .news-meta-place {
+    display: block !important;
+  }
+
+  html body .page__content .news-meta-place {
+    margin-top: 0.12rem !important;
+  }
+
+  html body .page__content .news-meta-separator {
+    display: none !important;
   }
 }
 
