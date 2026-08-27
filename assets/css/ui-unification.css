@@ -1,0 +1,47 @@
+/* Final interface typography normalization and active navigation state. */
+
+/* Primary navigation: fixed 16px everywhere, independent of page body scaling. */
+.masthead .masthead__menu-item,
+.masthead .masthead__menu-item a,
+.masthead .masthead__menu-item--lg,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+}
+
+.masthead .masthead__menu-item.is-active > a {
+  color: #002FA7 !important;
+  font-weight: 500 !important;
+}
+
+/* Sidebar identity text: fixed 16px throughout. */
+.sidebar .author__name::before,
+.sidebar .author__name::after,
+.sidebar .author__bio,
+.sidebar .author__employer,
+.sidebar .author__location,
+.sidebar .author__urls a {
+  font-size: 1rem !important;
+}
+
+/* Blog typography: all structural labels and captions use the same 16px scale. */
+.page__content .blog-section-title,
+.page__content .blog-travel-title,
+.page__content .news-content h3,
+.page__content .news-meta,
+.page__content .blog-travel-item figcaption {
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+}
+
+/* Blog section headings match the card-title tone instead of appearing darker/heavier. */
+.page__content .blog-section-title,
+.page__content .blog-travel-title {
+  color: #555a5f !important;
+}
+
+.page__content .news-content h3,
+.page__content .blog-travel-item figcaption {
+  color: #555a5f !important;
+}
