@@ -21,6 +21,11 @@
   border-top: 0.5px solid #e6eaf0;
 }
 
+/* Preserve the current flat modal treatment. */
+.page__content .modal-content {
+  box-shadow: none !important;
+}
+
 /* Pull the timeline up to the section rule instead of leaving a second large gap. */
 html body .page__content .news-list {
   margin-top: 0 !important;
