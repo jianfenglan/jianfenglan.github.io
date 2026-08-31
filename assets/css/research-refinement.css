@@ -1,7 +1,123 @@
-/* Research publication separators: only between adjacent entries. */
-.page__content .publication-card {
-  position: relative;
+/* Research publication interaction, notes, author markers, and separators. */
+
+.page__content .publication-card,
+.page__content .publication-card:hover {
+  margin: 0 !important;
+  padding: 0.86rem 0 0.58rem !important;
+  border: 0 !important;
+  background: transparent !important;
+  transform: none !important;
+  transition: none !important;
 }
+
+.page__content .publication-card:hover .publication-year,
+.page__content .publication-card:hover .my-name {
+  color: #002FA7 !important;
+}
+
+.page__content .publication-card:hover .publication-title,
+.page__content .publication-card:hover .publication-journal-row {
+  color: #555a5f !important;
+}
+
+.page__content .publication-card:hover .publication-type,
+.page__content .publication-card:hover .publication-authors,
+.page__content .publication-card:hover .publication-journal-row em,
+.page__content .publication-card:hover .publication-doi-link {
+  color: #737980 !important;
+}
+
+.page__content .research-page .publication-note {
+  max-width: 680px !important;
+  margin: 0.52rem 0 0 1.45rem !important;
+  color: #002FA7 !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 1.62 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.page__content .research-page .publication-note::before { content: "“"; }
+.page__content .research-page .publication-note::after { content: "”"; }
+
+.page__content .research-page .publication-note em {
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-note,
+.page__content .research-page .publication-card:hover .publication-note *,
+.page__content .research-page .publication-card:hover .publication-note em,
+.page__content .research-page .publication-card:hover .publication-note::before,
+.page__content .research-page .publication-card:hover .publication-note::after {
+  color: #002FA7 !important;
+  font-weight: 300 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-doi-link,
+.page__content .research-page .publication-card:hover .publication-doi-link svg {
+  color: #737980 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-doi-link svg,
+.page__content .research-page .publication-card:hover .publication-doi-link svg path,
+.page__content .research-page .publication-card:hover .publication-doi-link svg polyline,
+.page__content .research-page .publication-card:hover .publication-doi-link svg line {
+  stroke: #737980 !important;
+}
+
+.page__content .publication-doi-link:hover,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover {
+  color: #002FA7 !important;
+  transform: translateY(-1px) !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg path,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg polyline,
+.page__content .research-page .publication-card:hover .publication-doi-link:hover svg line {
+  stroke: #002FA7 !important;
+}
+
+.page__content .publication-authors sup {
+  position: relative !important;
+  top: -0.42em !important;
+  vertical-align: baseline !important;
+  font-size: 0.66em !important;
+  line-height: 0 !important;
+  color: inherit !important;
+}
+
+.page__content .research-page .publication-card:hover .publication-authors sup,
+.page__content .research-page .publication-card:hover .my-name sup {
+  color: inherit !important;
+}
+
+.page__content .publication-legend {
+  font-size: 0 !important;
+}
+
+.page__content .publication-legend::before {
+  content: "* Corresponding author; + Co-first author";
+  font-family: "Helvetica Neue", Helvetica, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  color: #737980 !important;
+  line-height: 1.5 !important;
+}
+
+.page__content .conference-card:hover {
+  color: #737980 !important;
+  background: transparent !important;
+  transform: none !important;
+}
+
+.page__content .publication-card { position: relative; }
 
 .page__content .publication-card + .publication-card::before {
   content: "";
@@ -15,6 +131,18 @@
 }
 
 @media (max-width: 768px) {
+  .page__content .publication-card,
+  .page__content .publication-card:hover {
+    margin: 0 !important;
+    padding: 0.74rem 0 0.52rem !important;
+  }
+
+  .page__content .research-page .publication-note {
+    max-width: none !important;
+    margin: 0.48rem 0 0 0.9rem !important;
+    font-size: 1rem !important;
+  }
+
   .page__content .publication-card + .publication-card::before {
     left: 1.25rem;
     right: 1.25rem;
