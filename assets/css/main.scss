@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6,strong,b { font-family: $sans-serif !important; color: var(--s
 .page__content .publication-meta,.page__content .publication-type,.page__content .publication-authors,.page__content .publication-journal-row em { color: var(--site-muted) !important; line-height: 1.5 !important; }
 .page__content .publication-year { display: block; color: var(--site-accent) !important; line-height: 1.5 !important; }
 .page__content .publication-type { display: block; margin-top: 0 !important; }
-.page__content .publication-title { display: block; margin-bottom: 0.18rem !important; color: var(--site-text) !important; line-height: 1.5 !important; transform: none !important; }
+.page__content .publication-title { display: block; margin-bottom: 0.18rem !important; color: var(--site-text) !important; line-height: 1.5 !important; transform: none !important; transition: none !important; }
 .page__content .publication-journal-row { margin-top: 0 !important; line-height: 1.5 !important; }
 .page__content .publication-doi-link { color: var(--site-muted) !important; }
 .page__content .publication-doi-link:hover,.page__content .my-name { color: var(--site-accent) !important; }
