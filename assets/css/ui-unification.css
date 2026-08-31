@@ -1,6 +1,5 @@
-/* Final interface typography normalization and active navigation state. */
+/* Shared interface typography and active navigation state. */
 
-/* Primary navigation: fixed 16px everywhere, independent of page body scaling. */
 .masthead .masthead__menu-item,
 .masthead .masthead__menu-item a,
 .masthead .masthead__menu-item--lg,
@@ -15,7 +14,6 @@
   font-weight: 500 !important;
 }
 
-/* Sidebar identity text: fixed 16px throughout. */
 .sidebar .author__name::before,
 .sidebar .author__name::after,
 .sidebar .author__bio,
@@ -23,38 +21,4 @@
 .sidebar .author__location,
 .sidebar .author__urls a {
   font-size: 1rem !important;
-}
-
-/* Blog typography: all structural labels and captions use the same 16px scale. */
-.page__content .blog-section-title,
-.page__content .blog-travel-title,
-.page__content .news-content h3,
-.page__content .news-meta,
-.page__content .blog-travel-item figcaption {
-  font-size: 1rem !important;
-  font-weight: 300 !important;
-}
-
-/* Blog and Research section headings mirror the active navigation state. */
-.page__content .blog-section-title,
-.page__content .blog-travel-title,
-.page__content .research-page .section-title {
-  color: #002FA7 !important;
-  font-weight: 500 !important;
-}
-
-.page__content .news-content h3,
-.page__content .blog-travel-item figcaption {
-  color: #555a5f !important;
-}
-
-/* Blog timeline thumbnails stay monochrome; modal images retain their original color. */
-.page__content .news-card .news-image img,
-.page__content .news-card:hover .news-image img {
-  filter: grayscale(100%) !important;
-}
-
-.page__content .modal-image-wrap img,
-.page__content #modal-body img {
-  filter: none !important;
 }
