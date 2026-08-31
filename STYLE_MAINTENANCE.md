@@ -15,117 +15,98 @@ Do not modify the archive branch `0826`.
 
 ### Research
 - Publication layout remains the existing two-column year/type + publication-information structure on desktop and single-column on mobile.
-- Publication cards do not change background color on hover.
-- Publication notes:
-  - `1rem` / 16px
-  - weight `300`
-  - Klein blue `#002FA7`
-  - indented beneath the formal publication information
-  - curly English quotation marks added via CSS
-  - remain Klein blue on hover
+- Publication cards remain visually static on hover.
+- Publication notes remain 16px, weight 300, Klein blue, indented beneath the formal publication information, and wrapped in curly English quotation marks via CSS.
 - Thin separators remain between adjacent publication entries.
 
 ### Blog
-- Top section title: `Discendo a doctis, mens augetur`.
-- Travel section title: `Makati ang paa`.
-- Both titles use the same visual treatment as Blog card titles: 16px, weight 300, `#555a5f`.
-- Desktop Blog journal uses a vertical timeline:
-  - date on the left, first line
-  - place on the left, second line
-  - axis and node between metadata and card
-  - title centered in the text area of the card
-  - image remains on the right
+- Top section title: `Notes`.
+- Travel section title: `Footprints`.
+- Both section titles are Klein blue and weight `500`.
+- Desktop Blog journal uses the current vertical timeline with date/place left of the axis and the image on the right.
 - Timeline card thumbnails are always grayscale.
-- Modal images keep their original color.
+- Cards retain their current subtle lift and shadow on desktop hover and remain static on mobile.
+- Modal images keep their original color and the modal retains its flat, shadowless treatment.
 - Mobile modal leaves tappable empty space around the content so tapping outside closes it.
-- Mobile close button is a subtle circular control with a geometrically drawn thin X.
-- Travel photo cards are square-cornered.
+- Mobile close button remains a subtle circular control with a geometrically drawn thin X.
 - Travel photographs remain grayscale by default and return to color on hover.
-- Travel captions are left aligned, 16px, weight 300.
+- Travel captions remain left aligned, 16px, weight 300.
 
-## 2. Current style load order
+## 2. Current style architecture
 
-`_includes/head.html` currently loads styles in this order:
+`_includes/head.html` loads styles in this order:
 
 1. `assets/css/main.css` compiled from `assets/css/main.scss`
-2. `assets/css/v3.4.css`
-3. `assets/css/research-refinement.css`
-4. `assets/css/blog-refinement.css`
-5. `assets/css/ui-unification.css`
+2. `assets/css/research-refinement.css`
+3. `assets/css/blog-refinement.css`
+4. `assets/css/ui-unification.css`
 
-The last file currently has the highest intended authority for shared typography, active navigation state, and final Blog thumbnail color behavior.
+`assets/css/v3.4.css` was retired on 2026-08-31 after its surviving rules were migrated to the correct ownership layers.
 
-## 3. Current duplication / conflict risks
+Ownership:
+- `main.scss`: theme/base, global 300 typography, identity rail, About/home layout, and shared structural primitives.
+- `research-refinement.css`: current Research interaction, publication-note, marker, DOI, and separator behavior.
+- `blog-refinement.css`: current Blog card, timeline, modal, and responsive behavior.
+- `ui-unification.css`: final shared interface scale, active navigation state, Blog/Research section-heading treatment, and final Blog image-color behavior.
 
-### Research duplication
-Research styles currently exist in all of the following places:
-- inline `<style>` block in `research.md`
-- Research rules in `assets/css/main.scss`
-- Research overrides in `assets/css/v3.4.css`
-- separators in `assets/css/research-refinement.css`
-- shared typography rules in `assets/css/ui-unification.css`
+## 3. Cleanup completed on 2026-08-31
 
-Known legacy conflict already encountered:
-- `main.scss` contains a wildcard publication hover rule that can turn publication descendants white.
-- Later styles currently override this for publication notes and DOI icons.
+- Removed the redundant custom `.github/workflows/pages.yml` deployment pipeline. GitHub's native `pages build and deployment` is now the single Pages deployment path.
+- Removed unused `assets/js/collapse.js` and `assets/css/collapse.css`.
+- Removed the unused duplicate `assets/css/academicons.min.css`.
+- Changed `assets/js/blog-timeline-meta.js` to load only on `/blog/`.
+- Removed superseded base CSS rules that existed only to be overridden later.
+- Migrated active global/About rules from `v3.4.css` into `main.scss`.
+- Migrated active Research rules from `v3.4.css` into `research-refinement.css`.
+- Migrated active Blog rules from `v3.4.css` into `blog-refinement.css`.
+- Retired and deleted `assets/css/v3.4.css`.
+- Refreshed stylesheet cache-busting query strings after consolidation.
 
-### Blog duplication
-Blog styles currently exist in all of the following places:
-- inline `<style>` block in `blog.md`
-- inline `<style>` block in `_includes/blog-gallery.html`
-- Blog rules in `assets/css/main.scss`
-- Blog overrides in `assets/css/v3.4.css`
-- final timeline/modal rules in `assets/css/blog-refinement.css`
-- shared typography and grayscale-thumbnail rules in `assets/css/ui-unification.css`
+## 4. Remaining duplication to handle cautiously
 
-This is the main reason recent Blog changes required high-specificity selectors and `!important`.
+The main remaining technical debt is page-local CSS that predates the dedicated refinement files.
 
-## 4. Cleanup target architecture
+### Research
+Research styling still exists partly in:
+- inline `<style>` in `research.md`
+- structural rules in `main.scss`
+- final rules in `research-refinement.css`
+- shared typography in `ui-unification.css`
 
-The next maintenance refactor should change CSS ownership without changing the visible design.
+### Blog
+Blog styling still exists partly in:
+- inline `<style>` in `blog.md`
+- inline `<style>` in `_includes/blog-gallery.html`
+- structural rules in `main.scss`
+- final rules in `blog-refinement.css`
+- shared typography/image rules in `ui-unification.css`
 
-### Keep
-- `assets/css/main.scss`: theme/base and genuinely site-wide structural styles only.
-- `assets/css/research-refinement.css`: single source of truth for all Research-specific styles.
-- `assets/css/blog-refinement.css`: single source of truth for all Blog-specific styles.
-- `assets/css/ui-unification.css`: only shared typography/navigation/sidebar rules that apply across pages.
-- `assets/js/blog-timeline-meta.js`: Blog timeline metadata splitting.
+These inline blocks should eventually be migrated, but only after comparing their computed final values against the current live rendering. Do not move them mechanically into the head because their current position in the cascade can affect precedence.
 
-### Remove or migrate
-1. Move all Research CSS out of `research.md` into `research-refinement.css`.
-2. Remove page-specific Research rules from `main.scss` and `v3.4.css` after their final values have been copied into `research-refinement.css`.
-3. Move all Blog CSS out of `blog.md` into `blog-refinement.css`.
-4. Move all CSS out of `_includes/blog-gallery.html` into `blog-refinement.css`; keep only travel-gallery HTML there.
-5. Remove page-specific Blog rules from `main.scss` and `v3.4.css` after their final values have been copied into `blog-refinement.css`.
-6. Once page-specific rules are consolidated, reduce unnecessary `!important` declarations and `html body ...` specificity.
-7. Keep `ui-unification.css` small. It should own only:
-   - fixed 16px shared interface scale
-   - 300 normal shared weight
-   - active navigation state
-   - sidebar identity typography
-   - any truly cross-page shared UI token
-8. Consider eventually renaming or retiring `v3.4.css` once its surviving global rules have been merged into a clearly named site-level override file.
+## 5. Next cleanup target
 
-## 5. JavaScript cleanup target
+A second, visual-regression-controlled pass may:
+1. migrate Research inline CSS into `research-refinement.css`;
+2. migrate Blog inline CSS from `blog.md` and `_includes/blog-gallery.html` into `blog-refinement.css`;
+3. remove page-specific structural rules from `main.scss` once the dedicated files fully own those pages;
+4. reduce unnecessary `!important` and `html body ...` specificity only after the cascade is flattened;
+5. optionally move the Blog modal JavaScript from `blog.md` into a Blog-only external script;
+6. audit large image assets and add lazy-loading/responsive image handling without changing composition.
 
-After CSS consolidation, optionally move the Blog modal JavaScript currently embedded in `blog.md` into a dedicated external file such as `assets/js/blog-modal.js`. This is not required for the visual refactor, but it would leave `blog.md` as content/markup only.
+## 6. Safe maintenance procedure
 
-## 6. Safe cleanup procedure
-
-When performing the consolidation:
 1. Fetch every target file immediately before editing.
-2. Record the current `main` commit as a rollback point.
-3. Change one ownership layer at a time.
-4. Preserve visual values exactly during the first pass. Do not redesign while consolidating.
-5. After each migration, verify desktop and mobile behavior for Research and Blog.
-6. Only delete an old rule after the replacement rule is confirmed loaded later in the cascade.
-7. Keep branch `0826` untouched.
+2. Change one ownership layer at a time.
+3. Preserve current visual values exactly during cleanup. Do not redesign while consolidating.
+4. Confirm the native Pages deployment succeeds after each structural change.
+5. Verify desktop and mobile behavior for About, Research, and Blog before deleting replacement-covered rules.
+6. Keep branch `0826` untouched as an archival reference.
 
 ## 7. Maintenance rule going forward
 
-For future changes:
-- Research visual change -> edit `research-refinement.css`.
-- Blog visual change -> edit `blog-refinement.css`.
+- Research visual change -> edit `research-refinement.css` unless the rule is genuinely shared.
+- Blog visual change -> edit `blog-refinement.css` unless the rule is genuinely shared.
 - Shared navigation/sidebar/interface typography -> edit `ui-unification.css`.
-- Do not add new inline `<style>` blocks to `research.md`, `blog.md`, or `_includes/blog-gallery.html`.
-- Do not add another generic override CSS layer unless the existing ownership model is insufficient.
+- Theme/base/About/shared layout -> edit `main.scss`.
+- Do not add another generic versioned override stylesheet.
+- Do not add new inline `<style>` blocks to page content.
