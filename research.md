@@ -247,7 +247,7 @@ sup {
 </style>
 
 <div class="research-page">
-  <h2 class="section-title">Publications</h2>
+  <h2 class="section-title">Research Articles</h2>
 
   <div class="publication-legend">
     * Corresponding author &nbsp;·&nbsp; + Co-first author
@@ -337,7 +337,7 @@ sup {
         <span class="publication-journal-row">
           <em>Emerging Media</em>
           <a class="publication-doi-link" href="https://doi.org/10.1177/27523543251334157" target="_blank" rel="noopener" aria-label="View article">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1 2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </span>
         <p class="publication-note">Pygmalion fell in love with a statue. Our question begins a little later, once Pygmalion gets Wi-Fi and starts posting screenshots of the relationship online. When people publicly share affectionate conversations with Replika, they are showing us an AI relationship, and they are also carefully showing us themselves. The interviews revealed a small theatre of affirmation, vulnerability, desirability, and audience management. Human-AI intimacy may be deeply private, yet the moment it enters social media, it also becomes a performance.</p>
