@@ -1,9 +1,67 @@
-/* Blog cards, section headings, timeline metadata, and modal refinements. */
+/* Blog page: complete page-specific layout and interaction styles. */
 
-/* Clickable sharp cards with subtle lift and depth, without hover recoloring. */
+:root {
+  --blog-klein: #002FA7;
+  --blog-text: #555a5f;
+  --blog-muted: #737980;
+  --blog-line: #e6eaf0;
+}
+
+.page__inner-wrap {
+  max-width: 1120px !important;
+}
+
+body {
+  font-size: 0.95em;
+  line-height: 1.75;
+  color: #2f3337;
+}
+
+.page__content .blog-journal-section {
+  margin: 0 0 1.4rem;
+}
+
+.page__content .blog-section-title,
+.page__content .blog-travel-title {
+  margin: 0 0 0.72rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: var(--blog-klein) !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  line-height: 1.45 !important;
+}
+
+.page__content .blog-section-rule,
+.blog-travel-rule {
+  width: 100%;
+  height: 0;
+  border: 0;
+  border-top: 0.5px solid var(--blog-line);
+}
+
+.page__content .blog-section-rule {
+  margin: 0;
+}
+
+.page__content .news-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  max-width: 100%;
+  margin: 0 0 2.5rem !important;
+}
+
 .page__content .news-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  align-items: stretch;
+  min-height: 160px;
   border: 0 !important;
   border-radius: 0 !important;
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
   box-shadow: 0 6px 22px rgba(15, 23, 42, 0.10) !important;
   transform: translateY(0) !important;
   transition: transform 0.18s ease, box-shadow 0.18s ease !important;
@@ -16,48 +74,171 @@
   transform: translateY(-3px) !important;
 }
 
-.page__content .news-card:hover .news-image img {
-  transform: none !important;
-}
-
-.page__content .blog-journal-section {
-  margin: 0 0 1.4rem;
-}
-
-.page__content .blog-section-title {
-  margin: 0 0 0.72rem !important;
-  padding: 0 !important;
-  border: 0 !important;
-  color: #202327 !important;
-  font-size: 1.02em !important;
-  font-weight: 300 !important;
-  line-height: 1.45 !important;
-}
-
-.page__content .blog-section-rule {
-  width: 100%;
-  height: 0;
-  margin: 0;
-  border: 0;
-  border-top: 0.5px solid #e6eaf0;
-}
-
-/* Preserve the current flat modal treatment. */
-.page__content .modal-content {
-  box-shadow: none !important;
-}
-
-/* Pull the timeline up to the section rule instead of leaving a second large gap. */
-html body .page__content .news-list {
-  margin-top: 0 !important;
-}
-
-/* Travel captions align with the left edge of each photograph. */
-html body .page__content .blog-travel-item figcaption {
+.page__content .news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start !important;
+  min-width: 0;
+  padding: 1.3rem 1.8rem;
   text-align: left !important;
 }
 
-/* Desktop timeline: date and place on separate lines left of the axis. */
+.page__content .news-content h3,
+.page__content .news-meta,
+.page__content #modal-title,
+.page__content #modal-meta,
+.page__content #modal-body p,
+.page__content .modal-text {
+  font-weight: 300 !important;
+}
+
+.page__content .news-content h3 {
+  margin: 0 0 0.3rem;
+  color: var(--blog-text) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content .news-meta {
+  display: block;
+  color: var(--blog-muted) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content .news-image {
+  position: relative;
+  overflow: hidden;
+  background: #f4f5f7;
+}
+
+.page__content .news-card .news-image img,
+.page__content .news-card:hover .news-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%) !important;
+  transform: none !important;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Modal */
+.page__content .modal-overlay {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.page__content .modal-overlay.show {
+  display: flex;
+}
+
+.page__content .modal-content {
+  position: relative;
+  width: min(680px, 100%);
+  max-height: calc(100vh - 8rem);
+  margin-top: 2rem;
+  padding: 0;
+  border: 0.5px solid var(--blog-line);
+  border-radius: 0 !important;
+  background: #fff;
+  box-shadow: none !important;
+  overflow-y: auto;
+  word-wrap: break-word;
+  transform: translateY(6px) scale(0.985);
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.page__content .modal-overlay.show .modal-content {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.page__content .close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  z-index: 10;
+  color: var(--blog-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.page__content .close-button:hover {
+  color: var(--blog-klein);
+}
+
+.page__content .modal-image-wrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0 !important;
+  border-bottom: 0.5px solid var(--blog-line);
+  background: #f4f5f7;
+}
+
+.page__content .modal-image-wrap img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  border-radius: 0 !important;
+  object-fit: cover;
+  filter: none !important;
+}
+
+.page__content .modal-text {
+  padding: 2rem 2.2rem;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content #modal-title {
+  margin: 0 2rem 0.3rem 0;
+  color: var(--blog-text) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content #modal-meta {
+  margin-bottom: 1.3rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid var(--blog-line);
+  color: var(--blog-muted) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content #modal-body p {
+  margin: 0 0 0.9rem;
+  color: var(--blog-text) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content #modal-body p:last-of-type {
+  margin-bottom: 0;
+}
+
+.page__content #modal-body img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 0 !important;
+  filter: none !important;
+}
+
+/* Desktop timeline */
 @media (min-width: 769px) {
   html body .page__content .news-list {
     position: relative !important;
@@ -65,24 +246,42 @@ html body .page__content .blog-travel-item figcaption {
     grid-template-columns: 1fr !important;
     gap: 1.05rem !important;
     max-width: 930px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
+    margin: 0 auto 3.8rem !important;
     padding-left: 12.4rem !important;
   }
 
   html body .page__content .news-list::before {
+    content: "";
+    position: absolute;
+    top: 0.55rem;
+    bottom: 0.55rem;
     left: 10.15rem !important;
+    width: 1px;
+    background: #dce3ec;
   }
 
   html body .page__content .news-card {
     position: relative !important;
+    display: grid !important;
     grid-template-columns: minmax(0, 1fr) 210px !important;
     width: 100% !important;
     min-height: 148px !important;
+    margin: 0 !important;
+    overflow: visible !important;
   }
 
   html body .page__content .news-card::before {
+    content: "";
+    position: absolute;
+    top: 50%;
     left: -2.56rem !important;
+    width: 0.62rem;
+    height: 0.62rem;
+    border: 1px solid #8aa2bc;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateY(-50%);
+    z-index: 2;
   }
 
   html body .page__content .news-content {
@@ -106,7 +305,7 @@ html body .page__content .blog-travel-item figcaption {
     right: calc(100% + 3.35rem) !important;
     width: 9.25rem !important;
     margin: 0 !important;
-    color: #737980 !important;
+    color: var(--blog-muted) !important;
     font-size: 0.96em !important;
     font-weight: 300 !important;
     line-height: 1.42 !important;
@@ -129,12 +328,110 @@ html body .page__content .blog-travel-item figcaption {
   }
 }
 
+/* Travel gallery */
+.blog-travel-section {
+  margin: 4.2rem 0 1rem;
+}
+
+.blog-travel-rule {
+  margin: 0 0 1.7rem;
+}
+
+.blog-travel-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin: 0;
+}
+
+.page__content .blog-travel-item {
+  margin: 0;
+  border: 0;
+  border-radius: 0 !important;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+}
+
+.page__content .blog-travel-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0 !important;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+
+.page__content .blog-travel-item:hover img {
+  filter: grayscale(0%);
+}
+
+html body .page__content .blog-travel-item figcaption {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  color: var(--blog-text) !important;
+  background: #fdfdfd;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 1.6;
+  text-align: left !important;
+}
+
 @media (max-width: 768px) {
+  .page__inner-wrap {
+    max-width: 100% !important;
+  }
+
+  body {
+    font-size: 0.94em;
+  }
+
+  .page__content .news-list {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.8rem !important;
+    max-width: none !important;
+    margin: 0 0 2.8rem !important;
+    padding-left: 0 !important;
+  }
+
+  .page__content .news-list::before,
+  .page__content .news-card::before {
+    display: none !important;
+  }
+
+  .page__content .news-card,
   .page__content .news-card:hover {
+    grid-template-columns: 1fr !important;
+    min-height: 0 !important;
+    border-radius: 0 !important;
+    overflow: hidden !important;
     transform: none !important;
   }
 
-  /* Leave a generous tappable frame around the modal so tapping outside closes it. */
+  .page__content .news-image {
+    order: -1;
+    height: 200px;
+  }
+
+  .page__content .news-content {
+    align-items: flex-start !important;
+    padding: 1rem 1.2rem 1.1rem;
+    text-align: left !important;
+  }
+
+  .page__content .news-content h3 {
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .page__content .news-meta {
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+  }
+
   html body .page__content .modal-overlay {
     align-items: center !important;
     padding: 3.5rem 1.25rem !important;
@@ -145,6 +442,7 @@ html body .page__content .blog-travel-item figcaption {
     width: min(92vw, 560px) !important;
     max-height: calc(100svh - 7rem) !important;
     margin: 0 !important;
+    border-radius: 0 !important;
     cursor: default;
     overflow-y: auto !important;
   }
@@ -157,7 +455,6 @@ html body .page__content .blog-travel-item figcaption {
     padding: 1.2rem 1.25rem 1.35rem !important;
   }
 
-  /* Refined mobile close control: geometrically centered thin X in a subtle circle. */
   html body .page__content .close-button {
     display: block !important;
     position: absolute !important;
@@ -195,5 +492,26 @@ html body .page__content .blog-travel-item figcaption {
 
   html body .page__content .close-button::after {
     transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .blog-travel-section {
+    margin-top: 3rem;
+  }
+
+  .blog-travel-rule {
+    margin-bottom: 1.35rem;
+  }
+
+  .blog-travel-gallery {
+    gap: 1.8rem;
+  }
+
+  .page__content .blog-travel-item,
+  .page__content .blog-travel-item img {
+    border-radius: 0 !important;
+  }
+
+  html body .page__content .blog-travel-item figcaption {
+    padding: 0.8rem 1rem;
   }
 }
