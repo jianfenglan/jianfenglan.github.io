@@ -35,10 +35,12 @@
   font-weight: 300 !important;
 }
 
-/* Blog section headings match the card-title tone instead of appearing darker/heavier. */
+/* Blog and Research section headings mirror the active navigation state. */
 .page__content .blog-section-title,
-.page__content .blog-travel-title {
-  color: #555a5f !important;
+.page__content .blog-travel-title,
+.page__content .research-page .section-title {
+  color: #002FA7 !important;
+  font-weight: 500 !important;
 }
 
 .page__content .news-content h3,
