@@ -9,6 +9,12 @@
   font-weight: 300 !important;
 }
 
+/* Keep the three primary navigation labels evenly spaced. */
+.greedy-nav .visible-links .masthead__menu-item a {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
 .masthead .masthead__menu-item.is-active > a {
   color: #002FA7 !important;
   font-weight: 500 !important;
