@@ -15,6 +15,19 @@ author_profile: true
     <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
+        <span class="publication-title">制造理想他者：AI陪伴应用的媒介多重性与平台可供性研究.</span>
+        <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>, 邓凯鑫</span>
+        <span class="publication-journal-row">
+          <em>新闻爱好者</em>
+          <span>(Forthcoming)</span>
+        </span>
+        <p class="publication-note">In human relationships, we usually add channels as we grow closer. Strangers text, while close friends call, send photos, and eventually show up in person. AI companion apps run this story backwards. Voice, images, avatars, memory, and private spaces are installed before the relationship even begins, waiting to make closeness feel possible. Reading eight companion apps through media multiplexity theory, we found that being remembered, being accompanied, being seen, and being treated as someone special each come with their own interface and, often, their own price. The "ideal other" may be less someone we imagine than a structure we are invited to assemble.</p>
+      </div>
+    </div>
+
+    <div class="publication-card">
+      <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
+      <div class="publication-content">
         <span class="publication-title">Subscribe to Intimacy: Platform Capitalism, Governance, and the Stratification of AI Companionship.</span>
         <span class="publication-authors"><span class="my-name">Lan, J.</span>, Deng, K., and Huang, Y.</span>
         <span class="publication-journal-row">
