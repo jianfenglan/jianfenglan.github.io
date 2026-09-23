@@ -113,7 +113,8 @@ body {
 .page__content .publication-meta,
 .page__content .publication-type,
 .page__content .publication-authors,
-.page__content .publication-journal-row em {
+.page__content .publication-journal-row em,
+.page__content .publication-status {
   color: var(--research-muted) !important;
   line-height: 1.5 !important;
 }
@@ -151,6 +152,7 @@ body {
 .page__content .publication-card:hover .publication-type,
 .page__content .publication-card:hover .publication-authors,
 .page__content .publication-card:hover .publication-journal-row em,
+.page__content .publication-card:hover .publication-status,
 .page__content .publication-card:hover .publication-doi-link {
   color: var(--research-muted) !important;
 }
@@ -166,6 +168,11 @@ body {
 
 .page__content .publication-journal-row em {
   font-style: italic;
+}
+
+/* Chinese titles: render embedded Latin letters with the CJK face so weight and tone match. */
+.page__content .publication-title:lang(zh) {
+  font-family: "PingFang SC", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif !important;
 }
 
 .page__content .my-name {
