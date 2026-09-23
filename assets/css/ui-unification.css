@@ -15,6 +15,11 @@
   margin-right: 1rem !important;
 }
 
+/* The theme pads the site-title item for a bold logo; drop it so all gaps match. */
+.masthead .masthead__menu-item--lg {
+  padding-right: 0 !important;
+}
+
 .masthead .masthead__menu-item.is-active > a {
   color: #002FA7 !important;
   font-weight: 500 !important;
