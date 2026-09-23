@@ -170,9 +170,10 @@ body {
   font-style: italic;
 }
 
-/* Chinese titles: render embedded Latin letters with the CJK face so weight and tone match. */
-.page__content .publication-title:lang(zh) {
-  font-family: "PingFang SC", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif !important;
+/* Latin letters inside Chinese titles: the site stack minus its Latin faces,
+   so they resolve to the same CJK font the surrounding characters use on each device. */
+.page__content .publication-title .cjk-latin {
+  font-family: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif !important;
 }
 
 .page__content .my-name {

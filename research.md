@@ -15,7 +15,7 @@ author_profile: true
     <div class="publication-card">
       <div class="publication-meta"><span class="publication-year">2026</span><span class="publication-type">Article</span></div>
       <div class="publication-content">
-        <span class="publication-title" lang="zh-CN">制造理想他者：AI陪伴应用的媒介多重性与平台可供性研究.</span>
+        <span class="publication-title">制造理想他者：<span class="cjk-latin" lang="zh-CN">AI</span>陪伴应用的媒介多重性与平台可供性研究.</span>
         <span class="publication-authors">牟怡, <span class="my-name">蓝剑锋</span>, 邓凯鑫</span>
         <span class="publication-journal-row">
           <em>新闻爱好者</em>
