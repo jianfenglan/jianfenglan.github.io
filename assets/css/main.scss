@@ -154,49 +154,24 @@ b,
 .page__content .about-v3 {
   display: block !important;
   min-height: 0 !important;
-  max-width: 900px !important;
-  margin: 0 auto !important;
-  padding: 3.8rem 1rem 0 !important;
+  max-width: 820px !important;
+  margin: 0 !important;
+  padding: 0.8rem 0 0 !important;
 }
-.page__content .about-v3__statement {
-  max-width: none !important;
-  margin: 0 auto !important;
-  color: var(--site-text);
-  font-family: $sans-serif !important;
-  font-size: 1.05rem;
-  font-weight: 300 !important;
-  line-height: 1.65;
-  letter-spacing: 0;
-  text-align: center !important;
-}
-.page__content .about-v3__line { display: block; }
-.page__content .about-v3__line--second { white-space: nowrap; }
-.page__content .about-v3 > img { display: block; max-width: 100%; height: auto; margin: 4.2rem auto 0 !important; }
 .page__content .about-accent { color: var(--site-accent) !important; }
-.page__content .about-v3__bio { max-width: 680px; margin: 2.6rem auto 0; }
 .page__content .about-v3__bio p {
   margin: 0 0 1.1rem !important;
   color: var(--site-text);
   font-family: $sans-serif !important;
   font-size: 1rem !important;
   font-weight: 300 !important;
-  line-height: 1.75;
+  line-height: 1.65;
   letter-spacing: 0;
   text-align: left;
 }
 .page__content .about-v3__bio p:last-child { margin-bottom: 0 !important; }
 .page__content .about-v3__bio a { color: var(--site-accent); text-decoration: none; }
 .page__content .about-v3__bio a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
-.page__content .image-credit {
-  margin-top: 0.35rem;
-  margin-bottom: 0 !important;
-  color: #9aa0a6;
-  font-family: $sans-serif;
-  font-size: 0.68rem;
-  font-weight: 300 !important;
-  line-height: 1.35;
-  text-align: right;
-}
 body.home-page { padding-bottom: 3.5rem !important; }
 .home-page .page__footer { position: absolute !important; bottom: 0 !important; margin-top: 0 !important; }
 
@@ -215,10 +190,5 @@ body.home-page { padding-bottom: 3.5rem !important; }
 
 @media (max-width: 768px) {
   .sidebar .author__urls { justify-content: center; }
-  .page__content .about-v3 { min-height: 0 !important; padding: 2.4rem 0.5rem 0 !important; }
-  .page__content .about-v3__line--second { white-space: normal; }
-  .page__content .about-v3 > img { margin-top: 3.2rem !important; }
-  .page__content .image-credit { font-size: 0.64rem; }
-  .page__content .about-v3__statement { font-size: 1rem !important; }
   .page__content .gallery-card:hover { transform: none !important; }
 }
