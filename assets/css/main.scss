@@ -173,6 +173,20 @@ b,
 .page__content .about-v3__line--second { white-space: nowrap; }
 .page__content .about-v3 > img { display: block; max-width: 100%; height: auto; margin: 4.2rem auto 0 !important; }
 .page__content .about-accent { color: var(--site-accent) !important; }
+.page__content .about-v3__bio { max-width: 680px; margin: 2.6rem auto 0; }
+.page__content .about-v3__bio p {
+  margin: 0 0 1.1rem !important;
+  color: var(--site-text);
+  font-family: $sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 1.75;
+  letter-spacing: 0;
+  text-align: left;
+}
+.page__content .about-v3__bio p:last-child { margin-bottom: 0 !important; }
+.page__content .about-v3__bio a { color: var(--site-accent); text-decoration: none; }
+.page__content .about-v3__bio a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .page__content .image-credit {
   margin-top: 0.35rem;
   margin-bottom: 0 !important;
