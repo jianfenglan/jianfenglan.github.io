@@ -148,6 +148,16 @@ b,
 
 @media screen and (min-width: 1024px) {
   .sidebar { padding-top: 88px !important; }
+  // Desktop rail reads left-aligned; narrower screens keep the centered stack above.
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__name,
+  .sidebar .author__bio,
+  .sidebar .author__employer,
+  .sidebar .author__location,
+  .sidebar .author__urls-wrapper { text-align: left; }
+  .sidebar .author__urls { align-items: flex-start; justify-content: flex-start; }
+  .sidebar .author__urls li { justify-content: flex-start; }
 }
 
 // About
