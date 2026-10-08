@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /blog/
+permalink: /plog/
 author_profile: true
 ---
 
