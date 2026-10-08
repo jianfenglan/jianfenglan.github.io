@@ -62,7 +62,7 @@ Ownership:
 - moved all Blog inline CSS from `blog.md` and `_includes/blog-gallery.html` into `blog-refinement.css`
 - reduced `ui-unification.css` to genuinely shared navigation/sidebar rules
 - extracted Blog modal JavaScript to `assets/js/blog-modal.js`
-- made Blog CSS and JS load only on `/blog/`
+- made Blog CSS and JS load only on `/plog/`
 - made Research CSS load only on `/research/`
 - removed unused collapse JS/CSS
 - removed unused Academicons CSS and font assets

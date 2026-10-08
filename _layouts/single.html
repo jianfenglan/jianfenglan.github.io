@@ -51,7 +51,7 @@ layout: default
           </section>
         {% endif %}
 
-        {% if page.url == "/blog/" %}
+        {% if page.url == "/plog/" %}
           <section class="blog-journal-section" aria-label="Blog journal">
             <h2 class="blog-section-title">Notes</h2>
             <div class="blog-section-rule" aria-hidden="true"></div>
@@ -60,7 +60,7 @@ layout: default
 
         {{ content }}
 
-        {% if page.url == "/blog/" %}
+        {% if page.url == "/plog/" %}
           {% include blog-gallery.html %}
         {% endif %}
 
