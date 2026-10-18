@@ -408,6 +408,19 @@ html body .page__content .blog-travel-item .travel-sep {
 }
 
 @media (max-width: 768px) {
+  html body .page__content .blog-travel-item figcaption {
+    padding: 0.7rem 1rem;
+    font-size: 0.62rem !important;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  html body .page__content .blog-travel-item .travel-sep {
+    margin: 0 0.45em;
+  }
+
   .page__inner-wrap {
     max-width: 100% !important;
   }
@@ -542,4 +555,15 @@ html body .page__content .blog-travel-item .travel-sep {
   html body .page__content .blog-travel-item figcaption {
     padding: 0.8rem 1rem;
   }
+}
+
+/* Notes: typewriter for card titles/meta and the modal's title/meta (body text unchanged),
+   matching the Footprints captions */
+html body .page__content .news-content h3,
+html body .page__content .news-meta,
+html body .page__content #modal-title,
+html body .page__content #modal-meta {
+  font-family: "American Typewriter", "Courier Prime", "Courier New", monospace !important;
+  font-size: 0.86rem !important;
+  letter-spacing: 0.02em;
 }

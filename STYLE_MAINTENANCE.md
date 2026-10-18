@@ -27,6 +27,7 @@ Blog:
 - section titles are `Notes` and `Footprints`, Klein blue, weight 500
 - desktop journal remains a vertical timeline with metadata left of the axis and image thumbnails on the right
 - timeline thumbnails are street-and-water line maps of each note's city (`images/news/previews/*.svg`; roads in `#004EA2` by class, water in light blue; data © OpenStreetMap contributors via Overture Maps); the image tag's `data-full` attribute points to the original photo shown in the modal
+- Notes card titles and meta, and the modal's title and date/place, use the same typewriter stack as Footprints captions (0.86rem); modal body text stays in the site font
 - desktop cards retain their subtle lift/shadow; mobile cards remain static
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
