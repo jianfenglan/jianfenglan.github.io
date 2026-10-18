@@ -1,0 +1,9 @@
+/* Courier Prime, self-hosted (SIL OFL 1.1, see /assets/fonts/OFL.txt).
+   Served from this site rather than Google Fonts, which many visitors cannot reach. */
+@font-face {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/courier-prime-400.woff2") format("woff2");
+}

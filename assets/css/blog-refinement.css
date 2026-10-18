@@ -568,3 +568,15 @@ html body .page__content #modal-meta {
   font-weight: 400 !important;
   letter-spacing: 0.02em;
 }
+
+/* Phones render Courier Prime's single weight hairline-thin at these sizes;
+   a 0.3px stroke in the text colour gives it a little more ink. */
+@media (max-width: 768px) {
+  html body .page__content .news-content h3,
+  html body .page__content .news-meta,
+  html body .page__content #modal-title,
+  html body .page__content #modal-meta,
+  html body .page__content .blog-travel-item figcaption {
+    -webkit-text-stroke: 0.3px currentColor;
+  }
+}
