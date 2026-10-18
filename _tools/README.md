@@ -8,3 +8,6 @@
   The owner is not satisfied with these; they are being redesigned.
 - `samples.py` — three design samples for the redesign (lunar calendar, ribbon through tiers,
   leaves turning into circuitry): white ground, #004EA2 hairlines, flat grey offset shadows.
+- `figures.py` — paused draft of the redesign (second pass on the three samples, sized for
+  ~210px). The owner rejected this pass; it does not write into `images/research/` unless
+  run with that path.
