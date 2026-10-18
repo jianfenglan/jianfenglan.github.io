@@ -138,6 +138,8 @@ author_profile: true
 
 </div>
 
+<p class="map-credit">Map previews: data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, via <a href="https://overturemaps.org/" target="_blank" rel="noopener">Overture Maps</a>.</p>
+
 <div id="news-modal" class="modal-overlay">
     <div class="modal-content">
         <span class="close-button">×</span>
