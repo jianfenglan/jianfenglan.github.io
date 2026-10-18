@@ -21,6 +21,7 @@ Research:
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
 - each publication has an abstract illustration (`images/research/*.svg`): a cloisonné-blue (`#004EA2`) block with soft white hand-drawn lines, no frame; right-hand column on desktop, above the entry on mobile
+- the left-column year/type (e.g. 2026 / Article) and the Conference Presentations labels use Courier Prime (0.86rem, weight 400), the site's metadata face; titles, authors, journals and notes keep the site font
 - publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:
