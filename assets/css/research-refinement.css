@@ -291,6 +291,16 @@ body {
   opacity: 0.8;
 }
 
+/* Metadata in Courier Prime (same face as Plog dates/places and Footprints captions) */
+.page__content .publication-year,
+.page__content .publication-type,
+.page__content .conference-card {
+  font-family: "Courier Prime", "Courier New", monospace !important;
+  font-size: 0.86rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+}
+
 /* Collapsible reading notes */
 .page__content .publication-note-toggle {
   margin: 0.4rem 0 0;
