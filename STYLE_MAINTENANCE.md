@@ -20,19 +20,17 @@ Research:
 - publication cards remain visually static on hover
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
-- the left-column year/type (e.g. 2026 / Article) and the Conference Presentations labels use Courier Prime (0.86rem, weight 400), the site's metadata face; titles, authors, journals and notes keep the site font
 - publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:
 - section titles are `Notes` and `Footprints`, Klein blue, weight 500
 - desktop journal remains a vertical timeline with metadata left of the axis and image thumbnails on the right
 - timeline thumbnails remain grayscale
-- Notes card titles and meta, and the modal's title and date/place, use Courier Prime like the Footprints captions (0.86rem, weight 400); modal body text stays in the site font
 - desktop cards retain their subtle lift/shadow; mobile cards remain static
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
 - Footprints images remain grayscale until hover and captions remain left aligned
-- Footprints captions use Courier Prime (self-hosted in `assets/fonts/` via `assets/css/courier-prime.css`, weight 400; never a light weight; on phones a 0.3px text stroke thickens it) at a smaller size on a single line (city · latitude/longitude · date), with coordinates in place of a flag
+- Footprints captions are three lines in the site font: city, latitude/longitude (in place of a flag), date
 
 ## 2. Final asset architecture
 
@@ -41,11 +39,9 @@ Global assets loaded on every page:
 2. `assets/css/ui-unification.css`
 
 Research only:
-- `assets/css/courier-prime.css` (self-hosted metadata font, also on Plog)
 - `assets/css/research-refinement.css`
 
 Blog only:
-- `assets/css/courier-prime.css`
 - `assets/css/blog-refinement.css`
 - `assets/js/blog-timeline-meta.js`
 - `assets/js/blog-modal.js`

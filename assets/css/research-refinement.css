@@ -291,16 +291,6 @@ body {
   opacity: 0.8;
 }
 
-/* Metadata in Courier Prime (same face as Plog dates/places and Footprints captions) */
-.page__content .publication-year,
-.page__content .publication-type,
-.page__content .conference-card {
-  font-family: "Courier Prime", "Courier New", monospace !important;
-  font-size: 0.86rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.02em !important;
-}
-
 /* Collapsible reading notes */
 .page__content .publication-note-toggle {
   margin: 0.4rem 0 0;
@@ -400,15 +390,5 @@ body {
   .page__content .publication-card + .publication-card::before {
     left: 1.25rem;
     right: 1.25rem;
-  }
-}
-
-/* Phones render Courier Prime's single weight hairline-thin at these sizes;
-   a 0.3px stroke in the text colour gives it a little more ink. */
-@media (max-width: 768px) {
-  .page__content .publication-year,
-  .page__content .publication-type,
-  .page__content .conference-card {
-    -webkit-text-stroke: 0.3px currentColor;
   }
 }

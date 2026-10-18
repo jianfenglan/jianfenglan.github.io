@@ -369,44 +369,17 @@ body {
 }
 
 html body .page__content .blog-travel-item figcaption {
-  display: block;
-  width: 100%;
   margin: 0;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 1.5rem;
   color: var(--blog-text) !important;
   background: #fdfdfd;
-  font-family: "Courier Prime", "Courier New", monospace !important;
-  font-size: 0.78rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.02em;
-  line-height: 1.7;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 1.6;
   text-align: left !important;
 }
 
-html body .page__content .blog-travel-item .travel-coords {
-  color: var(--blog-muted) !important;
-}
-
-html body .page__content .blog-travel-item .travel-sep {
-  margin: 0 0.6em;
-  color: var(--blog-muted) !important;
-}
-
-
 @media (max-width: 768px) {
-  html body .page__content .blog-travel-item figcaption {
-    padding: 0.7rem 1rem;
-    font-size: 0.62rem !important;
-    letter-spacing: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  html body .page__content .blog-travel-item .travel-sep {
-    margin: 0 0.45em;
-  }
-
   .page__inner-wrap {
     max-width: 100% !important;
   }
@@ -540,29 +513,5 @@ html body .page__content .blog-travel-item .travel-sep {
 
   html body .page__content .blog-travel-item figcaption {
     padding: 0.8rem 1rem;
-  }
-}
-
-/* Notes: Courier Prime for card titles/meta and the modal's title/meta (body text unchanged),
-   matching the Footprints captions */
-html body .page__content .news-content h3,
-html body .page__content .news-meta,
-html body .page__content #modal-title,
-html body .page__content #modal-meta {
-  font-family: "Courier Prime", "Courier New", monospace !important;
-  font-size: 0.86rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.02em;
-}
-
-/* Phones render Courier Prime's single weight hairline-thin at these sizes;
-   a 0.3px stroke in the text colour gives it a little more ink. */
-@media (max-width: 768px) {
-  html body .page__content .news-content h3,
-  html body .page__content .news-meta,
-  html body .page__content #modal-title,
-  html body .page__content #modal-meta,
-  html body .page__content .blog-travel-item figcaption {
-    -webkit-text-stroke: 0.3px currentColor;
   }
 }
