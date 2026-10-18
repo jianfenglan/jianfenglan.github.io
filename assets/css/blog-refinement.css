@@ -369,6 +369,8 @@ body {
 }
 
 html body .page__content .blog-travel-item figcaption {
+  display: block;
+  width: 100%;
   margin: 0;
   padding: 0.8rem 1.5rem;
   color: var(--blog-text) !important;
@@ -382,6 +384,11 @@ html body .page__content .blog-travel-item figcaption {
 }
 
 html body .page__content .blog-travel-item .travel-coords {
+  color: var(--blog-muted) !important;
+}
+
+html body .page__content .blog-travel-item .travel-sep {
+  margin: 0 0.6em;
   color: var(--blog-muted) !important;
 }
 
