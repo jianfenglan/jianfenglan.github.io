@@ -32,7 +32,7 @@ Blog:
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
 - Footprints images remain grayscale until hover and captions remain left aligned
-- Footprints captions use Courier Prime (Google Fonts, weight 400 on every device; never a light weight) at a smaller size on a single line (city · latitude/longitude · date), with coordinates in place of a flag
+- Footprints captions use Courier Prime (self-hosted in `assets/fonts/` via `assets/css/courier-prime.css`, weight 400; never a light weight; on phones a 0.3px text stroke thickens it) at a smaller size on a single line (city · latitude/longitude · date), with coordinates in place of a flag
 
 ## 2. Final asset architecture
 
@@ -41,9 +41,11 @@ Global assets loaded on every page:
 2. `assets/css/ui-unification.css`
 
 Research only:
+- `assets/css/courier-prime.css` (self-hosted metadata font, also on Plog)
 - `assets/css/research-refinement.css`
 
 Blog only:
+- `assets/css/courier-prime.css`
 - `assets/css/blog-refinement.css`
 - `assets/js/blog-timeline-meta.js`
 - `assets/js/blog-modal.js`

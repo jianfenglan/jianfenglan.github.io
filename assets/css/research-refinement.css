@@ -402,3 +402,13 @@ body {
     right: 1.25rem;
   }
 }
+
+/* Phones render Courier Prime's single weight hairline-thin at these sizes;
+   a 0.3px stroke in the text colour gives it a little more ink. */
+@media (max-width: 768px) {
+  .page__content .publication-year,
+  .page__content .publication-type,
+  .page__content .conference-card {
+    -webkit-text-stroke: 0.3px currentColor;
+  }
+}
