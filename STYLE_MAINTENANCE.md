@@ -20,13 +20,13 @@ Research:
 - publication cards remain visually static on hover
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
-- each publication has an abstract low-poly mosaic (`images/research/*.svg`, Klein-blue tones on white, no text) in a right-hand column; on mobile it sits above the entry
+- each publication has an abstract mosaic built on a mathematical structure (phyllotaxis, golden-ratio rings, Voronoi, Fibonacci squares, wave interference …; `images/research/*.svg`, Klein-blue tones, no text) in a right-hand column; on mobile it sits above the entry
 - publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:
 - section titles are `Notes` and `Footprints`, Klein blue, weight 500
 - desktop journal remains a vertical timeline with metadata left of the axis and image thumbnails on the right
-- timeline thumbnails are abstract Klein-blue low-poly mosaics of each note's subject (`images/news/previews/*.svg`); the image tag's `data-full` attribute points to the original photo shown in the modal
+- timeline thumbnails are abstract Klein-blue mosaics of each note's subject, reduced to dots and plain forms (`images/news/previews/*.svg`); the image tag's `data-full` attribute points to the original photo shown in the modal
 - desktop cards retain their subtle lift/shadow; mobile cards remain static
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
