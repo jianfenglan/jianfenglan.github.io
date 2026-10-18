@@ -20,15 +20,18 @@ Research:
 - publication cards remain visually static on hover
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
+- each publication has an abstract line illustration (`images/research/*.svg`, Klein blue on white, no text) in a right-hand column; on mobile it sits above the entry
+- publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:
 - section titles are `Notes` and `Footprints`, Klein blue, weight 500
 - desktop journal remains a vertical timeline with metadata left of the axis and image thumbnails on the right
-- timeline thumbnails remain grayscale
+- timeline thumbnails are minimal Klein-blue line drawings on white (`images/news/lineart/*.svg`); the image tag's `data-full` attribute points to the original photo shown in the modal
 - desktop cards retain their subtle lift/shadow; mobile cards remain static
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
 - Footprints images remain grayscale until hover and captions remain left aligned
+- Footprints captions use American Typewriter (Courier Prime fallback) at a smaller size, with the city's latitude/longitude in place of a flag
 
 ## 2. Final asset architecture
 

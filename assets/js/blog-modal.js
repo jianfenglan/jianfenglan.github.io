@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const modalImage = document.getElementById('modal-image');
 
     if (cardImage && cardImage.getAttribute('src')) {
-      modalImage.src = cardImage.src;
+      // Cards show a line-drawing preview; the modal shows the original photo.
+      modalImage.src = cardImage.dataset.full || cardImage.src;
       modalImage.alt = cardImage.alt || title;
       modalImageWrap.style.display = 'block';
     } else {

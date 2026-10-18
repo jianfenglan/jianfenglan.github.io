@@ -12,7 +12,7 @@ author_profile: true
         <span class="news-meta">July 15, 2026 · Zhuhai</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/BNU.JPG' | relative_url }}" alt="Intelligent & Computational Comm. Workshop">
+        <img src="{{ '/images/news/lineart/BNU.svg' | relative_url }}" data-full="{{ '/images/news/BNU.JPG' | relative_url }}" alt="Intelligent & Computational Comm. Workshop">
     </div>
 </div>
 
@@ -22,7 +22,7 @@ author_profile: true
         <span class="news-meta">June 29, 2026 · Shenzhen</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/PKUSZ.jpg' | relative_url }}" alt="PKU HSBC Conference">
+        <img src="{{ '/images/news/lineart/PKUSZ.svg' | relative_url }}" data-full="{{ '/images/news/PKUSZ.jpg' | relative_url }}" alt="PKU HSBC Conference">
     </div>
 </div>
 
@@ -32,7 +32,7 @@ author_profile: true
         <span class="news-meta">June 6, 2026 · Cape Town</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA2026.png' | relative_url }}" alt="ICA 2026">
+        <img src="{{ '/images/news/lineart/ICA2026.svg' | relative_url }}" data-full="{{ '/images/news/ICA2026.png' | relative_url }}" alt="ICA 2026">
     </div>
 </div>
 
@@ -42,7 +42,7 @@ author_profile: true
         <span class="news-meta">November 22, 2025 · Denver</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/NCA25.JPG' | relative_url }}" alt="NCA 2025">
+        <img src="{{ '/images/news/lineart/NCA25.svg' | relative_url }}" data-full="{{ '/images/news/NCA25.JPG' | relative_url }}" alt="NCA 2025">
     </div>
 </div>
 
@@ -52,7 +52,7 @@ author_profile: true
         <span class="news-meta">November 11, 2025 · Tokyo</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/PCST.jpg' | relative_url }}" alt="PCST-Tokyo Symposium 2025">
+        <img src="{{ '/images/news/lineart/PCST.svg' | relative_url }}" data-full="{{ '/images/news/PCST.jpg' | relative_url }}" alt="PCST-Tokyo Symposium 2025">
     </div>
 </div>
 
@@ -62,7 +62,7 @@ author_profile: true
         <span class="news-meta">August 12, 2025 · Hong Kong</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/HKBU25.JPG' | relative_url }}" alt="HKBU Graduate Conference 2025">
+        <img src="{{ '/images/news/lineart/HKBU25.svg' | relative_url }}" data-full="{{ '/images/HKBU25.JPG' | relative_url }}" alt="HKBU Graduate Conference 2025">
     </div>
 </div>
 
@@ -72,7 +72,7 @@ author_profile: true
         <span class="news-meta">August 8, 2025 · San Francisco</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/AEJMC25.png' | relative_url }}" alt="AEJMC 2025">
+        <img src="{{ '/images/news/lineart/AEJMC25.svg' | relative_url }}" data-full="{{ '/images/AEJMC25.png' | relative_url }}" alt="AEJMC 2025">
     </div>
 </div>
 
@@ -82,7 +82,7 @@ author_profile: true
         <span class="news-meta">July 15, 2025 · Singapore</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/IAMCR2025.jpg' | relative_url }}" alt="IAMCR 2025">
+        <img src="{{ '/images/news/lineart/IAMCR2025.svg' | relative_url }}" data-full="{{ '/images/news/IAMCR2025.jpg' | relative_url }}" alt="IAMCR 2025">
     </div>
 </div>
 
@@ -92,7 +92,7 @@ author_profile: true
         <span class="news-meta">June 15, 2025 · Denver</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA2025.jpg' | relative_url }}" alt="ICA 2025">
+        <img src="{{ '/images/news/lineart/ICA2025.svg' | relative_url }}" data-full="{{ '/images/news/ICA2025.jpg' | relative_url }}" alt="ICA 2025">
     </div>
 </div>
 
@@ -102,7 +102,7 @@ author_profile: true
         <span class="news-meta">November 22, 2024 · New Orleans</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/NCA.png' | relative_url }}" alt="NCA 2024">
+        <img src="{{ '/images/news/lineart/NCA.svg' | relative_url }}" data-full="{{ '/images/news/NCA.png' | relative_url }}" alt="NCA 2024">
     </div>
 </div>
 
@@ -112,7 +112,7 @@ author_profile: true
         <span class="news-meta">June 23, 2024 · Gold Coast</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA2024.png' | relative_url }}" alt="ICA 2024">
+        <img src="{{ '/images/news/lineart/ICA2024.svg' | relative_url }}" data-full="{{ '/images/news/ICA2024.png' | relative_url }}" alt="ICA 2024">
     </div>
 </div>
 
@@ -122,7 +122,7 @@ author_profile: true
         <span class="news-meta">June 7, 2024 · Singapore</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/SICSS01.JPG' | relative_url }}" alt="SICSS-Singapore 2024">
+        <img src="{{ '/images/news/lineart/SICSS01.svg' | relative_url }}" data-full="{{ '/images/news/SICSS01.JPG' | relative_url }}" alt="SICSS-Singapore 2024">
     </div>
 </div>
 
@@ -132,7 +132,7 @@ author_profile: true
         <span class="news-meta">May 25, 2023 · Toronto</span>
     </div>
     <div class="news-image">
-        <img src="{{ '/images/news/ICA2302.jpg' | relative_url }}" alt="ICA 2023">
+        <img src="{{ '/images/news/lineart/ICA2302.svg' | relative_url }}" data-full="{{ '/images/news/ICA2302.jpg' | relative_url }}" alt="ICA 2023">
     </div>
 </div>
 
