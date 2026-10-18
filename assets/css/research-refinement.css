@@ -291,6 +291,55 @@ body {
   opacity: 0.8;
 }
 
+/* Collapsible reading notes */
+.page__content .publication-note-toggle {
+  margin: 0.4rem 0 0;
+}
+
+.page__content .publication-note-toggle summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--research-klein) !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  line-height: 1.5 !important;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.page__content .publication-note-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.page__content .publication-note-toggle summary::before {
+  content: "+";
+  display: inline-block;
+  width: 0.8em;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.page__content .publication-note-toggle[open] summary::before {
+  content: "\2212";
+}
+
+.page__content .publication-note-toggle summary:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 0.5px;
+}
+
+.page__content .publication-note-toggle summary:focus-visible {
+  outline: 1px solid var(--research-klein);
+  outline-offset: 2px;
+}
+
+.page__content .research-page .publication-note-toggle .publication-note {
+  margin-top: 0.35rem !important;
+}
+
 @media (max-width: 768px) {
   .page__inner-wrap {
     max-width: 100% !important;

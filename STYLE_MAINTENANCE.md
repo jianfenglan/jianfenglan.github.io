@@ -20,6 +20,7 @@ Research:
 - publication cards remain visually static on hover
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
+- publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:
 - section titles are `Notes` and `Footprints`, Klein blue, weight 500
@@ -29,6 +30,7 @@ Blog:
 - modal images remain in color and the modal remains flat/shadowless
 - mobile outside-tap close behavior and circular close control remain unchanged
 - Footprints images remain grayscale until hover and captions remain left aligned
+- Footprints captions use American Typewriter (Courier Prime fallback) at a smaller size on a single line (city · latitude/longitude · date), with coordinates in place of a flag
 
 ## 2. Final asset architecture
 

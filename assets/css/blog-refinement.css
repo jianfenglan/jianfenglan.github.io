@@ -369,17 +369,44 @@ body {
 }
 
 html body .page__content .blog-travel-item figcaption {
+  display: block;
+  width: 100%;
   margin: 0;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   color: var(--blog-text) !important;
   background: #fdfdfd;
-  font-size: 1rem !important;
+  font-family: "American Typewriter", "Courier Prime", "Courier New", monospace !important;
+  font-size: 0.78rem !important;
   font-weight: 300 !important;
-  line-height: 1.6;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
   text-align: left !important;
 }
 
+html body .page__content .blog-travel-item .travel-coords {
+  color: var(--blog-muted) !important;
+}
+
+html body .page__content .blog-travel-item .travel-sep {
+  margin: 0 0.6em;
+  color: var(--blog-muted) !important;
+}
+
+
 @media (max-width: 768px) {
+  html body .page__content .blog-travel-item figcaption {
+    padding: 0.7rem 1rem;
+    font-size: 0.62rem !important;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  html body .page__content .blog-travel-item .travel-sep {
+    margin: 0 0.45em;
+  }
+
   .page__inner-wrap {
     max-width: 100% !important;
   }
