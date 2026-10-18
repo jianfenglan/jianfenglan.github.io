@@ -375,9 +375,9 @@ html body .page__content .blog-travel-item figcaption {
   padding: 0.8rem 1.5rem;
   color: var(--blog-text) !important;
   background: #fdfdfd;
-  font-family: "American Typewriter", "Courier Prime", "Courier New", monospace !important;
+  font-family: "Courier Prime", "Courier New", monospace !important;
   font-size: 0.78rem !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   letter-spacing: 0.02em;
   line-height: 1.7;
   text-align: left !important;
@@ -543,13 +543,14 @@ html body .page__content .blog-travel-item .travel-sep {
   }
 }
 
-/* Notes: typewriter for card titles/meta and the modal's title/meta (body text unchanged),
+/* Notes: Courier Prime for card titles/meta and the modal's title/meta (body text unchanged),
    matching the Footprints captions */
 html body .page__content .news-content h3,
 html body .page__content .news-meta,
 html body .page__content #modal-title,
 html body .page__content #modal-meta {
-  font-family: "American Typewriter", "Courier Prime", "Courier New", monospace !important;
+  font-family: "Courier Prime", "Courier New", monospace !important;
   font-size: 0.86rem !important;
+  font-weight: 400 !important;
   letter-spacing: 0.02em;
 }
