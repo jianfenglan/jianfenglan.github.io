@@ -137,6 +137,8 @@ include:
   - files
 exclude:
   - AGENTS.md
+  - shots.mjs
+  - shots
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor

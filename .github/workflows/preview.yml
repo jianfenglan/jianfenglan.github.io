@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  preview:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,9 +22,29 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Upload preview artifact
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright Chromium
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --no-audit --no-fund playwright@1.48.0
+          npx playwright install --with-deps chromium
+
+      - name: Serve and screenshot
+        run: |
+          cd _site
+          python3 -m http.server 8080 >/dev/null 2>&1 &
+          sleep 3
+          cd ..
+          mkdir -p shots
+          node shots.mjs
+
+      - name: Upload screenshots
         uses: actions/upload-artifact@v4
         with:
-          name: preview-site
-          path: ./_site
+          name: preview-shots
+          path: shots
           retention-days: 7

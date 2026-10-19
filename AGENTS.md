@@ -12,9 +12,15 @@
 
 ## 预览流程
 
-- push 到 `dsh/**` 自动触发 `.github/workflows/preview.yml`，产出 artifact `preview-site`。
-- 本地取回：`gh run download <run-id> -n preview-site -D /tmp/preview`
-- 起服务：`python3 -m http.server` 于产物目录，Chrome headless 截图（1440x900 桌面 + 390x844 移动）。
+- push 到 `dsh/**` 自动触发 `.github/workflows/preview.yml`。
+- workflow 在 runner 内用 Jekyll（GitHub Pages 同款镜像）构建，起 `http.server`，用 Playwright 对 `/`、`/research/`、`/plog/`、`/elsewhere/` 各截桌面 1440 宽与移动 390 宽两张全页图，上传为 artifact `preview-shots`。
+- 本地取回：`gh run download <run-id> -n preview-shots -D /tmp/shots`
+- 只回传 PNG/JPEG 截图（几 MB），不回传整站产物（100MB+，会超时）。
+
+## 环境现状
+
+- 本机无 Homebrew、无 Docker，系统 Ruby 2.6 装不了 `github-pages` gem，**不能本地构建 Jekyll**；预览一律走 CI。
+- 本机截图可用：`/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --headless=new`。
 
 ## 仓库现状（2026-10）
 
