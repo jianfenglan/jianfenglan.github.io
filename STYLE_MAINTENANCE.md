@@ -20,6 +20,7 @@ Research:
 - publication cards remain visually static on hover
 - publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
+- each publication has an illustration (`images/research/<journal abbreviation>.svg`, 16:9, white ground, no frame): a 210px right-hand column on desktop, above the entry on mobile
 - publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"
 
 Blog:

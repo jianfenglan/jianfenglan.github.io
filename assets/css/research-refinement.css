@@ -76,7 +76,8 @@ body {
 .page__content .publication-card:hover {
   position: relative;
   display: grid;
-  grid-template-columns: 105px minmax(0, 1fr) !important;
+  grid-template-columns: 105px minmax(0, 1fr) 210px !important;
+  align-items: start;
   gap: 1.35rem !important;
   margin: 0 !important;
   padding: 0.86rem 0 0.58rem !important;
@@ -291,6 +292,22 @@ body {
   opacity: 0.8;
 }
 
+/* Paper illustrations (images/research/*.svg, 16:9) */
+.page__content .publication-figure {
+  margin: 0.2rem 0 0.3rem !important;
+  padding: 0;
+  border: 0;
+  background: #fff;
+}
+
+.page__content .publication-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 0 !important;
+}
+
 /* Collapsible reading notes */
 .page__content .publication-note-toggle {
   margin: 0.4rem 0 0;
@@ -379,6 +396,11 @@ body {
 
   .page__content .publication-type {
     margin-left: 0;
+  }
+
+  .page__content .publication-figure {
+    order: -1;
+    margin: 0 0 0.55rem !important;
   }
 
   .page__content .research-page .publication-note {

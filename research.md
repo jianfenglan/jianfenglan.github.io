@@ -26,6 +26,7 @@ author_profile: true
           <p class="publication-note">In human relationships, we usually add channels as we grow closer. Strangers text, while close friends call, send photos, and eventually show up in person. AI companion apps run this story backwards. Voice, images, avatars, memory, and private spaces are installed before the relationship even begins, waiting to make closeness feel possible. Reading eight companion apps through media multiplexity theory, we found that being remembered, being accompanied, being seen, and being treated as someone special each come with their own interface and, often, their own price. The "ideal other" may be less someone we imagine than a structure we are invited to assemble.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/xwahz.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -44,6 +45,7 @@ author_profile: true
           <p class="publication-note">Most love stories ask whether two people can stay together. This paper asks a stranger question. What happens when the relationship comes with a subscription plan? We walked through eight AI companion apps in China and the United States and found that memory, availability, expressive richness, and even relational identity can be divided into payment tiers. It sometimes feels like a <em>Black Mirror</em> episode designed by a SaaS pricing team. The unsettling part is that the platform is quietly deciding what continuity and closeness are allowed to feel like.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/telematics.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -62,6 +64,7 @@ author_profile: true
           <p class="publication-note">We often speak of vulnerability as if it were a label attached to certain people. This project made me think of it more like a crack that appears when a person and the systems around them stop fitting together. Across 184 studies from China, Japan, and South Korea, vulnerability repeatedly emerged when schools, hospitals, digital platforms, families, or public services changed faster than people could adapt. A crisis can therefore do more than reveal vulnerability. The systems built to manage it can help produce it.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/health.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -80,6 +83,7 @@ author_profile: true
           <p class="publication-note">AI governance can sound like a distant room occupied by regulators, engineers, and technology companies. This paper follows the staircase that ordinary users can take into that room. News, conversation, technological knowledge, policy knowledge, efficacy, and participation turned out to form a reinforcing cycle. One result I especially like is that participation can itself make people feel more capable of participating. Civic agency may grow partly through being exercised.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/telecomm.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -98,6 +102,7 @@ author_profile: true
           <p class="publication-note">AI intimacy performs a peculiar magic trick. It can feel real without requiring us to believe that the machine is real in quite the same way another person is. Trust and dependency emerged as especially important parts of that experience, while personality shaped who was more receptive to it. I like to think of this through Heidegger. When the conversation works, the machine almost disappears into the relationship. When it repeats itself or fails, the spell breaks and the tool suddenly becomes visible again.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/ppm.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -116,6 +121,7 @@ author_profile: true
           <p class="publication-note">Traditional media often teach us about life and death by showing them to us. Interactive media let us rehearse these questions ourselves. In this study, what mattered was not simply how often young people encountered intelligent agents or virtual humans, but whether those encounters carried enough meaning to become part of how they understood life, death, and continuity. That distinction between exposure and meaningful interaction eventually became the idea I like most in the paper, the movement from <em>jishi</em>, what we do with machines, to <em>jixin</em>, what machines begin to do to our ways of thinking.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/xwcbyj.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -134,6 +140,7 @@ author_profile: true
           <p class="publication-note">Pygmalion fell in love with a statue. Our question begins a little later, once Pygmalion gets Wi-Fi and starts posting screenshots of the relationship online. When people publicly share affectionate conversations with Replika, they are showing us an AI relationship, and they are also carefully showing us themselves. The interviews revealed a small theatre of affirmation, vulnerability, desirability, and audience management. Human-AI intimacy may be deeply private, yet the moment it enters social media, it also becomes a performance.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/emm.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -152,6 +159,7 @@ author_profile: true
           <p class="publication-note">One of the strangest questions I have worked on is whether a virtual idol can die. Kizuna AI's "hibernation" gave us an unusual way to investigate it. What surprised me was that mourning did not simply divide humans from machines. Embodiment mattered. A disembodied human uploader could be mourned more like a virtual being, while an embodied uploader looked more like a conventional celebrity in the language of grief. The human-machine boundary may be less like a wall and more like a costume whose cues we learn to read.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/nms.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
   </div>
 
@@ -174,6 +182,7 @@ author_profile: true
           <p class="publication-note">After writing the review, I wanted to keep the conversation going. Speaking with David Gunkel allowed me to move from the abstract question of robot rights to messier questions about responsibility, AI companions, distributed agency, and non-Western relational ethics. I came away increasingly convinced that the "machine question" is also a human question. Machines force us to explain why our moral categories have the boundaries they do, and whether those boundaries still make sense in a world full of hybrid social actors.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/gjxwj.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -192,6 +201,7 @@ author_profile: true
           <p class="publication-note">This book begins with a deceptively simple problem. If a robot is neither comfortably a person nor merely a thing, where should we put it? Gunkel's answer is to inspect the boxes themselves. What stayed with me most was this reversal. The robot becomes a kind of philosophical stress test, exposing cracks in categories that have organized Western law and ethics for centuries. Sometimes a new technology becomes interesting because it solves a problem. Sometimes it reveals that our old vocabulary was already broken.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/aiandsociety.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
   </div>
 
@@ -214,6 +224,7 @@ author_profile: true
           <p class="publication-note">Communication scholars have spent the past few years treating AI as a fascinating new object in the laboratory. In this chapter, we turn the telescope around and ask what happens when AI becomes part of the laboratory itself. Surveys, content analysis, and other familiar methods were designed for a world with very different computational limits. Generative AI gives us new ways to simulate, scale, connect, and interrogate data. For me, the interesting question is how much of the research workflow itself will eventually become intelligent.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/zncbyj.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
 
     <div class="publication-card">
@@ -232,6 +243,7 @@ author_profile: true
           <p class="publication-note">This was one of my earliest human-machine communication projects, and <em>Ex Machina</em> provided the perfect opening question. An AI does not need a gender, so what happens when we give it one anyway? Our experiment suggested that even a thin cue such as the implied gender of a machine author can carry a surprisingly thick bundle of human expectations. The effects shifted across topics and author types, but the broader lesson stayed with me. Social stereotypes do not stop at the boundary between flesh and code.</p>
         </details>
       </div>
+      <figure class="publication-figure"><img src="{{ '/images/research/zgwlcbyj.svg' | relative_url }}" alt="" loading="lazy"></figure>
     </div>
   </div>
 
