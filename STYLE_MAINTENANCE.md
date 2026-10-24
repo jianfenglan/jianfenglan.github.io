@@ -9,7 +9,7 @@ The cleanup completed on 2026-08-31 is architecture-only. Existing public layout
 
 Shared UI:
 - Klein blue: `#002FA7`
-- normal interface weight: `300`
+- normal interface weight: `400` (regular, site-wide; Noto Sans SC loaded at 400/500)
 - active navigation weight: `500`
 - standard text tone: `#555a5f`
 - muted text tone: `#737980`
@@ -18,7 +18,7 @@ Research:
 - section titles are Klein blue, 16px, weight 500
 - desktop publications use the existing two-column layout; mobile uses one column
 - publication cards remain visually static on hover
-- publication notes remain Klein blue, 16px, weight 300, indented, with CSS curly quotation marks
+- publication notes remain Klein blue, 16px, weight 400, indented, with CSS curly quotation marks
 - separators remain between adjacent publication entries
 - each publication has an illustration (`images/research/<journal abbreviation>.svg`, 16:9, white ground, no frame): a 210px right-hand column on desktop, above the entry on mobile
 - publication notes sit inside a collapsed `<details>` toggle labelled "Reading note"

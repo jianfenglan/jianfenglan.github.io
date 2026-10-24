@@ -6,7 +6,7 @@
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
   font-size: 1rem !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 
 /* Keep the three primary navigation labels evenly spaced. */
